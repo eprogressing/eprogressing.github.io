@@ -51,7 +51,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 💬 Invited Talks
-- *2023.09 - 2027.06 (Expected)*, B.Eng. Candidate in Computer Science and Technology, School of Computer Science, Nankai University ( 985 / 211 / Double First-Class). Minors: Finance, Criminal Law.
+- **2023.09 - 2027.06 (Expected)**, B.Eng. Candidate in Computer Science and Technology, School of Computer Science, Nankai University (Project 985 / 211 / Double First-Class). Minors: Finance, Criminal Law.
 
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
