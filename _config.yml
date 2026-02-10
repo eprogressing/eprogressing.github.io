@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jingming Liang"
-description              : "Junior Undergraduate, College of Computer Science, Nankai University; Minors in Finance and Criminal Law"
+description              : "Junior, College of Computer Science, Nankai University; Minors in Finance and Law"
 repository               : "eprogressing/eprogressing.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Jingming Liang（梁景铭）"
+  name             : "Jingming Liang"
   avatar           : "images/photo.png"
   bio              : "Nankai University"
   location         : "TianJin, China"
