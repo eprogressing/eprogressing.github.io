@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Jingming Liang（梁景铭）"
-description              : "💻 CS Junior @ Nankai Univ. | Minor in Finance & Law."
+title                    : "Jingming Liang"
+description              : "Junior Undergraduate, College of Computer Science, Nankai University; Minors in Finance and Criminal Law"
 repository               : "eprogressing/eprogressing.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Jingming Liang"
+  name             : "Jingming Liang（梁景铭）"
   avatar           : "images/photo.png"
   bio              : "Nankai University"
   location         : "TianJin, China"
