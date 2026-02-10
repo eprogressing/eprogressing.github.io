@@ -8,6 +8,16 @@ redirect_from:
   - /about.html
 ---
 
+<div style="text-align: center; margin: 0 0 1.5rem 0;">
+  <img
+    src="{{ '/images/hero.svg' | relative_url }}"
+    alt="Personal belief hero image"
+    style="display: inline-block; width: 100%; max-width: 960px; height: auto;"
+    loading="eager"
+    decoding="async"
+  />
+</div>
+
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
