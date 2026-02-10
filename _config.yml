@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "eprogressing"
   google_plus      :
   keybase          :
   instagram        :
@@ -57,7 +57,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-
+  redbook          : "https://www.xiaohongshu.com/user/profile/64bd9daf00000000140399f6?xsec_token=YBKukwox9CANbZa-5slNV_Jc4eBdHyBmxYP2OcbaxkUww=&xsec_source=app_share&xhsshare=CopyLink&shareRedId=ODpERDxJRU82NzUyOTgwNjc3OTo9Pkw_&apptime=1770719727&share_id=076ee0e84ada48a0a10a1cd4aecbd68d"
 
 # Reading Files
 include:
