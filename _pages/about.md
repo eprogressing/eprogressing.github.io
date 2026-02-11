@@ -27,13 +27,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I’m **Jingming Liang (梁景铭)**, and you can also call me **Brighton**.  
-I’m from **Dalian, Liaoning, China**.
-
-I am currently a **junior undergraduate student** majoring in **Computer Science and Technology (计算机科学与技术)** at <i class="fas fa-university" aria-hidden="true"></i> the [School of Computer Science, Nankai University (南开大学计算机学院)](https://cc.nankai.edu.cn/), [Nankai University (南开大学)](https://www.nankai.edu.cn/).  
-I am also pursuing minors in **Finance (金融)** and **Criminal Law (刑法)**.
-
-I’m interested in combining technology with business and legal perspectives, and I’m always open to learning, collaboration, and new opportunities. Feel free to contact me via the email and social links in the sidebar.
+Hi, I’m **Jingming Liang (梁景铭)**, and you can also call me **Brighton**. I’m from **Dalian, Liaoning, China**, currently a **junior undergraduate student** majoring in **Computer Science and Technology (计算机科学与技术)** at <i class="fas fa-university" aria-hidden="true"></i> the [School of Computer Science, Nankai University (南开大学计算机学院)](https://cc.nankai.edu.cn/), [Nankai University (南开大学)](https://www.nankai.edu.cn/), and pursuing minors in **Finance (金融)** and **Criminal Law (刑法)**. I’m interested in combining technology with business and legal perspectives, and I’m always open to learning, collaboration, and new opportunities; feel free to contact me via the email and social links in the sidebar.
 
 
 # 🔥 News
