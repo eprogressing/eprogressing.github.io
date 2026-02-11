@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jingming Liang"
-description              : "Junior, College of Computer Science, Nankai University"
+description              : "I want to put a ding in the universe."
 repository               : "eprogressing/eprogressing.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jingming Liang"
   avatar           : "images/photo.png"
-  bio              : "Nankai University"
+  bio              : "College of Computer Science, Nankai University；Minors in Finance and Criminal Law"
   location         : "TianJin, China"
   employer         :
   pubmed           : 
@@ -57,8 +57,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  redbook          : "https://www.xiaohongshu.com/user/profile/64bd9daf00000000140399f6?xsec_token=YBKukwox9CANbZa-5slNV_Jc4eBdHyBmxYP2OcbaxkUww=&xsec_source=app_share&xhsshare=CopyLink&shareRedId=ODpERDxJRU82NzUyOTgwNjc3OTo9Pkw_&apptime=1770719727&share_id=076ee0e84ada48a0a10a1cd4aecbd68d"
-
+  
 # Reading Files
 include:
   - .htaccess
