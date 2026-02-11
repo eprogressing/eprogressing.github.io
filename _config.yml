@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jingming Liang"
-description              : "I want to put a ding in the universe."
+description              : "“I want to put a ding in the universe.”"
 repository               : "eprogressing/eprogressing.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jingming Liang"
   avatar           : "images/photo.png"
-  bio              : "College of Computer Science, Nankai University；Minors in Finance and Criminal Law"
+  bio              : "College of Computer Science, Nankai University；Minors in Finance and Law"
   location         : "TianJin, China"
   employer         :
   pubmed           : 
