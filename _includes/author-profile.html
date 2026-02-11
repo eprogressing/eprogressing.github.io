@@ -99,7 +99,7 @@
         <li><a href="{{ xiaohongshu_url }}"><span class="social-icon-fw"><img src="{{ '/images/icons/rednote-en.svg' | relative_url }}" alt="Rednote icon" class="social-icon-img"></span> Rednote</a></li>
       {% endif %}
       {% if author.wechat %}
-        <li><a href="#" class="js-wechat-trigger"><span class="social-icon-fw"><img src="{{ '/images/icons/wechat.svg' | relative_url }}" alt="Wechat icon" class="social-icon-img"></span> Wechat</a></li>
+        <li><a href="#" onclick="document.getElementById('wechat-dialog').showModal(); return false;"><span class="social-icon-fw"><img src="{{ '/images/icons/wechat.svg' | relative_url }}" alt="Wechat icon" class="social-icon-img"></span> Wechat</a></li>
       {% endif %}
       {% if author.flickr %}
         <li><a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i> Flickr</a></li>
@@ -200,7 +200,7 @@
         <a href="{{ xiaohongshu_url }}" aria-label="Rednote"><img src="{{ '/images/icons/rednote-en.svg' | relative_url }}" alt="Rednote icon" class="social-icon-img"></a>
       {% endif %}
       {% if author.wechat %}
-        <a href="#" class="js-wechat-trigger" aria-label="Show Wechat ID"><img src="{{ '/images/icons/wechat.svg' | relative_url }}" alt="Wechat icon" class="social-icon-img"></a>
+        <a href="#" onclick="document.getElementById('wechat-dialog').showModal(); return false;" aria-label="Show Wechat ID"><img src="{{ '/images/icons/wechat.svg' | relative_url }}" alt="Wechat icon" class="social-icon-img"></a>
       {% endif %}
       {% if author.flickr %}
         <a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i></a>
@@ -231,81 +231,12 @@
 </div>
 
 {% if author.wechat %}
-<dialog id="wechat-dialog" class="wechat-dialog" aria-labelledby="wechat-dialog-title">
-  <button id="wechat-dialog-close" class="wechat-dialog__close" type="button" aria-label="Close Wechat dialog">&times;</button>
+<dialog id="wechat-dialog" class="wechat-dialog" aria-labelledby="wechat-dialog-title" onclick="if (event.target === this) this.close();">
+  <button id="wechat-dialog-close" class="wechat-dialog__close" type="button" aria-label="Close Wechat dialog" onclick="document.getElementById('wechat-dialog').close();">&times;</button>
   <h4 id="wechat-dialog-title" class="wechat-dialog__title">Add Me on Wechat</h4>
   <p class="wechat-dialog__subtitle">Scan or search this Wechat ID:</p>
-  <div class="wechat-dialog__id" id="wechat-id-text">{{ author.wechat }}</div>
-  <button id="wechat-dialog-copy" class="wechat-dialog__copy" type="button">Copy Wechat ID</button>
+  <input id="wechat-dialog-id" class="wechat-dialog__id" type="text" value="{{ author.wechat }}" readonly>
+  <button id="wechat-dialog-copy" class="wechat-dialog__copy" type="button" onclick="var input=document.getElementById('wechat-dialog-id'); input.focus(); input.select(); input.setSelectionRange(0, input.value.length); try { document.execCommand('copy'); document.getElementById('wechat-dialog-status').textContent='Wechat ID copied.'; } catch (e) { document.getElementById('wechat-dialog-status').textContent='Copy failed. Please copy manually.'; }">Copy Wechat ID</button>
   <p id="wechat-dialog-status" class="wechat-dialog__status" aria-live="polite"></p>
 </dialog>
-
-<script>
-  (function () {
-    var triggers = document.querySelectorAll('.js-wechat-trigger');
-    if (!triggers.length) return;
-
-    var dialog = document.getElementById('wechat-dialog');
-    var closeBtn = document.getElementById('wechat-dialog-close');
-    var copyBtn = document.getElementById('wechat-dialog-copy');
-    var statusEl = document.getElementById('wechat-dialog-status');
-    var wechatId = '{{ author.wechat }}';
-
-    function openDialog() {
-      if (dialog && typeof dialog.showModal === 'function') {
-        dialog.showModal();
-        if (statusEl) statusEl.textContent = '';
-      } else {
-        alert('Wechat ID: ' + wechatId);
-      }
-    }
-
-    function closeDialog() {
-      if (dialog && dialog.open) dialog.close();
-    }
-
-    function copyWechatId() {
-      if (!wechatId || !statusEl) return;
-      if (navigator.clipboard && window.isSecureContext) {
-        navigator.clipboard.writeText(wechatId).then(function () {
-          statusEl.textContent = 'Wechat ID copied.';
-        }).catch(function () {
-          statusEl.textContent = 'Copy failed. Please copy manually.';
-        });
-        return;
-      }
-
-      var tempInput = document.createElement('input');
-      tempInput.value = wechatId;
-      document.body.appendChild(tempInput);
-      tempInput.select();
-      tempInput.setSelectionRange(0, tempInput.value.length);
-      try {
-        document.execCommand('copy');
-        statusEl.textContent = 'Wechat ID copied.';
-      } catch (err) {
-        statusEl.textContent = 'Copy failed. Please copy manually.';
-      }
-      document.body.removeChild(tempInput);
-    }
-
-    Array.prototype.forEach.call(triggers, function (trigger) {
-      trigger.addEventListener('click', function (e) {
-        e.preventDefault();
-        openDialog();
-      });
-    });
-
-    if (closeBtn) closeBtn.addEventListener('click', closeDialog);
-    if (copyBtn) copyBtn.addEventListener('click', copyWechatId);
-    if (dialog) {
-      dialog.addEventListener('click', function (e) {
-        var rect = dialog.getBoundingClientRect();
-        var inDialog = rect.top <= e.clientY && e.clientY <= rect.bottom &&
-                       rect.left <= e.clientX && e.clientX <= rect.right;
-        if (!inDialog) closeDialog();
-      });
-    }
-  })();
-</script>
 {% endif %}
