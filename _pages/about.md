@@ -27,7 +27,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I’m **Jingming Liang (梁景铭)**, and you can also call me **Brighton**. I’m from **Dalian, Liaoning, China**, currently a **junior undergraduate student** majoring in **Computer Science and Technology (计算机科学与技术)** at the [School of Computer Science (**计算机学院**)](https://cc.nankai.edu.cn/), [Nankai University (**南开大学**)](https://www.nankai.edu.cn/) <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" style="height: 1.1em; width: 1.1em; vertical-align: -0.15em; margin-left: 0.2em;">, and pursuing minors in [Finance (金融学)](https://finance.nankai.edu.cn/2024/0510/c34622a542022/page.htm) and **Criminal Law (刑法)**. I’m always open to learning, collaboration, and new opportunities; feel free to contact me via the email and social links in the sidebar.
+Hi, I’m **Jingming Liang (梁景铭)**, and you can also call me **Brighton**. I’m from **Dalian, Liaoning, China**, currently a **junior undergraduate student** majoring in **Computer Science and Technology (计算机科学与技术)** at the [**School of Computer Science (计算机学院)**](https://cc.nankai.edu.cn/), [**Nankai University (南开大学)**](https://www.nankai.edu.cn/) <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" style="height: 1.1em; width: 1.1em; vertical-align: -0.15em; margin-left: 0.2em;">, and pursuing minors in [**Finance (金融学)**](https://finance.nankai.edu.cn/2024/0510/c34622a542022/page.htm) and **Criminal Law (刑法)**. I’m always open to learning, collaboration, and new opportunities; feel free to contact me via the email and social links in the sidebar.
 
 **Research Interests:** AI and interdisciplinary topics at the intersection of technology, finance, and law.
 
