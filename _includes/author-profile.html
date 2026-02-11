@@ -21,7 +21,7 @@
         <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
       {% endif %}
       {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+        <li><span class="social-icon-fw"><img src="{{ '/images/icons/location-red.svg' | relative_url }}" alt="Location icon" class="social-icon-img"></span> {{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
@@ -96,10 +96,10 @@
         <li><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i> Weibo</a></li>
       {% endif %}
       {% if xiaohongshu_url %}
-        <li><a href="{{ xiaohongshu_url }}"><span class="social-icon-fw"><img src="{{ '/images/icons/rednote.svg' | relative_url }}" alt="Rednote icon" class="social-icon-img"></span> Rednote</a></li>
+        <li><a href="{{ xiaohongshu_url }}"><span class="social-icon-fw"><img src="{{ '/images/icons/rednote-en.svg' | relative_url }}" alt="Rednote icon" class="social-icon-img"></span> Rednote</a></li>
       {% endif %}
       {% if author.wechat %}
-        <li><a href="https://weixin.qq.com/" target="_blank" rel="noopener noreferrer"><span class="social-icon-fw"><img src="{{ '/images/icons/wechat.svg' | relative_url }}" alt="Wechat icon" class="social-icon-img"></span> Wechat: {{ author.wechat }}</a></li>
+        <li><a href="#" onclick="window.prompt('Wechat ID', '{{ author.wechat }}'); return false;"><span class="social-icon-fw"><img src="{{ '/images/icons/wechat.svg' | relative_url }}" alt="Wechat icon" class="social-icon-img"></span> Wechat</a></li>
       {% endif %}
       {% if author.flickr %}
         <li><a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i> Flickr</a></li>
@@ -197,10 +197,10 @@
         <a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i></a>
       {% endif %}
       {% if xiaohongshu_url %}
-        <a href="{{ xiaohongshu_url }}" aria-label="Rednote"><img src="{{ '/images/icons/rednote.svg' | relative_url }}" alt="Rednote icon" class="social-icon-img"></a>
+        <a href="{{ xiaohongshu_url }}" aria-label="Rednote"><img src="{{ '/images/icons/rednote-en.svg' | relative_url }}" alt="Rednote icon" class="social-icon-img"></a>
       {% endif %}
       {% if author.wechat %}
-        <a href="https://weixin.qq.com/" target="_blank" rel="noopener noreferrer" aria-label="Wechat: {{ author.wechat }}"><img src="{{ '/images/icons/wechat.svg' | relative_url }}" alt="Wechat icon" class="social-icon-img"></a>
+        <a href="#" onclick="window.prompt('Wechat ID', '{{ author.wechat }}'); return false;" aria-label="Show Wechat ID"><img src="{{ '/images/icons/wechat.svg' | relative_url }}" alt="Wechat icon" class="social-icon-img"></a>
       {% endif %}
       {% if author.flickr %}
         <a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i></a>
