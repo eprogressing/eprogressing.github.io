@@ -30,7 +30,7 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-email-color" aria-hidden="true"></i> Email</a></li>
+        <li><a href="mailto:{{ author.email }}"><img src="{{ '/images/icons/email.svg' | relative_url }}" alt="Email icon" class="social-icon-img"> Email</a></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -66,7 +66,7 @@
         <li><a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
       {% endif %}
       {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-github-color" aria-hidden="true"></i> Github</a></li>
+        <li><a href="https://github.com/{{ author.github }}"><img src="{{ '/images/icons/github.svg' | relative_url }}" alt="Github icon" class="social-icon-img"> Github</a></li>
       {% endif %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
@@ -96,10 +96,10 @@
         <li><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i> Weibo</a></li>
       {% endif %}
       {% if xiaohongshu_url %}
-        <li><a href="{{ xiaohongshu_url }}"><i class="fas fa-fw fa-book-open icon-rednote-color" aria-hidden="true"></i> Rednote</a></li>
+        <li><a href="{{ xiaohongshu_url }}"><img src="{{ '/images/icons/rednote.svg' | relative_url }}" alt="Rednote icon" class="social-icon-img"> Rednote</a></li>
       {% endif %}
       {% if author.wechat %}
-        <li><a href="https://weixin.qq.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-weixin icon-wechat-color" aria-hidden="true"></i> Wechat: {{ author.wechat }}</a></li>
+        <li><a href="https://weixin.qq.com/" target="_blank" rel="noopener noreferrer"><img src="{{ '/images/icons/wechat.svg' | relative_url }}" alt="Wechat icon" class="social-icon-img"> Wechat: {{ author.wechat }}</a></li>
       {% endif %}
       {% if author.flickr %}
         <li><a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i> Flickr</a></li>
@@ -131,7 +131,7 @@
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.email %}
-        <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-email-color" aria-hidden="true"></i></a>
+        <a href="mailto:{{ author.email }}" aria-label="Email"><img src="{{ '/images/icons/email.svg' | relative_url }}" alt="Email icon" class="social-icon-img"></a>
       {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
@@ -167,7 +167,7 @@
         <a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.github %}
-        <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-github-color" aria-hidden="true"></i></a>
+        <a href="https://github.com/{{ author.github }}" aria-label="Github"><img src="{{ '/images/icons/github.svg' | relative_url }}" alt="Github icon" class="social-icon-img"></a>
       {% endif %}
       {% if author.stackoverflow %}
         <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i></a>
@@ -197,10 +197,10 @@
         <a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i></a>
       {% endif %}
       {% if xiaohongshu_url %}
-        <a href="{{ xiaohongshu_url }}" aria-label="Rednote"><i class="fas fa-fw fa-book-open icon-rednote-color" aria-hidden="true"></i></a>
+        <a href="{{ xiaohongshu_url }}" aria-label="Rednote"><img src="{{ '/images/icons/rednote.svg' | relative_url }}" alt="Rednote icon" class="social-icon-img"></a>
       {% endif %}
       {% if author.wechat %}
-        <a href="https://weixin.qq.com/" target="_blank" rel="noopener noreferrer" aria-label="Wechat: {{ author.wechat }}"><i class="fab fa-fw fa-weixin icon-wechat-color" aria-hidden="true"></i></a>
+        <a href="https://weixin.qq.com/" target="_blank" rel="noopener noreferrer" aria-label="Wechat: {{ author.wechat }}"><img src="{{ '/images/icons/wechat.svg' | relative_url }}" alt="Wechat icon" class="social-icon-img"></a>
       {% endif %}
       {% if author.flickr %}
         <a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i></a>

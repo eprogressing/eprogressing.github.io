@@ -268,3 +268,14 @@
     display: none;
   }
 }
+
+.social-icon-img {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  margin-right: 0.25em;
+}
+
+.author__urls_sm .social-icon-img {
+  margin-right: 0;
+}
