@@ -275,6 +275,11 @@
   vertical-align: middle;
 }
 
+.sidebar img.social-icon-img {
+  width: 1em;
+  height: 1em;
+}
+
 .social-icon-fw {
   display: inline-flex;
   width: 1.28571429em; // match Font Awesome fa-fw fixed width
@@ -287,18 +292,7 @@
   margin-right: 0;
 }
 
-.wechat-modal-open {
-  overflow: hidden;
-}
-
-.wechat-modal-backdrop {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.45);
-  z-index: 9998;
-}
-
-.wechat-modal {
+.wechat-dialog {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -308,10 +302,14 @@
   border-radius: 12px;
   padding: 20px 18px 16px;
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.22);
-  z-index: 9999;
+  border: 0;
 }
 
-.wechat-modal__close {
+.wechat-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.wechat-dialog__close {
   position: absolute;
   top: 8px;
   right: 10px;
@@ -322,19 +320,19 @@
   cursor: pointer;
 }
 
-.wechat-modal__title {
+.wechat-dialog__title {
   margin: 0 0 8px;
   font-size: 1.1rem;
   line-height: 1.3;
 }
 
-.wechat-modal__subtitle {
+.wechat-dialog__subtitle {
   margin: 0 0 10px;
   color: #555;
   font-size: 0.92rem;
 }
 
-.wechat-modal__id {
+.wechat-dialog__id {
   font-family: $monospace;
   font-size: 1rem;
   padding: 10px 12px;
@@ -344,7 +342,7 @@
   word-break: break-all;
 }
 
-.wechat-modal__copy {
+.wechat-dialog__copy {
   margin-top: 12px;
   width: 100%;
   border: 0;
@@ -356,7 +354,7 @@
   font-weight: 600;
 }
 
-.wechat-modal__status {
+.wechat-dialog__status {
   min-height: 1.2em;
   margin: 8px 0 0;
   color: #555;
