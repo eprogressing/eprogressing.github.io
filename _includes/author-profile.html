@@ -18,7 +18,7 @@
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
       {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
+        <li><div class="author__vision">{{ site.description }}</div></li>
       {% endif %}
       {% if author.location %}
         <li><span class="social-icon-fw"><img src="{{ '/images/icons/location-red.svg' | relative_url }}" alt="Location icon" class="social-icon-img"></span> {{ author.location }}</li>

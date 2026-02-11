@@ -145,6 +145,18 @@
   }
 }
 
+.author__vision {
+  white-space: normal;
+  margin-bottom: 1em;
+  padding-left: 0.65em;
+  border-left: 3px solid #d72638;
+  color: #b11226;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
 .author__urls-wrapper {
   position: relative;
   display: table-cell;
