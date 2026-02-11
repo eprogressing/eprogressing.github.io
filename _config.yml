@@ -9,7 +9,6 @@
 title                    : "Jingming Liang"
 description              : "“To build something that compels the world to remember my name.”"
 repository               : "eprogressing/eprogressing.github.io"
-google_scholar_stats_use_cdn : true
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -23,11 +22,10 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jingming Liang"
   avatar           : "images/photo.png"
-  bio              : "College of Computer Science, Nankai University; Minors in Finance and Law"
+  bio              : "College of Computer Science, Nankai University"
   location         : "TianJin, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
   email            : "2312632@mail.nankai.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
