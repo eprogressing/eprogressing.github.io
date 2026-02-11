@@ -27,15 +27,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I’m **Jingming Liang**, and you can also call me **Brighton**.  
+Hi, I’m **Jingming Liang (梁景铭)**, and you can also call me **Brighton**.  
 I’m from **Dalian, Liaoning, China**.
 
-I am currently a **junior undergraduate student** majoring in **Computer Science and Technology** at the [School of Computer Science, Nankai University](https://cc.nankai.edu.cn/), [Nankai University](https://www.nankai.edu.cn/).  
-I am also pursuing minors in **Finance** and **Criminal Law**.
+I am currently a **junior undergraduate student** majoring in **Computer Science and Technology (计算机科学与技术)** at <i class="fas fa-university" aria-hidden="true"></i> the [School of Computer Science, Nankai University (南开大学计算机学院)](https://cc.nankai.edu.cn/), [Nankai University (南开大学)](https://www.nankai.edu.cn/).  
+I am also pursuing minors in **Finance (金融)** and **Criminal Law (刑法)**.
 
-I’m interested in combining technology with business and legal perspectives, and I’m always open to learning, collaboration, and new opportunities.
-
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I’m interested in combining technology with business and legal perspectives, and I’m always open to learning, collaboration, and new opportunities. Feel free to contact me via the email and social links in the sidebar.
 
 
 # 🔥 News

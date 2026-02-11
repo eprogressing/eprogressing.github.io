@@ -57,7 +57,8 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  
+  redbook          : "https://www.xiaohongshu.com/user/profile/64bd9daf00000000140399f6"
+  xiaohongshu      : "https://www.xiaohongshu.com/user/profile/64bd9daf00000000140399f6"
 # Reading Files
 include:
   - .htaccess
