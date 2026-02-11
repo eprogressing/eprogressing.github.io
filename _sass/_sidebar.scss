@@ -272,10 +272,17 @@
 .social-icon-img {
   width: 1em;
   height: 1em;
-  vertical-align: -0.15em;
-  margin-right: 0.25em;
+  vertical-align: middle;
+}
+
+.social-icon-fw {
+  display: inline-flex;
+  width: 1.28571429em; // match Font Awesome fa-fw fixed width
+  justify-content: center;
+  align-items: center;
 }
 
 .author__urls_sm .social-icon-img {
+  vertical-align: -0.15em;
   margin-right: 0;
 }

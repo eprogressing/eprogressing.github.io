@@ -30,7 +30,7 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><img src="{{ '/images/icons/email.svg' | relative_url }}" alt="Email icon" class="social-icon-img"> Email</a></li>
+        <li><a href="mailto:{{ author.email }}"><span class="social-icon-fw"><img src="{{ '/images/icons/email.svg' | relative_url }}" alt="Email icon" class="social-icon-img"></span> Email</a></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -66,7 +66,7 @@
         <li><a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
       {% endif %}
       {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><img src="{{ '/images/icons/github.svg' | relative_url }}" alt="Github icon" class="social-icon-img"> Github</a></li>
+        <li><a href="https://github.com/{{ author.github }}"><span class="social-icon-fw"><img src="{{ '/images/icons/github.svg' | relative_url }}" alt="Github icon" class="social-icon-img"></span> Github</a></li>
       {% endif %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
@@ -96,10 +96,10 @@
         <li><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i> Weibo</a></li>
       {% endif %}
       {% if xiaohongshu_url %}
-        <li><a href="{{ xiaohongshu_url }}"><img src="{{ '/images/icons/rednote.svg' | relative_url }}" alt="Rednote icon" class="social-icon-img"> Rednote</a></li>
+        <li><a href="{{ xiaohongshu_url }}"><span class="social-icon-fw"><img src="{{ '/images/icons/rednote.svg' | relative_url }}" alt="Rednote icon" class="social-icon-img"></span> Rednote</a></li>
       {% endif %}
       {% if author.wechat %}
-        <li><a href="https://weixin.qq.com/" target="_blank" rel="noopener noreferrer"><img src="{{ '/images/icons/wechat.svg' | relative_url }}" alt="Wechat icon" class="social-icon-img"> Wechat: {{ author.wechat }}</a></li>
+        <li><a href="https://weixin.qq.com/" target="_blank" rel="noopener noreferrer"><span class="social-icon-fw"><img src="{{ '/images/icons/wechat.svg' | relative_url }}" alt="Wechat icon" class="social-icon-img"></span> Wechat: {{ author.wechat }}</a></li>
       {% endif %}
       {% if author.flickr %}
         <li><a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i> Flickr</a></li>
