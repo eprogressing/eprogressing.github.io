@@ -148,13 +148,19 @@
 .author__vision {
   white-space: normal;
   margin-bottom: 1em;
-  padding-left: 0.65em;
-  border-left: 3px solid #5b67ff;
-  color: #4a3fb7;
+  padding: 0.35em 0.55em 0.35em 0.65em;
+  border-left: 3px solid #2563eb !important;
+  border-radius: 6px;
+  background: linear-gradient(90deg, rgba(99, 102, 241, 0.16), rgba(59, 130, 246, 0.08));
+  color: #3730a3 !important;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-style: italic;
   font-weight: 600;
   line-height: 1.45;
+}
+
+.author__urls .author__vision {
+  color: #3730a3 !important;
 }
 
 .author__urls-wrapper {
