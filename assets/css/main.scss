@@ -257,6 +257,21 @@ h1:before, .anchor:before {
     align-items: flex-start;
 }
 
+.internship-card--featured .internship-card__header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.internship-card--featured .internship-card__company {
+    width: 100%;
+}
+
+.internship-card--featured .internship-card__meta {
+    justify-content: center;
+}
+
 .internship-card--featured::before {
     background: linear-gradient(180deg, #e1b94f 0%, #e8ca7b 100%);
 }
@@ -292,5 +307,10 @@ h1:before, .anchor:before {
         max-width: 100%;
         margin-left: 0;
         justify-content: flex-start;
+    }
+
+    .internship-card--featured .internship-card__header-main {
+        align-items: flex-start;
+        text-align: left;
     }
 }
