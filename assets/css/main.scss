@@ -121,6 +121,11 @@ h1:before, .anchor:before {
 .education-card__main {
     flex: 1 1 auto;
     min-width: 0;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 0.22rem;
 }
 
 .education-card .internship-card__company {
@@ -138,7 +143,8 @@ h1:before, .anchor:before {
 }
 
 .education-card__minor {
-    margin: 0.3rem 0 0;
+    margin: auto 0 0;
+    padding-bottom: 0.06rem;
     line-height: 1.55;
     color: #4b5563;
 }
@@ -202,6 +208,11 @@ h1:before, .anchor:before {
         flex-wrap: wrap;
     }
 
+    .education-card__main {
+        min-height: auto;
+        padding-top: 0.12rem;
+    }
+
     .education-card__aside {
         width: 100%;
         flex-direction: row;
@@ -213,6 +224,11 @@ h1:before, .anchor:before {
         max-width: 100%;
         justify-content: flex-start;
         top: -0.08rem;
+    }
+
+    .education-card__minor {
+        margin-top: 0.32rem;
+        padding-bottom: 0;
     }
 }
 
@@ -237,6 +253,10 @@ h1:before, .anchor:before {
 
     .education-card__tags {
         top: 0;
+    }
+
+    .education-card__minor {
+        margin-top: 0.28rem;
     }
 }
 
