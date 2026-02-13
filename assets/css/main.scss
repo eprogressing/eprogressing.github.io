@@ -108,6 +108,61 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
+.education-entry {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.2rem;
+    margin-top: 0.65rem;
+    padding: 0.85rem 0.95rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.education-entry__content {
+    min-width: 0;
+}
+
+.education-entry__meta,
+.education-entry__degree,
+.education-entry__minor {
+    margin: 0;
+}
+
+.education-entry__meta {
+    margin-bottom: 0.22rem;
+}
+
+.education-entry__degree {
+    line-height: 1.55;
+}
+
+.education-entry__minor {
+    margin-top: 0.22rem;
+    color: #4b5563;
+}
+
+.education-entry__emblem {
+    width: 122px;
+    height: 122px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+    .education-entry {
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+
+    .education-entry__emblem {
+        width: 96px;
+        height: 96px;
+        align-self: flex-end;
+    }
+}
+
 .internship-list {
     display: grid;
     gap: 1.15rem;

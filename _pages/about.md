@@ -54,12 +54,15 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 - *2024.11*: &nbsp;💰 Social Welfare Scholarship (￥2000), Nankai University (社会公益奖学金)
 - *2024.11*: &nbsp;💰 Student Service Scholarship (￥2000), Nankai University (学生服务奖学金)
 
-# 📖 Educations
-- *2023.09 - 2027.06 (Expected)*, B.Eng. Candidate in Computer Science and Technology, School of Computer Science, Nankai University ( 985 / 211 / Double First-Class). Minors: Finance, Criminal Law.
-
-
-# 💬 Invited Talks
-- **2023.09 - 2027.06 (Expected)**, B.Eng. Candidate in Computer Science and Technology, School of Computer Science, Nankai University (Project 985 / 211 / Double First-Class). Minors: Finance, Criminal Law.
+# 📖 Education
+<div class="education-entry">
+  <div class="education-entry__content">
+    <p class="education-entry__meta"><strong>2023.09 - 2027.06 (Expected)</strong></p>
+    <p class="education-entry__degree">B.Eng. Candidate in Computer Science and Technology, School of Computer Science, Nankai University (985 / 211 / Double First-Class).</p>
+    <p class="education-entry__minor">Minors: Finance, Criminal Law.</p>
+  </div>
+  <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" class="education-entry__emblem" loading="lazy" decoding="async" />
+</div>
 
 # 💼 Internships
 <div class="internship-list">
