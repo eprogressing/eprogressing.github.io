@@ -89,7 +89,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <p class="internship-card__meta">Jun 2025 - Jul 2025</p>
       </div>
       <div class="internship-card__tags">
-        <span class="internship-tag internship-tag--highlight">Enterprise AI and Digital Transformation</span>
+        <span class="internship-tag internship-tag--highlight">Enterprise AI</span>
       </div>
     </div>
     <ul class="internship-card__highlights">
