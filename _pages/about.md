@@ -61,7 +61,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 # 💬 Invited Talks
 - **2023.09 - 2027.06 (Expected)**, B.Eng. Candidate in Computer Science and Technology, School of Computer Science, Nankai University (Project 985 / 211 / Double First-Class). Minors: Finance, Criminal Law.
 
-# 💻 Internships
+# 💼 Internships
 <div class="internship-list">
   <article class="internship-card internship-card--featured">
     <div class="internship-card__header">
@@ -83,33 +83,43 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     </ul>
   </article>
 
-  <article class="internship-card">
+  <article class="internship-card internship-card--featured">
     <div class="internship-card__header">
       <img src="{{ '/images/internships/chinasoft-logo.png' | relative_url }}" alt="ChinaSoft International logo" class="internship-card__logo" loading="lazy" decoding="async" />
       <div class="internship-card__header-main">
         <h3 class="internship-card__company">ChinaSoft International, LLM Team</h3>
         <p class="internship-card__meta">Jun 2025 - Jul 2025</p>
       </div>
+      <div class="internship-card__tags">
+        <span class="internship-tag internship-tag--gold">Leading Chinese IT Services Company</span>
+        <span class="internship-tag">HKEX: 00354</span>
+        <span class="internship-tag">Enterprise AI &amp; Digital Transformation</span>
+      </div>
     </div>
     <ul class="internship-card__highlights">
-      <li>Developed hands-on capability with DeepSeek-based applications and LangChain integration for enterprise-ready LLM workflows.</li>
-      <li>Used Python tooling including PyTorch and FastAPI to build deployable AI services, with practical experience in model tuning for vertical scenarios.</li>
-      <li>Contributed to an intelligent chatbot system on top of Maibot and Astrbot with knowledge base QA, persona configuration, automated deployment, and dialogue analytics.</li>
+      <li><strong>Built enterprise-ready LLM workflows</strong> using DeepSeek-based applications and LangChain integration for practical business scenarios.</li>
+      <li><strong>Engineered production-oriented AI services</strong> with PyTorch and FastAPI, including model tuning practices for vertical-domain performance.</li>
+      <li><strong>Delivered a deployable intelligent assistant system</strong> on Maibot and Astrbot with knowledge-base QA, persona settings, automated deployment, and dialogue analytics.</li>
     </ul>
   </article>
 
-  <article class="internship-card">
+  <article class="internship-card internship-card--featured">
     <div class="internship-card__header">
       <img src="{{ '/images/internships/gtja-logo.png' | relative_url }}" alt="Guotai Junan Securities logo" class="internship-card__logo" loading="lazy" decoding="async" />
       <div class="internship-card__header-main">
         <h3 class="internship-card__company">Guotai Junan Securities, Wealth Management</h3>
         <p class="internship-card__meta">Jun 2024 - Jul 2024</p>
       </div>
+      <div class="internship-card__tags">
+        <span class="internship-tag internship-tag--gold">Top-Tier Chinese Securities Firm</span>
+        <span class="internship-tag">Founded in 1999</span>
+        <span class="internship-tag">Full-Service Brokerage &amp; Wealth Management</span>
+      </div>
     </div>
     <ul class="internship-card__highlights">
-      <li>Built IPS-based client planning workflows and applied the RRTTLLU framework for practical asset allocation decisions.</li>
-      <li>Completed a full personal finance case: quantitative profiling, allocation modeling across product classes, and benchmark comparison against market indices.</li>
-      <li>Proposed dynamic rebalancing actions to improve return-risk balance while staying aligned with long-term goals and risk tolerance.</li>
+      <li><strong>Constructed IPS-based client planning workflows</strong> and applied the RRTTLLU framework for practical asset-allocation decisions.</li>
+      <li><strong>Completed an end-to-end personal finance case</strong> covering quantitative profiling, cross-asset allocation modeling, and benchmark comparison against market indices.</li>
+      <li><strong>Proposed dynamic rebalancing actions</strong> to improve return-risk balance while remaining aligned with long-term goals and client risk tolerance.</li>
     </ul>
   </article>
 </div>
