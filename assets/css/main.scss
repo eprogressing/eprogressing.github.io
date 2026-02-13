@@ -155,7 +155,7 @@ h1:before, .anchor:before {
     justify-content: space-between;
     flex: 1 1 auto;
     min-width: 0;
-    min-height: var(--internship-logo-height);
+    height: var(--internship-logo-height);
 }
 
 .internship-card__logo {
@@ -192,6 +192,7 @@ h1:before, .anchor:before {
 }
 
 .internship-card__header-main .internship-card__meta {
+    margin: 0;
     margin-top: auto;
     align-self: flex-start;
 }
@@ -318,6 +319,8 @@ h1:before, .anchor:before {
 
     .internship-card__header-main {
         flex-basis: calc(100% - 110px);
+        height: auto;
+        min-height: var(--internship-logo-height);
     }
 
     .internship-card__tags {
