@@ -55,13 +55,23 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 - *2024.11*: &nbsp;💰 Student Service Scholarship (￥2000), Nankai University (学生服务奖学金)
 
 # 📖 Education
-<div class="education-entry">
-  <div class="education-entry__content">
-    <p class="education-entry__meta"><strong>2023.09 - 2027.06 (Expected)</strong></p>
-    <p class="education-entry__degree">B.Eng. Candidate in Computer Science and Technology, School of Computer Science, Nankai University (985 / 211 / Double First-Class).</p>
-    <p class="education-entry__minor">Minors: Finance, Criminal Law.</p>
+<div class="education-card">
+  <div class="education-card__header">
+    <div class="education-card__main">
+      <p class="education-card__meta">Sep 2023 - Jun 2027 (Expected)</p>
+      <h3 class="education-card__degree">B.Eng. Candidate in Computer Science and Technology</h3>
+      <p class="education-card__school">School of Computer Science, Nankai University</p>
+      <p class="education-card__minor">Minors: Finance, Criminal Law.</p>
+    </div>
+    <div class="education-card__aside">
+      <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" class="education-card__emblem" loading="lazy" decoding="async" />
+      <div class="education-card__tags">
+        <span class="education-tag">985 Project</span>
+        <span class="education-tag">211 Project</span>
+        <span class="education-tag education-tag--highlight">Double First-Class</span>
+      </div>
+    </div>
   </div>
-  <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" class="education-entry__emblem" loading="lazy" decoding="async" />
 </div>
 
 # 💼 Internships
