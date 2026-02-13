@@ -63,25 +63,30 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 
 # 💻 Internships
 <div class="internship-list">
-  <article class="internship-card">
+  <article class="internship-card internship-card--featured">
     <div class="internship-card__header">
       <img src="{{ '/images/internships/hejun-logo.png' | relative_url }}" alt="Hejun Consulting logo" class="internship-card__logo" loading="lazy" decoding="async" />
-      <div>
+      <div class="internship-card__header-main">
         <h3 class="internship-card__company">Hejun Consulting</h3>
         <p class="internship-card__meta">Jul 2025 - Sep 2025</p>
       </div>
+      <div class="internship-card__tags">
+        <span class="internship-tag internship-tag--gold">Top-Tier Chinese Consulting Firm</span>
+        <span class="internship-tag">Established in 2000</span>
+        <span class="internship-tag">Advisory + Capital + Business Education</span>
+      </div>
     </div>
     <ul class="internship-card__highlights">
-      <li>Supported strategy consulting for a leading Tianjin water utility listed company, covering planning, technology pathways, and regional collaboration topics.</li>
-      <li>Collected and cleaned public disclosures (including CNINFO and prospectus sources) to provide structured, reliable evidence for project modules.</li>
-      <li>Independently produced a 30,000+ word insight report with PEST, SWOT, value-chain analysis, peer benchmarking, and actionable improvement suggestions.</li>
+      <li><strong>Served a leading Tianjin listed water utility</strong>, supporting strategic modules including the Fifteenth Five-Year Plan, technical pathways, and Jing-Jin-Ji collaboration initiatives.</li>
+      <li><strong>Built evidence-ready research inputs</strong> by collecting and cleaning public disclosures (CNINFO, prospectuses, and official filings) for consulting workstreams.</li>
+      <li><strong>Independently delivered a 30,000+ word insight report</strong> covering PEST, SWOT, value-chain mapping, peer benchmarking, and actionable improvement recommendations.</li>
     </ul>
   </article>
 
   <article class="internship-card">
     <div class="internship-card__header">
       <img src="{{ '/images/internships/chinasoft-logo.png' | relative_url }}" alt="ChinaSoft International logo" class="internship-card__logo" loading="lazy" decoding="async" />
-      <div>
+      <div class="internship-card__header-main">
         <h3 class="internship-card__company">ChinaSoft International, LLM Team</h3>
         <p class="internship-card__meta">Jun 2025 - Jul 2025</p>
       </div>
@@ -96,7 +101,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
   <article class="internship-card">
     <div class="internship-card__header">
       <img src="{{ '/images/internships/gtja-logo.png' | relative_url }}" alt="Guotai Junan Securities logo" class="internship-card__logo" loading="lazy" decoding="async" />
-      <div>
+      <div class="internship-card__header-main">
         <h3 class="internship-card__company">Guotai Junan Securities, Wealth Management</h3>
         <p class="internship-card__meta">Jun 2024 - Jul 2024</p>
       </div>
