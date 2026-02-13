@@ -27,6 +27,21 @@ layout: compress
       </article>
     </div>
 
+    <div class="page__footer">
+      <footer>
+        <div class="site-footer-custom">
+          <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" class="site-footer-custom__logo" loading="lazy" decoding="async" />
+          <p class="site-footer-custom__line">
+            <span>&copy; 2026 Jingming Liang all rights reserved</span>
+            <span class="site-footer-custom__sep">·</span>
+            <span>Template adapted from Yi Ren</span>
+            <span class="site-footer-custom__sep">·</span>
+            <span>Last modified: {{ site.time | date: "%Y-%m-%d" }}</span>
+          </p>
+        </div>
+      </footer>
+    </div>
+
     {% include scripts.html %}
 
   </body>
