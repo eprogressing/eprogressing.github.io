@@ -60,8 +60,10 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     <div class="education-card__main">
       <h3 class="internship-card__company">Nankai University, School of Computer Science</h3>
       <p class="internship-card__meta">Sep 2023 - Jun 2027 (Expected)</p>
-      <p class="education-card__degree">B.Eng. Candidate in Computer Science and Technology</p>
-      <p class="education-card__minor">Minors: Finance, Criminal Law.</p>
+      <div class="education-card__details">
+        <p class="education-card__degree">B.Eng. Candidate in Computer Science and Technology</p>
+        <p class="education-card__minor">Minors: Finance, Criminal Law.</p>
+      </div>
     </div>
     <div class="education-card__aside">
       <div class="education-card__tags">

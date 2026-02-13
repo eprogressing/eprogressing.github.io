@@ -137,15 +137,23 @@ h1:before, .anchor:before {
     margin: 0.62rem 0 0;
 }
 
+.education-card__details {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-height: 0;
+    margin-top: 0.34rem;
+}
+
 .education-card__degree {
-    margin: 0.46rem 0 0;
+    margin: 0;
     line-height: 1.55;
     color: #334155;
 }
 
 .education-card__minor {
     margin: auto 0 0;
-    padding-bottom: 0.02rem;
+    padding-bottom: 0;
     line-height: 1.55;
     color: #4b5563;
 }
@@ -216,6 +224,10 @@ h1:before, .anchor:before {
         padding-bottom: 0;
     }
 
+    .education-card__details {
+        margin-top: 0.26rem;
+    }
+
     .education-card__aside {
         width: 100%;
         flex-direction: row;
@@ -242,7 +254,10 @@ h1:before, .anchor:before {
 
     .education-card__degree {
         font-size: 1rem;
-        margin-top: 0.4rem;
+    }
+
+    .education-card__details {
+        margin-top: 0.22rem;
     }
 
     .education-card__emblem {
@@ -260,7 +275,7 @@ h1:before, .anchor:before {
     }
 
     .education-card__minor {
-        margin-top: 0.32rem;
+        margin-top: 0.3rem;
     }
 }
 
