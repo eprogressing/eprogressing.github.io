@@ -128,6 +128,11 @@ h1:before, .anchor:before {
     --internship-tag-text: #1f4f86;
     --internship-tag-border: #bfd5ee;
     --internship-tag-bg: #eff6ff;
+    --internship-highlight-text: #ffffff;
+    --internship-highlight-start: #b42382;
+    --internship-highlight-end: #7a1b5b;
+    --internship-highlight-border: #7a1b5b;
+    --internship-highlight-shadow: rgba(180, 35, 130, 0.28);
     --internship-bullet-color: #0a66c2;
     position: relative;
     border: 1px solid var(--internship-card-border);
@@ -274,10 +279,10 @@ h1:before, .anchor:before {
 }
 
 .internship-tag--highlight {
-    color: #ffffff;
-    border-color: #7a1b5b;
-    background: linear-gradient(135deg, #b42382 0%, #7a1b5b 100%);
-    box-shadow: 0 2px 10px rgba(180, 35, 130, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    color: var(--internship-highlight-text);
+    border-color: var(--internship-highlight-border);
+    background: linear-gradient(135deg, var(--internship-highlight-start) 0%, var(--internship-highlight-end) 100%);
+    box-shadow: 0 2px 10px var(--internship-highlight-shadow), inset 0 1px 0 rgba(255, 255, 255, 0.2);
     font-weight: 800;
     letter-spacing: 0.01em;
     padding: 0.24rem 0.62rem;
@@ -370,6 +375,10 @@ h1:before, .anchor:before {
     --internship-tag-text: #6e4d00;
     --internship-tag-border: #f3d58d;
     --internship-tag-bg: #fff6db;
+    --internship-highlight-start: #b88d2a;
+    --internship-highlight-end: #7b5b14;
+    --internship-highlight-border: #7b5b14;
+    --internship-highlight-shadow: rgba(123, 91, 20, 0.3);
     --internship-bullet-color: #d0a43f;
 }
 
@@ -387,6 +396,10 @@ h1:before, .anchor:before {
     --internship-tag-text: #1e4f86;
     --internship-tag-border: #c2d9f3;
     --internship-tag-bg: #eff6ff;
+    --internship-highlight-start: #0a66c2;
+    --internship-highlight-end: #084a8d;
+    --internship-highlight-border: #0b4f9a;
+    --internship-highlight-shadow: rgba(10, 102, 194, 0.32);
     --internship-bullet-color: #0a66c2;
 }
 
@@ -404,7 +417,23 @@ h1:before, .anchor:before {
     --internship-tag-text: #0f5f58;
     --internship-tag-border: #a8ddd7;
     --internship-tag-bg: #ebfaf7;
+    --internship-highlight-start: #0f766e;
+    --internship-highlight-end: #0c5a54;
+    --internship-highlight-border: #0f5f58;
+    --internship-highlight-shadow: rgba(15, 95, 88, 0.32);
     --internship-bullet-color: #0f766e;
+}
+
+@media (max-width: 920px) {
+    .internship-card__header {
+        flex-wrap: wrap;
+    }
+
+    .internship-card__tags {
+        max-width: 100%;
+        margin-left: 0;
+        justify-content: flex-start;
+    }
 }
 
 @include breakpoint(max-width $small) {
