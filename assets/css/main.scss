@@ -177,7 +177,7 @@ h1:before, .anchor:before {
 .education-tag--strong {
     color: #ffffff;
     border: 1px solid #6f2f88;
-    background: linear-gradient(135deg, #9b3f99 0%, #6a2f86 100%);
+    background: #7b3c93;
     box-shadow: none;
 }
 
@@ -227,8 +227,8 @@ h1:before, .anchor:before {
     --internship-card-bg: #ffffff;
     --internship-card-shadow: none;
     --internship-card-shadow-hover: none;
-    --internship-accent-start: #9b3f99;
-    --internship-accent-end: #6a2f86;
+    --internship-accent-start: #8a3e9c;
+    --internship-accent-end: #8a3e9c;
     --internship-meta-text: #582d7d;
     --internship-meta-bg: #f7efff;
     --internship-meta-border: #dfd1f4;
@@ -240,6 +240,10 @@ h1:before, .anchor:before {
     --internship-highlight-border: #6a3288;
     --internship-highlight-shadow: transparent;
     --internship-bullet-color: #7c3fa1;
+}
+
+.internship-card.internship-card--theme-education:hover {
+    transform: none;
 }
 
 .internship-list {
