@@ -114,18 +114,19 @@ h1:before, .anchor:before {
 
 .education-card__header {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     gap: 1.05rem;
 }
 
 .education-card__main {
     flex: 1 1 auto;
     min-width: 0;
-    min-height: 132px;
+    min-height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-top: 0.34rem;
+    padding-top: 0.38rem;
+    padding-bottom: 0.1rem;
 }
 
 .education-card .internship-card__company {
@@ -133,18 +134,18 @@ h1:before, .anchor:before {
 }
 
 .education-card .internship-card__meta {
-    margin: 0.66rem 0 0;
+    margin: 0.62rem 0 0;
 }
 
 .education-card__degree {
-    margin: 0.56rem 0 0;
+    margin: 0.46rem 0 0;
     line-height: 1.55;
     color: #334155;
 }
 
 .education-card__minor {
     margin: auto 0 0;
-    padding-bottom: 0;
+    padding-bottom: 0.02rem;
     line-height: 1.55;
     color: #4b5563;
 }
@@ -205,12 +206,14 @@ h1:before, .anchor:before {
 
 @media (max-width: 920px) {
     .education-card__header {
+        align-items: flex-start;
         flex-wrap: wrap;
     }
 
     .education-card__main {
         min-height: auto;
-        padding-top: 0.24rem;
+        padding-top: 0.18rem;
+        padding-bottom: 0;
     }
 
     .education-card__aside {
@@ -227,19 +230,19 @@ h1:before, .anchor:before {
     }
 
     .education-card__minor {
-        margin-top: 0.4rem;
+        margin-top: 0.34rem;
         padding-bottom: 0;
     }
 }
 
 @include breakpoint(max-width $small) {
     .education-card .internship-card__meta {
-        margin-top: 0.54rem;
+        margin-top: 0.5rem;
     }
 
     .education-card__degree {
         font-size: 1rem;
-        margin-top: 0.42rem;
+        margin-top: 0.4rem;
     }
 
     .education-card__emblem {
@@ -257,7 +260,7 @@ h1:before, .anchor:before {
     }
 
     .education-card__minor {
-        margin-top: 0.4rem;
+        margin-top: 0.32rem;
     }
 }
 
