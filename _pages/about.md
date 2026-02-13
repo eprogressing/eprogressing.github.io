@@ -65,9 +65,9 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     </div>
     <div class="education-card__aside">
       <div class="education-card__tags">
-        <span class="internship-tag internship-tag--highlight">985 Project</span>
-        <span class="internship-tag internship-tag--highlight">211 Project</span>
-        <span class="internship-tag">Double First-Class</span>
+        <span class="education-tag education-tag--strong">985 Project</span>
+        <span class="education-tag education-tag--strong">211 Project</span>
+        <span class="education-tag education-tag--soft">Double First-Class</span>
       </div>
       <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" class="education-card__emblem" loading="lazy" decoding="async" />
     </div>
