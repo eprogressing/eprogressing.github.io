@@ -71,9 +71,9 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <p class="internship-card__meta">Jul 2025 - Sep 2025</p>
       </div>
       <div class="internship-card__tags">
-        <span class="internship-tag internship-tag--gold">Top-Tier Chinese Consulting Firm</span>
+        <span class="internship-tag internship-tag--highlight">Top-Tier Chinese Consulting Firm</span>
         <span class="internship-tag">Established in 2000</span>
-        <span class="internship-tag">Advisory + Capital + Business Education</span>
+        <span class="internship-tag">Advisory, Capital and Business Education</span>
       </div>
     </div>
     <ul class="internship-card__highlights">
@@ -91,9 +91,9 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <p class="internship-card__meta">Jun 2025 - Jul 2025</p>
       </div>
       <div class="internship-card__tags">
-        <span class="internship-tag">Leading Chinese IT Services Company</span>
+        <span class="internship-tag internship-tag--highlight">Top-Tier Chinese IT Services Company</span>
         <span class="internship-tag">HKEX: 00354</span>
-        <span class="internship-tag">Enterprise AI &amp; Digital Transformation</span>
+        <span class="internship-tag">Enterprise AI and Digital Transformation</span>
       </div>
     </div>
     <ul class="internship-card__highlights">
@@ -111,9 +111,9 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <p class="internship-card__meta">Jun 2024 - Jul 2024</p>
       </div>
       <div class="internship-card__tags">
-        <span class="internship-tag">Top-Tier Chinese Securities Firm</span>
+        <span class="internship-tag internship-tag--highlight">Top-Tier Chinese Securities Firm</span>
         <span class="internship-tag">Founded in 1999</span>
-        <span class="internship-tag">Full-Service Brokerage &amp; Wealth Management</span>
+        <span class="internship-tag">Full-Service Brokerage and Wealth Management</span>
       </div>
     </div>
     <ul class="internship-card__highlights">

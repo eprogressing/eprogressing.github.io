@@ -273,6 +273,13 @@ h1:before, .anchor:before {
     background: #fff6db;
 }
 
+.internship-tag--highlight {
+    color: #7a1f25;
+    border-color: #efb2b8;
+    background: linear-gradient(180deg, #fff0f2 0%, #ffe4e8 100%);
+    box-shadow: 0 1px 0 rgba(191, 42, 64, 0.16);
+}
+
 .internship-card--featured {
     box-shadow: var(--internship-card-shadow);
 }
