@@ -63,7 +63,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 
 # 💼 Internships
 <div class="internship-list">
-  <article class="internship-card internship-card--featured">
+  <article class="internship-card internship-card--featured internship-card--theme-hejun">
     <div class="internship-card__header">
       <img src="{{ '/images/internships/hejun-logo.png' | relative_url }}" alt="Hejun Consulting logo" class="internship-card__logo" loading="lazy" decoding="async" />
       <div class="internship-card__header-main">
@@ -83,7 +83,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     </ul>
   </article>
 
-  <article class="internship-card internship-card--featured">
+  <article class="internship-card internship-card--featured internship-card--theme-chinasoft">
     <div class="internship-card__header">
       <img src="{{ '/images/internships/chinasoft-logo.png' | relative_url }}" alt="ChinaSoft International logo" class="internship-card__logo" loading="lazy" decoding="async" />
       <div class="internship-card__header-main">
@@ -91,7 +91,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <p class="internship-card__meta">Jun 2025 - Jul 2025</p>
       </div>
       <div class="internship-card__tags">
-        <span class="internship-tag internship-tag--gold">Leading Chinese IT Services Company</span>
+        <span class="internship-tag">Leading Chinese IT Services Company</span>
         <span class="internship-tag">HKEX: 00354</span>
         <span class="internship-tag">Enterprise AI &amp; Digital Transformation</span>
       </div>
@@ -103,7 +103,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     </ul>
   </article>
 
-  <article class="internship-card internship-card--featured">
+  <article class="internship-card internship-card--featured internship-card--theme-gtja">
     <div class="internship-card__header">
       <img src="{{ '/images/internships/gtja-logo.png' | relative_url }}" alt="Guotai Junan Securities logo" class="internship-card__logo" loading="lazy" decoding="async" />
       <div class="internship-card__header-main">
@@ -111,7 +111,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <p class="internship-card__meta">Jun 2024 - Jul 2024</p>
       </div>
       <div class="internship-card__tags">
-        <span class="internship-tag internship-tag--gold">Top-Tier Chinese Securities Firm</span>
+        <span class="internship-tag">Top-Tier Chinese Securities Firm</span>
         <span class="internship-tag">Founded in 1999</span>
         <span class="internship-tag">Full-Service Brokerage &amp; Wealth Management</span>
       </div>

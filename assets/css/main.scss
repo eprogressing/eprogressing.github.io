@@ -115,12 +115,26 @@ h1:before, .anchor:before {
 }
 
 .internship-card {
+    --internship-card-border: #d7dde5;
+    --internship-card-hover-border: #b8c7d8;
+    --internship-card-bg: #ffffff;
+    --internship-card-shadow: 0 1px 2px rgba(15, 23, 42, 0.06), 0 8px 24px rgba(15, 23, 42, 0.05);
+    --internship-card-shadow-hover: 0 2px 6px rgba(15, 23, 42, 0.1), 0 12px 28px rgba(15, 23, 42, 0.08);
+    --internship-accent-start: #0a66c2;
+    --internship-accent-end: #1b85e8;
+    --internship-meta-text: #536471;
+    --internship-meta-bg: #f3f6f9;
+    --internship-meta-border: #e1e8ef;
+    --internship-tag-text: #1f4f86;
+    --internship-tag-border: #bfd5ee;
+    --internship-tag-bg: #eff6ff;
+    --internship-bullet-color: #0a66c2;
     position: relative;
-    border: 1px solid #d7dde5;
+    border: 1px solid var(--internship-card-border);
     border-radius: 16px;
     padding: 1rem 1.1rem 0.95rem 1.25rem;
-    background: #ffffff;
-    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06), 0 8px 24px rgba(15, 23, 42, 0.05);
+    background: var(--internship-card-bg);
+    box-shadow: var(--internship-card-shadow);
     transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
 }
 
@@ -132,13 +146,13 @@ h1:before, .anchor:before {
     bottom: 0;
     width: 4px;
     border-radius: 16px 0 0 16px;
-    background: linear-gradient(180deg, #0a66c2 0%, #1b85e8 100%);
+    background: linear-gradient(180deg, var(--internship-accent-start) 0%, var(--internship-accent-end) 100%);
 }
 
 .internship-card:hover {
     transform: translateY(-2px);
-    border-color: #b8c7d8;
-    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.1), 0 12px 28px rgba(15, 23, 42, 0.08);
+    border-color: var(--internship-card-hover-border);
+    box-shadow: var(--internship-card-shadow-hover);
 }
 
 .internship-card__header {
@@ -182,13 +196,13 @@ h1:before, .anchor:before {
     display: inline-flex;
     align-items: center;
     margin: 0.32rem 0 0;
-    color: #536471;
+    color: var(--internship-meta-text);
     font-size: 0.88rem;
     line-height: 1.35;
     padding: 0.18rem 0.55rem;
     border-radius: 999px;
-    background: #f3f6f9;
-    border: 1px solid #e1e8ef;
+    background: var(--internship-meta-bg);
+    border: 1px solid var(--internship-meta-border);
 }
 
 .internship-card__header-main .internship-card__meta {
@@ -221,7 +235,7 @@ h1:before, .anchor:before {
     width: 0.36rem;
     height: 0.36rem;
     border-radius: 50%;
-    background: #0a66c2;
+    background: var(--internship-bullet-color);
 }
 
 .internship-card__highlights li:last-child {
@@ -245,9 +259,9 @@ h1:before, .anchor:before {
     font-size: 0.74rem;
     line-height: 1.2;
     font-weight: 700;
-    color: #1f4f86;
-    border: 1px solid #bfd5ee;
-    background: #eff6ff;
+    color: var(--internship-tag-text);
+    border: 1px solid var(--internship-tag-border);
+    background: var(--internship-tag-bg);
     white-space: normal;
     text-align: center;
     max-width: 100%;
@@ -260,9 +274,7 @@ h1:before, .anchor:before {
 }
 
 .internship-card--featured {
-    border-color: #ebd5a2;
-    background: linear-gradient(180deg, #fffef8 0%, #ffffff 56%, #ffffff 100%);
-    box-shadow: 0 1px 3px rgba(42, 31, 0, 0.08), 0 10px 26px rgba(42, 31, 0, 0.06);
+    box-shadow: var(--internship-card-shadow);
 }
 
 .internship-card--featured .internship-card__header {
@@ -270,28 +282,66 @@ h1:before, .anchor:before {
 }
 
 .internship-card--featured .internship-card__header-main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    flex: 0 0 auto;
-    width: fit-content;
-}
-
-.internship-card--featured .internship-card__company {
-    width: auto;
-    display: inline-block;
+    align-items: flex-start;
+    text-align: left;
 }
 
 .internship-card--featured .internship-card__meta {
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    align-self: center;
+    justify-content: flex-start;
+    margin-left: 0;
+    margin-right: 0;
+    align-self: flex-start;
 }
 
-.internship-card--featured::before {
-    background: linear-gradient(180deg, #e1b94f 0%, #e8ca7b 100%);
+.internship-card--theme-hejun {
+    --internship-card-border: #ebd5a2;
+    --internship-card-hover-border: #dfc177;
+    --internship-card-bg: linear-gradient(180deg, #fffef8 0%, #ffffff 56%, #ffffff 100%);
+    --internship-card-shadow: 0 1px 3px rgba(42, 31, 0, 0.08), 0 10px 26px rgba(42, 31, 0, 0.06);
+    --internship-card-shadow-hover: 0 2px 7px rgba(42, 31, 0, 0.13), 0 12px 30px rgba(42, 31, 0, 0.09);
+    --internship-accent-start: #e1b94f;
+    --internship-accent-end: #e8ca7b;
+    --internship-meta-text: #7b5b14;
+    --internship-meta-bg: #fff8e6;
+    --internship-meta-border: #f1ddb0;
+    --internship-tag-text: #6e4d00;
+    --internship-tag-border: #f3d58d;
+    --internship-tag-bg: #fff6db;
+    --internship-bullet-color: #d0a43f;
+}
+
+.internship-card--theme-chinasoft {
+    --internship-card-border: #c5dbf2;
+    --internship-card-hover-border: #9ec6ea;
+    --internship-card-bg: linear-gradient(180deg, #f8fbff 0%, #ffffff 58%, #ffffff 100%);
+    --internship-card-shadow: 0 1px 3px rgba(10, 102, 194, 0.1), 0 10px 26px rgba(10, 102, 194, 0.08);
+    --internship-card-shadow-hover: 0 2px 7px rgba(10, 102, 194, 0.14), 0 12px 30px rgba(10, 102, 194, 0.1);
+    --internship-accent-start: #0a66c2;
+    --internship-accent-end: #4da5ff;
+    --internship-meta-text: #184f8e;
+    --internship-meta-bg: #eef6ff;
+    --internship-meta-border: #cfe3fa;
+    --internship-tag-text: #1e4f86;
+    --internship-tag-border: #c2d9f3;
+    --internship-tag-bg: #eff6ff;
+    --internship-bullet-color: #0a66c2;
+}
+
+.internship-card--theme-gtja {
+    --internship-card-border: #c9e7e1;
+    --internship-card-hover-border: #9fd8ce;
+    --internship-card-bg: linear-gradient(180deg, #f5fffc 0%, #ffffff 58%, #ffffff 100%);
+    --internship-card-shadow: 0 1px 3px rgba(15, 118, 110, 0.1), 0 10px 26px rgba(15, 118, 110, 0.08);
+    --internship-card-shadow-hover: 0 2px 7px rgba(15, 118, 110, 0.14), 0 12px 30px rgba(15, 118, 110, 0.1);
+    --internship-accent-start: #0f766e;
+    --internship-accent-end: #2bc2b1;
+    --internship-meta-text: #0f5f58;
+    --internship-meta-bg: #effbf8;
+    --internship-meta-border: #c8ece6;
+    --internship-tag-text: #0f5f58;
+    --internship-tag-border: #a8ddd7;
+    --internship-tag-bg: #ebfaf7;
+    --internship-bullet-color: #0f766e;
 }
 
 @include breakpoint(max-width $small) {
