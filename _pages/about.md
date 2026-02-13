@@ -49,10 +49,10 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 🏅 Scholarships
-- *2025.11* Academic Progress Scholarship (￥2000), Nankai University (学业进步奖学金)
-- *2025.11* Student Service Scholarship (￥2000), Nankai University (学生服务奖学金)
-- *2024.11* Social Welfare Scholarship (￥2000), Nankai University (社会公益奖学金)
-- *2024.11* Student Service Scholarship (￥2000), Nankai University (学生服务奖学金)
+- *2025.11*: &nbsp;💰 Academic Progress Scholarship (￥2000), Nankai University (学业进步奖学金)
+- *2025.11*: &nbsp;💰 Student Service Scholarship (￥2000), Nankai University (学生服务奖学金)
+- *2024.11*: &nbsp;💰 Social Welfare Scholarship (￥2000), Nankai University (社会公益奖学金)
+- *2024.11*: &nbsp;💰 Student Service Scholarship (￥2000), Nankai University (学生服务奖学金)
 
 # 📖 Educations
 - *2023.09 - 2027.06 (Expected)*, B.Eng. Candidate in Computer Science and Technology, School of Computer Science, Nankai University ( 985 / 211 / Double First-Class). Minors: Finance, Criminal Law.
