@@ -109,31 +109,7 @@ h1:before, .anchor:before {
 }
 
 .education-card {
-    position: relative;
     margin-top: 0.9rem;
-    border: 1px solid #d8dbee;
-    border-radius: 16px;
-    padding: 1rem 1.1rem 0.95rem 1.25rem;
-    background: linear-gradient(180deg, #fcfbff 0%, #ffffff 58%, #ffffff 100%);
-    box-shadow: 0 1px 3px rgba(56, 43, 96, 0.08), 0 10px 26px rgba(56, 43, 96, 0.07);
-    transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
-}
-
-.education-card::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 4px;
-    border-radius: 16px 0 0 16px;
-    background: linear-gradient(180deg, #7f2f69 0%, #445fae 100%);
-}
-
-.education-card:hover {
-    transform: translateY(-2px);
-    border-color: #c9d0ee;
-    box-shadow: 0 2px 7px rgba(56, 43, 96, 0.12), 0 12px 30px rgba(56, 43, 96, 0.1);
 }
 
 .education-card__header {
@@ -147,28 +123,7 @@ h1:before, .anchor:before {
     min-width: 0;
 }
 
-.education-card__meta {
-    display: inline-flex;
-    align-items: center;
-    margin: 0;
-    color: #5a4a78;
-    font-size: 0.88rem;
-    line-height: 1.35;
-    padding: 0.18rem 0.55rem;
-    border-radius: 999px;
-    background: #f6f3ff;
-    border: 1px solid #ddd3f7;
-}
-
 .education-card__degree {
-    margin: 0.55rem 0 0;
-    font-size: 1.05rem;
-    line-height: 1.36;
-    font-weight: 700;
-    color: #1d2226;
-}
-
-.education-card__school {
     margin: 0.3rem 0 0;
     line-height: 1.55;
     color: #334155;
@@ -182,17 +137,22 @@ h1:before, .anchor:before {
 
 .education-card__aside {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 0.52rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.68rem;
     flex-shrink: 0;
 }
 
 .education-card__emblem {
-    width: 122px;
-    height: 122px;
+    width: 120px;
+    height: 120px;
     object-fit: contain;
-    filter: drop-shadow(0 3px 10px rgba(56, 43, 96, 0.16));
+    border-radius: 10px;
+    border: 1px solid #eadcf7;
+    background: #ffffff;
+    padding: 0.35rem;
+    box-shadow: 0 2px 10px rgba(66, 32, 97, 0.12);
 }
 
 .education-card__tags {
@@ -200,29 +160,7 @@ h1:before, .anchor:before {
     flex-wrap: wrap;
     justify-content: flex-end;
     gap: 0.36rem;
-    max-width: 240px;
-}
-
-.education-tag {
-    display: inline-flex;
-    align-items: center;
-    border-radius: 999px;
-    padding: 0.22rem 0.6rem;
-    font-size: 0.74rem;
-    line-height: 1.2;
-    font-weight: 700;
-    color: #5b4887;
-    border: 1px solid #d9cff3;
-    background: #f6f2ff;
-    text-align: center;
-}
-
-.education-tag--highlight {
-    color: #ffffff;
-    border-color: #7a1b5b;
-    background: linear-gradient(135deg, #9c2f76 0%, #6c1c53 100%);
-    box-shadow: 0 2px 10px rgba(122, 27, 91, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2);
-    font-weight: 800;
+    max-width: 220px;
 }
 
 @media (max-width: 920px) {
@@ -244,16 +182,8 @@ h1:before, .anchor:before {
 }
 
 @include breakpoint(max-width $small) {
-    .education-card {
-        padding: 0.95rem 0.9rem 0.9rem 1.05rem;
-    }
-
     .education-card__degree {
         font-size: 1rem;
-    }
-
-    .education-card__meta {
-        font-size: 0.84rem;
     }
 
     .education-card__emblem {
@@ -263,8 +193,29 @@ h1:before, .anchor:before {
 
     .education-card__aside {
         gap: 0.45rem;
-        align-items: flex-start;
+        align-items: center;
     }
+}
+
+.internship-card--theme-education {
+    --internship-card-border: #e4d4f1;
+    --internship-card-hover-border: #cfb4e6;
+    --internship-card-bg: linear-gradient(180deg, #fdf9ff 0%, #ffffff 58%, #ffffff 100%);
+    --internship-card-shadow: 0 1px 3px rgba(66, 32, 97, 0.1), 0 10px 26px rgba(66, 32, 97, 0.08);
+    --internship-card-shadow-hover: 0 2px 7px rgba(66, 32, 97, 0.14), 0 12px 30px rgba(66, 32, 97, 0.11);
+    --internship-accent-start: #8d3b90;
+    --internship-accent-end: #4d66bd;
+    --internship-meta-text: #5c3c89;
+    --internship-meta-bg: #f8f3ff;
+    --internship-meta-border: #dfd1f4;
+    --internship-tag-text: #634099;
+    --internship-tag-border: #dcccf4;
+    --internship-tag-bg: #f6f1ff;
+    --internship-highlight-start: #8d3b90;
+    --internship-highlight-end: #5e2c84;
+    --internship-highlight-border: #64338b;
+    --internship-highlight-shadow: rgba(99, 64, 153, 0.28);
+    --internship-bullet-color: #7a49b0;
 }
 
 .internship-list {
