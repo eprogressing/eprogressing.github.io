@@ -76,7 +76,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     </div>
     <ul class="internship-card__highlights">
       <li><strong>Served a leading Tianjin listed water utility</strong>, supporting strategic modules including the Fifteenth Five-Year Plan, technical pathways, and Jing-Jin-Ji collaboration initiatives.</li>
-      <li><strong>Built evidence-ready research inputs</strong> by collecting and cleaning public disclosures (CNINFO, prospectuses, and official filings) for consulting workstreams.</li>
+      <li><strong>Built evidence-ready research inputs</strong> by programmatically collecting and cleaning public disclosures (CNINFO, prospectuses, and official filings) for consulting workstreams.</li>
       <li><strong>Independently delivered a 30,000+ word insight report</strong> covering PEST, SWOT, value-chain mapping, peer benchmarking, and actionable improvement recommendations.</li>
     </ul>
   </article>
@@ -95,7 +95,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     <ul class="internship-card__highlights">
       <li><strong>Built enterprise-ready LLM workflows</strong> using DeepSeek-based applications and LangChain integration for practical business scenarios.</li>
       <li><strong>Engineered production-oriented AI services</strong> with PyTorch and FastAPI, including model tuning practices for vertical-domain performance.</li>
-      <li><strong>Delivered a deployable intelligent assistant system</strong> on Maibot and Astrbot with knowledge-base QA, persona settings, automated deployment, and dialogue analytics.</li>
+      <li><strong>Delivered a deployable intelligent assistant system</strong> built on chatbot frameworks (Maibot and Astrbot), with knowledge-base QA, persona settings, automated deployment, and dialogue analytics.</li>
     </ul>
   </article>
 
@@ -111,7 +111,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       </div>
     </div>
     <ul class="internship-card__highlights">
-      <li><strong>Constructed IPS-based client planning workflows</strong> and applied the RRTTLLU framework for practical asset-allocation decisions.</li>
+      <li><strong>Constructed IPS-based client planning workflows</strong> and applied the RRTTLLU constraint analysis framework for practical asset-allocation decisions.</li>
       <li><strong>Completed an end-to-end personal finance case</strong> covering quantitative profiling, cross-asset allocation modeling, and benchmark comparison against market indices.</li>
       <li><strong>Proposed dynamic rebalancing actions</strong> to improve return-risk balance while remaining aligned with long-term goals and client risk tolerance.</li>
     </ul>
