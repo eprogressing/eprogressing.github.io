@@ -55,17 +55,17 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 - *2024.11*: &nbsp;💰 Student Service Scholarship (￥2000), Nankai University (学生服务奖学金)
 
 # 📖 Education
-<div class="education-card internship-card internship-card--featured internship-card--theme-education">
+<div class="education-card">
   <div class="education-card__header">
     <div class="education-card__main">
-      <h3 class="internship-card__company">Nankai University, School of Computer Science</h3>
-      <p class="internship-card__meta">Sep 2023 - Jun 2027 (Expected)</p>
+      <h3 class="education-card__school">Nankai University, School of Computer Science</h3>
+      <p class="education-card__meta">Sep 2023 - Jun 2027 (Expected)</p>
       <div class="education-card__details">
         <p class="education-card__degree">B.Eng. Candidate in Computer Science and Technology</p>
         <p class="education-card__minor">Minors: Finance, Criminal Law.</p>
       </div>
     </div>
-    <div class="education-card__aside">
+    <div class="education-card__side">
       <div class="education-card__tags">
         <span class="education-tag education-tag--strong">985 Project</span>
         <span class="education-tag education-tag--strong">211 Project</span>
