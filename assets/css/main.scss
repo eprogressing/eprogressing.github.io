@@ -185,18 +185,19 @@ h1:before, .anchor:before {
 
 .education-card__side {
     display: flex;
-    align-items: flex-start;
-    gap: 0.62rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.34rem;
     flex-shrink: 0;
 }
 
 .education-card__tags {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 0.34rem;
     max-width: none;
-    margin-top: -0.2rem;
+    margin-top: -0.12rem;
 }
 
 .education-tag {
@@ -230,6 +231,7 @@ h1:before, .anchor:before {
     border: 0;
     background: transparent;
     padding: 0;
+    margin-top: 0.18rem;
 }
 
 @media (max-width: 920px) {
@@ -251,16 +253,15 @@ h1:before, .anchor:before {
     }
 
     .education-card__side {
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 0.7rem;
+        align-items: center;
+        gap: 0.45rem;
     }
 
     .education-card__tags {
         flex-wrap: wrap;
-        justify-content: flex-start;
-        max-width: calc(100% - 108px);
-        margin-top: -0.14rem;
+        justify-content: center;
+        max-width: 100%;
+        margin-top: 0;
     }
 }
 
@@ -287,13 +288,19 @@ h1:before, .anchor:before {
     }
 
     .education-card__side {
-        gap: 0.5rem;
+        align-items: center;
+        gap: 0.38rem;
     }
 
     .education-card__tags {
         flex-wrap: wrap;
-        max-width: calc(100% - 92px);
-        margin-top: -0.08rem;
+        justify-content: center;
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    .education-card__emblem {
+        margin-top: 0.12rem;
     }
 }
 
