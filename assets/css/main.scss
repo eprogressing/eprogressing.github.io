@@ -121,7 +121,7 @@ h1:before, .anchor:before {
 .education-card__main {
     flex: 1 1 auto;
     min-width: 0;
-    min-height: 120px;
+    min-height: 152px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -142,7 +142,7 @@ h1:before, .anchor:before {
     flex-direction: column;
     flex: 1 1 auto;
     min-height: 0;
-    margin-top: 0.58rem;
+    margin-top: 1.08rem;
 }
 
 .education-card__degree {
@@ -225,7 +225,7 @@ h1:before, .anchor:before {
     }
 
     .education-card__details {
-        margin-top: 0.42rem;
+        margin-top: 0.78rem;
     }
 
     .education-card__aside {
@@ -242,7 +242,7 @@ h1:before, .anchor:before {
     }
 
     .education-card__minor {
-        margin-top: 0.34rem;
+        margin-top: 0.42rem;
         padding-bottom: 0;
     }
 }
@@ -257,7 +257,7 @@ h1:before, .anchor:before {
     }
 
     .education-card__details {
-        margin-top: 0.36rem;
+        margin-top: 0.66rem;
     }
 
     .education-card__emblem {
@@ -275,7 +275,7 @@ h1:before, .anchor:before {
     }
 
     .education-card__minor {
-        margin-top: 0.3rem;
+        margin-top: 0.36rem;
     }
 }
 
