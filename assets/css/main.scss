@@ -690,47 +690,53 @@ h1:before, .anchor:before {
 .arts-athletics-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-    margin-top: 0.9rem;
+    gap: 1.15rem;
+    margin: 0.95rem 0 0.15rem;
 }
 
 .achievement-card {
-    --achievement-border: #e6d1bb;
-    --achievement-hover-border: #d7b08b;
-    --achievement-bg: linear-gradient(180deg, #fffaf3 0%, #ffffff 60%, #ffffff 100%);
-    --achievement-shadow: 0 1px 3px rgba(124, 45, 18, 0.09), 0 10px 24px rgba(124, 45, 18, 0.06);
-    --achievement-shadow-hover: 0 2px 8px rgba(124, 45, 18, 0.14), 0 12px 28px rgba(124, 45, 18, 0.09);
-    --achievement-accent-start: #d97706;
-    --achievement-accent-end: #be185d;
+    --achievement-surface-a: #fffdf9;
+    --achievement-surface-b: #fff7ef;
+    --achievement-accent-a: #d97706;
+    --achievement-accent-b: #db2777;
+    --achievement-border: #ecd7c3;
+    --achievement-hover-border: #dbbfa4;
+    --achievement-shadow: 0 8px 24px rgba(15, 23, 42, 0.06), 0 2px 8px rgba(15, 23, 42, 0.04);
+    --achievement-shadow-hover: 0 14px 30px rgba(15, 23, 42, 0.08), 0 4px 12px rgba(15, 23, 42, 0.06);
     --achievement-tag-text: #7c2d12;
-    --achievement-tag-border: #efc9a8;
-    --achievement-tag-bg: #fff3e7;
+    --achievement-tag-border: #e9c9ab;
+    --achievement-tag-bg: rgba(255, 255, 255, 0.84);
     --achievement-year-text: #7c2d12;
-    --achievement-year-border: #f2ceb1;
-    --achievement-year-bg: #fff6eb;
+    --achievement-year-border: #efcfb4;
+    --achievement-year-bg: #fff8ef;
+    --achievement-item-bg: rgba(255, 255, 255, 0.72);
+    --achievement-item-border: rgba(217, 119, 6, 0.17);
     --achievement-text: #334155;
     position: relative;
+    overflow: hidden;
     border: 1px solid var(--achievement-border);
-    border-radius: 16px;
-    padding: 1rem 1.1rem 0.95rem 1.25rem;
-    background: var(--achievement-bg);
+    border-radius: 18px;
+    padding: 1.05rem 1.1rem 1rem;
+    background:
+        radial-gradient(130% 92% at 100% 0%, rgba(255, 255, 255, 0.88) 0%, rgba(255, 255, 255, 0) 58%),
+        linear-gradient(160deg, var(--achievement-surface-a) 0%, var(--achievement-surface-b) 100%);
     box-shadow: var(--achievement-shadow);
-    transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+    transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease;
 }
 
 .achievement-card::before {
     content: "";
     position: absolute;
-    left: 0;
+    left: 0.75rem;
+    right: 0.75rem;
     top: 0;
-    bottom: 0;
-    width: 4px;
-    border-radius: 16px 0 0 16px;
-    background: linear-gradient(180deg, var(--achievement-accent-start) 0%, var(--achievement-accent-end) 100%);
+    height: 4px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--achievement-accent-a) 0%, var(--achievement-accent-b) 100%);
 }
 
 .achievement-card:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
     border-color: var(--achievement-hover-border);
     box-shadow: var(--achievement-shadow-hover);
 }
@@ -740,14 +746,14 @@ h1:before, .anchor:before {
     align-items: center;
     justify-content: space-between;
     gap: 0.75rem;
-    margin-bottom: 0.78rem;
+    margin-bottom: 0.86rem;
 }
 
 .achievement-card__title {
     margin: 0;
-    font-size: 1.04rem;
+    font-size: 1.08rem;
     font-weight: 700;
-    line-height: 1.3;
+    line-height: 1.28;
     color: #1d2226;
 }
 
@@ -758,11 +764,12 @@ h1:before, .anchor:before {
     border: 1px solid var(--achievement-tag-border);
     background: var(--achievement-tag-bg);
     color: var(--achievement-tag-text);
-    padding: 0.2rem 0.6rem;
-    font-size: 0.73rem;
+    padding: 0.22rem 0.62rem;
+    font-size: 0.72rem;
     font-weight: 700;
     line-height: 1.2;
     white-space: nowrap;
+    letter-spacing: 0.01em;
 }
 
 .achievement-card__list {
@@ -770,22 +777,27 @@ h1:before, .anchor:before {
     margin: 0;
     padding: 0;
     display: grid;
-    gap: 0.65rem;
+    gap: 0.72rem;
 }
 
 .achievement-card__item {
     display: grid;
     grid-template-columns: auto minmax(0, 1fr);
-    gap: 0.72rem;
+    gap: 0.68rem;
     align-items: flex-start;
+    border: 1px solid var(--achievement-item-border);
+    border-radius: 12px;
+    padding: 0.54rem 0.58rem;
+    background: var(--achievement-item-bg);
+    backdrop-filter: saturate(112%);
 }
 
 .achievement-card__year {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 3.2rem;
-    padding: 0.14rem 0.5rem;
+    min-width: 3.15rem;
+    padding: 0.16rem 0.5rem;
     border-radius: 999px;
     border: 1px solid var(--achievement-year-border);
     background: var(--achievement-year-bg);
@@ -797,48 +809,48 @@ h1:before, .anchor:before {
 
 .achievement-card__text {
     color: var(--achievement-text);
-    font-size: 0.95rem;
-    line-height: 1.56;
+    font-size: 0.94rem;
+    line-height: 1.54;
 }
 
 .achievement-card__text strong {
     display: block;
-    margin-bottom: 0.05rem;
+    margin-bottom: 0.1rem;
     color: #1f2937;
-    font-size: 0.96rem;
+    font-size: 0.95rem;
     line-height: 1.4;
 }
 
 .achievement-card--arts {
-    --achievement-border: #ecd4bf;
-    --achievement-hover-border: #dfb691;
-    --achievement-bg: linear-gradient(180deg, #fffaf3 0%, #ffffff 58%, #ffffff 100%);
-    --achievement-shadow: 0 1px 3px rgba(157, 52, 22, 0.09), 0 10px 24px rgba(157, 52, 22, 0.06);
-    --achievement-shadow-hover: 0 2px 8px rgba(157, 52, 22, 0.14), 0 12px 28px rgba(157, 52, 22, 0.09);
-    --achievement-accent-start: #d97706;
-    --achievement-accent-end: #be185d;
+    --achievement-surface-a: #fffdf9;
+    --achievement-surface-b: #fff6ec;
+    --achievement-border: #ecd7c3;
+    --achievement-hover-border: #dbbfa4;
+    --achievement-accent-a: #d97706;
+    --achievement-accent-b: #db2777;
     --achievement-tag-text: #7c2d12;
-    --achievement-tag-border: #efc9a8;
-    --achievement-tag-bg: #fff3e7;
+    --achievement-tag-border: #e9c9ab;
+    --achievement-tag-bg: rgba(255, 255, 255, 0.84);
     --achievement-year-text: #7c2d12;
-    --achievement-year-border: #f2ceb1;
-    --achievement-year-bg: #fff6eb;
+    --achievement-year-border: #efcfb4;
+    --achievement-year-bg: #fff8ef;
+    --achievement-item-border: rgba(217, 119, 6, 0.17);
 }
 
 .achievement-card--sports {
-    --achievement-border: #c6e2de;
-    --achievement-hover-border: #99cfc7;
-    --achievement-bg: linear-gradient(180deg, #f4fffd 0%, #ffffff 58%, #ffffff 100%);
-    --achievement-shadow: 0 1px 3px rgba(13, 110, 109, 0.1), 0 10px 24px rgba(13, 110, 109, 0.08);
-    --achievement-shadow-hover: 0 2px 8px rgba(13, 110, 109, 0.15), 0 12px 28px rgba(13, 110, 109, 0.1);
-    --achievement-accent-start: #0e7490;
-    --achievement-accent-end: #0f766e;
-    --achievement-tag-text: #0f5f58;
-    --achievement-tag-border: #abddd6;
-    --achievement-tag-bg: #eafaf6;
-    --achievement-year-text: #0f5f58;
-    --achievement-year-border: #b8e4de;
-    --achievement-year-bg: #f1fcfa;
+    --achievement-surface-a: #f8fbff;
+    --achievement-surface-b: #edf4ff;
+    --achievement-border: #ccd8ef;
+    --achievement-hover-border: #aebfe4;
+    --achievement-accent-a: #2563eb;
+    --achievement-accent-b: #f97316;
+    --achievement-tag-text: #1e3a8a;
+    --achievement-tag-border: #bdd0f4;
+    --achievement-tag-bg: rgba(255, 255, 255, 0.85);
+    --achievement-year-text: #1e3a8a;
+    --achievement-year-border: #c8d8f6;
+    --achievement-year-bg: #f1f6ff;
+    --achievement-item-border: rgba(37, 99, 235, 0.16);
 }
 
 @media (max-width: 920px) {
@@ -849,7 +861,7 @@ h1:before, .anchor:before {
 
 @include breakpoint(max-width $small) {
     .achievement-card {
-        padding: 0.95rem 0.9rem 0.88rem 1.05rem;
+        padding: 0.95rem 0.9rem 0.9rem;
     }
 
     .achievement-card__title {
@@ -862,7 +874,8 @@ h1:before, .anchor:before {
     }
 
     .achievement-card__item {
-        gap: 0.62rem;
+        gap: 0.58rem;
+        padding: 0.5rem 0.5rem;
     }
 
     .achievement-card__year {
@@ -876,6 +889,6 @@ h1:before, .anchor:before {
     }
 
     .achievement-card__text strong {
-        font-size: 0.93rem;
+        font-size: 0.92rem;
     }
 }

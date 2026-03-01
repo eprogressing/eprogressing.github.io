@@ -54,6 +54,71 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 - *2024.11*: &nbsp;💰 Social Welfare Scholarship (￥2000), Nankai University (社会公益奖学金)
 - *2024.11*: &nbsp;💰 Student Service Scholarship (￥2000), Nankai University (学生服务奖学金)
 
+<span class='anchor' id='arts-athletics'></span>
+
+# 🎭 Arts & Athletics Achievements
+<div class="arts-athletics-grid">
+  <article class="achievement-card achievement-card--arts">
+    <div class="achievement-card__header">
+      <h3 class="achievement-card__title">Arts</h3>
+      <span class="achievement-card__tag">Creative Track</span>
+    </div>
+    <ul class="achievement-card__list">
+      <li class="achievement-card__item">
+        <span class="achievement-card__year">2025</span>
+        <div class="achievement-card__text">
+          <strong>Campus Gala Performance</strong>
+          Featured as a lead performer in a university-level annual arts showcase.
+        </div>
+      </li>
+      <li class="achievement-card__item">
+        <span class="achievement-card__year">2024</span>
+        <div class="achievement-card__text">
+          <strong>Event Hosting and Stage Coordination</strong>
+          Hosted and coordinated major student events with high audience engagement.
+        </div>
+      </li>
+      <li class="achievement-card__item">
+        <span class="achievement-card__year">2023</span>
+        <div class="achievement-card__text">
+          <strong>University Art Festival Award</strong>
+          Received recognition for creativity and performance quality in campus arts competitions.
+        </div>
+      </li>
+    </ul>
+  </article>
+
+  <article class="achievement-card achievement-card--sports">
+    <div class="achievement-card__header">
+      <h3 class="achievement-card__title">Athletics</h3>
+      <span class="achievement-card__tag">Competitive Track</span>
+    </div>
+    <ul class="achievement-card__list">
+      <li class="achievement-card__item">
+        <span class="achievement-card__year">2025</span>
+        <div class="achievement-card__text">
+          <strong>Track and Field Participation</strong>
+          Represented the department in sprint and relay events at university sports meets.
+        </div>
+      </li>
+      <li class="achievement-card__item">
+        <span class="achievement-card__year">2024</span>
+        <div class="achievement-card__text">
+          <strong>Team Competition Contribution</strong>
+          Contributed to coordinated team performance in inter-college athletic competitions.
+        </div>
+      </li>
+      <li class="achievement-card__item">
+        <span class="achievement-card__year">2023</span>
+        <div class="achievement-card__text">
+          <strong>Campus Sports Excellence Recognition</strong>
+          Earned recognition for consistent participation and strong sportsmanship.
+        </div>
+      </li>
+    </ul>
+  </article>
+</div>
+
 # 📖 Education
 <div class="education-card">
   <div class="education-card__header">
@@ -129,71 +194,6 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <li><strong>Constructed IPS-based client planning workflows</strong> and applied the RRTTLLU constraint analysis framework for practical asset-allocation decisions.</li>
       <li><strong>Completed an end-to-end personal finance case</strong> covering quantitative profiling, cross-asset allocation modeling, and benchmark comparison against market indices.</li>
       <li><strong>Proposed dynamic rebalancing actions</strong> to improve return-risk balance while remaining aligned with long-term goals and client risk tolerance.</li>
-    </ul>
-  </article>
-</div>
-
-<span class='anchor' id='arts-athletics'></span>
-
-# 🎭 Arts & Athletics Achievements
-<div class="arts-athletics-grid">
-  <article class="achievement-card achievement-card--arts">
-    <div class="achievement-card__header">
-      <h3 class="achievement-card__title">Arts</h3>
-      <span class="achievement-card__tag">Creative Track</span>
-    </div>
-    <ul class="achievement-card__list">
-      <li class="achievement-card__item">
-        <span class="achievement-card__year">2025</span>
-        <div class="achievement-card__text">
-          <strong>Campus Gala Performance</strong>
-          Featured as a lead performer in a university-level annual arts showcase.
-        </div>
-      </li>
-      <li class="achievement-card__item">
-        <span class="achievement-card__year">2024</span>
-        <div class="achievement-card__text">
-          <strong>Event Hosting and Stage Coordination</strong>
-          Hosted and coordinated major student events with high audience engagement.
-        </div>
-      </li>
-      <li class="achievement-card__item">
-        <span class="achievement-card__year">2023</span>
-        <div class="achievement-card__text">
-          <strong>University Art Festival Award</strong>
-          Received recognition for creativity and performance quality in campus arts competitions.
-        </div>
-      </li>
-    </ul>
-  </article>
-
-  <article class="achievement-card achievement-card--sports">
-    <div class="achievement-card__header">
-      <h3 class="achievement-card__title">Athletics</h3>
-      <span class="achievement-card__tag">Competitive Track</span>
-    </div>
-    <ul class="achievement-card__list">
-      <li class="achievement-card__item">
-        <span class="achievement-card__year">2025</span>
-        <div class="achievement-card__text">
-          <strong>Track and Field Participation</strong>
-          Represented the department in sprint and relay events at university sports meets.
-        </div>
-      </li>
-      <li class="achievement-card__item">
-        <span class="achievement-card__year">2024</span>
-        <div class="achievement-card__text">
-          <strong>Team Competition Contribution</strong>
-          Contributed to coordinated team performance in inter-college athletic competitions.
-        </div>
-      </li>
-      <li class="achievement-card__item">
-        <span class="achievement-card__year">2023</span>
-        <div class="achievement-card__text">
-          <strong>Campus Sports Excellence Recognition</strong>
-          Earned recognition for consistent participation and strong sportsmanship.
-        </div>
-      </li>
     </ul>
   </article>
 </div>
