@@ -60,43 +60,43 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 <div class="arts-athletics-grid">
   <article class="achievement-card achievement-card--arts">
     <div class="achievement-card__header">
-      <h3 class="achievement-card__title"><strong>Arts</strong>（文艺）</h3>
-      <span class="achievement-card__tag"><strong>Creative Track</strong>（文艺方向）</span>
+      <h3 class="achievement-card__title">Arts</h3>
+      <span class="achievement-card__tag">Creative Track</span>
     </div>
     <ul class="achievement-card__list">
       <li class="achievement-card__item">
         <span class="achievement-card__year">2018</span>
         <div class="achievement-card__text">
-          <strong>Classical Guitar Level 10 (Excellent), China Musicians Association（中国音乐家协会古典吉他十级 Excellent）</strong>
-          <strong>Following guidance from a master guitarist</strong>（受大师建议）, <strong>I focused on classical guitar training</strong>（专门练习古典吉他） and <strong>achieved Grade 10 with an Excellent rating</strong>（获得十级 Excellent）, becoming <strong>the first student in Zhuanghe, Dalian</strong>（大连庄河市第一位） to reach this distinction.
+          <strong>Classical Guitar Level 10 (Excellent), China Musicians Association</strong>
+          During preparation for the Grade 10 examination, an expert advised me to focus specifically on classical guitar. I then achieved <strong>Grade 10 with an Excellent rating</strong>（优秀）, becoming <strong>the first student in Zhuanghe, Dalian</strong> to earn Classical Guitar Grade 10 with Excellent.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2018</span>
         <div class="achievement-card__text">
-          <strong>4th Hai Zhi Xing Guitar Competition (Dalian and National Invitational)（大连市海之星第四届吉他大赛暨全国邀请赛）</strong>
-          <strong>Won Silver Prize</strong>（银奖） in <strong>Youth Folk Guitar Group A</strong>（少年民谣甲组） and <strong>Silver Prize</strong>（银奖） in <strong>Children Classical Group</strong>（少儿古典组）, and was <strong>invited to perform on CCTV-15 Music Channel</strong>（受邀CCTV-15音乐频道演出）.
+          <strong>4th Hai Zhi Xing Guitar Competition (Dalian and National Invitational)</strong>
+          Won <strong>Silver Prize</strong>（银奖） in Youth Folk Guitar Group A and <strong>Silver Prize</strong>（银奖） in Children Classical Group, and was invited to perform on CCTV-15 Music Channel.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2015</span>
         <div class="achievement-card__text">
-          <strong>National Arts Specialty Evaluation Certification, Folk Guitar Grade 6（全国艺术特长生测评认证，民谣吉他六级）</strong>
-          <strong>Received the Best level</strong>（Best 等级） in the national arts talent evaluation and certification program.
+          <strong>National Arts Specialty Evaluation Certification, Folk Guitar Grade 6</strong>
+          Received the <strong>Best level</strong>（Best等级） in the national arts talent evaluation and certification program.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2014</span>
         <div class="achievement-card__text">
-          <strong>China Conservatory of Music Violin Examination Grade 10 Certificate（中国音乐学院小提琴考级十级证书）</strong>
-          <strong>Completed and certified at Grade 10</strong>（完成并通过十级认证） in the official violin examination track.
+          <strong>China Conservatory of Music Violin Examination Grade 10 Certificate</strong>
+          Completed and certified at <strong>Grade 10</strong>（十级） in the official violin examination track.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2011</span>
         <div class="achievement-card__text">
-          <strong>"China Star" National Youth Outstanding Arts Talent Showcase（“中华之星”全国青少年优秀艺术人才展演）</strong>
-          Won <strong>Gold Prize</strong>（金奖） in <strong>violin ensemble</strong>（小提琴合奏） and <strong>Silver Prize</strong>（银奖） in <strong>violin solo performance</strong>（小提琴独奏）.
+          <strong>"China Star" National Youth Outstanding Arts Talent Showcase</strong>
+          Won <strong>Gold Prize</strong>（金奖） in violin ensemble and <strong>Silver Prize</strong>（银奖） in violin solo performance.
         </div>
       </li>
     </ul>
@@ -104,29 +104,29 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 
   <article class="achievement-card achievement-card--sports">
     <div class="achievement-card__header">
-      <h3 class="achievement-card__title"><strong>Athletics</strong>（体育）</h3>
-      <span class="achievement-card__tag"><strong>Competitive Track</strong>（竞技方向）</span>
+      <h3 class="achievement-card__title">Athletics</h3>
+      <span class="achievement-card__tag">Competitive Track</span>
     </div>
     <ul class="achievement-card__list">
       <li class="achievement-card__item">
         <span class="achievement-card__year">2025</span>
         <div class="achievement-card__text">
           <strong>Track and Field Participation</strong>
-          <strong>Represented the department</strong>（代表学院） in sprint and relay events at university sports meets（校级运动会）.
+          Represented the department in sprint and relay events at university sports meets.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2024</span>
         <div class="achievement-card__text">
           <strong>Team Competition Contribution</strong>
-          <strong>Contributed to coordinated team performance</strong>（团队协作贡献） in inter-college athletic competitions（院际体育比赛）.
+          Contributed to coordinated team performance in inter-college athletic competitions.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2023</span>
         <div class="achievement-card__text">
           <strong>Campus Sports Excellence Recognition</strong>
-          <strong>Earned recognition</strong>（获得表彰） for consistent participation and strong sportsmanship（体育精神）.
+          Earned recognition for consistent participation and strong sportsmanship.
         </div>
       </li>
     </ul>
