@@ -56,7 +56,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 
 <span class='anchor' id='arts-athletics'></span>
 
-# 🎭 Arts & Athletics Achievements
+# 🎭 Arts and Athletics Achievements
 <div class="arts-athletics-grid">
   <article class="achievement-card achievement-card--arts">
     <div class="achievement-card__header">
@@ -65,24 +65,38 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     </div>
     <ul class="achievement-card__list">
       <li class="achievement-card__item">
-        <span class="achievement-card__year">2025</span>
+        <span class="achievement-card__year">2018</span>
         <div class="achievement-card__text">
-          <strong>Campus Gala Performance</strong>
-          Featured as a lead performer in a university-level annual arts showcase.
+          <strong>Classical Guitar Level 10 (Excellent), China Musicians Association</strong>
+          Achieved Grade 10 with an Excellent rating and became the first student in Zhuanghe, Dalian to reach this distinction.
         </div>
       </li>
       <li class="achievement-card__item">
-        <span class="achievement-card__year">2024</span>
+        <span class="achievement-card__year">2018</span>
         <div class="achievement-card__text">
-          <strong>Event Hosting and Stage Coordination</strong>
-          Hosted and coordinated major student events with high audience engagement.
+          <strong>4th Hai Zhi Xing Guitar Competition (Dalian and National Invitational)</strong>
+          Won Silver in Youth Folk Guitar Group A and Silver in Children Classical Group, and was invited to perform on CCTV-15 Music Channel.
         </div>
       </li>
       <li class="achievement-card__item">
-        <span class="achievement-card__year">2023</span>
+        <span class="achievement-card__year">2015</span>
         <div class="achievement-card__text">
-          <strong>University Art Festival Award</strong>
-          Received recognition for creativity and performance quality in campus arts competitions.
+          <strong>National Arts Specialty Evaluation Certification, Folk Guitar Grade 6</strong>
+          Received the Best level in the national arts talent evaluation and certification program.
+        </div>
+      </li>
+      <li class="achievement-card__item">
+        <span class="achievement-card__year">2014</span>
+        <div class="achievement-card__text">
+          <strong>China Conservatory of Music Violin Examination Grade 10 Certificate</strong>
+          Completed and certified at the highest graded level for the violin examination track.
+        </div>
+      </li>
+      <li class="achievement-card__item">
+        <span class="achievement-card__year">2011</span>
+        <div class="achievement-card__text">
+          <strong>"China Star" National Youth Outstanding Arts Talent Showcase</strong>
+          Won Gold Prize in violin ensemble and Silver Prize in violin solo performance.
         </div>
       </li>
     </ul>
