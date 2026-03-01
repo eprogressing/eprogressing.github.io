@@ -96,7 +96,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <span class="achievement-card__year">2011</span>
         <div class="achievement-card__text">
           <strong>"China Star" National Youth Outstanding Arts Talent Showcase.</strong><br />
-          I won Gold Prize（金奖） in violin ensemble and Silver Prize（银奖） in violin solo performance.
+          I won <span class="achievement-award achievement-award--gold">Gold Prize（金奖）</span> in violin ensemble and <span class="achievement-award achievement-award--silver">Silver Prize（银奖）</span> in violin solo performance.
         </div>
       </li>
     </ul>

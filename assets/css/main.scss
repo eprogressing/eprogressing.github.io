@@ -821,6 +821,18 @@ h1:before, .anchor:before {
     line-height: 1.4;
 }
 
+.achievement-card__text .achievement-award {
+    font-weight: 800;
+}
+
+.achievement-card__text .achievement-award--gold {
+    color: #b45309;
+}
+
+.achievement-card__text .achievement-award--silver {
+    color: #64748b;
+}
+
 .achievement-card--arts {
     --achievement-surface-a: #fffdf9;
     --achievement-surface-b: #fff6ec;
