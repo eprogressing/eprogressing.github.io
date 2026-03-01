@@ -60,43 +60,43 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 <div class="arts-athletics-grid">
   <article class="achievement-card achievement-card--arts">
     <div class="achievement-card__header">
-      <h3 class="achievement-card__title">Arts</h3>
-      <span class="achievement-card__tag">Creative Track</span>
+      <h3 class="achievement-card__title"><strong>Arts</strong>（文艺）</h3>
+      <span class="achievement-card__tag"><strong>Creative Track</strong>（文艺方向）</span>
     </div>
     <ul class="achievement-card__list">
       <li class="achievement-card__item">
         <span class="achievement-card__year">2018</span>
         <div class="achievement-card__text">
-          <strong>Classical Guitar Level 10 (Excellent), China Musicians Association</strong>
-          Achieved Grade 10 with an Excellent rating and became the first student in Zhuanghe, Dalian to reach this distinction.
+          <strong>Classical Guitar Level 10 (Excellent), China Musicians Association（中国音乐家协会古典吉他十级 Excellent）</strong>
+          <strong>Following guidance from a master guitarist</strong>（受大师建议）, <strong>I focused on classical guitar training</strong>（专门练习古典吉他） and <strong>achieved Grade 10 with an Excellent rating</strong>（获得十级 Excellent）, becoming <strong>the first student in Zhuanghe, Dalian</strong>（大连庄河市第一位） to reach this distinction.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2018</span>
         <div class="achievement-card__text">
-          <strong>4th Hai Zhi Xing Guitar Competition (Dalian and National Invitational)</strong>
-          Won Silver in Youth Folk Guitar Group A and Silver in Children Classical Group, and was invited to perform on CCTV-15 Music Channel.
+          <strong>4th Hai Zhi Xing Guitar Competition (Dalian and National Invitational)（大连市海之星第四届吉他大赛暨全国邀请赛）</strong>
+          <strong>Won Silver Prize</strong>（银奖） in <strong>Youth Folk Guitar Group A</strong>（少年民谣甲组） and <strong>Silver Prize</strong>（银奖） in <strong>Children Classical Group</strong>（少儿古典组）, and was <strong>invited to perform on CCTV-15 Music Channel</strong>（受邀CCTV-15音乐频道演出）.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2015</span>
         <div class="achievement-card__text">
-          <strong>National Arts Specialty Evaluation Certification, Folk Guitar Grade 6</strong>
-          Received the Best level in the national arts talent evaluation and certification program.
+          <strong>National Arts Specialty Evaluation Certification, Folk Guitar Grade 6（全国艺术特长生测评认证，民谣吉他六级）</strong>
+          <strong>Received the Best level</strong>（Best 等级） in the national arts talent evaluation and certification program.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2014</span>
         <div class="achievement-card__text">
-          <strong>China Conservatory of Music Violin Examination Grade 10 Certificate</strong>
-          Completed and certified at the highest graded level for the violin examination track.
+          <strong>China Conservatory of Music Violin Examination Grade 10 Certificate（中国音乐学院小提琴考级十级证书）</strong>
+          <strong>Completed and certified at Grade 10</strong>（完成并通过十级认证） in the official violin examination track.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2011</span>
         <div class="achievement-card__text">
-          <strong>"China Star" National Youth Outstanding Arts Talent Showcase</strong>
-          Won Gold Prize in violin ensemble and Silver Prize in violin solo performance.
+          <strong>"China Star" National Youth Outstanding Arts Talent Showcase（“中华之星”全国青少年优秀艺术人才展演）</strong>
+          Won <strong>Gold Prize</strong>（金奖） in <strong>violin ensemble</strong>（小提琴合奏） and <strong>Silver Prize</strong>（银奖） in <strong>violin solo performance</strong>（小提琴独奏）.
         </div>
       </li>
     </ul>
@@ -104,29 +104,29 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 
   <article class="achievement-card achievement-card--sports">
     <div class="achievement-card__header">
-      <h3 class="achievement-card__title">Athletics</h3>
-      <span class="achievement-card__tag">Competitive Track</span>
+      <h3 class="achievement-card__title"><strong>Athletics</strong>（体育）</h3>
+      <span class="achievement-card__tag"><strong>Competitive Track</strong>（竞技方向）</span>
     </div>
     <ul class="achievement-card__list">
       <li class="achievement-card__item">
         <span class="achievement-card__year">2025</span>
         <div class="achievement-card__text">
           <strong>Track and Field Participation</strong>
-          Represented the department in sprint and relay events at university sports meets.
+          <strong>Represented the department</strong>（代表学院） in sprint and relay events at university sports meets（校级运动会）.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2024</span>
         <div class="achievement-card__text">
           <strong>Team Competition Contribution</strong>
-          Contributed to coordinated team performance in inter-college athletic competitions.
+          <strong>Contributed to coordinated team performance</strong>（团队协作贡献） in inter-college athletic competitions（院际体育比赛）.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2023</span>
         <div class="achievement-card__text">
           <strong>Campus Sports Excellence Recognition</strong>
-          Earned recognition for consistent participation and strong sportsmanship.
+          <strong>Earned recognition</strong>（获得表彰） for consistent participation and strong sportsmanship（体育精神）.
         </div>
       </li>
     </ul>
