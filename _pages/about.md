@@ -161,7 +161,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     <div class="internship-card__header">
       <img src="{{ '/images/internships/hejun-logo.png' | relative_url }}" alt="Hejun Consulting logo" class="internship-card__logo" loading="lazy" decoding="async" />
       <div class="internship-card__header-main">
-        <h3 class="internship-card__company">Hejun Consulting</h3>
+        <h3 class="internship-card__company">Hejun Consulting（和君咨询）</h3>
         <p class="internship-card__meta">Jul 2025 - Sep 2025</p>
       </div>
       <div class="internship-card__tags">
@@ -179,7 +179,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     <div class="internship-card__header">
       <img src="{{ '/images/internships/chinasoft-logo.png' | relative_url }}" alt="ChinaSoft International logo" class="internship-card__logo" loading="lazy" decoding="async" />
       <div class="internship-card__header-main">
-        <h3 class="internship-card__company">ChinaSoft International, LLM Team</h3>
+        <h3 class="internship-card__company">ChinaSoft International（中软国际）, LLM Team</h3>
         <p class="internship-card__meta">Jun 2025 - Jul 2025</p>
       </div>
       <div class="internship-card__tags">
@@ -197,7 +197,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     <div class="internship-card__header">
       <img src="{{ '/images/internships/gtja-logo.png' | relative_url }}" alt="Guotai Junan Securities logo" class="internship-card__logo" loading="lazy" decoding="async" />
       <div class="internship-card__header-main">
-        <h3 class="internship-card__company">Guotai Junan Securities, Wealth Management</h3>
+        <h3 class="internship-card__company">Guotai Junan Securities（国泰君安）, Wealth Management</h3>
         <p class="internship-card__meta">Jun 2024 - Jul 2024</p>
       </div>
       <div class="internship-card__tags">
