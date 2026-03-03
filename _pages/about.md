@@ -45,18 +45,18 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-**🏆 Competition Awards（竞赛奖项）**
-- *2025*: 🏆 **National Champion（全国冠军）**, 8th CCF-TCARCH Computer Architecture Challenge (solo participant).
-- 🥉 **National Third Prize（全国三等奖）**, 19th Challenge Cup National Competition.
-- 🌟 **Tianjin Special Prize（天津市特等奖）**, 18th Challenge Cup (Tianjin).
-- 🥉 **National Third Prize（全国三等奖）**, National College Student Computer System Ability Competition.
-- 👑 **Special Prize（特等奖）**, Pioneer Cup Intelligent Computing Design Competition.
-- 🥇 **Provincial First Prize（省级一等奖）**, China Undergraduate Mathematical Contest in Modeling (CUMCM).
-- 🎖 **Honorable Mention - H Prize（H奖）**, MCM/ICM.
-- 🥈 **Silver Prize（银奖）**, University-level Competition.
-- 🥈 **Second Prize（二等奖）**, Trae on Campus.
-- 🏅 **First Prize（一等奖）**, President's Cup Innovation and Entrepreneurship Competition.
-- 👥 **Team Leader（队长）**, team-based competitions.
+**Competition Awards（竞赛奖项）**
+- *2025*: 8th CCF-TCARCH Computer Architecture Challenge (**National Champion**, solo participant)（2025年第八届CCF-TCARCH计算机体系结构挑战赛，全国冠军，独立参赛）.
+- 19th Challenge Cup National College Student Extracurricular Academic and Technological Works Competition (**National Third Prize**)（第十九届“挑战杯”全国大学生课外学术科技作品竞赛，全国三等奖）.
+- 18th Challenge Cup Tianjin Competition (**Special Prize**)（第十八届“挑战杯”天津市竞赛，特等奖）.
+- National College Student Computer System Ability Competition (**National Third Prize**)（全国大学生计算机系统能力大赛，全国三等奖）.
+- Pioneer Cup Intelligent Computing Design Competition (**Special Prize**)（“先导杯”智能计算设计赛，特等奖）.
+- China Undergraduate Mathematical Contest in Modeling (CUMCM) (**Provincial First Prize**)（全国大学生数学建模竞赛，省级一等奖）.
+- Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM) (**Honorable Mention, H Prize**)（美赛H奖）.
+- University-level Competition (**Silver Prize**)（校赛银奖）.
+- Trae on Campus Competition (**Second Prize**)（Trae on Campus二等奖）.
+- President's Cup Innovation and Entrepreneurship Competition (**First Prize**)（“校长杯”创新创业大赛，一等奖）.
+- Team-based competitions (**Team Leader**)（团队赛事中担任队长）.
 
 **🏆 Student Leadership and Service（学生工作与服务）**
 - 🎖 **Outstanding Student Cadre（优秀学生干部）**, Nankai University.
