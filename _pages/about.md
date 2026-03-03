@@ -45,27 +45,27 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-**Competition Awards**
-- *2025*: **National Champion** (solo participant), 8th CCF-TCARCH Computer Architecture Challenge.
-- **National Third Prize**, 19th Challenge Cup National College Student Extracurricular Academic and Technological Works Competition.
-- **Tianjin Special Prize**, 18th Challenge Cup (Tianjin).
-- **National Third Prize**, National College Student Computer System Ability Competition.
-- **Special Prize**, Pioneer Cup Intelligent Computing Design Competition.
-- **Provincial First Prize**, China Undergraduate Mathematical Contest in Modeling (CUMCM).
-- **Honorable Mention (H Prize)**, Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM).
-- **Silver Prize**, University-level Competition.
-- **Second Prize**, Trae on Campus.
-- **First Prize**, President's Cup Innovation and Entrepreneurship Competition.
-- *Team Leadership*: Served as **Team Leader** in team-based competitions.
+**🏆 Competition Awards（竞赛奖项）**
+- *2025*: **National Champion（全国冠军）**, solo participant, 8th CCF-TCARCH Computer Architecture Challenge.
+- **National Third Prize（全国三等奖）**, 19th Challenge Cup National College Student Extracurricular Academic and Technological Works Competition.
+- **Tianjin Special Prize（天津市特等奖）**, 18th Challenge Cup (Tianjin).
+- **National Third Prize（全国三等奖）**, National College Student Computer System Ability Competition.
+- **Special Prize（特等奖）**, Pioneer Cup Intelligent Computing Design Competition.
+- **Provincial First Prize（省级一等奖）**, China Undergraduate Mathematical Contest in Modeling (CUMCM).
+- **Honorable Mention - H Prize（H奖）**, Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM).
+- **Silver Prize（银奖）**, University-level Competition.
+- **Second Prize（二等奖）**, Trae on Campus.
+- **First Prize（一等奖）**, President's Cup Innovation and Entrepreneurship Competition.
+- **Team Leader（队长）** in team-based competitions.
 
-**Student Leadership and Service**
-- **Outstanding Student Cadre**, Nankai University.
-- **Outstanding Officer**, Organization Department of the Nankai University Youth League Committee.
-- **Official Representative**, Student Congress.
-- **Official Advisor**, Student Affairs Committee.
+**🏆 Student Leadership and Service（学生工作与服务）**
+- **Outstanding Student Cadre（优秀学生干部）**, Nankai University.
+- **Outstanding Officer（优秀干事）**, Organization Department of the Nankai University Youth League Committee.
+- **Official Representative（正式代表）**, Student Congress.
+- **Official Advisor（正式顾问）**, Student Affairs Committee.
 
-**Campus Ambassador**
-- **Campus Ambassador** for **EY**, **PwC**, and **ByteDance**.
+**🏆 Campus Ambassador（校园大使）**
+- **Campus Ambassador（校园大使）** for **EY（安永）**, **PwC（普华永道）**, and **ByteDance（字节跳动）**.
 
 # 🏅 Scholarships
 - *2025.11*: Academic Progress Scholarship (CNY 2,000), Nankai University.
