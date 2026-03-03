@@ -830,7 +830,15 @@ h1:before, .anchor:before {
 }
 
 .achievement-card__text .achievement-award--silver {
-    color: #64748b;
+    color: #7b8799;
+}
+
+.achievement-card__text .achievement-award--excellent {
+    color: #7c3aed;
+}
+
+.achievement-card__text .achievement-award--grade {
+    color: #0f766e;
 }
 
 .achievement-card--arts {

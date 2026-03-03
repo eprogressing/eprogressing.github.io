@@ -68,28 +68,28 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <span class="achievement-card__year">2018</span>
         <div class="achievement-card__text">
           <strong>Classical Guitar Grade 10 Examination.</strong>
-          I achieved Classical Guitar Grade 10 with an Excellent rating（优秀） and became the first student in Zhuanghe, Dalian to receive this distinction; experts also noted my potential for professional classical guitar performance.
+          I achieved Classical Guitar Grade 10 with an <span class="achievement-award achievement-award--excellent">Excellent rating（优秀）</span> and became the first student in Zhuanghe, Dalian to receive this distinction; experts also noted my potential for professional classical guitar performance.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2018</span>
         <div class="achievement-card__text">
           <strong>4th Hai Zhi Xing Guitar Competition.</strong>
-          I won Silver Prize（银奖） in Youth Folk Guitar Group A and Silver Prize（银奖） in Children Classical Group, and was invited to perform on CCTV-15 Music Channel.
+          I won <span class="achievement-award achievement-award--silver">Silver Prize（银奖）</span> in Youth Folk Guitar Group A and <span class="achievement-award achievement-award--silver">Silver Prize（银奖）</span> in Children Classical Group, and was invited to perform on CCTV-15 Music Channel.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2015</span>
         <div class="achievement-card__text">
           <strong>National Arts Specialty Evaluation Certification.</strong>
-          I passed Folk Guitar Grade 6 and received the Best level（Best等级）.
+          I passed Folk Guitar Grade 6 and received the Best level.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2014</span>
         <div class="achievement-card__text">
           <strong>China Conservatory of Music Violin Examination.</strong>
-          I passed Violin Grade 10（十级） and obtained the certificate.
+          I passed <span class="achievement-award achievement-award--grade">Violin Grade 10（十级）</span> and obtained the certificate.
         </div>
       </li>
       <li class="achievement-card__item">
