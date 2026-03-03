@@ -108,15 +108,22 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <span class="achievement-card__tag">Endurance and Team Sports</span>
     </div>
     <p class="athlete-passion__lead">I am a passionate enthusiast of ball sports and marathon running.</p>
-    <p class="athlete-passion__body">From team-based court play to long-distance endurance training, sports are a core part of my daily life.</p>
+    <p class="athlete-passion__body">I have loved sports since childhood and once broke my elementary school's grade-level 1500m record.</p>
     <div class="athlete-passion__chips">
       <span class="athlete-passion__chip">Basketball</span>
       <span class="athlete-passion__chip">Football</span>
       <span class="athlete-passion__chip">Badminton</span>
       <span class="athlete-passion__chip">Table Tennis</span>
       <span class="athlete-passion__chip">Marathon</span>
-      <span class="athlete-passion__chip">Distance Running</span>
+      <span class="athlete-passion__chip">Volleyball</span>
     </div>
+    <p class="athlete-passion__results-title">Selected Running Results</p>
+    <ul class="athlete-passion__results">
+      <li class="athlete-passion__result"><span class="athlete-passion__date">2024.04.27</span> Tianjin Jinnan Half Marathon <span class="athlete-passion__metric">1:45:13</span></li>
+      <li class="athlete-passion__result"><span class="athlete-passion__date">2024.05.25</span> Nankai University Campus Marathon <span class="athlete-passion__metric">8th Place</span> (interviewed by Shangguan News)</li>
+      <li class="athlete-passion__result"><span class="athlete-passion__date">2024.10.20</span> Tianjin Marathon (Full Marathon) <span class="athlete-passion__metric">3:58:40</span></li>
+      <li class="athlete-passion__result"><span class="athlete-passion__date">2025.04.20</span> Tianjin Jinnan Marathon <span class="athlete-passion__metric">1:43:47</span></li>
+    </ul>
     <p class="athlete-passion__note">I train consistently to build resilience, discipline, and long-term focus.</p>
   </article>
 </div>
