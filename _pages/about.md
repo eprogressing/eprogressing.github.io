@@ -45,14 +45,33 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**Competition Awards**
+- *2025*: **National Champion** (solo participant), 8th CCF-TCARCH Computer Architecture Challenge.
+- **National Third Prize**, 19th Challenge Cup National College Student Extracurricular Academic and Technological Works Competition.
+- **Tianjin Special Prize**, 18th Challenge Cup (Tianjin).
+- **National Third Prize**, National College Student Computer System Ability Competition.
+- **Special Prize**, Pioneer Cup Intelligent Computing Design Competition.
+- **Provincial First Prize**, China Undergraduate Mathematical Contest in Modeling (CUMCM).
+- **Honorable Mention (H Prize)**, Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM).
+- **Silver Prize**, University-level Competition.
+- **Second Prize**, Trae on Campus.
+- **First Prize**, President's Cup Innovation and Entrepreneurship Competition.
+- *Team Leadership*: Served as **Team Leader** in team-based competitions.
+
+**Student Leadership and Service**
+- **Outstanding Student Cadre**, Nankai University.
+- **Outstanding Officer**, Organization Department of the Nankai University Youth League Committee.
+- **Official Representative**, Student Congress.
+- **Official Advisor**, Student Affairs Committee.
+
+**Campus Ambassador**
+- **Campus Ambassador** for **EY**, **PwC**, and **ByteDance**.
 
 # 🏅 Scholarships
-- *2025.11*: &nbsp;💰 Academic Progress Scholarship (￥2000), Nankai University (学业进步奖学金)
-- *2025.11*: &nbsp;💰 Student Service Scholarship (￥2000), Nankai University (学生服务奖学金)
-- *2024.11*: &nbsp;💰 Social Welfare Scholarship (￥2000), Nankai University (社会公益奖学金)
-- *2024.11*: &nbsp;💰 Student Service Scholarship (￥2000), Nankai University (学生服务奖学金)
+- *2025.11*: Academic Progress Scholarship (CNY 2,000), Nankai University.
+- *2025.11*: Student Service Scholarship (CNY 2,000), Nankai University.
+- *2024.11*: Social Welfare Scholarship (CNY 2,000), Nankai University.
+- *2024.11*: Student Service Scholarship (CNY 2,000), Nankai University.
 
 <span class='anchor' id='arts-athletics'></span>
 
