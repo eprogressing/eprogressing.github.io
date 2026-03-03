@@ -68,7 +68,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <span class="achievement-card__year">2018</span>
         <div class="achievement-card__text">
           <strong>Classical Guitar Grade 10 Examination.</strong>
-          I achieved Classical Guitar Grade 10 with an <span class="achievement-award achievement-award--excellent">Excellent rating（优秀）</span> and became <span class="achievement-award">the first student in Zhuanghe, Dalian</span> to receive this distinction; experts also noted my potential for <span class="achievement-award">professional classical guitar performance</span>.
+          I earned Classical Guitar Grade 10 with an <span class="achievement-award achievement-award--excellent">Excellent rating（优秀）</span>, becoming <span class="achievement-award">the first student in Zhuanghe, Dalian</span> to do so, and was recognized by experts for my potential in <span class="achievement-award">professional classical guitar performance</span>.
         </div>
       </li>
       <li class="achievement-card__item">
