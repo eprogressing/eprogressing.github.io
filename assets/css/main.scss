@@ -915,7 +915,7 @@ h1:before, .anchor:before {
 }
 
 .athlete-passion__results-title {
-    margin: 0.82rem 0 0;
+    margin: 1.2rem 0 0;
     font-size: 0.82rem;
     font-weight: 800;
     letter-spacing: 0.06em;
@@ -948,6 +948,36 @@ h1:before, .anchor:before {
 .athlete-passion__metric {
     font-weight: 800;
     color: #b45309;
+}
+
+.athlete-passion__gallery {
+    margin-top: 0.82rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.44rem;
+}
+
+.athlete-passion__photo-link {
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(30, 58, 138, 0.18);
+    background: #ffffff;
+    box-shadow: 0 1px 6px rgba(15, 23, 42, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.athlete-passion__photo-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.14);
+}
+
+.athlete-passion__photo {
+    display: block;
+    width: 100%;
+    height: 106px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .athlete-passion__note {
@@ -1022,5 +1052,9 @@ h1:before, .anchor:before {
     .athlete-passion__date {
         min-width: 0;
         margin-right: 0.36rem;
+    }
+
+    .athlete-passion__photo {
+        height: 88px;
     }
 }

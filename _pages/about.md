@@ -108,7 +108,6 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <span class="achievement-card__tag">Endurance and Team Sports</span>
     </div>
     <p class="athlete-passion__lead">I am a passionate enthusiast of ball sports and marathon running.</p>
-    <p class="athlete-passion__body">I have loved sports since childhood and once broke my elementary school's grade-level 1500m record.</p>
     <div class="athlete-passion__chips">
       <span class="athlete-passion__chip">Basketball</span>
       <span class="athlete-passion__chip">Football</span>
@@ -124,7 +123,17 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <li class="athlete-passion__result"><span class="athlete-passion__date">2024.10.20</span> Tianjin Marathon (Full Marathon) <span class="athlete-passion__metric">3:58:40</span></li>
       <li class="athlete-passion__result"><span class="athlete-passion__date">2025.04.20</span> Tianjin Jinnan Marathon <span class="athlete-passion__metric">1:43:47</span></li>
     </ul>
-    <p class="athlete-passion__note">I train consistently to build resilience, discipline, and long-term focus.</p>
+    <div class="athlete-passion__gallery">
+      <a class="athlete-passion__photo-link" href="{{ '/images/20260303-143716.png' | relative_url }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ '/images/20260303-143716.png' | relative_url }}" alt="Running moment 1" class="athlete-passion__photo" loading="lazy" decoding="async" />
+      </a>
+      <a class="athlete-passion__photo-link" href="{{ '/images/20260303-143751.jpeg' | relative_url }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ '/images/20260303-143751.jpeg' | relative_url }}" alt="Running moment 2" class="athlete-passion__photo" loading="lazy" decoding="async" />
+      </a>
+      <a class="athlete-passion__photo-link" href="{{ '/images/20260303144351.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ '/images/20260303144351.jpg' | relative_url }}" alt="Running moment 3" class="athlete-passion__photo" loading="lazy" decoding="async" />
+      </a>
+    </div>
   </article>
 </div>
 
