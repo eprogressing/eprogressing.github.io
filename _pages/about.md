@@ -102,34 +102,22 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     </ul>
   </article>
 
-  <article class="achievement-card achievement-card--sports">
+  <article class="achievement-card achievement-card--sports achievement-card--sports-profile">
     <div class="achievement-card__header">
-      <h3 class="achievement-card__title">Athletics</h3>
-      <span class="achievement-card__tag">Competitive Track</span>
+      <h3 class="achievement-card__title">Athlete Profile</h3>
+      <span class="achievement-card__tag">Endurance and Team Sports</span>
     </div>
-    <ul class="achievement-card__list">
-      <li class="achievement-card__item">
-        <span class="achievement-card__year">2025</span>
-        <div class="achievement-card__text">
-          <strong>Track and Field Participation.</strong>
-          I represented the department in sprint and relay events at university sports meets.
-        </div>
-      </li>
-      <li class="achievement-card__item">
-        <span class="achievement-card__year">2024</span>
-        <div class="achievement-card__text">
-          <strong>Team Competition Contribution.</strong>
-          I contributed to coordinated team performance in inter-college athletic competitions.
-        </div>
-      </li>
-      <li class="achievement-card__item">
-        <span class="achievement-card__year">2023</span>
-        <div class="achievement-card__text">
-          <strong>Campus Sports Excellence Recognition.</strong>
-          I earned recognition for consistent participation and strong sportsmanship.
-        </div>
-      </li>
-    </ul>
+    <p class="athlete-passion__lead">I am a passionate enthusiast of ball sports and marathon running.</p>
+    <p class="athlete-passion__body">From team-based court play to long-distance endurance training, sports are a core part of my daily life.</p>
+    <div class="athlete-passion__chips">
+      <span class="athlete-passion__chip">Basketball</span>
+      <span class="athlete-passion__chip">Football</span>
+      <span class="athlete-passion__chip">Badminton</span>
+      <span class="athlete-passion__chip">Table Tennis</span>
+      <span class="athlete-passion__chip">Marathon</span>
+      <span class="athlete-passion__chip">Distance Running</span>
+    </div>
+    <p class="athlete-passion__note">I train consistently to build resilience, discipline, and long-term focus.</p>
   </article>
 </div>
 
