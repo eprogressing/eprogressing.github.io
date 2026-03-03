@@ -18,11 +18,8 @@ main:
   - title: "Arts and Athletics"
     url: "/#arts-athletics"
 
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
+  - title: "Education"
+    url: "/#-education"
 
   - title: "Internships"
     url: "/#-internships"
