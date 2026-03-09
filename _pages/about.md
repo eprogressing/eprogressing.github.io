@@ -144,10 +144,10 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <p class="athlete-passion__results-title">Selected Running Results</p>
       <ul class="athlete-passion__results">
         <li class="athlete-passion__result"><span class="athlete-passion__date">2024.04.27</span> Tianjin Jinnan Half Marathon <span class="athlete-passion__metric">1:45:13</span></li>
-        <li class="athlete-passion__result"><span class="athlete-passion__date">2024.05.25</span> Nankai University Campus Marathon <span class="athlete-passion__metric">41:48, 8th Place</span> (interviewed by Nankai University's official media)</li>
+        <li class="athlete-passion__result"><span class="athlete-passion__date">2024.05.25</span> Nankai University Campus Marathon <span class="athlete-passion__metric">41:48, 10 km, 8th Place</span> (interviewed by Nankai University's official media)</li>
         <li class="athlete-passion__result"><span class="athlete-passion__date">2024.10.20</span> Tianjin Marathon (Full Marathon) <span class="athlete-passion__metric">3:58:40</span></li>
         <li class="athlete-passion__result"><span class="athlete-passion__date">2025.04.20</span> Tianjin Jinnan Half Marathon <span class="athlete-passion__metric">1:43:47</span></li>
-        <li class="athlete-passion__result"><span class="athlete-passion__date">2025.05.17</span> Nankai University Signature Marathon Campus Run <span class="athlete-passion__metric">44:44, 10 km</span></li>
+        <li class="athlete-passion__result"><span class="athlete-passion__date">2025.05.17</span> Nankai University Campus Marathon <span class="athlete-passion__metric">44:44, 10 km</span></li>
       </ul>
       <div class="athlete-passion__gallery">
         <a class="athlete-passion__photo-link" href="{{ '/images/20260303-143716.png' | relative_url }}" target="_blank" rel="noopener noreferrer">
