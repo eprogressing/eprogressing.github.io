@@ -90,35 +90,35 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <span class="achievement-card__year">2018</span>
         <div class="achievement-card__text">
           <strong>Classical Guitar（古典吉他） Grade 10 Examination.</strong>
-          I earned Classical Guitar（古典吉他） Grade 10 with an <span class="achievement-award achievement-award--excellent">Excellent rating（优秀）</span>, becoming <span class="achievement-award">the first student in Zhuanghe, Dalian</span> to do so, and was recognized by experts for my potential in <span class="achievement-award">classical guitar（古典吉他） performance</span>.
+          I earned Classical Guitar Grade 10 with an <span class="achievement-award achievement-award--excellent">Excellent rating（优秀）</span>, becoming <span class="achievement-award">the first student in Zhuanghe, Dalian</span> to do so, and was recognized by experts for my potential in <span class="achievement-award">classical guitar performance</span>.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2018</span>
         <div class="achievement-card__text">
           <strong>4th Hai Zhi Xing Guitar Competition.</strong>
-          I won <span class="achievement-award achievement-award--silver">Silver Prize（银奖）</span> in Youth Folk Guitar（民谣吉他） Group A and <span class="achievement-award achievement-award--silver">Silver Prize（银奖）</span> in Children Classical Group, and was invited to perform on <span class="achievement-award">CCTV-15 Music Channel</span>.
+          I won <span class="achievement-award achievement-award--silver">Silver Prize（银奖）</span> in Youth <span class="achievement-award">Folk Guitar（民谣吉他）</span> Group A and <span class="achievement-award achievement-award--silver">Silver Prize（银奖）</span> in Children Classical Group, and was invited to perform on <span class="achievement-award">CCTV-15 Music Channel</span>.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2015</span>
         <div class="achievement-card__text">
           <strong>National Arts Specialty Evaluation Certification.</strong>
-          I passed Folk Guitar（民谣吉他） Grade 6 and received the <span class="achievement-award achievement-award--accent">Best</span> level.
+          I passed Folk Guitar Grade 6 and received the <span class="achievement-award achievement-award--accent">Best</span> level.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2014</span>
         <div class="achievement-card__text">
           <strong>China Conservatory of Music Violin（小提琴） Examination.</strong>
-          I passed Violin（小提琴） <span class="achievement-award achievement-award--grade">Grade 10（十级）</span> and obtained the certificate.
+          I passed Violin <span class="achievement-award achievement-award--grade">Grade 10（十级）</span> and obtained the certificate.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2011</span>
         <div class="achievement-card__text">
           <strong>"China Star" National Youth Outstanding Arts Talent Showcase.</strong>
-          I won <span class="achievement-award achievement-award--gold">Gold Prize（金奖）</span> in violin（小提琴） ensemble and <span class="achievement-award achievement-award--silver">Silver Prize（银奖）</span> in violin（小提琴） solo performance.
+          I won <span class="achievement-award achievement-award--gold">Gold Prize（金奖）</span> in violin ensemble and <span class="achievement-award achievement-award--silver">Silver Prize（银奖）</span> in violin solo performance.
         </div>
       </li>
     </ul>
