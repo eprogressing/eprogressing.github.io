@@ -849,6 +849,21 @@ h1:before, .anchor:before {
     color: #111827;
 }
 
+.award-card__link {
+    color: inherit;
+    text-decoration: none;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.16em;
+    transition: color 0.18s ease, text-decoration-color 0.18s ease;
+}
+
+.award-card__link:hover,
+.award-card__link:focus-visible {
+    color: #8a5a24;
+    text-decoration: underline;
+    text-decoration-color: rgba(138, 90, 36, 0.5);
+}
+
 .award-card__subtitle {
     margin: 0;
     font-size: 0.8rem;

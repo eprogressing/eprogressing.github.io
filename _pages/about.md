@@ -62,7 +62,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2025.12</span>
           <span class="award-card__result">Second Place（第二名）</span>
         </div>
-        <h5 class="award-card__name">TRAE on Campus Vibe Coding Workshop</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://forum.trae.cn/t/topic/213" target="_blank" rel="noopener noreferrer">TRAE on Campus Vibe Coding Workshop</a></h5>
         <p class="award-card__subtitle">TRAE 校园 Vibe 编程工作坊</p>
       </article>
 
@@ -71,7 +71,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2025.12</span>
           <span class="award-card__result">Bronze Prize（铜奖）</span>
         </div>
-        <h5 class="award-card__name">3rd National College Student Career Planning Competition - Growth Track, University-level Competition</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://news.nankai.edu.cn/zhxw/system/2025/12/08/030070061.shtml" target="_blank" rel="noopener noreferrer">3rd National College Student Career Planning Competition - Growth Track, University-level Competition</a></h5>
         <p class="award-card__subtitle">第三届全国大学生职业规划大赛成长赛道校赛</p>
       </article>
 
@@ -80,7 +80,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2025.11</span>
           <span class="award-card__result">National Third Prize（全国三等奖）</span>
         </div>
-        <h5 class="award-card__name">National College Student Computer System Ability Competition</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://www.jiemian.com/article/13643188.html" target="_blank" rel="noopener noreferrer">National College Student Computer System Ability Competition</a></h5>
         <p class="award-card__subtitle">全国大学生计算机系统能力大赛</p>
       </article>
 
