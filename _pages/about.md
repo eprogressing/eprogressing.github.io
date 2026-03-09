@@ -89,7 +89,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2025.11</span>
           <span class="award-card__result">Provincial First Prize（省级一等奖）</span>
         </div>
-        <h5 class="award-card__name">China Undergraduate Mathematical Contest in Modeling (CUMCM)</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://www.cmathc.org.cn/mcm/news/362.html" target="_blank" rel="noopener noreferrer">China Undergraduate Mathematical Contest in Modeling (CUMCM)</a></h5>
         <p class="award-card__subtitle">全国大学生数学建模竞赛</p>
       </article>
 
@@ -98,7 +98,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2025.10</span>
           <span class="award-card__result">National Third Prize（全国三等奖）</span>
         </div>
-        <h5 class="award-card__name">19th Challenge Cup National College Student Extracurricular Academic and Technological Works Competition</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://news.nankai.edu.cn/ywsd/system/2025/11/10/030069539.shtml" target="_blank" rel="noopener noreferrer">19th Challenge Cup National College Student Extracurricular Academic and Technological Works Competition</a></h5>
         <p class="award-card__subtitle">第十九届“挑战杯”全国大学生课外学术科技作品竞赛</p>
       </article>
 
@@ -107,7 +107,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2025.10</span>
           <span class="award-card__result">Silver Prize（银奖）</span>
         </div>
-        <h5 class="award-card__name">Nankai University Mathematical Modeling Competition</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://mp.weixin.qq.com/s/bO7zPc8JcLDxAw58Q5PqqQ" target="_blank" rel="noopener noreferrer">Nankai University Mathematical Modeling Competition</a></h5>
         <p class="award-card__subtitle">南开大学数学建模校赛</p>
       </article>
 
