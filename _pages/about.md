@@ -46,7 +46,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 
 # 🎖 Honors and Awards
 **Competition Awards（竞赛奖项）**
-- *2025.12*: 🏆 **Trae on Campus Competition** (**第二名**).
+- *2025.12*: 🏆 **TRAE on Campus Vibe Coding Workshop** (**第二名**).
 - *2025.12*: 🏆 **3rd National College Student Career Planning Competition - Growth Track, University-level Competition（第三届全国大学生职业规划大赛成长赛道校赛）** (**Bronze Prize（铜奖）**).
 - *2025.11*: 🏆 **National College Student Computer System Ability Competition（全国大学生计算机系统能力大赛）** (**National Third Prize（全国三等奖）**).
 - *2025.11*: 🏆 **China Undergraduate Mathematical Contest in Modeling (CUMCM)（全国大学生数学建模竞赛）** (**Provincial First Prize（省级一等奖）**).
