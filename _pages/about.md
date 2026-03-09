@@ -45,21 +45,161 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-**Competition Awards（竞赛奖项）**
-- *2025.12*: 🏆 **TRAE on Campus Vibe Coding Workshop（TRAE 校园 Vibe 编程工作坊）** (**Second Place（第二名）**).
-- *2025.12*: 🏆 **3rd National College Student Career Planning Competition - Growth Track, University-level Competition（第三届全国大学生职业规划大赛成长赛道校赛）** (**Bronze Prize（铜奖）**).
-- *2025.11*: 🏆 **National College Student Computer System Ability Competition（全国大学生计算机系统能力大赛）** (**National Third Prize（全国三等奖）**).
-- *2025.11*: 🏆 **China Undergraduate Mathematical Contest in Modeling (CUMCM)（全国大学生数学建模竞赛）** (**Provincial First Prize（省级一等奖）**).
-- *2025.10*: 🏆 **19th Challenge Cup National College Student Extracurricular Academic and Technological Works Competition（第十九届“挑战杯”全国大学生课外学术科技作品竞赛）** (**National Third Prize（全国三等奖）**).
-- *2025.10*: 🏆 **Nankai University Mathematical Modeling Competition（南开大学数学建模校赛）** (**Silver Prize（银奖）**).
-- *2025.09*: 🏆 **8th CCF-TCARCH Computer Architecture Challenge（2025年第八届CCF-TCARCH计算机体系结构挑战赛）** (**National Champion（全国冠军）**).
-- *2025.09*: 🏆 **Pioneer Cup Intelligent Computing Design Competition（“先导杯”智能计算设计赛）** (**Special Prize（特等奖）**).
-- *2025.07*: 🏆 **18th Challenge Cup China Bank Tianjin Undergraduate Extracurricular Academic and Technological Works Competition（第十八届“挑战杯”中国银行天津市大学生课外学术科技作品竞赛）** (**Special Prize（特等奖）**).
-- *2025.06*: 🏆 **President's Cup Innovation and Entrepreneurship Competition - Entrepreneurship Track（“校长杯”创新创业大赛创业赛道）** (**Outstanding Award（优秀奖）**).
-- *2025.04*: 🏆 **President's Cup Innovation and Entrepreneurship Competition - Innovation Track（“校长杯”创新创业大赛创新赛道）** (**First Prize（一等奖）**).
-- *2025.01*: 🏆 **Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM)（美国大学生数学建模竞赛）** (**Honorable Mention, H Prize（H奖）**).
-- *2024.11*: 🏆 **China Undergraduate Mathematical Contest in Modeling (CUMCM)（全国大学生数学建模竞赛）** (**Provincial Second Prize（省级二等奖）**).
-- *2024.10*: 🏆 **3rd National College Student Data Analysis Popular Science Competition（第三届全国大学生数据分析科普竞赛）** (**First Prize（一等奖）**).
+<div class="award-board">
+  <div class="award-board__hero">
+    <div class="award-board__hero-main">
+      <p class="award-board__eyebrow">Competition Awards</p>
+      <h3 class="award-board__title">Competition Awards（竞赛奖项）</h3>
+      <p class="award-board__summary">A curated record of systems contests, mathematical modeling, innovation tracks, and campus competitions, arranged in reverse chronological order.</p>
+    </div>
+    <div class="award-board__stat">
+      <span class="award-board__stat-value">14 Awards</span>
+      <span class="award-board__stat-label">2024 - 2025</span>
+    </div>
+  </div>
+
+  <section class="award-year-section">
+    <div class="award-year-section__header">
+      <h4 class="award-year-section__title">2025</h4>
+      <p class="award-year-section__meta">12 awards</p>
+    </div>
+    <div class="award-grid">
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.12</span>
+          <span class="award-card__result">Second Place（第二名）</span>
+        </div>
+        <h5 class="award-card__name">TRAE on Campus Vibe Coding Workshop</h5>
+        <p class="award-card__subtitle">TRAE 校园 Vibe 编程工作坊</p>
+      </article>
+
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.12</span>
+          <span class="award-card__result">Bronze Prize（铜奖）</span>
+        </div>
+        <h5 class="award-card__name">3rd National College Student Career Planning Competition - Growth Track, University-level Competition</h5>
+        <p class="award-card__subtitle">第三届全国大学生职业规划大赛成长赛道校赛</p>
+      </article>
+
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.11</span>
+          <span class="award-card__result">National Third Prize（全国三等奖）</span>
+        </div>
+        <h5 class="award-card__name">National College Student Computer System Ability Competition</h5>
+        <p class="award-card__subtitle">全国大学生计算机系统能力大赛</p>
+      </article>
+
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.11</span>
+          <span class="award-card__result">Provincial First Prize（省级一等奖）</span>
+        </div>
+        <h5 class="award-card__name">China Undergraduate Mathematical Contest in Modeling (CUMCM)</h5>
+        <p class="award-card__subtitle">全国大学生数学建模竞赛</p>
+      </article>
+
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.10</span>
+          <span class="award-card__result">National Third Prize（全国三等奖）</span>
+        </div>
+        <h5 class="award-card__name">19th Challenge Cup National College Student Extracurricular Academic and Technological Works Competition</h5>
+        <p class="award-card__subtitle">第十九届“挑战杯”全国大学生课外学术科技作品竞赛</p>
+      </article>
+
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.10</span>
+          <span class="award-card__result">Silver Prize（银奖）</span>
+        </div>
+        <h5 class="award-card__name">Nankai University Mathematical Modeling Competition</h5>
+        <p class="award-card__subtitle">南开大学数学建模校赛</p>
+      </article>
+
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.09</span>
+          <span class="award-card__result">National Champion（全国冠军）</span>
+        </div>
+        <h5 class="award-card__name">8th CCF-TCARCH Computer Architecture Challenge</h5>
+        <p class="award-card__subtitle">2025年第八届CCF-TCARCH计算机体系结构挑战赛</p>
+      </article>
+
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.09</span>
+          <span class="award-card__result">Special Prize（特等奖）</span>
+        </div>
+        <h5 class="award-card__name">Pioneer Cup Intelligent Computing Design Competition</h5>
+        <p class="award-card__subtitle">“先导杯”智能计算设计赛</p>
+      </article>
+
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.07</span>
+          <span class="award-card__result">Special Prize（特等奖）</span>
+        </div>
+        <h5 class="award-card__name">18th Challenge Cup China Bank Tianjin Undergraduate Extracurricular Academic and Technological Works Competition</h5>
+        <p class="award-card__subtitle">第十八届“挑战杯”中国银行天津市大学生课外学术科技作品竞赛</p>
+      </article>
+
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.06</span>
+          <span class="award-card__result">Outstanding Award（优秀奖）</span>
+        </div>
+        <h5 class="award-card__name">President's Cup Innovation and Entrepreneurship Competition - Entrepreneurship Track</h5>
+        <p class="award-card__subtitle">“校长杯”创新创业大赛创业赛道</p>
+      </article>
+
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.04</span>
+          <span class="award-card__result">First Prize（一等奖）</span>
+        </div>
+        <h5 class="award-card__name">President's Cup Innovation and Entrepreneurship Competition - Innovation Track</h5>
+        <p class="award-card__subtitle">“校长杯”创新创业大赛创新赛道</p>
+      </article>
+
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.01</span>
+          <span class="award-card__result">Honorable Mention, H Prize（H奖）</span>
+        </div>
+        <h5 class="award-card__name">Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM)</h5>
+        <p class="award-card__subtitle">美国大学生数学建模竞赛</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="award-year-section">
+    <div class="award-year-section__header">
+      <h4 class="award-year-section__title">2024</h4>
+      <p class="award-year-section__meta">2 awards</p>
+    </div>
+    <div class="award-grid">
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2024.11</span>
+          <span class="award-card__result">Provincial Second Prize（省级二等奖）</span>
+        </div>
+        <h5 class="award-card__name">China Undergraduate Mathematical Contest in Modeling (CUMCM)</h5>
+        <p class="award-card__subtitle">全国大学生数学建模竞赛</p>
+      </article>
+
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2024.10</span>
+          <span class="award-card__result">First Prize（一等奖）</span>
+        </div>
+        <h5 class="award-card__name">3rd National College Student Data Analysis Popular Science Competition</h5>
+        <p class="award-card__subtitle">第三届全国大学生数据分析科普竞赛</p>
+      </article>
+    </div>
+  </section>
+</div>
 
 **🏆 Student Leadership and Service（学生工作与服务）**
 - 🎖 **Outstanding Student Cadre（优秀学生干部）**, Nankai University.
