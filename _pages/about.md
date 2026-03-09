@@ -116,7 +116,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2025.09</span>
           <span class="award-card__result">National Champion（全国冠军）</span>
         </div>
-        <h5 class="award-card__name">8th CCF-TCARCH Computer Architecture Challenge</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://cc-backend.nankai.edu.cn/news/news-detail/20808" target="_blank" rel="noopener noreferrer">8th CCF-TCARCH Computer Architecture Challenge</a></h5>
         <p class="award-card__subtitle">2025年第八届CCF-TCARCH计算机体系结构挑战赛</p>
       </article>
 
@@ -125,7 +125,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2025.09</span>
           <span class="award-card__result">Special Prize（特等奖）</span>
         </div>
-        <h5 class="award-card__name">Pioneer Cup Intelligent Computing Design Competition</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://mp.weixin.qq.com/s/npz3o1DdSBSMQ_omhiGmcw" target="_blank" rel="noopener noreferrer">Pioneer Cup Intelligent Computing Design Competition</a></h5>
         <p class="award-card__subtitle">“先导杯”智能计算设计赛</p>
       </article>
 
@@ -134,7 +134,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2025.07</span>
           <span class="award-card__result">Special Prize（特等奖）</span>
         </div>
-        <h5 class="award-card__name">18th Challenge Cup China Bank Tianjin Undergraduate Extracurricular Academic and Technological Works Competition</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://2025.tiaozhanbei.net/d49/article/666/" target="_blank" rel="noopener noreferrer">18th Challenge Cup China Bank Tianjin Undergraduate Extracurricular Academic and Technological Works Competition</a></h5>
         <p class="award-card__subtitle">第十八届“挑战杯”中国银行天津市大学生课外学术科技作品竞赛</p>
       </article>
 
@@ -143,7 +143,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2025.06</span>
           <span class="award-card__result">Outstanding Award（优秀奖）</span>
         </div>
-        <h5 class="award-card__name">President's Cup Innovation and Entrepreneurship Competition - Entrepreneurship Track</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://nktw.nankai.edu.cn/info/1013/1910.htm" target="_blank" rel="noopener noreferrer">President's Cup Innovation and Entrepreneurship Competition - Entrepreneurship Track</a></h5>
         <p class="award-card__subtitle">“校长杯”创新创业大赛创业赛道</p>
       </article>
 
@@ -152,7 +152,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2025.04</span>
           <span class="award-card__result">First Prize（一等奖）</span>
         </div>
-        <h5 class="award-card__name">President's Cup Innovation and Entrepreneurship Competition - Innovation Track</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://nktw.nankai.edu.cn/info/1013/1879.htm" target="_blank" rel="noopener noreferrer">President's Cup Innovation and Entrepreneurship Competition - Innovation Track</a></h5>
         <p class="award-card__subtitle">“校长杯”创新创业大赛创新赛道</p>
       </article>
 
@@ -161,7 +161,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2025.01</span>
           <span class="award-card__result">Honorable Mention, H Prize（H奖）</span>
         </div>
-        <h5 class="award-card__name">Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM)</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://www.comap.com/contests/mcm-icm" target="_blank" rel="noopener noreferrer">Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM)</a></h5>
         <p class="award-card__subtitle">美国大学生数学建模竞赛</p>
       </article>
     </div>
@@ -178,7 +178,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2024.11</span>
           <span class="award-card__result">Provincial Second Prize（省级二等奖）</span>
         </div>
-        <h5 class="award-card__name">China Undergraduate Mathematical Contest in Modeling (CUMCM)</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://jw.tjut.edu.cn/info/1888/6440.htm" target="_blank" rel="noopener noreferrer">China Undergraduate Mathematical Contest in Modeling (CUMCM)</a></h5>
         <p class="award-card__subtitle">全国大学生数学建模竞赛</p>
       </article>
 
@@ -187,7 +187,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2024.10</span>
           <span class="award-card__result">First Prize（一等奖）</span>
         </div>
-        <h5 class="award-card__name">3rd National College Student Data Analysis Popular Science Competition</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://zhuanlan.zhihu.com/p/10010914554" target="_blank" rel="noopener noreferrer">3rd National College Student Data Analysis Popular Science Competition</a></h5>
         <p class="award-card__subtitle">第三届全国大学生数据分析科普竞赛</p>
       </article>
     </div>
