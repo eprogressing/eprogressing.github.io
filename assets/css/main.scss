@@ -721,19 +721,11 @@ h1:before, .anchor:before {
 
 .award-board__eyebrow {
     margin: 0;
-    font-size: 0.74rem;
+    font-size: 0.8rem;
     font-weight: 800;
-    letter-spacing: 0.09em;
+    letter-spacing: 0.07em;
     text-transform: uppercase;
     color: #8b6a2f;
-}
-
-.award-board__title {
-    margin: 0.14rem 0 0;
-    font-size: 1rem;
-    font-weight: 800;
-    line-height: 1.28;
-    color: #111827;
 }
 
 .award-year-section + .award-year-section {
@@ -1170,10 +1162,6 @@ h1:before, .anchor:before {
     .award-board {
         margin-bottom: 1.18rem;
         padding: 0.86rem 0.78rem 0.82rem;
-    }
-
-    .award-board__title {
-        font-size: 0.96rem;
     }
 
     .award-grid {
