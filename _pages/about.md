@@ -47,11 +47,8 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 # 🎖 Honors and Awards
 <div class="award-board">
   <div class="award-board__intro">
-    <div class="award-board__intro-main">
-      <p class="award-board__eyebrow">Competition Awards</p>
-      <h3 class="award-board__title">Competition Awards（竞赛奖项）</h3>
-    </div>
-    <p class="award-board__note">Selected honors from academic, innovation, and systems competitions, arranged in reverse chronological order.</p>
+    <p class="award-board__eyebrow">Competition Awards</p>
+    <h3 class="award-board__title">Competition Awards（竞赛奖项）</h3>
   </div>
 
   <section class="award-year-section">
