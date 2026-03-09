@@ -823,22 +823,15 @@ h1:before, .anchor:before {
 
 .achievement-card__text .achievement-award {
     font-weight: 800;
+    color: #111827;
 }
 
-.achievement-card__text .achievement-award--gold {
+.achievement-card__text .achievement-award--gold,
+.achievement-card__text .achievement-award--silver,
+.achievement-card__text .achievement-award--excellent,
+.achievement-card__text .achievement-award--grade,
+.achievement-card__text .achievement-award--accent {
     color: #b45309;
-}
-
-.achievement-card__text .achievement-award--silver {
-    color: #7b8799;
-}
-
-.achievement-card__text .achievement-award--excellent {
-    color: #7c3aed;
-}
-
-.achievement-card__text .achievement-award--grade {
-    color: #0f766e;
 }
 
 .achievement-card--arts {
