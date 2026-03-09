@@ -74,7 +74,8 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <p class="award-card__subtitle">第三届全国大学生职业规划大赛成长赛道校赛</p>
       </article>
 
-      <article class="award-card">
+      <article class="award-card award-card--featured">
+        <span class="award-card__spotlight">Featured Award（重点奖项）</span>
         <div class="award-card__top">
           <span class="award-card__date">2025.11</span>
           <span class="award-card__result">National Third Prize（全国三等奖）</span>
@@ -92,7 +93,8 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <p class="award-card__subtitle">全国大学生数学建模竞赛</p>
       </article>
 
-      <article class="award-card">
+      <article class="award-card award-card--featured">
+        <span class="award-card__spotlight">Featured Award（重点奖项）</span>
         <div class="award-card__top">
           <span class="award-card__date">2025.10</span>
           <span class="award-card__result">National Third Prize（全国三等奖）</span>
@@ -110,7 +112,8 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <p class="award-card__subtitle">南开大学数学建模校赛</p>
       </article>
 
-      <article class="award-card">
+      <article class="award-card award-card--flagship">
+        <span class="award-card__spotlight">Flagship Award（代表性奖项）</span>
         <div class="award-card__top">
           <span class="award-card__date">2025.09</span>
           <span class="award-card__result">National Champion（全国冠军）</span>
