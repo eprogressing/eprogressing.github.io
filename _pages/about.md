@@ -163,7 +163,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
   </article>
 </div>
 
-# 📖 Education
+# 📖 Educations
 <div class="education-card">
   <div class="education-card__header">
     <div class="education-card__main">
