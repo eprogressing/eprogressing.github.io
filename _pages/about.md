@@ -197,10 +197,11 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 </div>
 
 **🏆 Student Leadership and Service（学生工作与服务）**
-- 🎖 **Outstanding Student Cadre（优秀学生干部）**, Nankai University.
-- 📌 **Outstanding Officer（优秀干事）**, Organization Department of the Youth League Committee.
-- 🧾 **Official Representative（正式代表）**, Student Congress.
-- 🧭 **Official Advisor（正式顾问）**, Student Affairs Committee.
+- *2025.11*: 🎖 **Outstanding Student Cadre（优秀学生干部）**, Nankai University.
+- *2025.05*: 🧭 **Official Advisor（正式顾问）**, Nankai University Student Affairs Committee（南开大学学务会）.
+- *2024.11*: 🎖 **Outstanding Student Cadre（优秀学生干部）**, Nankai University.
+- *2024.06*: 📌 **Outstanding Officer（优秀干事）**, Organization Department of the Youth League Committee of Nankai University（南开大学校团委组织部）.
+- *2023.10*: 🧾 **Official Representative（正式代表）**, Nankai University Student Congress（南开大学校学生代表大会）.
 
 **🏆 Campus Ambassador（校园大使）**
 - 📣 **Campus Ambassador（校园大使）** for **EY（安永）**, **PwC（普华永道）**, and **ByteDance（字节跳动）**.
