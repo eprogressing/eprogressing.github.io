@@ -209,7 +209,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 - *2024.11*: 🎖 **Outstanding Student Cadre（优秀学生干部）**, Nankai University.
 - *2024.09*: 🎖 **Outstanding Deputy Platoon Leader（优秀排副）**, Nankai University Military Training（南开大学军训）.
 - *2024.06*: 🎖 **Outstanding Officer（优秀干事）**, Organization Department of the Youth League Committee of Nankai University（南开大学校团委组织部）.
-- *2023.11*: 🎖 **Participant（营员）**, Phase III "Zhuoyu Program" General Office Camp, Nankai University Student Union（南开大学学生会第三期“琢玉计划”综合办公室）; spoke as a representative at the commemoration of Premier Zhou Enlai's birthday（曾作为代表在周恩来总理诞辰纪念活动发言）.
+- *2023.11*: 🎖 **Participant（营员）**, Phase III "Zhuoyu Program" Camp, Nankai University Student Union（南开大学学生会第三期“琢玉计划”）; spoke as a representative at the commemoration of Premier Zhou Enlai's birthday（曾作为代表在周恩来总理诞辰纪念活动发言）.
 - *2023.10*: 🎖 **Official Representative（正式代表）**, Nankai University Student Congress（南开大学校学生代表大会）.
 - *2018.05*: 🎖 **Dalian Merit Student（大连市三好学生）**.
 - 🎖 **Volunteer Service（志愿服务）**, <span class="service-metric">213.4 hours</span>; **Social Practice（社会实践）**, <span class="service-metric">153 hours</span>; **Ligong Zengneng Learning Support Platform（立公增能辅学平台）**, <span class="service-metric">530 cumulative learning hours</span>.
