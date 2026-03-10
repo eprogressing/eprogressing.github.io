@@ -945,6 +945,11 @@ h1:before, .anchor:before {
     color: #64748b;
 }
 
+.service-metric {
+    font-weight: 800;
+    color: #8a5a24;
+}
+
 .arts-athletics-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));

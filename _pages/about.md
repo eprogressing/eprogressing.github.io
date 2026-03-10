@@ -47,7 +47,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 # 🎖 Honors and Awards
 <div class="award-board">
   <div class="award-board__intro">
-    <p class="award-board__eyebrow">Competition Awards（竞赛奖项）</p>
+    <p class="award-board__eyebrow">🏆 Competition Awards（竞赛奖项）</p>
   </div>
 
   <section class="award-year-section">
@@ -198,14 +198,18 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 
 **🏆 Student Leadership and Service（学生工作与服务）**
 - *2023.09-Present*: 🎖 **Class Monitor and Deputy Secretary of the Youth League Branch（班长兼副团支书）**, School of Computer Science, Nankai University（南开大学计算机学院）.
-- *2025.09-2026.01*: 🎖 **Teaching Assistant（课程助教）**, Fundamentals of Computer Hardware, Nankai University（南开大学计算机硬件基础课程）.
+- *2025.09-2026.01*: 🎖 **Teaching Assistant（课程助教）**, Fundamentals of Computer Hardware, Nankai University（计算机硬件基础课程）.
+- *2025.09-2026.01*: 🎖 **Student Assistant（学生助理）**, Office of the Youth League Committee, School of Computer Science and College of Cryptography and Cyberspace Security, Nankai University（南开大学计算机学院和密码与网络空间安全学院团委办公室）.
 - *2025.11*: 🎖 **Outstanding Student Cadre（优秀学生干部）**, Nankai University.
+- *2025.11*: 🎖 **Outstanding Individual（优秀个人）**, Nankai University "Teachers and Students Together in Four Aspects" Social Practice（南开大学“师生四同”社会实践）.
+- *2025.11*: 🎖 **Outstanding Team（优秀团队）**, Nankai University Summer Social Practice in Xiong'an New Area（雄安新区社会实践南开大学暑期社会实践优秀团队）.
+- *2025.06*: 🎖 **Outstanding Class Youth League Branch（优秀班级团支部）**, Nankai University.
 - *2025.05*: 🎖 **Official Advisor（正式顾问）**, Nankai University Student Affairs Committee（南开大学学务会）.
 - *2024.11*: 🎖 **Outstanding Student Cadre（优秀学生干部）**, Nankai University.
 - *2024.06*: 🎖 **Outstanding Officer（优秀干事）**, Organization Department of the Youth League Committee of Nankai University（南开大学校团委组织部）.
 - *2023.10*: 🎖 **Official Representative（正式代表）**, Nankai University Student Congress（南开大学校学生代表大会）.
 - *2018.05*: 🎖 **Dalian Merit Student（大连市三好学生）**.
-- 🎖 **Volunteer Service（志愿服务）**, 213.4 hours; **Social Practice（社会实践）**, 153 hours; **Ligong Zengneng Learning Support Platform（立公增能辅学平台）**, 530 cumulative learning hours.
+- 🎖 **Volunteer Service（志愿服务）**, <span class="service-metric">213.4 hours</span>; **Social Practice（社会实践）**, <span class="service-metric">153 hours</span>; **Ligong Zengneng Learning Support Platform（立公增能辅学平台）**, <span class="service-metric">530 cumulative learning hours</span>.
 
 **🏆 Campus Ambassador（校园大使）**
 - 📣 **Campus Ambassador（校园大使）** for **EY（安永）**, **PwC（普华永道）**, and **ByteDance（字节跳动）**.
