@@ -196,23 +196,159 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
   </section>
 </div>
 
-**🏆 Student Leadership and Service（学生工作与服务）**
-- *2023.09-Present*: 🎖 **Class Monitor and Deputy Secretary of the Youth League Branch（班长兼副团支书）**, School of Computer Science, Nankai University（南开大学计算机学院）.
-- *2025.09-2026.01*: 🎖 **Teaching Assistant（课程助教）**, Fundamentals of Computer Hardware, Nankai University（计算机硬件基础课程）.
-- *2025.09-2026.01*: 🎖 **Student Assistant（学生助理）**, Office of the Youth League Committee, School of Computer Science and College of Cryptography and Cyberspace Security, Nankai University（南开大学计算机学院和密码与网络空间安全学院团委办公室）.
-- *2025.11*: 🎖 **Outstanding Student Cadre（优秀学生干部）**, Nankai University.
-- *2025.11*: 🎖 **Outstanding Individual（优秀个人）**, Nankai University "Teachers and Students Together in Four Aspects" Social Practice（南开大学“师生四同”社会实践）.
-- *2025.11*: 🎖 **Outstanding Team（优秀团队）**, Nankai University Summer Social Practice in Xiong'an New Area（南开大学雄安新区暑期社会实践）.
-- *2025.06*: 🎖 **Outstanding Class Youth League Branch（优秀班级团支部）**, Nankai University.
-- *2025.05*: 🎖 **Leader of the May Fourth Red Flag Youth League Group（五四红旗团小组负责人）**, Nankai University.
-- *2025.05*: 🎖 **Official Advisor（正式顾问）**, Nankai University Student Affairs Committee（南开大学学务会）.
-- *2024.11*: 🎖 **Outstanding Student Cadre（优秀学生干部）**, Nankai University.
-- *2024.09*: 🎖 **Outstanding Deputy Platoon Leader（优秀排副）**, Nankai University Military Training（南开大学军训）.
-- *2024.06*: 🎖 **Outstanding Officer（优秀干事）**, Organization Department of the Youth League Committee of Nankai University（南开大学校团委组织部）.
-- *2023.11*: 🎖 **Participant（营员）**, Phase III "Zhuoyu Program" Camp, Nankai University Student Union（南开大学学生会第三期“琢玉计划”）; spoke as a representative at the commemoration of Premier Zhou Enlai's birthday（曾作为代表在周恩来总理诞辰纪念活动发言）.
-- *2023.10*: 🎖 **Official Representative（正式代表）**, Nankai University Student Congress（南开大学校学生代表大会）.
-- *2018.05*: 🎖 **Dalian Merit Student（大连市三好学生）**.
-- 🎖 **Volunteer Service（志愿服务）**, <span class="service-metric">213.4 hours</span>; **Social Practice（社会实践）**, <span class="service-metric">153 hours</span>; **Ligong Zengneng Learning Support Platform（立公增能辅学平台）**, <span class="service-metric">530 cumulative learning hours</span>.
+<div class="service-board">
+  <div class="service-board__intro">
+    <p class="service-board__eyebrow">🎖 Student Leadership and Service（学生工作与服务）</p>
+  </div>
+
+  <div class="service-board__group">
+    <p class="service-board__label">Current Roles</p>
+    <div class="service-role-grid">
+      <article class="service-role-card service-role-card--primary">
+        <span class="service-role-card__badge">Ongoing Role</span>
+        <p class="service-role-card__date">2023.09-Present</p>
+        <h3 class="service-role-card__title">Class Monitor and Deputy Secretary of the Youth League Branch（班长兼副团支书）</h3>
+        <p class="service-role-card__subtitle">School of Computer Science, Nankai University（南开大学计算机学院）</p>
+      </article>
+
+      <article class="service-role-card">
+        <span class="service-role-card__badge">Academic Support</span>
+        <p class="service-role-card__date">2025.09-2026.01</p>
+        <h3 class="service-role-card__title">Teaching Assistant（课程助教）</h3>
+        <p class="service-role-card__subtitle">Fundamentals of Computer Hardware, Nankai University（计算机硬件基础课程）</p>
+      </article>
+
+      <article class="service-role-card">
+        <span class="service-role-card__badge">Student Affairs</span>
+        <p class="service-role-card__date">2025.09-2026.01</p>
+        <h3 class="service-role-card__title">Student Assistant（学生助理）</h3>
+        <p class="service-role-card__subtitle">Office of the Youth League Committee, School of Computer Science and College of Cryptography and Cyberspace Security, Nankai University（南开大学计算机学院和密码与网络空间安全学院团委办公室）</p>
+      </article>
+    </div>
+  </div>
+
+  <div class="service-board__group">
+    <p class="service-board__label">Service Impact</p>
+    <div class="service-stat-grid">
+      <article class="service-stat">
+        <p class="service-stat__label">Volunteer Service（志愿服务）</p>
+        <p class="service-stat__value">213.4 hours</p>
+      </article>
+
+      <article class="service-stat">
+        <p class="service-stat__label">Social Practice（社会实践）</p>
+        <p class="service-stat__value">153 hours</p>
+      </article>
+
+      <article class="service-stat">
+        <p class="service-stat__label">Ligong Zengneng Learning Support Platform（立公增能辅学平台）</p>
+        <p class="service-stat__value">530 cumulative learning hours</p>
+      </article>
+    </div>
+  </div>
+
+  <div class="service-board__group">
+    <p class="service-board__label">Honors and Milestones</p>
+    <div class="service-timeline">
+      <article class="service-entry">
+        <span class="service-entry__date">2025.11</span>
+        <div class="service-entry__body">
+          <h3 class="service-entry__title">Outstanding Student Cadre（优秀学生干部）</h3>
+          <p class="service-entry__meta">Nankai University</p>
+        </div>
+      </article>
+
+      <article class="service-entry">
+        <span class="service-entry__date">2025.11</span>
+        <div class="service-entry__body">
+          <h3 class="service-entry__title">Outstanding Individual（优秀个人）</h3>
+          <p class="service-entry__meta">Nankai University "Teachers and Students Together in Four Aspects" Social Practice（南开大学“师生四同”社会实践）</p>
+        </div>
+      </article>
+
+      <article class="service-entry">
+        <span class="service-entry__date">2025.11</span>
+        <div class="service-entry__body">
+          <h3 class="service-entry__title">Outstanding Team（优秀团队）</h3>
+          <p class="service-entry__meta">Nankai University Summer Social Practice in Xiong'an New Area（南开大学雄安新区暑期社会实践）</p>
+        </div>
+      </article>
+
+      <article class="service-entry">
+        <span class="service-entry__date">2025.06</span>
+        <div class="service-entry__body">
+          <h3 class="service-entry__title">Outstanding Class Youth League Branch（优秀班级团支部）</h3>
+          <p class="service-entry__meta">Nankai University</p>
+        </div>
+      </article>
+
+      <article class="service-entry">
+        <span class="service-entry__date">2025.05</span>
+        <div class="service-entry__body">
+          <h3 class="service-entry__title">Leader of the May Fourth Red Flag Youth League Group（五四红旗团小组负责人）</h3>
+          <p class="service-entry__meta">Nankai University</p>
+        </div>
+      </article>
+
+      <article class="service-entry">
+        <span class="service-entry__date">2025.05</span>
+        <div class="service-entry__body">
+          <h3 class="service-entry__title">Official Advisor（正式顾问）</h3>
+          <p class="service-entry__meta">Nankai University Student Affairs Committee（南开大学学务会）</p>
+        </div>
+      </article>
+
+      <article class="service-entry">
+        <span class="service-entry__date">2024.11</span>
+        <div class="service-entry__body">
+          <h3 class="service-entry__title">Outstanding Student Cadre（优秀学生干部）</h3>
+          <p class="service-entry__meta">Nankai University</p>
+        </div>
+      </article>
+
+      <article class="service-entry">
+        <span class="service-entry__date">2024.09</span>
+        <div class="service-entry__body">
+          <h3 class="service-entry__title">Outstanding Deputy Platoon Leader（优秀排副）</h3>
+          <p class="service-entry__meta">Nankai University Military Training（南开大学军训）</p>
+        </div>
+      </article>
+
+      <article class="service-entry">
+        <span class="service-entry__date">2024.06</span>
+        <div class="service-entry__body">
+          <h3 class="service-entry__title">Outstanding Officer（优秀干事）</h3>
+          <p class="service-entry__meta">Organization Department of the Youth League Committee of Nankai University（南开大学校团委组织部）</p>
+        </div>
+      </article>
+
+      <article class="service-entry">
+        <span class="service-entry__date">2023.11</span>
+        <div class="service-entry__body">
+          <h3 class="service-entry__title">Participant（营员）</h3>
+          <p class="service-entry__meta">Phase III "Zhuoyu Program" Camp, Nankai University Student Union（南开大学学生会第三期“琢玉计划”）</p>
+          <p class="service-entry__note">Spoke as a representative at the commemoration of Premier Zhou Enlai's birthday（曾作为代表在周恩来总理诞辰纪念活动发言）</p>
+        </div>
+      </article>
+
+      <article class="service-entry">
+        <span class="service-entry__date">2023.10</span>
+        <div class="service-entry__body">
+          <h3 class="service-entry__title">Official Representative（正式代表）</h3>
+          <p class="service-entry__meta">Nankai University Student Congress（南开大学校学生代表大会）</p>
+        </div>
+      </article>
+
+      <article class="service-entry">
+        <span class="service-entry__date">2018.05</span>
+        <div class="service-entry__body">
+          <h3 class="service-entry__title">Dalian Merit Student（大连市三好学生）</h3>
+          <p class="service-entry__meta">Dalian（大连市）</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
 
 **🏆 Campus Ambassador（校园大使）**
 - 📣 **Campus Ambassador（校园大使）** for **EY（安永）**, **PwC（普华永道）**, and **ByteDance（字节跳动）**.
