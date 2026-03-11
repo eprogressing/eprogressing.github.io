@@ -28,8 +28,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 # 🔥 News
 <div class="news-board">
   <div class="news-board__header">
-    <p class="news-board__eyebrow">Recent Updates</p>
-    <h3 class="news-board__title">What I’m Building Outside the Classroom</h3>
+    <p class="news-board__eyebrow">Latest</p>
   </div>
 
   <div class="news-board__content">
