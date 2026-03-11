@@ -1101,157 +1101,51 @@ h1:before, .anchor:before {
 }
 
 .scholarship-board {
-    position: relative;
-    overflow: hidden;
-    margin: 0.86rem 0 1.18rem;
-    padding: 0.92rem 0.94rem 0.96rem;
-    border: 1px solid #ead7db;
-    border-radius: 18px;
+    border-color: #ead7db;
     background:
         linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0) 24%),
         linear-gradient(180deg, #f8eff1 0%, #f5e9ec 100%);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72), 0 10px 24px rgba(15, 23, 42, 0.04);
 }
 
 .scholarship-board::before {
-    content: "";
-    position: absolute;
-    left: 0.94rem;
-    right: 0.94rem;
-    top: 0;
-    height: 2px;
-    border-radius: 999px;
     background: linear-gradient(90deg, #a44b5f 0%, rgba(164, 75, 95, 0.14) 68%, rgba(164, 75, 95, 0) 100%);
-    pointer-events: none;
 }
 
-.scholarship-board__intro {
-    position: relative;
-    margin-bottom: 0.82rem;
-    padding-bottom: 0.68rem;
-    border-bottom: 1px solid rgba(125, 65, 78, 0.12);
-}
-
-.scholarship-board__eyebrow {
-    margin: 0;
-    font-size: 0.74rem;
-    font-weight: 800;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
+.scholarship-board .award-board__eyebrow {
     color: #a44b5f;
 }
 
-.scholarship-year-section + .scholarship-year-section {
-    margin-top: 0.98rem;
-}
-
-.scholarship-year-section__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0.75rem;
-    margin-bottom: 0.52rem;
-}
-
-.scholarship-year-section__title {
-    margin: 0;
-    font-size: 0.76rem;
-    font-weight: 800;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
+.scholarship-board .award-year-section__title {
     color: #6b3d47;
 }
 
-.scholarship-year-section__meta {
-    margin: 0;
-    padding: 0.14rem 0.48rem;
-    border-radius: 999px;
-    border: 1px solid rgba(164, 75, 95, 0.14);
+.scholarship-board .award-year-section__meta {
+    border-color: rgba(164, 75, 95, 0.14);
     background: rgba(255, 255, 255, 0.68);
-    font-size: 0.72rem;
-    font-weight: 700;
-    line-height: 1.2;
     color: #8a5561;
 }
 
-.scholarship-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(238px, 1fr));
-    gap: 0.62rem;
+.scholarship-board .award-card {
+    border-color: rgba(164, 75, 95, 0.14);
 }
 
-.scholarship-card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 0.42rem;
-    min-width: 0;
-    padding: 0.72rem 0.76rem 0.74rem;
-    border: 1px solid rgba(164, 75, 95, 0.14);
-    border-radius: 12px;
-    background: rgba(255, 255, 255, 0.92);
-    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.02);
-}
-
-.scholarship-card::before {
-    content: "";
-    position: absolute;
-    left: 0.76rem;
-    right: 0.76rem;
-    top: 0;
-    height: 2px;
-    border-radius: 999px;
+.scholarship-board .award-card::before {
     background: linear-gradient(90deg, rgba(164, 75, 95, 0.88) 0%, rgba(164, 75, 95, 0.18) 100%);
 }
 
-.scholarship-card__top {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 0.45rem 0.55rem;
-}
-
-.scholarship-card__date {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.14rem 0.48rem;
-    border-radius: 999px;
-    border: 1px solid rgba(164, 75, 95, 0.12);
+.scholarship-board .award-card__date {
+    border-color: rgba(164, 75, 95, 0.12);
     background: rgba(252, 244, 246, 0.96);
     color: #8a5561;
-    font-size: 0.7rem;
-    font-weight: 800;
-    line-height: 1.2;
-    white-space: nowrap;
 }
 
-.scholarship-card__amount {
-    display: inline-flex;
-    align-items: center;
-    max-width: 100%;
-    padding: 0.16rem 0.52rem;
-    border-radius: 999px;
-    border: 1px solid rgba(164, 75, 95, 0.14);
+.scholarship-board .award-card__result {
+    border-color: rgba(164, 75, 95, 0.14);
     background: rgba(247, 228, 233, 0.98);
     color: #8f3f51;
-    font-size: 0.71rem;
-    font-weight: 800;
-    line-height: 1.28;
 }
 
-.scholarship-card__name {
-    margin: 0;
-    font-size: 0.91rem;
-    font-weight: 800;
-    line-height: 1.42;
-    color: #111827;
-}
-
-.scholarship-card__subtitle {
-    margin: 0;
-    font-size: 0.8rem;
-    line-height: 1.4;
+.scholarship-board .award-card__subtitle {
     color: #7a6067;
 }
 
@@ -1589,28 +1483,6 @@ h1:before, .anchor:before {
     }
 
     .award-card__subtitle {
-        font-size: 0.78rem;
-    }
-
-    .scholarship-board {
-        margin-bottom: 1.08rem;
-        padding: 0.84rem 0.76rem 0.8rem;
-    }
-
-    .scholarship-grid {
-        grid-template-columns: 1fr;
-        gap: 0.58rem;
-    }
-
-    .scholarship-card {
-        padding: 0.68rem 0.7rem 0.7rem;
-    }
-
-    .scholarship-card__name {
-        font-size: 0.88rem;
-    }
-
-    .scholarship-card__subtitle {
         font-size: 0.78rem;
     }
 

@@ -29,7 +29,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📝 Publications 
+# 📝 Projects
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -356,59 +356,59 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 </div>
 
 # 🏅 Scholarships
-<div class="scholarship-board">
-  <div class="scholarship-board__intro">
-    <p class="scholarship-board__eyebrow">🏅 Scholarships（奖学金）</p>
+<div class="award-board scholarship-board">
+  <div class="award-board__intro">
+    <p class="award-board__eyebrow">🏅 Scholarships（奖学金）</p>
   </div>
 
-  <section class="scholarship-year-section">
-    <div class="scholarship-year-section__header">
-      <h4 class="scholarship-year-section__title">2025</h4>
-      <p class="scholarship-year-section__meta">2 scholarships</p>
+  <section class="award-year-section">
+    <div class="award-year-section__header">
+      <h4 class="award-year-section__title">2025</h4>
+      <p class="award-year-section__meta">2 scholarships</p>
     </div>
-    <div class="scholarship-grid">
-      <article class="scholarship-card">
-        <div class="scholarship-card__top">
-          <span class="scholarship-card__date">2025.11</span>
-          <span class="scholarship-card__amount">CNY 2,000</span>
+    <div class="award-grid">
+      <article class="award-card scholarship-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.11</span>
+          <span class="award-card__result scholarship-card__amount">CNY 2,000</span>
         </div>
-        <h5 class="scholarship-card__name">Academic Progress Scholarship（学业进步奖学金）</h5>
-        <p class="scholarship-card__subtitle">Nankai University</p>
+        <h5 class="award-card__name">Academic Progress Scholarship（学业进步奖学金）</h5>
+        <p class="award-card__subtitle">Nankai University</p>
       </article>
 
-      <article class="scholarship-card">
-        <div class="scholarship-card__top">
-          <span class="scholarship-card__date">2025.11</span>
-          <span class="scholarship-card__amount">CNY 2,000</span>
+      <article class="award-card scholarship-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.11</span>
+          <span class="award-card__result scholarship-card__amount">CNY 2,000</span>
         </div>
-        <h5 class="scholarship-card__name">Student Service Scholarship（学生服务奖学金）</h5>
-        <p class="scholarship-card__subtitle">Nankai University</p>
+        <h5 class="award-card__name">Student Service Scholarship（学生服务奖学金）</h5>
+        <p class="award-card__subtitle">Nankai University</p>
       </article>
     </div>
   </section>
 
-  <section class="scholarship-year-section">
-    <div class="scholarship-year-section__header">
-      <h4 class="scholarship-year-section__title">2024</h4>
-      <p class="scholarship-year-section__meta">2 scholarships</p>
+  <section class="award-year-section">
+    <div class="award-year-section__header">
+      <h4 class="award-year-section__title">2024</h4>
+      <p class="award-year-section__meta">2 scholarships</p>
     </div>
-    <div class="scholarship-grid">
-      <article class="scholarship-card">
-        <div class="scholarship-card__top">
-          <span class="scholarship-card__date">2024.11</span>
-          <span class="scholarship-card__amount">CNY 2,000</span>
+    <div class="award-grid">
+      <article class="award-card scholarship-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2024.11</span>
+          <span class="award-card__result scholarship-card__amount">CNY 2,000</span>
         </div>
-        <h5 class="scholarship-card__name">Social Welfare Scholarship（社会公益奖学金）</h5>
-        <p class="scholarship-card__subtitle">Nankai University</p>
+        <h5 class="award-card__name">Social Welfare Scholarship（社会公益奖学金）</h5>
+        <p class="award-card__subtitle">Nankai University</p>
       </article>
 
-      <article class="scholarship-card">
-        <div class="scholarship-card__top">
-          <span class="scholarship-card__date">2024.11</span>
-          <span class="scholarship-card__amount">CNY 2,000</span>
+      <article class="award-card scholarship-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2024.11</span>
+          <span class="award-card__result scholarship-card__amount">CNY 2,000</span>
         </div>
-        <h5 class="scholarship-card__name">Student Service Scholarship（学生服务奖学金）</h5>
-        <p class="scholarship-card__subtitle">Nankai University</p>
+        <h5 class="award-card__name">Student Service Scholarship（学生服务奖学金）</h5>
+        <p class="award-card__subtitle">Nankai University</p>
       </article>
     </div>
   </section>
