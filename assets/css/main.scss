@@ -1009,6 +1009,12 @@ h1:before, .anchor:before {
     gap: 0.34rem;
 }
 
+.service-honor-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.34rem 0.7rem;
+}
+
 .service-item {
     display: grid;
     grid-template-columns: 108px minmax(0, 1fr);
@@ -1019,6 +1025,11 @@ h1:before, .anchor:before {
 }
 
 .service-list > .service-item:first-child {
+    padding-top: 0;
+    border-top: 0;
+}
+
+.service-honor-grid > .service-item:nth-child(-n + 2) {
     padding-top: 0;
     border-top: 0;
 }
@@ -1087,24 +1098,6 @@ h1:before, .anchor:before {
     color: #0f766e;
     font-size: 0.77rem;
     font-weight: 800;
-}
-
-.service-year-list {
-    display: grid;
-    gap: 0.56rem;
-}
-
-.service-year-section {
-    padding-top: 0.02rem;
-}
-
-.service-year-section__title {
-    margin: 0 0 0.28rem;
-    font-size: 0.64rem;
-    font-weight: 800;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #0f766e;
 }
 
 .arts-athletics-grid {
@@ -1400,6 +1393,16 @@ h1:before, .anchor:before {
     .service-item {
         grid-template-columns: 1fr;
         gap: 0.14rem;
+    }
+
+    .service-honor-grid {
+        grid-template-columns: 1fr;
+        gap: 0.34rem;
+    }
+
+    .service-honor-grid > .service-item:nth-child(2) {
+        padding-top: 0.34rem;
+        border-top: 1px dashed rgba(15, 118, 110, 0.1);
     }
 
     .service-item__date {

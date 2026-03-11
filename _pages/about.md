@@ -224,11 +224,11 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <span class="service-item__date">2023.09-Present</span>
         <div class="service-item__body">
           <p class="service-item__title">Class Monitor and Deputy Secretary of the Youth League Branch（班长兼副团支书）</p>
-          <p class="service-item__meta">School of Computer Science, Nankai University（南开大学计算机学院）</p>
+          <p class="service-item__meta">School of Computer Science（南开大学计算机学院）</p>
         </div>
       </article>
     </div>
-    <p class="service-inline-note"><strong>Campus Ambassador（校园大使）:</strong> EY（安永）, PwC（普华永道）, and ByteDance（字节跳动）</p>
+    <p class="service-inline-note"><strong>Campus Ambassador（校园大使）:</strong> EY（安永）, PwC（普华永道）, ByteDance（字节跳动）, and Meituan（美团）</p>
   </div>
 
   <div class="service-board__group">
@@ -242,121 +242,97 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 
   <div class="service-board__group">
     <p class="service-board__label">Honors</p>
-    <div class="service-year-list">
-      <section class="service-year-section">
-        <h3 class="service-year-section__title">2025</h3>
-        <div class="service-list">
-          <article class="service-item">
-            <span class="service-item__date">2025.11</span>
-            <div class="service-item__body">
-              <p class="service-item__title">Outstanding Student Cadre（优秀学生干部）</p>
-              <p class="service-item__meta">Nankai University</p>
-            </div>
-          </article>
-
-          <article class="service-item">
-            <span class="service-item__date">2025.11</span>
-            <div class="service-item__body">
-              <p class="service-item__title">Outstanding Individual（优秀个人）</p>
-              <p class="service-item__meta">Nankai "Teachers and Students Together in Four Aspects" Social Practice（南开大学“师生四同”社会实践）</p>
-            </div>
-          </article>
-
-          <article class="service-item">
-            <span class="service-item__date">2025.11</span>
-            <div class="service-item__body">
-              <p class="service-item__title">Outstanding Team（优秀团队）</p>
-              <p class="service-item__meta">Nankai Xiong'an Summer Social Practice（南开大学雄安新区暑期社会实践）</p>
-            </div>
-          </article>
-
-          <article class="service-item">
-            <span class="service-item__date">2025.06</span>
-            <div class="service-item__body">
-              <p class="service-item__title">Outstanding Class Youth League Branch（优秀班级团支部）</p>
-              <p class="service-item__meta">Nankai University</p>
-            </div>
-          </article>
-
-          <article class="service-item">
-            <span class="service-item__date">2025.05</span>
-            <div class="service-item__body">
-              <p class="service-item__title">Leader of the May Fourth Red Flag Youth League Group（五四红旗团小组负责人）</p>
-              <p class="service-item__meta">Nankai University</p>
-            </div>
-          </article>
-
-          <article class="service-item">
-            <span class="service-item__date">2025.05</span>
-            <div class="service-item__body">
-              <p class="service-item__title">Official Advisor（正式顾问）</p>
-              <p class="service-item__meta">Nankai Student Affairs Committee（南开大学学务会）</p>
-            </div>
-          </article>
+    <div class="service-honor-grid">
+      <article class="service-item">
+        <span class="service-item__date">2025.11</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Outstanding Student Cadre（优秀学生干部）</p>
         </div>
-      </section>
+      </article>
 
-      <section class="service-year-section">
-        <h3 class="service-year-section__title">2024</h3>
-        <div class="service-list">
-          <article class="service-item">
-            <span class="service-item__date">2024.11</span>
-            <div class="service-item__body">
-              <p class="service-item__title">Outstanding Student Cadre（优秀学生干部）</p>
-              <p class="service-item__meta">Nankai University</p>
-            </div>
-          </article>
-
-          <article class="service-item">
-            <span class="service-item__date">2024.09</span>
-            <div class="service-item__body">
-              <p class="service-item__title">Outstanding Deputy Platoon Leader（优秀排副）</p>
-              <p class="service-item__meta">Nankai University Military Training（南开大学军训）</p>
-            </div>
-          </article>
-
-          <article class="service-item">
-            <span class="service-item__date">2024.06</span>
-            <div class="service-item__body">
-              <p class="service-item__title">Outstanding Officer（优秀干事）</p>
-              <p class="service-item__meta">Nankai University CYL Organization Dept.（南开大学校团委组织部）</p>
-            </div>
-          </article>
+      <article class="service-item">
+        <span class="service-item__date">2025.11</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Outstanding Individual（优秀个人）</p>
+          <p class="service-item__meta">Nankai "Teachers and Students Together in Four Aspects" Social Practice（南开大学“师生四同”社会实践）</p>
         </div>
-      </section>
+      </article>
 
-      <section class="service-year-section">
-        <h3 class="service-year-section__title">2023</h3>
-        <div class="service-list">
-          <article class="service-item">
-            <span class="service-item__date">2023.11</span>
-            <div class="service-item__body">
-              <p class="service-item__title">Participant（营员）</p>
-              <p class="service-item__meta">Phase III "Zhuoyu Program", Nankai Student Union（南开大学学生会第三期“琢玉计划”）; representative speech at the commemoration of Premier Zhou Enlai's birthday（周恩来总理诞辰纪念活动代表发言）</p>
-            </div>
-          </article>
-
-          <article class="service-item">
-            <span class="service-item__date">2023.10</span>
-            <div class="service-item__body">
-              <p class="service-item__title">Official Representative（正式代表）</p>
-              <p class="service-item__meta">Nankai University Student Congress（南开大学校学生代表大会）</p>
-            </div>
-          </article>
+      <article class="service-item">
+        <span class="service-item__date">2025.11</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Outstanding Team（优秀团队）</p>
+          <p class="service-item__meta">Nankai Xiong'an Summer Social Practice（南开大学雄安新区暑期社会实践）</p>
         </div>
-      </section>
+      </article>
 
-      <section class="service-year-section">
-        <h3 class="service-year-section__title">2018</h3>
-        <div class="service-list">
-          <article class="service-item">
-            <span class="service-item__date">2018.05</span>
-            <div class="service-item__body">
-              <p class="service-item__title">Dalian Merit Student（大连市三好学生）</p>
-            </div>
-          </article>
+      <article class="service-item">
+        <span class="service-item__date">2025.06</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Outstanding Class Youth League Branch（优秀班级团支部）</p>
         </div>
-      </section>
+      </article>
+
+      <article class="service-item">
+        <span class="service-item__date">2025.05</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Leader of the May Fourth Red Flag Youth League Group（五四红旗团小组负责人）</p>
+        </div>
+      </article>
+
+      <article class="service-item">
+        <span class="service-item__date">2025.05</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Official Advisor（正式顾问）</p>
+          <p class="service-item__meta">Nankai Student Affairs Committee（南开大学学务会）</p>
+        </div>
+      </article>
+
+      <article class="service-item">
+        <span class="service-item__date">2024.11</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Outstanding Student Cadre（优秀学生干部）</p>
+        </div>
+      </article>
+
+      <article class="service-item">
+        <span class="service-item__date">2024.09</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Outstanding Deputy Platoon Leader（优秀排副）</p>
+          <p class="service-item__meta">Nankai University Military Training（南开大学军训）</p>
+        </div>
+      </article>
+
+      <article class="service-item">
+        <span class="service-item__date">2024.06</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Outstanding Officer（优秀干事）</p>
+          <p class="service-item__meta">Nankai University CYL Organization Dept.（南开大学校团委组织部）</p>
+        </div>
+      </article>
+
+      <article class="service-item">
+        <span class="service-item__date">2023.11</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Participant（营员）</p>
+          <p class="service-item__meta">Phase III "Zhuoyu Program"（南开大学学生会第三期“琢玉计划”）; representative speech at Zhou Enlai birthday commemoration（周恩来总理诞辰纪念活动代表发言）</p>
+        </div>
+      </article>
+
+      <article class="service-item">
+        <span class="service-item__date">2023.10</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Official Representative（正式代表）</p>
+          <p class="service-item__meta">Nankai University Student Congress（南开大学校学生代表大会）</p>
+        </div>
+      </article>
+
+      <article class="service-item">
+        <span class="service-item__date">2018.05</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Dalian Merit Student（大连市三好学生）</p>
+        </div>
+      </article>
     </div>
   </div>
 
