@@ -202,9 +202,9 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
   </div>
 
   <div class="service-board__group">
-    <p class="service-board__label">Leadership Roles</p>
+    <p class="service-board__label">Roles and Outreach</p>
     <div class="service-highlight-grid">
-      <article class="service-highlight service-highlight--primary">
+      <article class="service-highlight">
         <div class="service-highlight__top">
           <span class="service-highlight__date">2023.09-Present</span>
           <span class="service-highlight__tag">Ongoing Role</span>
@@ -230,11 +230,19 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <h3 class="service-highlight__title">Student Assistant（学生助理）</h3>
         <p class="service-highlight__subtitle">Office of the Youth League Committee, School of Computer Science and College of Cryptography and Cyberspace Security, Nankai University（南开大学计算机学院和密码与网络空间安全学院团委办公室）</p>
       </article>
+
+      <article class="service-highlight">
+        <div class="service-highlight__top">
+          <span class="service-highlight__tag">Campus Ambassador</span>
+        </div>
+        <h3 class="service-highlight__title">Campus Ambassador（校园大使）</h3>
+        <p class="service-highlight__subtitle">EY（安永）, PwC（普华永道）, and ByteDance（字节跳动）</p>
+      </article>
     </div>
   </div>
 
   <div class="service-board__group">
-    <p class="service-board__label">Service Footprint</p>
+    <p class="service-board__label">Service Hours</p>
     <div class="service-metric-grid">
       <article class="service-metric-card">
         <p class="service-metric-card__label">Volunteer Service（志愿服务）</p>
@@ -259,7 +267,6 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <section class="service-year-section">
         <div class="service-year-section__header">
           <h3 class="service-year-section__title">2025</h3>
-          <p class="service-year-section__meta">6 highlights</p>
         </div>
         <div class="service-milestone-grid">
           <article class="service-milestone">
@@ -321,7 +328,6 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <section class="service-year-section">
         <div class="service-year-section__header">
           <h3 class="service-year-section__title">2024</h3>
-          <p class="service-year-section__meta">3 highlights</p>
         </div>
         <div class="service-milestone-grid">
           <article class="service-milestone">
@@ -356,7 +362,6 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <section class="service-year-section">
         <div class="service-year-section__header">
           <h3 class="service-year-section__title">2023</h3>
-          <p class="service-year-section__meta">2 highlights</p>
         </div>
         <div class="service-milestone-grid">
           <article class="service-milestone">
@@ -383,7 +388,6 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <section class="service-year-section">
         <div class="service-year-section__header">
           <h3 class="service-year-section__title">2018</h3>
-          <p class="service-year-section__meta">1 highlight</p>
         </div>
         <div class="service-milestone-grid">
           <article class="service-milestone">
@@ -399,18 +403,6 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     </div>
   </div>
 
-  <div class="service-board__group">
-    <p class="service-board__label">Industry Outreach</p>
-    <div class="service-highlight-grid service-highlight-grid--single">
-      <article class="service-highlight">
-        <div class="service-highlight__top">
-          <span class="service-highlight__tag">Campus Ambassador</span>
-        </div>
-        <h3 class="service-highlight__title">Campus Ambassador（校园大使）</h3>
-        <p class="service-highlight__subtitle">EY（安永）, PwC（普华永道）, and ByteDance（字节跳动）</p>
-      </article>
-    </div>
-  </div>
 </div>
 
 # 🏅 Scholarships
