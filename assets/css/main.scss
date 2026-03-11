@@ -199,12 +199,19 @@
 
 .news-gallery__image {
     display: block;
-    width: 100%;
+    width: auto;
     height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
     object-position: center;
     border-radius: 9px;
     background: #ffffff;
+}
+
+.news-gallery__shot > .news-gallery__image {
+    object-fit: contain !important;
+    object-position: center !important;
 }
 
 .news-feature__stats {
