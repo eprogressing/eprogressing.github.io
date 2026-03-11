@@ -26,8 +26,8 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.03*: Education content creator on Xiaohongshu, focused on freely sharing study resources and notes to help tens of thousands of students overcome learning challenges; proficient in content creation and layout design with tools such as Canva and Xiumi. My Xiaohongshu account has 5,400+ followers, 2M+ total views, and 129k+ combined likes and saves, with a continued focus on public-interest knowledge sharing.
+- *2026.03*: Currently preparing and recording computer science course content to further expand student-oriented educational sharing.
 
 # 📝 Projects
 
