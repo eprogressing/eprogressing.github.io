@@ -202,7 +202,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
   </div>
 
   <div class="service-board__group">
-    <p class="service-board__label">Current Roles</p>
+    <p class="service-board__label">Leadership Roles</p>
     <div class="service-highlight-grid">
       <article class="service-highlight service-highlight--primary">
         <div class="service-highlight__top">
@@ -234,7 +234,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
   </div>
 
   <div class="service-board__group">
-    <p class="service-board__label">Service Impact</p>
+    <p class="service-board__label">Service Footprint</p>
     <div class="service-metric-grid">
       <article class="service-metric-card">
         <p class="service-metric-card__label">Volunteer Service（志愿服务）</p>
@@ -398,10 +398,20 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       </section>
     </div>
   </div>
-</div>
 
-**🏆 Campus Ambassador（校园大使）**
-- 📣 **Campus Ambassador（校园大使）** for **EY（安永）**, **PwC（普华永道）**, and **ByteDance（字节跳动）**.
+  <div class="service-board__group">
+    <p class="service-board__label">Industry Outreach</p>
+    <div class="service-highlight-grid service-highlight-grid--single">
+      <article class="service-highlight">
+        <div class="service-highlight__top">
+          <span class="service-highlight__tag">Campus Ambassador</span>
+        </div>
+        <h3 class="service-highlight__title">Campus Ambassador（校园大使）</h3>
+        <p class="service-highlight__subtitle">EY（安永）, PwC（普华永道）, and ByteDance（字节跳动）</p>
+      </article>
+    </div>
+  </div>
+</div>
 
 # 🏅 Scholarships
 - *2025.11*: 🎓 **Academic Progress Scholarship（学业进步奖学金）**, Nankai University (CNY 2,000).
