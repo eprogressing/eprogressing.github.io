@@ -202,201 +202,158 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
   </div>
 
   <div class="service-board__group">
-    <p class="service-board__label">Roles and Outreach</p>
-    <div class="service-highlight-grid">
-      <article class="service-highlight">
-        <div class="service-highlight__top">
-          <span class="service-highlight__date">2023.09-Present</span>
-          <span class="service-highlight__tag">Ongoing Role</span>
+    <p class="service-board__label">Positions</p>
+    <div class="service-list">
+      <article class="service-item">
+        <span class="service-item__date">2025.09-2026.01</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Teaching Assistant（课程助教）</p>
+          <p class="service-item__meta">Computer Hardware Fundamentals（计算机硬件基础课程）</p>
         </div>
-        <h3 class="service-highlight__title">Class Monitor and Deputy Secretary of the Youth League Branch（班长兼副团支书）</h3>
-        <p class="service-highlight__subtitle">School of Computer Science, Nankai University（南开大学计算机学院）</p>
       </article>
 
-      <article class="service-highlight">
-        <div class="service-highlight__top">
-          <span class="service-highlight__date">2025.09-2026.01</span>
-          <span class="service-highlight__tag">Academic Support</span>
+      <article class="service-item">
+        <span class="service-item__date">2025.09-2026.01</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Student Assistant（学生助理）</p>
+          <p class="service-item__meta">Youth League Committee Office（团委办公室）</p>
         </div>
-        <h3 class="service-highlight__title">Teaching Assistant（课程助教）</h3>
-        <p class="service-highlight__subtitle">Fundamentals of Computer Hardware, Nankai University（计算机硬件基础课程）</p>
       </article>
 
-      <article class="service-highlight">
-        <div class="service-highlight__top">
-          <span class="service-highlight__date">2025.09-2026.01</span>
-          <span class="service-highlight__tag">Student Affairs</span>
+      <article class="service-item">
+        <span class="service-item__date">2023.09-Present</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Class Monitor and Deputy Secretary of the Youth League Branch（班长兼副团支书）</p>
+          <p class="service-item__meta">School of Computer Science, Nankai University（南开大学计算机学院）</p>
         </div>
-        <h3 class="service-highlight__title">Student Assistant（学生助理）</h3>
-        <p class="service-highlight__subtitle">Office of the Youth League Committee, School of Computer Science and College of Cryptography and Cyberspace Security, Nankai University（南开大学计算机学院和密码与网络空间安全学院团委办公室）</p>
-      </article>
-
-      <article class="service-highlight">
-        <div class="service-highlight__top">
-          <span class="service-highlight__tag">Campus Ambassador</span>
-        </div>
-        <h3 class="service-highlight__title">Campus Ambassador（校园大使）</h3>
-        <p class="service-highlight__subtitle">EY（安永）, PwC（普华永道）, and ByteDance（字节跳动）</p>
       </article>
     </div>
+    <p class="service-inline-note"><strong>Campus Ambassador（校园大使）:</strong> EY（安永）, PwC（普华永道）, and ByteDance（字节跳动）</p>
   </div>
 
   <div class="service-board__group">
     <p class="service-board__label">Service Hours</p>
-    <div class="service-metric-grid">
-      <article class="service-metric-card">
-        <p class="service-metric-card__label">Volunteer Service（志愿服务）</p>
-        <p class="service-metric-card__value">213.4 hours</p>
-      </article>
-
-      <article class="service-metric-card">
-        <p class="service-metric-card__label">Social Practice（社会实践）</p>
-        <p class="service-metric-card__value">153 hours</p>
-      </article>
-
-      <article class="service-metric-card">
-        <p class="service-metric-card__label">Ligong Zengneng Learning Support Platform（立公增能辅学平台）</p>
-        <p class="service-metric-card__value">530 cumulative learning hours</p>
-      </article>
+    <div class="service-stat-strip">
+      <span class="service-chip"><strong>213.4h</strong> Volunteer Service（志愿服务）</span>
+      <span class="service-chip"><strong>153h</strong> Social Practice（社会实践）</span>
+      <span class="service-chip"><strong>530h</strong> Ligong Zengneng Learning Support Platform（立公增能辅学平台）</span>
     </div>
   </div>
 
   <div class="service-board__group">
-    <p class="service-board__label">Honors and Milestones</p>
+    <p class="service-board__label">Honors</p>
     <div class="service-year-list">
       <section class="service-year-section">
-        <div class="service-year-section__header">
-          <h3 class="service-year-section__title">2025</h3>
-        </div>
-        <div class="service-milestone-grid">
-          <article class="service-milestone">
-            <div class="service-milestone__top">
-              <span class="service-milestone__date">2025.11</span>
-              <span class="service-milestone__badge">Honor</span>
+        <h3 class="service-year-section__title">2025</h3>
+        <div class="service-list">
+          <article class="service-item">
+            <span class="service-item__date">2025.11</span>
+            <div class="service-item__body">
+              <p class="service-item__title">Outstanding Student Cadre（优秀学生干部）</p>
+              <p class="service-item__meta">Nankai University</p>
             </div>
-            <h4 class="service-milestone__title">Outstanding Student Cadre（优秀学生干部）</h4>
-            <p class="service-milestone__meta">Nankai University</p>
           </article>
 
-          <article class="service-milestone">
-            <div class="service-milestone__top">
-              <span class="service-milestone__date">2025.11</span>
-              <span class="service-milestone__badge">Social Practice</span>
+          <article class="service-item">
+            <span class="service-item__date">2025.11</span>
+            <div class="service-item__body">
+              <p class="service-item__title">Outstanding Individual（优秀个人）</p>
+              <p class="service-item__meta">Nankai "Teachers and Students Together in Four Aspects" Social Practice（南开大学“师生四同”社会实践）</p>
             </div>
-            <h4 class="service-milestone__title">Outstanding Individual（优秀个人）</h4>
-            <p class="service-milestone__meta">Nankai University "Teachers and Students Together in Four Aspects" Social Practice（南开大学“师生四同”社会实践）</p>
           </article>
 
-          <article class="service-milestone">
-            <div class="service-milestone__top">
-              <span class="service-milestone__date">2025.11</span>
-              <span class="service-milestone__badge">Social Practice</span>
+          <article class="service-item">
+            <span class="service-item__date">2025.11</span>
+            <div class="service-item__body">
+              <p class="service-item__title">Outstanding Team（优秀团队）</p>
+              <p class="service-item__meta">Nankai Xiong'an Summer Social Practice（南开大学雄安新区暑期社会实践）</p>
             </div>
-            <h4 class="service-milestone__title">Outstanding Team（优秀团队）</h4>
-            <p class="service-milestone__meta">Nankai University Summer Social Practice in Xiong'an New Area（南开大学雄安新区暑期社会实践）</p>
           </article>
 
-          <article class="service-milestone">
-            <div class="service-milestone__top">
-              <span class="service-milestone__date">2025.06</span>
-              <span class="service-milestone__badge">Collective Honor</span>
+          <article class="service-item">
+            <span class="service-item__date">2025.06</span>
+            <div class="service-item__body">
+              <p class="service-item__title">Outstanding Class Youth League Branch（优秀班级团支部）</p>
+              <p class="service-item__meta">Nankai University</p>
             </div>
-            <h4 class="service-milestone__title">Outstanding Class Youth League Branch（优秀班级团支部）</h4>
-            <p class="service-milestone__meta">Nankai University</p>
           </article>
 
-          <article class="service-milestone">
-            <div class="service-milestone__top">
-              <span class="service-milestone__date">2025.05</span>
-              <span class="service-milestone__badge">Leadership</span>
+          <article class="service-item">
+            <span class="service-item__date">2025.05</span>
+            <div class="service-item__body">
+              <p class="service-item__title">Leader of the May Fourth Red Flag Youth League Group（五四红旗团小组负责人）</p>
+              <p class="service-item__meta">Nankai University</p>
             </div>
-            <h4 class="service-milestone__title">Leader of the May Fourth Red Flag Youth League Group（五四红旗团小组负责人）</h4>
-            <p class="service-milestone__meta">Nankai University</p>
           </article>
 
-          <article class="service-milestone">
-            <div class="service-milestone__top">
-              <span class="service-milestone__date">2025.05</span>
-              <span class="service-milestone__badge">Student Affairs</span>
+          <article class="service-item">
+            <span class="service-item__date">2025.05</span>
+            <div class="service-item__body">
+              <p class="service-item__title">Official Advisor（正式顾问）</p>
+              <p class="service-item__meta">Nankai Student Affairs Committee（南开大学学务会）</p>
             </div>
-            <h4 class="service-milestone__title">Official Advisor（正式顾问）</h4>
-            <p class="service-milestone__meta">Nankai University Student Affairs Committee（南开大学学务会）</p>
           </article>
         </div>
       </section>
 
       <section class="service-year-section">
-        <div class="service-year-section__header">
-          <h3 class="service-year-section__title">2024</h3>
-        </div>
-        <div class="service-milestone-grid">
-          <article class="service-milestone">
-            <div class="service-milestone__top">
-              <span class="service-milestone__date">2024.11</span>
-              <span class="service-milestone__badge">Honor</span>
+        <h3 class="service-year-section__title">2024</h3>
+        <div class="service-list">
+          <article class="service-item">
+            <span class="service-item__date">2024.11</span>
+            <div class="service-item__body">
+              <p class="service-item__title">Outstanding Student Cadre（优秀学生干部）</p>
+              <p class="service-item__meta">Nankai University</p>
             </div>
-            <h4 class="service-milestone__title">Outstanding Student Cadre（优秀学生干部）</h4>
-            <p class="service-milestone__meta">Nankai University</p>
           </article>
 
-          <article class="service-milestone">
-            <div class="service-milestone__top">
-              <span class="service-milestone__date">2024.09</span>
-              <span class="service-milestone__badge">Military Training</span>
+          <article class="service-item">
+            <span class="service-item__date">2024.09</span>
+            <div class="service-item__body">
+              <p class="service-item__title">Outstanding Deputy Platoon Leader（优秀排副）</p>
+              <p class="service-item__meta">Nankai University Military Training（南开大学军训）</p>
             </div>
-            <h4 class="service-milestone__title">Outstanding Deputy Platoon Leader（优秀排副）</h4>
-            <p class="service-milestone__meta">Nankai University Military Training（南开大学军训）</p>
           </article>
 
-          <article class="service-milestone">
-            <div class="service-milestone__top">
-              <span class="service-milestone__date">2024.06</span>
-              <span class="service-milestone__badge">Youth League</span>
+          <article class="service-item">
+            <span class="service-item__date">2024.06</span>
+            <div class="service-item__body">
+              <p class="service-item__title">Outstanding Officer（优秀干事）</p>
+              <p class="service-item__meta">Nankai University CYL Organization Dept.（南开大学校团委组织部）</p>
             </div>
-            <h4 class="service-milestone__title">Outstanding Officer（优秀干事）</h4>
-            <p class="service-milestone__meta">Organization Department of the Youth League Committee of Nankai University（南开大学校团委组织部）</p>
           </article>
         </div>
       </section>
 
       <section class="service-year-section">
-        <div class="service-year-section__header">
-          <h3 class="service-year-section__title">2023</h3>
-        </div>
-        <div class="service-milestone-grid">
-          <article class="service-milestone">
-            <div class="service-milestone__top">
-              <span class="service-milestone__date">2023.11</span>
-              <span class="service-milestone__badge">Program</span>
+        <h3 class="service-year-section__title">2023</h3>
+        <div class="service-list">
+          <article class="service-item">
+            <span class="service-item__date">2023.11</span>
+            <div class="service-item__body">
+              <p class="service-item__title">Participant（营员）</p>
+              <p class="service-item__meta">Phase III "Zhuoyu Program", Nankai Student Union（南开大学学生会第三期“琢玉计划”）; representative speech at the commemoration of Premier Zhou Enlai's birthday（周恩来总理诞辰纪念活动代表发言）</p>
             </div>
-            <h4 class="service-milestone__title">Participant（营员）</h4>
-            <p class="service-milestone__meta">Phase III "Zhuoyu Program" Camp, Nankai University Student Union（南开大学学生会第三期“琢玉计划”）</p>
-            <p class="service-milestone__note">Spoke as a representative at the commemoration of Premier Zhou Enlai's birthday（曾作为代表在周恩来总理诞辰纪念活动发言）</p>
           </article>
 
-          <article class="service-milestone">
-            <div class="service-milestone__top">
-              <span class="service-milestone__date">2023.10</span>
-              <span class="service-milestone__badge">Representation</span>
+          <article class="service-item">
+            <span class="service-item__date">2023.10</span>
+            <div class="service-item__body">
+              <p class="service-item__title">Official Representative（正式代表）</p>
+              <p class="service-item__meta">Nankai University Student Congress（南开大学校学生代表大会）</p>
             </div>
-            <h4 class="service-milestone__title">Official Representative（正式代表）</h4>
-            <p class="service-milestone__meta">Nankai University Student Congress（南开大学校学生代表大会）</p>
           </article>
         </div>
       </section>
 
       <section class="service-year-section">
-        <div class="service-year-section__header">
-          <h3 class="service-year-section__title">2018</h3>
-        </div>
-        <div class="service-milestone-grid">
-          <article class="service-milestone">
-            <div class="service-milestone__top">
-              <span class="service-milestone__date">2018.05</span>
-              <span class="service-milestone__badge">Honor</span>
+        <h3 class="service-year-section__title">2018</h3>
+        <div class="service-list">
+          <article class="service-item">
+            <span class="service-item__date">2018.05</span>
+            <div class="service-item__body">
+              <p class="service-item__title">Dalian Merit Student（大连市三好学生）</p>
             </div>
-            <h4 class="service-milestone__title">Dalian Merit Student（大连市三好学生）</h4>
-            <p class="service-milestone__meta">Dalian（大连市）</p>
           </article>
         </div>
       </section>
