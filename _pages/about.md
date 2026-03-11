@@ -26,8 +26,35 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 
 
 # 🔥 News
-- *2026.03*: Education content creator on Xiaohongshu, focused on freely sharing study resources and notes to help tens of thousands of students overcome learning challenges; proficient in content creation and layout design with tools such as Canva and Xiumi. My Xiaohongshu account has 5,400+ followers, 2M+ total views, and 129k+ combined likes and saves, with a continued focus on public-interest knowledge sharing.
-- *2026.03*: Currently preparing and recording computer science course content to further expand student-oriented educational sharing.
+<div class="news-board">
+  <div class="news-board__header">
+    <p class="news-board__eyebrow">Recent Updates</p>
+    <h3 class="news-board__title">What I’m Building Outside the Classroom</h3>
+  </div>
+
+  <div class="news-board__grid">
+    <article class="news-feature">
+      <div class="news-feature__top">
+        <span class="news-feature__date">2026.03</span>
+        <span class="news-feature__tag">Educational Outreach</span>
+      </div>
+      <h4 class="news-feature__headline">Educational content creator on Xiaohongshu</h4>
+      <p class="news-feature__body">I freely share study resources and notes to help tens of thousands of students overcome learning challenges, while producing and formatting content with tools such as Canva and Xiumi.</p>
+      <div class="news-feature__stats">
+        <span class="news-stat"><strong>5,400+</strong> followers</span>
+        <span class="news-stat"><strong>2M+</strong> total views</span>
+        <span class="news-stat"><strong>129k+</strong> likes and saves</span>
+      </div>
+      <p class="news-feature__foot">I aim to reach more learners through public-interest knowledge sharing.</p>
+    </article>
+
+    <article class="news-brief">
+      <span class="news-brief__date">2026.03</span>
+      <h4 class="news-brief__headline">Computer science course sharing in preparation</h4>
+      <p class="news-brief__body">I am currently preparing and recording computer science course content to further expand this student-oriented educational initiative.</p>
+    </article>
+  </div>
+</div>
 
 # 📝 Projects
 
