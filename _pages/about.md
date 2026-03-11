@@ -39,7 +39,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <span class="news-feature__tag">Educational Outreach</span>
       </div>
       <h4 class="news-feature__headline">Educational content creator on Xiaohongshu</h4>
-      <p class="news-feature__body">I freely share study resources and notes to help tens of thousands of students overcome learning challenges, while producing and formatting content with tools such as Canva and Xiumi.</p>
+      <p class="news-feature__body">I freely share study resources and notes to help tens of thousands of students overcome learning challenges, and I am now preparing and recording computer science course content, especially fast-track courses that help students build practical foundations efficiently.</p>
       <div class="news-feature__stats">
         <span class="news-stat"><strong>5,400+</strong> followers</span>
         <span class="news-stat"><strong>2M+</strong> total views</span>
@@ -48,10 +48,20 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <p class="news-feature__foot">I aim to reach more learners through public-interest knowledge sharing.</p>
     </article>
 
-    <article class="news-brief">
-      <span class="news-brief__date">2026.03</span>
-      <h4 class="news-brief__headline">Computer science course sharing in preparation</h4>
-      <p class="news-brief__body">I am currently preparing and recording computer science course content to further expand this student-oriented educational initiative.</p>
+    <article class="news-brief news-brief--visual">
+      <span class="news-brief__date">Visual Highlights</span>
+      <h4 class="news-brief__headline">Snapshots from my Xiaohongshu educational outreach</h4>
+      <div class="news-brief__deck" aria-label="Snapshots of Xiaohongshu educational content">
+        <figure class="news-brief__shot">
+          <img class="news-brief__image" src="{{ '/images/news/xiaohongshu-post-1.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 1">
+        </figure>
+        <figure class="news-brief__shot">
+          <img class="news-brief__image" src="{{ '/images/news/xiaohongshu-post-2.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 2">
+        </figure>
+        <figure class="news-brief__shot news-brief__shot--wide">
+          <img class="news-brief__image" src="{{ '/images/news/xiaohongshu-post-3.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 3">
+        </figure>
+      </div>
     </article>
   </div>
 </div>

@@ -45,12 +45,12 @@
     overflow: hidden;
     margin: 0.78rem 0 1.12rem;
     padding: 1rem 1.04rem 1.06rem;
-    border: 1px solid rgba(15, 23, 42, 0.12);
+    border: 1px solid rgba(180, 83, 9, 0.14);
     border-radius: 22px;
     background:
-        radial-gradient(120% 120% at 100% 0%, rgba(251, 191, 36, 0.16) 0%, rgba(251, 191, 36, 0) 40%),
-        linear-gradient(135deg, #0f172a 0%, #15233b 56%, #1f2f4e 100%);
-    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.14);
+        radial-gradient(120% 120% at 100% 0%, rgba(217, 119, 6, 0.12) 0%, rgba(217, 119, 6, 0) 42%),
+        linear-gradient(135deg, #fffdf8 0%, #fbf5ea 56%, #f5ede0 100%);
+    box-shadow: 0 14px 28px rgba(120, 53, 15, 0.08);
 }
 
 .news-board::before {
@@ -61,7 +61,7 @@
     top: 0;
     height: 2px;
     border-radius: 999px;
-    background: linear-gradient(90deg, rgba(251, 191, 36, 0.92) 0%, rgba(251, 191, 36, 0.18) 72%, rgba(251, 191, 36, 0) 100%);
+    background: linear-gradient(90deg, rgba(180, 83, 9, 0.88) 0%, rgba(180, 83, 9, 0.2) 72%, rgba(180, 83, 9, 0) 100%);
 }
 
 .news-board__header {
@@ -75,7 +75,7 @@
     font-weight: 800;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: #fbbf24;
+    color: #b45309;
 }
 
 .news-board__title {
@@ -83,7 +83,7 @@
     font-size: 1.18rem;
     line-height: 1.2;
     font-weight: 800;
-    color: #f8fafc;
+    color: #1f2937;
 }
 
 .news-board__grid {
@@ -96,10 +96,9 @@
 .news-brief {
     position: relative;
     min-width: 0;
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(148, 163, 184, 0.18);
     border-radius: 18px;
-    background: rgba(255, 255, 255, 0.06);
-    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.82);
 }
 
 .news-feature {
@@ -112,7 +111,11 @@
     justify-content: center;
     padding: 0.9rem 0.92rem;
     background:
-        linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.05) 100%);
+        linear-gradient(180deg, rgba(255, 251, 235, 0.95) 0%, rgba(255, 255, 255, 0.9) 100%);
+}
+
+.news-brief--visual {
+    gap: 0.48rem;
 }
 
 .news-feature__top {
@@ -130,9 +133,9 @@
     align-self: flex-start;
     padding: 0.14rem 0.46rem;
     border-radius: 999px;
-    border: 1px solid rgba(251, 191, 36, 0.18);
-    background: rgba(251, 191, 36, 0.12);
-    color: #fde68a;
+    border: 1px solid rgba(180, 83, 9, 0.16);
+    background: rgba(245, 158, 11, 0.12);
+    color: #92400e;
     font-size: 0.7rem;
     font-weight: 800;
     line-height: 1.2;
@@ -144,8 +147,8 @@
     padding: 0.14rem 0.48rem;
     border-radius: 999px;
     border: 1px solid rgba(148, 163, 184, 0.16);
-    background: rgba(255, 255, 255, 0.08);
-    color: #cbd5e1;
+    background: rgba(255, 255, 255, 0.88);
+    color: #64748b;
     font-size: 0.68rem;
     font-weight: 700;
     line-height: 1.2;
@@ -157,7 +160,7 @@
     font-size: 1rem;
     line-height: 1.3;
     font-weight: 800;
-    color: #f8fafc;
+    color: #111827;
 }
 
 .news-feature__body,
@@ -165,7 +168,38 @@
     margin: 0.38rem 0 0;
     font-size: 0.88rem;
     line-height: 1.58;
-    color: #d9e2f0;
+    color: #475569;
+}
+
+.news-brief__deck {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.42rem;
+    margin-top: 0.18rem;
+}
+
+.news-brief__shot {
+    margin: 0;
+    overflow: hidden;
+    aspect-ratio: 0.72 / 1;
+    border: 1px solid rgba(180, 83, 9, 0.14);
+    border-radius: 14px;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.94) 0%, rgba(253, 246, 232, 0.96) 100%);
+    box-shadow: 0 8px 18px rgba(120, 53, 15, 0.08);
+}
+
+.news-brief__shot--wide {
+    grid-column: 1 / -1;
+    aspect-ratio: 1.5 / 1;
+}
+
+.news-brief__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
 }
 
 .news-feature__stats {
@@ -181,15 +215,15 @@
     gap: 0.3rem;
     padding: 0.22rem 0.56rem;
     border-radius: 999px;
-    border: 1px solid rgba(148, 163, 184, 0.16);
-    background: rgba(255, 255, 255, 0.08);
-    color: #d9e2f0;
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    background: rgba(255, 255, 255, 0.88);
+    color: #475569;
     font-size: 0.73rem;
     line-height: 1.2;
 }
 
 .news-stat strong {
-    color: #f8fafc;
+    color: #92400e;
     font-size: 0.78rem;
     font-weight: 800;
 }
@@ -198,7 +232,7 @@
     margin: 0.7rem 0 0;
     font-size: 0.82rem;
     line-height: 1.48;
-    color: #cbd5e1;
+    color: #64748b;
 }
 
 .paper-box {
