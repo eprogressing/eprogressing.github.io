@@ -37,7 +37,7 @@ layout: compress
           <span class="page__footer-sep">·</span>
           <span>Template adapted from Yi Ren</span>
           <span class="page__footer-sep">·</span>
-          <span>Last modified: 2026-02-13</span>
+          <span>Last modified: {{ page.last_modified_at | default: site.time | date: "%Y-%m-%d" }}</span>
         </p>
       </footer>
     </div>
