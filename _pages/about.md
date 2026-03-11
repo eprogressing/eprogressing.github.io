@@ -356,10 +356,63 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 </div>
 
 # 🏅 Scholarships
-- *2025.11*: 🎓 **Academic Progress Scholarship（学业进步奖学金）**, Nankai University (CNY 2,000).
-- *2025.11*: 🎓 **Student Service Scholarship（学生服务奖学金）**, Nankai University (CNY 2,000).
-- *2024.11*: 🎓 **Social Welfare Scholarship（社会公益奖学金）**, Nankai University (CNY 2,000).
-- *2024.11*: 🎓 **Student Service Scholarship（学生服务奖学金）**, Nankai University (CNY 2,000).
+<div class="scholarship-board">
+  <div class="scholarship-board__intro">
+    <p class="scholarship-board__eyebrow">🏅 Scholarships（奖学金）</p>
+  </div>
+
+  <section class="scholarship-year-section">
+    <div class="scholarship-year-section__header">
+      <h4 class="scholarship-year-section__title">2025</h4>
+      <p class="scholarship-year-section__meta">2 scholarships</p>
+    </div>
+    <div class="scholarship-grid">
+      <article class="scholarship-card">
+        <div class="scholarship-card__top">
+          <span class="scholarship-card__date">2025.11</span>
+          <span class="scholarship-card__amount">CNY 2,000</span>
+        </div>
+        <h5 class="scholarship-card__name">Academic Progress Scholarship（学业进步奖学金）</h5>
+        <p class="scholarship-card__subtitle">Nankai University</p>
+      </article>
+
+      <article class="scholarship-card">
+        <div class="scholarship-card__top">
+          <span class="scholarship-card__date">2025.11</span>
+          <span class="scholarship-card__amount">CNY 2,000</span>
+        </div>
+        <h5 class="scholarship-card__name">Student Service Scholarship（学生服务奖学金）</h5>
+        <p class="scholarship-card__subtitle">Nankai University</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="scholarship-year-section">
+    <div class="scholarship-year-section__header">
+      <h4 class="scholarship-year-section__title">2024</h4>
+      <p class="scholarship-year-section__meta">2 scholarships</p>
+    </div>
+    <div class="scholarship-grid">
+      <article class="scholarship-card">
+        <div class="scholarship-card__top">
+          <span class="scholarship-card__date">2024.11</span>
+          <span class="scholarship-card__amount">CNY 2,000</span>
+        </div>
+        <h5 class="scholarship-card__name">Social Welfare Scholarship（社会公益奖学金）</h5>
+        <p class="scholarship-card__subtitle">Nankai University</p>
+      </article>
+
+      <article class="scholarship-card">
+        <div class="scholarship-card__top">
+          <span class="scholarship-card__date">2024.11</span>
+          <span class="scholarship-card__amount">CNY 2,000</span>
+        </div>
+        <h5 class="scholarship-card__name">Student Service Scholarship（学生服务奖学金）</h5>
+        <p class="scholarship-card__subtitle">Nankai University</p>
+      </article>
+    </div>
+  </section>
+</div>
 
 <span class='anchor' id='arts-athletics'></span>
 
