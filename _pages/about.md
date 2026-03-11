@@ -22,11 +22,14 @@ redirect_from:
 
 Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Brighton**. I’m from **Dalian, Liaoning, China**, currently a **junior undergraduate student** majoring in **Computer Science and Technology (计算机科学与技术)** at the [**School of Computer Science (计算机学院)**](https://cc.nankai.edu.cn/), [**Nankai University (南开大学)**](https://www.nankai.edu.cn/) <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" style="height: 1.1em; width: 1.1em; vertical-align: -0.15em; margin-left: 0.2em;">, and pursuing minors in [**Finance (金融学)**](https://finance.nankai.edu.cn/2024/0510/c34622a542022/page.htm) and **Criminal Law (刑法)**. Driven by curiosity, I like to step into real problems and keep exploring what I truly want to build and pursue. Feel free to reach out through the email and social links in the sidebar.
 
-**Research Interests:**
-
-- Parallel and distributed training for large language models and agentic systems
-- AI for education
-- Interdisciplinary research at the intersection of computing, finance, and law
+<div class="research-focus">
+  <p class="research-focus__title">Research Interests</p>
+  <div class="research-focus__grid">
+    <div class="research-focus__item">Parallel and distributed training for large language models and agentic systems</div>
+    <div class="research-focus__item">AI for education</div>
+    <div class="research-focus__item">Interdisciplinary research at the intersection of computing, finance, and law</div>
+  </div>
+</div>
 
 
 # 🔥 News
