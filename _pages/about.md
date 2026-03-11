@@ -194,6 +194,23 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       </article>
     </div>
   </section>
+
+  <section class="award-year-section">
+    <div class="award-year-section__header">
+      <h4 class="award-year-section__title">2020</h4>
+      <p class="award-year-section__meta">1 award</p>
+    </div>
+    <div class="award-grid">
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2020.06</span>
+          <span class="award-card__result">Provincial First Prize（省级一等奖）</span>
+        </div>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://www.zhyww.cn" target="_blank" rel="noopener noreferrer">22nd Yuwen Bao Cup National Middle School Student Themed Essay Campaign</a></h5>
+        <p class="award-card__subtitle">第二十二届“语文报杯”全国中学生主题征文行动</p>
+      </article>
+    </div>
+  </section>
 </div>
 
 <div class="service-board">
