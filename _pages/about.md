@@ -32,7 +32,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     <h3 class="news-board__title">What I’m Building Outside the Classroom</h3>
   </div>
 
-  <div class="news-board__grid">
+  <div class="news-board__content">
     <article class="news-feature">
       <div class="news-feature__top">
         <span class="news-feature__date">2026.03</span>
@@ -48,24 +48,26 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <p class="news-feature__foot">I aim to reach more learners through public-interest knowledge sharing.</p>
     </article>
 
-    <article class="news-brief news-brief--visual">
-      <span class="news-brief__date">Visual Highlights</span>
-      <h4 class="news-brief__headline">Recent snapshots from my Xiaohongshu educational outreach</h4>
-      <div class="news-brief__deck" aria-label="Snapshots of Xiaohongshu educational content">
-        <figure class="news-brief__shot">
-          <img class="news-brief__image" src="{{ '/images/news/xiaohongshu-post-1.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 1">
+    <section class="news-gallery" aria-label="Snapshots of Xiaohongshu educational content">
+      <div class="news-gallery__head">
+        <span class="news-gallery__label">Visual Highlights</span>
+        <p class="news-gallery__caption">Recent snapshots from my Xiaohongshu educational outreach</p>
+      </div>
+      <div class="news-gallery__grid">
+        <figure class="news-gallery__shot">
+          <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-1.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 1">
         </figure>
-        <figure class="news-brief__shot">
-          <img class="news-brief__image" src="{{ '/images/news/xiaohongshu-post-2.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 2">
+        <figure class="news-gallery__shot">
+          <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-2.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 2">
         </figure>
-        <figure class="news-brief__shot">
-          <img class="news-brief__image" src="{{ '/images/news/xiaohongshu-post-3.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 3">
+        <figure class="news-gallery__shot">
+          <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-3.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 3">
         </figure>
-        <figure class="news-brief__shot">
-          <img class="news-brief__image" src="{{ '/images/news/xiaohongshu-post-4.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 4">
+        <figure class="news-gallery__shot">
+          <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-4.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 4">
         </figure>
       </div>
-    </article>
+    </section>
   </div>
 </div>
 
