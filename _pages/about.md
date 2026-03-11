@@ -50,7 +50,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 
     <article class="news-brief news-brief--visual">
       <span class="news-brief__date">Visual Highlights</span>
-      <h4 class="news-brief__headline">Snapshots from my Xiaohongshu educational outreach</h4>
+      <h4 class="news-brief__headline">Recent snapshots from my Xiaohongshu educational outreach</h4>
       <div class="news-brief__deck" aria-label="Snapshots of Xiaohongshu educational content">
         <figure class="news-brief__shot">
           <img class="news-brief__image" src="{{ '/images/news/xiaohongshu-post-1.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 1">
@@ -58,8 +58,11 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <figure class="news-brief__shot">
           <img class="news-brief__image" src="{{ '/images/news/xiaohongshu-post-2.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 2">
         </figure>
-        <figure class="news-brief__shot news-brief__shot--wide">
+        <figure class="news-brief__shot">
           <img class="news-brief__image" src="{{ '/images/news/xiaohongshu-post-3.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 3">
+        </figure>
+        <figure class="news-brief__shot">
+          <img class="news-brief__image" src="{{ '/images/news/xiaohongshu-post-4.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 4">
         </figure>
       </div>
     </article>
