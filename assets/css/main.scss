@@ -178,7 +178,7 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    gap: 0.36rem;
+    gap: 0.28rem;
 }
 
 .news-gallery__shot {
@@ -186,7 +186,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: clamp(78px, 7vw, 96px);
+    width: clamp(54px, 4.8vw, 70px);
     height: auto;
     aspect-ratio: 9 / 16;
     padding: 0.12rem;
@@ -1691,12 +1691,12 @@ h1:before, .anchor:before {
     }
 
     .news-gallery__grid {
-        gap: 0.32rem;
+        gap: 0.22rem;
         justify-content: flex-start;
     }
 
     .news-gallery__shot {
-        width: clamp(66px, 18vw, 84px);
+        width: clamp(42px, 10vw, 56px);
     }
 
     .news-feature__headline {

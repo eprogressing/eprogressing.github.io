@@ -65,6 +65,18 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
         <figure class="news-gallery__shot">
           <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-4.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 4">
         </figure>
+        <figure class="news-gallery__shot">
+          <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-5.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 5">
+        </figure>
+        <figure class="news-gallery__shot">
+          <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-6.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 6">
+        </figure>
+        <figure class="news-gallery__shot">
+          <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-7.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 7">
+        </figure>
+        <figure class="news-gallery__shot">
+          <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-8.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 8">
+        </figure>
       </div>
     </section>
   </div>
