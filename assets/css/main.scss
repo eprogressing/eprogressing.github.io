@@ -1222,31 +1222,21 @@ h1:before, .anchor:before {
 }
 
 .service-honor-grid {
-    position: relative;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.34rem 1.12rem;
-}
-
-.service-honor-grid::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    width: 2px;
-    transform: translateX(-50%);
-    border-radius: 999px;
-    background: linear-gradient(180deg, rgba(15, 118, 110, 0.3) 0%, rgba(15, 118, 110, 0.16) 100%);
-    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.7);
+    padding: 0 0.08rem;
+    background:
+        linear-gradient(180deg, rgba(15, 118, 110, 0.34) 0%, rgba(15, 118, 110, 0.18) 100%)
+        center top / 3px calc(100% - 0.02rem) no-repeat;
 }
 
 .service-honor-grid > .service-item:nth-child(odd) {
-    padding-right: 0.22rem;
+    padding-right: 0.28rem;
 }
 
 .service-honor-grid > .service-item:nth-child(even) {
-    padding-left: 0.22rem;
+    padding-left: 0.28rem;
 }
 
 .service-item {
@@ -1681,10 +1671,8 @@ h1:before, .anchor:before {
     .service-honor-grid {
         grid-template-columns: 1fr;
         gap: 0.34rem;
-    }
-
-    .service-honor-grid::before {
-        display: none;
+        padding: 0;
+        background: none;
     }
 
     .service-honor-grid > .service-item:nth-child(2) {
