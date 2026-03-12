@@ -177,7 +177,7 @@
 .news-gallery__grid {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 0.36rem;
     overflow-x: auto;
     overflow-y: hidden;
@@ -190,7 +190,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: clamp(78px, 7vw, 96px);
+    width: clamp(90px, 7.8vw, 110px);
     height: auto;
     aspect-ratio: 9 / 16;
     padding: 0.12rem;
