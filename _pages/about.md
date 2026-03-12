@@ -40,8 +40,8 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <h4 class="news-feature__headline">Educational content creator on Xiaohongshu</h4>
       <p class="news-feature__body">I freely share study resources and notes to help tens of thousands of students navigate learning challenges. I am now preparing and recording computer science course content in the hope of supporting more learners in the age of AI, as part of my broader interest in AI for education.</p>
       <div class="news-feature__stats">
-        <span class="news-stat"><strong>5,400+</strong> followers</span>
-        <span class="news-stat"><strong>2M+</strong> total views</span>
+        <span class="news-stat"><strong>5,500+</strong> followers</span>
+        <span class="news-stat"><strong>2.4M+</strong> total views</span>
         <span class="news-stat"><strong>129k+</strong> likes and saves</span>
       </div>
       <p class="news-feature__foot">I aim to reach more learners through public-interest knowledge sharing.</p>
