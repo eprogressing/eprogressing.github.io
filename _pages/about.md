@@ -24,9 +24,11 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 
 **Research Interests:**
 
-- Parallel and distributed training for large language models and agentic systems
-- AI for education
-- Interdisciplinary research at the intersection of computing, finance, and law
+<ul class="research-interests-list">
+  <li>Parallel and distributed training for large language models and agentic systems</li>
+  <li>AI for education</li>
+  <li>Interdisciplinary research at the intersection of computing, finance, and law</li>
+</ul>
 
 
 # 🔥 News
