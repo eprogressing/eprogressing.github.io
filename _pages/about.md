@@ -40,9 +40,9 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
   <div class="news-board__content">
     <article class="news-feature">
       <div class="news-feature__top">
+        <h4 class="news-feature__headline">Educational content creator on Xiaohongshu</h4>
         <span class="news-feature__tag">Educational Outreach</span>
       </div>
-      <h4 class="news-feature__headline">Educational content creator on Xiaohongshu</h4>
       <p class="news-feature__body">I freely share study resources and notes to help tens of thousands of students navigate learning challenges. I am now preparing computer science course content to support more learners through AI for education.</p>
       <div class="news-feature__stats">
         <span class="news-stat"><strong>5,500+</strong> followers</span>
