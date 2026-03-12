@@ -1222,9 +1222,21 @@ h1:before, .anchor:before {
 }
 
 .service-honor-grid {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.34rem 0.7rem;
+}
+
+.service-honor-grid::before {
+    content: "";
+    position: absolute;
+    top: 0.08rem;
+    bottom: 0.08rem;
+    left: 50%;
+    width: 1px;
+    transform: translateX(-50%);
+    background: linear-gradient(180deg, rgba(15, 118, 110, 0.18) 0%, rgba(15, 118, 110, 0.08) 100%);
 }
 
 .service-item {
@@ -1659,6 +1671,10 @@ h1:before, .anchor:before {
     .service-honor-grid {
         grid-template-columns: 1fr;
         gap: 0.34rem;
+    }
+
+    .service-honor-grid::before {
+        display: none;
     }
 
     .service-honor-grid > .service-item:nth-child(2) {
