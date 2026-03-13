@@ -92,7 +92,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src='images/projects/k-lora-scale-factor.png' alt="K-LoRA++ scale factor analysis project overview" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Research on Personalized Image Diffusion Models with Adaptive Weight Selection（基于自适应权重选择机制的个性化图像扩散模型研究）**
+**Research on Personalized Image Diffusion Models with Adaptive Weight Selection**
 
 - Extended the **CVPR 2025 K-LoRA** framework for training-free object-style fusion in diffusion models.
 - Designed and analyzed **K-LoRA++ scale-factor schedules**, covering both linear and nonlinear variants.
