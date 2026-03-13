@@ -92,7 +92,7 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src='images/projects/k-lora-overview-v2.png' alt="K-LoRA project overview" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Research on Personalized Image Diffusion Models with Adaptive Weight Selection**
+**Research on Personalized Image Diffusion Models with Adaptive Weight Selection (Challenge Cup National Third Prize)**
 
 - Extended the **CVPR 2025 K-LoRA** framework for training-free object-style fusion in diffusion models.
 - Designed and analyzed **K-LoRA++ scale-factor schedules**, covering both linear and nonlinear variants.
