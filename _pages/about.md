@@ -597,6 +597,59 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
   </div>
 </div>
 
+# 📜 Certifications
+<div class="award-board certificate-board">
+  <div class="award-grid certificate-grid">
+    <article class="award-card certificate-card">
+      <div class="award-card__top">
+        <span class="award-card__result certificate-card__type">Score 583</span>
+      </div>
+      <h5 class="award-card__name">CET-4</h5>
+      <p class="award-card__subtitle">College English Test Band 4</p>
+    </article>
+
+    <article class="award-card certificate-card">
+      <div class="award-card__top">
+        <span class="award-card__result certificate-card__type">Score 521</span>
+      </div>
+      <h5 class="award-card__name">CET-6</h5>
+      <p class="award-card__subtitle">College English Test Band 6</p>
+    </article>
+
+    <article class="award-card certificate-card">
+      <div class="award-card__top">
+        <span class="award-card__result certificate-card__type">Credential</span>
+      </div>
+      <h5 class="award-card__name">Data Analysis Professional Skills Certificate</h5>
+      <p class="award-card__subtitle">Professional Qualification</p>
+    </article>
+
+    <article class="award-card certificate-card">
+      <div class="award-card__top">
+        <span class="award-card__result certificate-card__type">Simulation</span>
+      </div>
+      <h5 class="award-card__name">HSBC Global Banking &amp; Markets Job Simulation</h5>
+      <p class="award-card__subtitle">HSBC</p>
+    </article>
+
+    <article class="award-card certificate-card">
+      <div class="award-card__top">
+        <span class="award-card__result certificate-card__type">Course</span>
+      </div>
+      <h5 class="award-card__name">UN Introduction to Sustainable Development in Practice</h5>
+      <p class="award-card__subtitle">United Nations</p>
+    </article>
+
+    <article class="award-card certificate-card">
+      <div class="award-card__top">
+        <span class="award-card__result certificate-card__type">Program</span>
+      </div>
+      <h5 class="award-card__name">Young Leaders International Organizations Learning Program</h5>
+      <p class="award-card__subtitle">International Organization Interns Networking Group</p>
+    </article>
+  </div>
+</div>
+
 # 💼 Internships
 <div class="internship-list">
   <article class="internship-card internship-card--featured internship-card--theme-hejun">

@@ -21,5 +21,8 @@ main:
   - title: "Educations"
     url: "/#-educations"
 
+  - title: "Certifications"
+    url: "/#-certifications"
+
   - title: "Internships"
     url: "/#-internships"
