@@ -89,18 +89,20 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 
 # 📝 Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src='images/projects/k-lora-scale-factor.png' alt="K-LoRA++ scale factor analysis project overview" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+**Research on Personalized Image Diffusion Models with Adaptive Weight Selection（基于自适应权重选择机制的个性化图像扩散模型研究）**
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+Built on the **CVPR 2025 K-LoRA** framework, this project extends the theory and experiments behind training-free fusion for object content and style details in diffusion-based image generation.
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- Focused on the design and evaluation of **K-LoRA++ scale factors**, exploring both linear and nonlinear schedules, including sinusoidal, quadratic, and piecewise variants.
+- Derived and analyzed **eight representative scale functions** together with their first-order derivatives, providing a theoretical basis for how style injection evolves during diffusion.
+- Conducted **cross-domain fusion and ablation experiments** to compare how different scale functions affect content fidelity, transition smoothness, and style consistency.
+- Found that **linear schedules with constant positive derivatives** are the most robust choice, giving the best balance between controllability, smooth style injection, and preservation of object content.
+- Also contributed to **practical implementation and project landing**, helping connect the research pipeline to downstream application scenarios.
 </div>
 </div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
 <div class="award-board">
