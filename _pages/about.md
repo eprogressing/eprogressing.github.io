@@ -410,10 +410,6 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
 
 # 🏅 Scholarships
 <div class="award-board scholarship-board">
-  <div class="award-board__intro">
-    <p class="award-board__eyebrow">🏅 Scholarships</p>
-  </div>
-
   <section class="award-year-section">
     <div class="award-year-section__header">
       <h4 class="award-year-section__title">2025</h4>
