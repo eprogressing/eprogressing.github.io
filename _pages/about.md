@@ -119,7 +119,7 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
 
 - Designed a **3-stage blocked Floyd-Warshall** architecture that heavily leverages shared memory to reduce global memory bandwidth bottlenecks.
 - Applied kernel-level optimizations including **fusion, dual-stream concurrency, double buffering, grid compression, and sync-barrier elimination**, while cutting H2D transfer from **O(V²)** to **O(E)** through fast I/O and device-side reconstruction.
-- Achieved a **52%+ end-to-end speedup**, reducing total runtime from **11.50s** to **5.42s** through `rocprof`-driven profiling and hyperparameter tuning.
+- Achieved a **52%+ end-to-end speedup**, reducing total runtime from **11.50s** to **5.42s** through rocprof-driven profiling and hyperparameter tuning.
 </div>
 </div>
 
