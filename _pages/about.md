@@ -101,6 +101,17 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">LTSF</div><img src='images/projects/sparsetsf-fft.png' alt="SparseTSF-FFT framework overview" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**SparseTSF-FFT: A Frequency-Domain Optimized Framework for Time Series Forecasting**
+
+- Led the **PyTorch-to-MindSpore migration** of SparseTSF, rebuilding the training and evaluation pipeline, implementing missing operator equivalents, and open-sourcing the code.
+- Proposed **SparseTSF-FFT**, an FFT-based learnable filtering framework for long-term time series forecasting that replaces local convolutions while preserving the model’s **sub-1k parameter budget**.
+- Reproduced weight-pattern visualizations, compared runtime and MSE across frameworks, and achieved stronger long-horizon forecasting results on **ETTh1** and **ETTh2**.
+</div>
+</div>
+
 # 🎖 Honors and Awards
 <div class="award-board">
   <div class="award-board__intro">
