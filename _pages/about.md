@@ -94,13 +94,10 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 
 **Research on Personalized Image Diffusion Models with Adaptive Weight Selection（基于自适应权重选择机制的个性化图像扩散模型研究）**
 
-Built on the **CVPR 2025 K-LoRA** framework, this project extends the theory and experiments behind training-free fusion for object content and style details in diffusion-based image generation.
-
-- Focused on the design and evaluation of **K-LoRA++ scale factors**, exploring both linear and nonlinear schedules, including sinusoidal, quadratic, and piecewise variants.
-- Derived and analyzed **eight representative scale functions** together with their first-order derivatives, providing a theoretical basis for how style injection evolves during diffusion.
-- Conducted **cross-domain fusion and ablation experiments** to compare how different scale functions affect content fidelity, transition smoothness, and style consistency.
-- Found that **linear schedules with constant positive derivatives** are the most robust choice, giving the best balance between controllability, smooth style injection, and preservation of object content.
-- Also contributed to **practical implementation and project landing**, helping connect the research pipeline to downstream application scenarios.
+- Extended the **CVPR 2025 K-LoRA** framework for training-free object-style fusion in diffusion models.
+- Designed and analyzed **K-LoRA++ scale-factor schedules**, covering both linear and nonlinear variants.
+- Ran cross-domain fusion and ablation experiments, showing that **linear schedules** provide the best balance of controllability, smooth transitions, and content fidelity.
+- Supported the project’s **practical implementation and downstream deployment**.
 </div>
 </div>
 
