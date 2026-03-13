@@ -20,7 +20,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Brighton**. I’m from **Dalian, Liaoning, China**, currently a **junior undergraduate student** majoring in **Computer Science and Technology (计算机科学与技术)** at the [**School of Computer Science (计算机学院)**](https://cc.nankai.edu.cn/), [**Nankai University (南开大学)**](https://www.nankai.edu.cn/) <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" style="height: 1.1em; width: 1.1em; vertical-align: -0.15em; margin-left: 0.2em;">, and pursuing minors in [**Finance (金融学)**](https://finance.nankai.edu.cn/2024/0510/c34622a542022/page.htm) and **Criminal Law (刑法)**. Driven by curiosity, I like to step into real problems and keep exploring what I truly want to build and pursue. Feel free to reach out through the email and social links in the sidebar.
+Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m from **Dalian, Liaoning, China**, currently a **junior undergraduate student** majoring in **Computer Science and Technology** at the [**School of Computer Science**](https://cc.nankai.edu.cn/), [**Nankai University**](https://www.nankai.edu.cn/) <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" style="height: 1.1em; width: 1.1em; vertical-align: -0.15em; margin-left: 0.2em;">, and pursuing minors in [**Finance**](https://finance.nankai.edu.cn/2024/0510/c34622a542022/page.htm) and **Criminal Law**. Driven by curiosity, I like to step into real problems and keep exploring what I truly want to build and pursue. Feel free to reach out through the email and social links in the sidebar.
 
 **Research Interests:**
 
@@ -115,7 +115,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 # 🎖 Honors and Awards
 <div class="award-board">
   <div class="award-board__intro">
-    <p class="award-board__eyebrow">🏆 Competition Awards（竞赛奖项）</p>
+    <p class="award-board__eyebrow">🏆 Competition Awards</p>
   </div>
 
   <section class="award-year-section">
@@ -127,112 +127,100 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.12</span>
-          <span class="award-card__result">Second Place（第二名）</span>
+          <span class="award-card__result">Second Place</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://forum.trae.cn/t/topic/213" target="_blank" rel="noopener noreferrer">TRAE on Campus Vibe Coding Workshop</a></h5>
-        <p class="award-card__subtitle">TRAE 校园 Vibe 编程工作坊</p>
       </article>
 
       <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.12</span>
-          <span class="award-card__result">Bronze Prize（铜奖）</span>
+          <span class="award-card__result">Bronze Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://news.nankai.edu.cn/zhxw/system/2025/12/08/030070061.shtml" target="_blank" rel="noopener noreferrer">3rd National College Student Career Planning Competition - Growth Track, University-level Competition</a></h5>
-        <p class="award-card__subtitle">第三届全国大学生职业规划大赛成长赛道校赛</p>
       </article>
 
       <article class="award-card award-card--featured">
-        <span class="award-card__spotlight">Featured Award（重点奖项）</span>
+        <span class="award-card__spotlight">Featured Award</span>
         <div class="award-card__top">
           <span class="award-card__date">2025.11</span>
-          <span class="award-card__result">National Third Prize（全国三等奖）</span>
+          <span class="award-card__result">National Third Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://www.jiemian.com/article/13643188.html" target="_blank" rel="noopener noreferrer">National College Student Computer System Ability Competition</a></h5>
-        <p class="award-card__subtitle">全国大学生计算机系统能力大赛</p>
       </article>
 
       <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.11</span>
-          <span class="award-card__result">Provincial First Prize（省级一等奖）</span>
+          <span class="award-card__result">Provincial First Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://www.cmathc.org.cn/mcm/news/362.html" target="_blank" rel="noopener noreferrer">China Undergraduate Mathematical Contest in Modeling (CUMCM)</a></h5>
-        <p class="award-card__subtitle">全国大学生数学建模竞赛</p>
       </article>
 
       <article class="award-card award-card--featured">
-        <span class="award-card__spotlight">Featured Award（重点奖项）</span>
+        <span class="award-card__spotlight">Featured Award</span>
         <div class="award-card__top">
           <span class="award-card__date">2025.10</span>
-          <span class="award-card__result">National Third Prize（全国三等奖）</span>
+          <span class="award-card__result">National Third Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://news.nankai.edu.cn/ywsd/system/2025/11/10/030069539.shtml" target="_blank" rel="noopener noreferrer">19th Challenge Cup National College Student Extracurricular Academic and Technological Works Competition</a></h5>
-        <p class="award-card__subtitle">第十九届“挑战杯”全国大学生课外学术科技作品竞赛</p>
       </article>
 
       <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.10</span>
-          <span class="award-card__result">Silver Prize（银奖）</span>
+          <span class="award-card__result">Silver Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://mp.weixin.qq.com/s/bO7zPc8JcLDxAw58Q5PqqQ" target="_blank" rel="noopener noreferrer">Nankai University Mathematical Modeling Competition</a></h5>
-        <p class="award-card__subtitle">南开大学数学建模校赛</p>
       </article>
 
       <article class="award-card award-card--flagship">
-        <span class="award-card__spotlight">Flagship Award（代表性奖项）</span>
+        <span class="award-card__spotlight">Flagship Award</span>
         <div class="award-card__top">
           <span class="award-card__date">2025.09</span>
-          <span class="award-card__result">National Champion（全国冠军）</span>
+          <span class="award-card__result">National Champion</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://cc-backend.nankai.edu.cn/news/news-detail/20808" target="_blank" rel="noopener noreferrer">8th CCF-TCARCH Computer Architecture Challenge</a></h5>
-        <p class="award-card__subtitle">2025年第八届CCF-TCARCH计算机体系结构挑战赛</p>
       </article>
 
       <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.09</span>
-          <span class="award-card__result">Special Prize（特等奖）</span>
+          <span class="award-card__result">Special Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://mp.weixin.qq.com/s/npz3o1DdSBSMQ_omhiGmcw" target="_blank" rel="noopener noreferrer">Pioneer Cup Intelligent Computing Design Competition</a></h5>
-        <p class="award-card__subtitle">“先导杯”智能计算设计赛</p>
       </article>
 
       <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.07</span>
-          <span class="award-card__result">Special Prize（特等奖）</span>
+          <span class="award-card__result">Special Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://2025.tiaozhanbei.net/d49/article/666/" target="_blank" rel="noopener noreferrer">18th Challenge Cup China Bank Tianjin Undergraduate Extracurricular Academic and Technological Works Competition</a></h5>
-        <p class="award-card__subtitle">第十八届“挑战杯”中国银行天津市大学生课外学术科技作品竞赛</p>
       </article>
 
       <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.06</span>
-          <span class="award-card__result">Outstanding Award（优秀奖）</span>
+          <span class="award-card__result">Outstanding Award</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://nktw.nankai.edu.cn/info/1013/1910.htm" target="_blank" rel="noopener noreferrer">President's Cup Innovation and Entrepreneurship Competition - Entrepreneurship Track</a></h5>
-        <p class="award-card__subtitle">“校长杯”创新创业大赛创业赛道</p>
       </article>
 
       <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.04</span>
-          <span class="award-card__result">First Prize（一等奖）</span>
+          <span class="award-card__result">First Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://nktw.nankai.edu.cn/info/1013/1879.htm" target="_blank" rel="noopener noreferrer">President's Cup Innovation and Entrepreneurship Competition - Innovation Track</a></h5>
-        <p class="award-card__subtitle">“校长杯”创新创业大赛创新赛道</p>
       </article>
 
       <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.01</span>
-          <span class="award-card__result">Honorable Mention, H Prize（H奖）</span>
+          <span class="award-card__result">Honorable Mention, H Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://www.comap.com/contests/mcm-icm" target="_blank" rel="noopener noreferrer">Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM)</a></h5>
-        <p class="award-card__subtitle">美国大学生数学建模竞赛</p>
       </article>
     </div>
   </section>
@@ -246,19 +234,17 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2024.11</span>
-          <span class="award-card__result">Provincial Second Prize（省级二等奖）</span>
+          <span class="award-card__result">Provincial Second Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://jw.tjut.edu.cn/info/1888/6440.htm" target="_blank" rel="noopener noreferrer">China Undergraduate Mathematical Contest in Modeling (CUMCM)</a></h5>
-        <p class="award-card__subtitle">全国大学生数学建模竞赛</p>
       </article>
 
       <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2024.10</span>
-          <span class="award-card__result">First Prize（一等奖）</span>
+          <span class="award-card__result">First Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://zhuanlan.zhihu.com/p/10010914554" target="_blank" rel="noopener noreferrer">3rd National College Student Data Analysis Popular Science Competition</a></h5>
-        <p class="award-card__subtitle">第三届全国大学生数据分析科普竞赛</p>
       </article>
     </div>
   </section>
@@ -272,10 +258,9 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2020.06</span>
-          <span class="award-card__result">Provincial First Prize（省级一等奖）</span>
+          <span class="award-card__result">Provincial First Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://www.zhyww.cn" target="_blank" rel="noopener noreferrer">22nd Yuwen Bao Cup National Middle School Student Themed Essay Campaign</a></h5>
-        <p class="award-card__subtitle">第二十二届“语文报杯”全国中学生主题征文行动</p>
       </article>
     </div>
   </section>
@@ -283,7 +268,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 
 <div class="service-board">
   <div class="service-board__intro">
-    <p class="service-board__eyebrow">🎖 Student Leadership and Service（学生工作与服务）</p>
+    <p class="service-board__eyebrow">🎖 Student Leadership and Service</p>
   </div>
 
   <div class="service-board__group">
@@ -292,36 +277,36 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <article class="service-item">
         <span class="service-item__date">2025.09-2026.01</span>
         <div class="service-item__body">
-          <p class="service-item__title">Teaching Assistant（课程助教）</p>
-          <p class="service-item__meta">Computer Hardware Fundamentals（计算机硬件基础课程）</p>
+          <p class="service-item__title">Teaching Assistant</p>
+          <p class="service-item__meta">Computer Hardware Fundamentals</p>
         </div>
       </article>
 
       <article class="service-item">
         <span class="service-item__date">2025.09-2026.01</span>
         <div class="service-item__body">
-          <p class="service-item__title">Student Assistant（学生助理）</p>
-          <p class="service-item__meta">Youth League Committee Office（团委办公室）</p>
+          <p class="service-item__title">Student Assistant</p>
+          <p class="service-item__meta">Youth League Committee Office</p>
         </div>
       </article>
 
       <article class="service-item">
         <span class="service-item__date">2023.09-Present</span>
         <div class="service-item__body">
-          <p class="service-item__title">Class Monitor and Deputy Secretary of the Youth League Branch（班长兼副团支书）</p>
-          <p class="service-item__meta">School of Computer Science（南开大学计算机学院）</p>
+          <p class="service-item__title">Class Monitor and Deputy Secretary of the Youth League Branch</p>
+          <p class="service-item__meta">School of Computer Science</p>
         </div>
       </article>
     </div>
-    <p class="service-inline-note"><strong>Campus Ambassador（校园大使）:</strong> EY（安永）, PwC（普华永道）, ByteDance（字节跳动）, and Meituan（美团）</p>
+    <p class="service-inline-note"><strong>Campus Ambassador:</strong> EY, PwC, ByteDance, and Meituan</p>
   </div>
 
   <div class="service-board__group">
     <p class="service-board__label">Service Hours</p>
     <div class="service-stat-strip">
-      <span class="service-chip"><strong>213.4h</strong> Volunteer Service（志愿服务）</span>
-      <span class="service-chip"><strong>153h</strong> Social Practice（社会实践）</span>
-      <span class="service-chip"><strong>530h</strong> Ligong Zengneng Learning Support Platform（立公增能辅学平台）</span>
+      <span class="service-chip"><strong>213.4h</strong> Volunteer Service</span>
+      <span class="service-chip"><strong>153h</strong> Social Practice</span>
+      <span class="service-chip"><strong>530h</strong> Ligong Zengneng Learning Support Platform</span>
     </div>
   </div>
 
@@ -331,91 +316,91 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <article class="service-item">
         <span class="service-item__date">2025.11</span>
         <div class="service-item__body">
-          <p class="service-item__title">Outstanding Student Cadre（优秀学生干部）</p>
+          <p class="service-item__title">Outstanding Student Cadre</p>
         </div>
       </article>
 
       <article class="service-item">
         <span class="service-item__date">2025.11</span>
         <div class="service-item__body">
-          <p class="service-item__title">Outstanding Individual（优秀个人）</p>
-          <p class="service-item__meta">Nankai "Teachers and Students Together in Four Aspects" Social Practice（南开大学“师生四同”社会实践）</p>
+          <p class="service-item__title">Outstanding Individual</p>
+          <p class="service-item__meta">Nankai "Teachers and Students Together in Four Aspects" Social Practice</p>
         </div>
       </article>
 
       <article class="service-item">
         <span class="service-item__date">2025.11</span>
         <div class="service-item__body">
-          <p class="service-item__title">Outstanding Team（优秀团队）</p>
-          <p class="service-item__meta">Nankai Xiong'an Summer Social Practice（南开大学雄安新区暑期社会实践）</p>
+          <p class="service-item__title">Outstanding Team</p>
+          <p class="service-item__meta">Nankai Xiong'an Summer Social Practice</p>
         </div>
       </article>
 
       <article class="service-item">
         <span class="service-item__date">2025.06</span>
         <div class="service-item__body">
-          <p class="service-item__title">Outstanding Class Youth League Branch（优秀班级团支部）</p>
+          <p class="service-item__title">Outstanding Class Youth League Branch</p>
         </div>
       </article>
 
       <article class="service-item">
         <span class="service-item__date">2025.05</span>
         <div class="service-item__body">
-          <p class="service-item__title">Leader of the May Fourth Red Flag Youth League Group（五四红旗团小组负责人）</p>
+          <p class="service-item__title">Leader of the May Fourth Red Flag Youth League Group</p>
         </div>
       </article>
 
       <article class="service-item">
         <span class="service-item__date">2025.05</span>
         <div class="service-item__body">
-          <p class="service-item__title">Official Advisor（正式顾问）</p>
-          <p class="service-item__meta">Nankai Student Affairs Committee（南开大学学务会）</p>
+          <p class="service-item__title">Official Advisor</p>
+          <p class="service-item__meta">Nankai Student Affairs Committee</p>
         </div>
       </article>
 
       <article class="service-item">
         <span class="service-item__date">2024.11</span>
         <div class="service-item__body">
-          <p class="service-item__title">Outstanding Student Cadre（优秀学生干部）</p>
+          <p class="service-item__title">Outstanding Student Cadre</p>
         </div>
       </article>
 
       <article class="service-item">
         <span class="service-item__date">2024.09</span>
         <div class="service-item__body">
-          <p class="service-item__title">Outstanding Deputy Platoon Leader（优秀排副）</p>
-          <p class="service-item__meta">Nankai University Military Training（南开大学军训）</p>
+          <p class="service-item__title">Outstanding Deputy Platoon Leader</p>
+          <p class="service-item__meta">Nankai University Military Training</p>
         </div>
       </article>
 
       <article class="service-item">
         <span class="service-item__date">2024.06</span>
         <div class="service-item__body">
-          <p class="service-item__title">Outstanding Officer（优秀干事）</p>
-          <p class="service-item__meta">Nankai University CYL Organization Dept.（南开大学校团委组织部）</p>
+          <p class="service-item__title">Outstanding Officer</p>
+          <p class="service-item__meta">Nankai University CYL Organization Dept.</p>
         </div>
       </article>
 
       <article class="service-item">
         <span class="service-item__date">2023.11</span>
         <div class="service-item__body">
-          <p class="service-item__title">Participant（营员）</p>
-          <p class="service-item__meta">Phase III "Zhuoyu Program"（南开大学学生会第三期“琢玉计划”）; representative speech at Zhou Enlai birthday commemoration（周恩来总理诞辰纪念活动代表发言）</p>
+          <p class="service-item__title">Participant</p>
+          <p class="service-item__meta">Phase III "Zhuoyu Program"; representative speech at Zhou Enlai birthday commemoration</p>
         </div>
       </article>
 
       <article class="service-item">
         <span class="service-item__date">2023.10</span>
         <div class="service-item__body">
-          <p class="service-item__title">Official Representative（正式代表）</p>
-          <p class="service-item__meta">Nankai University Student Congress（南开大学校学生代表大会）</p>
+          <p class="service-item__title">Official Representative</p>
+          <p class="service-item__meta">Nankai University Student Congress</p>
         </div>
       </article>
 
       <article class="service-item">
         <span class="service-item__date">2018.05</span>
         <div class="service-item__body">
-          <p class="service-item__title">Dalian Merit Student（大连市三好学生）</p>
+          <p class="service-item__title">Dalian Merit Student</p>
         </div>
       </article>
     </div>
@@ -426,7 +411,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
 # 🏅 Scholarships
 <div class="award-board scholarship-board">
   <div class="award-board__intro">
-    <p class="award-board__eyebrow">🏅 Scholarships（奖学金）</p>
+    <p class="award-board__eyebrow">🏅 Scholarships</p>
   </div>
 
   <section class="award-year-section">
@@ -440,7 +425,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2025.11</span>
           <span class="award-card__result scholarship-card__amount">CNY 2,000</span>
         </div>
-        <h5 class="award-card__name">Academic Progress Scholarship（学业进步奖学金）</h5>
+        <h5 class="award-card__name">Academic Progress Scholarship</h5>
         <p class="award-card__subtitle">Nankai University</p>
       </article>
 
@@ -449,7 +434,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2025.11</span>
           <span class="award-card__result scholarship-card__amount">CNY 2,000</span>
         </div>
-        <h5 class="award-card__name">Student Service Scholarship（学生服务奖学金）</h5>
+        <h5 class="award-card__name">Student Service Scholarship</h5>
         <p class="award-card__subtitle">Nankai University</p>
       </article>
     </div>
@@ -466,7 +451,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2024.11</span>
           <span class="award-card__result scholarship-card__amount">CNY 2,000</span>
         </div>
-        <h5 class="award-card__name">Social Welfare Scholarship（社会公益奖学金）</h5>
+        <h5 class="award-card__name">Social Welfare Scholarship</h5>
         <p class="award-card__subtitle">Nankai University</p>
       </article>
 
@@ -475,7 +460,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
           <span class="award-card__date">2024.11</span>
           <span class="award-card__result scholarship-card__amount">CNY 2,000</span>
         </div>
-        <h5 class="award-card__name">Student Service Scholarship（学生服务奖学金）</h5>
+        <h5 class="award-card__name">Student Service Scholarship</h5>
         <p class="award-card__subtitle">Nankai University</p>
       </article>
     </div>
