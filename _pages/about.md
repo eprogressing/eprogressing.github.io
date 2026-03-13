@@ -117,7 +117,6 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
 
 **GPU Optimization for All-Pairs Shortest Path** <em>(Solo Participant, National Champion in the CCF-TCARCH Computer Architecture Challenge)</em>
 
-- Won the national championship in the APSP optimization task as a **solo participant**.
 - Designed a **3-stage blocked Floyd-Warshall** architecture that heavily leverages shared memory to reduce global memory bandwidth bottlenecks.
 - Applied kernel-level optimizations including **fusion, dual-stream concurrency, double buffering, grid compression, and sync-barrier elimination**, while cutting H2D transfer from **O(V²)** to **O(E)** through fast I/O and device-side reconstruction.
 - Achieved a **52%+ end-to-end speedup**, reducing total runtime from **11.50s** to **5.42s** through `rocprof`-driven profiling and hyperparameter tuning.
@@ -634,10 +633,10 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
 
     <article class="award-card certificate-card">
       <div class="award-card__top">
-        <span class="award-card__result certificate-card__type">Course</span>
+        <span class="award-card__result certificate-card__type">License</span>
       </div>
-      <h5 class="award-card__name">UN Introduction to Sustainable Development in Practice</h5>
-      <p class="award-card__subtitle">United Nations</p>
+      <h5 class="award-card__name">C1 Driver's License</h5>
+      <p class="award-card__subtitle">Motor Vehicle Driving License</p>
     </article>
 
     <article class="award-card certificate-card">
