@@ -92,7 +92,7 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src='images/projects/k-lora-overview-v2.png' alt="K-LoRA project overview" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Research on Personalized Image Diffusion Models with Adaptive Weight Selection** *(Challenge Cup National Third Prize)*
+**Research on Personalized Image Diffusion Models with Adaptive Weight Selection** <em>(Challenge Cup National Third Prize)</em>
 
 - Extended the **CVPR 2025 K-LoRA** framework for training-free object-style fusion in diffusion models.
 - Designed and analyzed **K-LoRA++ scale-factor schedules**, covering both linear and nonlinear variants.
@@ -115,7 +115,7 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">GPU Systems</div><img src='images/projects/apsp-gpu-optimization.jpg' alt="APSP GPU optimization project overview" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**GPU Optimization for All-Pairs Shortest Path** *(Solo Participant, National Champion in the CCF-TCARCH Computer Architecture Challenge)*
+**GPU Optimization for All-Pairs Shortest Path** <em>(Solo Participant, National Champion in the CCF-TCARCH Computer Architecture Challenge)</em>
 
 - Won the national championship in the APSP optimization task as a **solo participant**.
 - Designed a **3-stage blocked Floyd-Warshall** architecture that heavily leverages shared memory to reduce global memory bandwidth bottlenecks.
