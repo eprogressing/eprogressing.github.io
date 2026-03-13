@@ -40,7 +40,7 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
   <div class="news-board__content">
     <article class="news-feature">
       <div class="news-feature__top">
-        <h4 class="news-feature__headline">Educational content creator on Xiaohongshu</h4>
+        <h4 class="news-feature__headline">Educational content creator on Rednote</h4>
         <span class="news-feature__tag">Educational Outreach</span>
       </div>
       <p class="news-feature__body">I freely share study resources and notes to help tens of thousands of students navigate learning challenges. I am now preparing computer science course content to support more learners through AI for education.</p>
@@ -109,6 +109,17 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
 - Led the **PyTorch-to-MindSpore migration** of SparseTSF, rebuilding the training and evaluation pipeline, implementing missing operator equivalents, and open-sourcing the code.
 - Proposed **SparseTSF-FFT**, an FFT-based learnable filtering framework for long-term time series forecasting that replaces local convolutions while preserving the model’s **sub-1k parameter budget**.
 - Reproduced weight-pattern visualizations, compared runtime and MSE across frameworks, and achieved stronger long-horizon forecasting results on **ETTh1** and **ETTh2**.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GPU Systems</div><img src='images/projects/apsp-gpu-optimization.jpg' alt="APSP GPU optimization project overview" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**GPU Optimization for All-Pairs Shortest Path (APSP)**
+
+- Designed a **3-stage blocked Floyd-Warshall** architecture that heavily leverages shared memory to reduce global memory bandwidth bottlenecks.
+- Applied kernel-level optimizations including **fusion, dual-stream concurrency, double buffering, grid compression, and sync-barrier elimination**, while cutting H2D transfer from **O(V²)** to **O(E)** through fast I/O and device-side reconstruction.
+- Achieved a **52%+ end-to-end speedup**, reducing total runtime from **11.50s** to **5.42s** through `rocprof`-driven profiling and hyperparameter tuning.
 </div>
 </div>
 
