@@ -1161,6 +1161,32 @@ h1:before, .anchor:before {
     color: #64748b;
 }
 
+.award-card__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.34rem;
+}
+
+.award-card__tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.14rem 0.46rem;
+    border-radius: 999px;
+    border: 1px solid rgba(71, 85, 105, 0.12);
+    background: rgba(248, 250, 252, 0.92);
+    color: #475569;
+    font-size: 0.68rem;
+    font-weight: 700;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
+.award-card__tag--money {
+    border-color: rgba(180, 83, 9, 0.16);
+    background: rgba(255, 247, 237, 0.95);
+    color: #9a5d1c;
+}
+
 .service-board {
     position: relative;
     margin: 0.74rem 0 0.96rem;

@@ -130,6 +130,9 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
           <span class="award-card__result">Second Place</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://forum.trae.cn/t/topic/213" target="_blank" rel="noopener noreferrer">TRAE on Campus Vibe Coding Workshop</a></h5>
+        <div class="award-card__tags">
+          <span class="award-card__tag award-card__tag--money">Prize ¥1,500</span>
+        </div>
       </article>
 
       <article class="award-card">
@@ -147,6 +150,9 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
           <span class="award-card__result">National Third Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://www.jiemian.com/article/13643188.html" target="_blank" rel="noopener noreferrer">National College Student Computer System Ability Competition</a></h5>
+        <div class="award-card__tags">
+          <span class="award-card__tag award-card__tag--money">Prize ¥10,000</span>
+        </div>
       </article>
 
       <article class="award-card">
@@ -181,6 +187,9 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
           <span class="award-card__result">National Champion</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://cc-backend.nankai.edu.cn/news/news-detail/20808" target="_blank" rel="noopener noreferrer">8th CCF-TCARCH Computer Architecture Challenge</a></h5>
+        <div class="award-card__tags">
+          <span class="award-card__tag award-card__tag--money">Prize ¥10,000</span>
+        </div>
       </article>
 
       <article class="award-card">
@@ -189,6 +198,9 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
           <span class="award-card__result">Special Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://mp.weixin.qq.com/s/npz3o1DdSBSMQ_omhiGmcw" target="_blank" rel="noopener noreferrer">Pioneer Cup Intelligent Computing Design Competition</a></h5>
+        <div class="award-card__tags">
+          <span class="award-card__tag award-card__tag--money">Prize ¥1,000</span>
+        </div>
       </article>
 
       <article class="award-card">
