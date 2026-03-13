@@ -87,9 +87,9 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
   </div>
 </div>
 
-# 📝 Projects
+# 📝 Projects and Research
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src='images/projects/k-lora-scale-factor.png' alt="K-LoRA++ scale factor analysis project overview" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src='images/projects/k-lora-overview-v2.png' alt="K-LoRA project overview" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Research on Personalized Image Diffusion Models with Adaptive Weight Selection**
