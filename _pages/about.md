@@ -495,15 +495,15 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <li class="achievement-card__item">
         <span class="achievement-card__year">2018</span>
         <div class="achievement-card__text">
-          <strong>Classical Guitar（古典吉他） Grade 10 Examination.</strong>
-          I earned Classical Guitar Grade 10 with an <span class="achievement-award achievement-award--excellent">Excellent rating（优秀）</span>, becoming <span class="achievement-award">the first student in Zhuanghe, Dalian</span> to do so, and was recognized by experts for my potential in <span class="achievement-award">classical guitar performance</span>.
+          <strong>Classical Guitar Grade 10 Examination.</strong>
+          I earned Classical Guitar Grade 10 with an <span class="achievement-award achievement-award--excellent">Excellent rating</span>, becoming <span class="achievement-award">the first student in Zhuanghe, Dalian</span> to do so, and was recognized by experts for my potential in <span class="achievement-award">classical guitar performance</span>.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2018</span>
         <div class="achievement-card__text">
           <strong>4th Hai Zhi Xing Guitar Competition.</strong>
-          I won <span class="achievement-award achievement-award--silver">Silver Prize（银奖）</span> in Youth <span class="achievement-award">Folk Guitar（民谣吉他）</span> Group A and <span class="achievement-award achievement-award--silver">Silver Prize（银奖）</span> in Children Classical Group, and was invited to perform on <span class="achievement-award">CCTV-15 Music Channel</span>.
+          I won <span class="achievement-award achievement-award--silver">Silver Prize</span> in Youth <span class="achievement-award">Folk Guitar</span> Group A and <span class="achievement-award achievement-award--silver">Silver Prize</span> in Children Classical Group, and was invited to perform on <span class="achievement-award">CCTV-15 Music Channel</span>.
         </div>
       </li>
       <li class="achievement-card__item">
@@ -516,15 +516,15 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
       <li class="achievement-card__item">
         <span class="achievement-card__year">2014</span>
         <div class="achievement-card__text">
-          <strong>China Conservatory of Music Violin（小提琴） Examination.</strong>
-          I passed Violin <span class="achievement-award achievement-award--grade">Grade 10（十级）</span> and obtained the certificate.
+          <strong>China Conservatory of Music Violin Examination.</strong>
+          I passed Violin <span class="achievement-award achievement-award--grade">Grade 10</span> and obtained the certificate.
         </div>
       </li>
       <li class="achievement-card__item">
         <span class="achievement-card__year">2011</span>
         <div class="achievement-card__text">
           <strong>"China Star" National Youth Outstanding Arts Talent Showcase.</strong>
-          I won <span class="achievement-award achievement-award--gold">Gold Prize（金奖）</span> in violin ensemble and <span class="achievement-award achievement-award--silver">Silver Prize（银奖）</span> in violin solo performance.
+          I won <span class="achievement-award achievement-award--gold">Gold Prize</span> in violin ensemble and <span class="achievement-award achievement-award--silver">Silver Prize</span> in violin solo performance.
         </div>
       </li>
     </ul>
@@ -598,7 +598,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     <div class="internship-card__header">
       <img src="{{ '/images/internships/hejun-logo.png' | relative_url }}" alt="Hejun Consulting logo" class="internship-card__logo" loading="lazy" decoding="async" />
       <div class="internship-card__header-main">
-        <h3 class="internship-card__company">Hejun Consulting（和君咨询）</h3>
+        <h3 class="internship-card__company">Hejun Consulting</h3>
         <p class="internship-card__meta">Jul 2025 - Sep 2025</p>
       </div>
       <div class="internship-card__tags">
@@ -616,7 +616,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     <div class="internship-card__header">
       <img src="{{ '/images/internships/chinasoft-logo.png' | relative_url }}" alt="ChinaSoft International logo" class="internship-card__logo" loading="lazy" decoding="async" />
       <div class="internship-card__header-main">
-        <h3 class="internship-card__company">ChinaSoft International（中软国际）, LLM Team（大模型）</h3>
+        <h3 class="internship-card__company">ChinaSoft International, LLM Team</h3>
         <p class="internship-card__meta">Jun 2025 - Jul 2025</p>
       </div>
       <div class="internship-card__tags">
@@ -634,7 +634,7 @@ Hi 👋! I’m **Jingming Liang (梁景铭)**, and you can also call me **Bright
     <div class="internship-card__header">
       <img src="{{ '/images/internships/gtja-logo.png' | relative_url }}" alt="Guotai Junan Securities logo" class="internship-card__logo" loading="lazy" decoding="async" />
       <div class="internship-card__header-main">
-        <h3 class="internship-card__company">Guotai Junan Securities（国泰君安）, Wealth Management（财富管理）</h3>
+        <h3 class="internship-card__company">Guotai Junan Securities, Wealth Management</h3>
         <p class="internship-card__meta">Jun 2024 - Jul 2024</p>
       </div>
       <div class="internship-card__tags">
