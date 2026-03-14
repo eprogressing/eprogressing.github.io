@@ -59,28 +59,28 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
       </div>
       <div class="news-gallery__grid">
         <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-1.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 1">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-1.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 1" loading="lazy" decoding="async">
         </figure>
         <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-2.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 2">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-2.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 2" loading="lazy" decoding="async">
         </figure>
         <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-3.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 3">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-3.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 3" loading="lazy" decoding="async">
         </figure>
         <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-4.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 4">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-4.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 4" loading="lazy" decoding="async">
         </figure>
         <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-5.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 5">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-5.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 5" loading="lazy" decoding="async">
         </figure>
         <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-6.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 6">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-6.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 6" loading="lazy" decoding="async">
         </figure>
         <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-7.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 7">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-7.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 7" loading="lazy" decoding="async">
         </figure>
         <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/xiaohongshu-post-8.jpg' | relative_url }}" alt="Xiaohongshu educational post screenshot 8">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-8.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 8" loading="lazy" decoding="async">
         </figure>
       </div>
     </section>
@@ -89,7 +89,7 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
 
 # 📝 Projects and Research
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src='images/projects/k-lora-overview-v2.png' alt="K-LoRA project overview" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src="{{ '/images/projects/optimized/k-lora-overview-v2.webp' | relative_url }}" alt="K-LoRA project overview" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Research on Personalized Image Diffusion Models with Adaptive Weight Selection** <em>(Challenge Cup National Third Prize)</em>
@@ -101,7 +101,7 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">LTSF</div><img src='images/projects/sparsetsf-fft.png' alt="SparseTSF-FFT framework overview" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">LTSF</div><img src="{{ '/images/projects/optimized/sparsetsf-fft.webp' | relative_url }}" alt="SparseTSF-FFT framework overview" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **SparseTSF-FFT: A Frequency-Domain Optimized Framework for Time Series Forecasting**
@@ -112,7 +112,7 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GPU Systems</div><img src='images/projects/apsp-gpu-optimization.jpg' alt="APSP GPU optimization project overview" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GPU Systems</div><img src="{{ '/images/projects/optimized/apsp-gpu-optimization.webp' | relative_url }}" alt="APSP GPU optimization project overview" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **GPU Optimization for All-Pairs Shortest Path** <em>(Solo Participant, National Champion in the CCF-TCARCH Computer Architecture Challenge)</em>
