@@ -561,13 +561,13 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
       </ul>
       <div class="athlete-passion__gallery">
         <a class="athlete-passion__photo-link" href="{{ '/images/20260303-143716.png' | relative_url }}" target="_blank" rel="noopener noreferrer">
-          <img src="{{ '/images/20260303-143716.png' | relative_url }}" alt="Running moment 1" class="athlete-passion__photo" loading="lazy" decoding="async" />
+          <img src="{{ '/images/athletics/optimized/running-moment-1.webp' | relative_url }}" alt="Running moment 1" class="athlete-passion__photo" loading="lazy" decoding="async" fetchpriority="low" />
         </a>
         <a class="athlete-passion__photo-link" href="{{ '/images/20260303-143751.jpeg' | relative_url }}" target="_blank" rel="noopener noreferrer">
-          <img src="{{ '/images/20260303-143751.jpeg' | relative_url }}" alt="Running moment 2" class="athlete-passion__photo" loading="lazy" decoding="async" />
+          <img src="{{ '/images/athletics/optimized/running-moment-2.webp' | relative_url }}" alt="Running moment 2" class="athlete-passion__photo" loading="lazy" decoding="async" fetchpriority="low" />
         </a>
         <a class="athlete-passion__photo-link" href="{{ '/images/20260303144351.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer">
-          <img src="{{ '/images/20260303144351.jpg' | relative_url }}" alt="Running moment 3" class="athlete-passion__photo" loading="lazy" decoding="async" />
+          <img src="{{ '/images/athletics/optimized/running-moment-3.webp' | relative_url }}" alt="Running moment 3" class="athlete-passion__photo" loading="lazy" decoding="async" fetchpriority="low" />
         </a>
       </div>
     </section>
@@ -653,7 +653,7 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
 <div class="internship-list">
   <article class="internship-card internship-card--featured internship-card--theme-hejun">
     <div class="internship-card__header">
-      <img src="{{ '/images/internships/hejun-logo.png' | relative_url }}" alt="Hejun Consulting logo" class="internship-card__logo" loading="lazy" decoding="async" />
+      <img src="{{ '/images/internships/optimized/hejun-logo.webp' | relative_url }}" alt="Hejun Consulting logo" class="internship-card__logo" loading="lazy" decoding="async" fetchpriority="low" />
       <div class="internship-card__header-main">
         <h3 class="internship-card__company">Hejun Consulting</h3>
         <p class="internship-card__meta">Jul 2025 - Sep 2025</p>
@@ -671,7 +671,7 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
 
   <article class="internship-card internship-card--featured internship-card--theme-chinasoft">
     <div class="internship-card__header">
-      <img src="{{ '/images/internships/chinasoft-logo.png' | relative_url }}" alt="ChinaSoft International logo" class="internship-card__logo" loading="lazy" decoding="async" />
+      <img src="{{ '/images/internships/optimized/chinasoft-logo.webp' | relative_url }}" alt="ChinaSoft International logo" class="internship-card__logo" loading="lazy" decoding="async" fetchpriority="low" />
       <div class="internship-card__header-main">
         <h3 class="internship-card__company">ChinaSoft International, LLM Team</h3>
         <p class="internship-card__meta">Jun 2025 - Jul 2025</p>
@@ -689,7 +689,7 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m 
 
   <article class="internship-card internship-card--featured internship-card--theme-gtja">
     <div class="internship-card__header">
-      <img src="{{ '/images/internships/gtja-logo.png' | relative_url }}" alt="Guotai Junan Securities logo" class="internship-card__logo" loading="lazy" decoding="async" />
+      <img src="{{ '/images/internships/optimized/gtja-logo.webp' | relative_url }}" alt="Guotai Junan Securities logo" class="internship-card__logo" loading="lazy" decoding="async" fetchpriority="low" />
       <div class="internship-card__header-main">
         <h3 class="internship-card__company">Guotai Junan Securities, Wealth Management</h3>
         <p class="internship-card__meta">Jun 2024 - Jul 2024</p>
