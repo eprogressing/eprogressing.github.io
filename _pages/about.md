@@ -20,7 +20,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m from **Dalian, Liaoning, China**, currently a **junior undergraduate student** majoring in **Computer Science and Technology** at the [**School of Computer Science**](https://cc.nankai.edu.cn/), [**Nankai University**](https://www.nankai.edu.cn/) <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" style="height: 1.1em; width: 1.1em; vertical-align: -0.15em; margin-left: 0.2em;">, and pursuing minors in [**Finance**](https://finance.nankai.edu.cn/2024/0510/c34622a542022/page.htm) and **Criminal Law**. Driven by curiosity, I like to step into real problems and keep exploring what I truly want to build and pursue. Feel free to reach out through the email and social links in the sidebar.
+Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I’m from **Dalian, Liaoning, China**, currently a **junior undergraduate** majoring in **Computer Science** at the [**School of Computer Science**](https://cc.nankai.edu.cn/), [**Nankai University**](https://www.nankai.edu.cn/) <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" style="height: 1.1em; width: 1.1em; vertical-align: -0.15em; margin-left: 0.2em;">, while pursuing dual minors in [**Finance**](https://finance.nankai.edu.cn/2024/0510/c34622a542022/page.htm) and **Criminal Law**.
+
+Beyond my interdisciplinary studies, my core focus is building efficient ML systems and scalable architectures. My recent work spans scalable distributed training, GPU optimization, and system-level DeepSpeed interventions.
+
+I’m currently looking for research and engineering opportunities in **Computer Architecture** and **Distributed Systems**. Feel free to reach out through the email and social links in the sidebar!
 
 **Research Interests:**
 
