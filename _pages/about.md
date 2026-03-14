@@ -25,8 +25,9 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I am f
 **Research Interests:**
 
 <ul class="research-interests-list">
-  <li><strong>ML Systems &amp; Architecture</strong>: Scalable distributed training and infrastructure for LLMs and agentic systems.</li>
-  <li><strong>System-Level Optimization</strong>: GPU optimization, MoE parallelism, and low-level framework interventions (e.g., DeepSpeed).</li>
+  <li><strong>Machine Learning Systems and AI Infrastructure</strong>: Scalable distributed training, efficient inference paradigms, and system optimizations for foundation models.</li>
+  <li><strong>Computer Architecture</strong>: Hardware-software co-design, performance modeling, and low-level system optimization.</li>
+  <li><strong>Parallel and Distributed Systems</strong>: High-performance computing (HPC) and large-scale parallel algorithms.</li>
 </ul>
 
 
