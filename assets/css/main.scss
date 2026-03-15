@@ -1793,6 +1793,65 @@ h1:before, .anchor:before {
 }
 
 @media (max-width: 920px) {
+    html,
+    body,
+    button,
+    input,
+    select,
+    textarea {
+        font-family: $mobile-sans-serif !important;
+        font-synthesis: weight style;
+    }
+
+    p,
+    li,
+    dt,
+    dd,
+    blockquote,
+    figcaption,
+    .page__meta,
+    .page__meta p,
+    .author__bio,
+    .author__urls li,
+    .greedy-nav a,
+    .breadcrumbs,
+    .pagination ul,
+    .page__taxonomy,
+    .news-list__body {
+        font-family: $mobile-sans-serif !important;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .sidebar .author__name,
+    .news-list__title {
+        font-family: $mobile-sans-serif !important;
+        font-weight: 800 !important;
+    }
+
+    b,
+    strong,
+    .page__content b,
+    .page__content strong,
+    .sidebar b,
+    .sidebar strong,
+    .archive b,
+    .archive strong,
+    .page__footer b,
+    .page__footer strong,
+    .news-list__date,
+    .news-stat strong,
+    .service-inline-note strong,
+    .service-chip strong,
+    .achievement-card__text strong {
+        font-family: $mobile-sans-serif !important;
+        font-weight: 800 !important;
+    }
+
     .news-gallery__grid {
         grid-template-columns: repeat(4, minmax(0, 88px));
         justify-content: center;
