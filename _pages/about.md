@@ -52,9 +52,9 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
 **GPU Optimization for All-Pairs Shortest Path** <em>(Solo Undergraduate Participant; National Champion outperforming top-tier graduate teams in CCF-TCARCH)</em>
 
-- Architected a memory-aware 3-stage blocked Floyd-Warshall pipeline, heavily leveraging shared memory to bypass global memory bandwidth limits.
-- Engineered aggressive kernel optimizations (fusion, dual-stream, double buffering, barrier elimination) and resolved I/O bottlenecks by compressing H2D transfers from O(V²) to O(E) via custom fast I/O and device-side graph reconstruction.
-- Achieved a 52%+ end-to-end speedup (reducing total runtime from 11.50s to 5.42s on the official hidden datasets) through systematic, rocprof-guided micro-architectural profiling and hyperparameter tuning.
+- Architected a **memory-aware 3-stage blocked Floyd-Warshall pipeline**, heavily leveraging **shared memory** to bypass **global memory bandwidth limits**.
+- Engineered aggressive **kernel optimizations** (fusion, dual-stream, double buffering, barrier elimination) and resolved I/O bottlenecks by compressing **H2D transfers from O(V²) to O(E)** via **custom fast I/O** and **device-side graph reconstruction**.
+- Achieved a **52%+ end-to-end speedup** (reducing total runtime from **11.50s to 5.42s on the official hidden datasets**) through systematic, **rocprof-guided micro-architectural profiling** and hyperparameter tuning.
 </div>
 </div>
 
