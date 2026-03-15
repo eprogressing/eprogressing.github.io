@@ -40,22 +40,17 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I am f
   <div class="news-board__content">
     <article class="news-feature">
       <div class="news-feature__top">
-        <h4 class="news-feature__headline">Educational content creator on Rednote</h4>
-        <span class="news-feature__tag">Educational Outreach</span>
+        <span class="news-feature__date">Mar 2026</span>
+        <span class="news-feature__tag">Research Update</span>
       </div>
-      <p class="news-feature__body">I freely share study resources and notes to help tens of thousands of students navigate learning challenges. I am now preparing computer science course content to support more learners through AI for education.</p>
-      <div class="news-feature__stats">
-        <span class="news-stat"><strong>5,500+</strong> followers</span>
-        <span class="news-stat"><strong>2.4M+</strong> total views</span>
-        <span class="news-stat"><strong>129k+</strong> likes and saves</span>
-      </div>
-      <p class="news-feature__foot">I aim to reach more learners through public-interest knowledge sharing.</p>
+      <h4 class="news-feature__headline">Training-Free Routing Interventions for Large MoE Models</h4>
+      <p class="news-feature__body">Currently preparing a manuscript on training-free routing interventions for large MoE models. My work explores bypassing DeepSpeed's C++ fused operators via pseudo-inverse ($W^{\dagger}$) feature perturbations ($\Delta h$) to stabilize cross-modal alignment.</p>
     </article>
 
     <section class="news-gallery" aria-label="Snapshots of Xiaohongshu educational content">
       <div class="news-gallery__head">
-        <span class="news-gallery__label">Visual Highlights</span>
-        <p class="news-gallery__caption">Recent snapshots from my Xiaohongshu educational outreach</p>
+        <span class="news-gallery__label">Educational Outreach</span>
+        <p class="news-gallery__caption">Snapshots from my Xiaohongshu educational content</p>
       </div>
       <div class="news-gallery__grid">
         <figure class="news-gallery__shot">
@@ -84,6 +79,21 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I am f
         </figure>
       </div>
     </section>
+
+    <article class="news-feature">
+      <div class="news-feature__top">
+        <span class="news-feature__date">Ongoing</span>
+        <span class="news-feature__tag">Educational Outreach</span>
+      </div>
+      <h4 class="news-feature__headline">Educational content creator on Rednote</h4>
+      <p class="news-feature__body">I freely share study resources and notes to help tens of thousands of students navigate learning challenges. I am now preparing computer science course content to support more learners through AI for education.</p>
+      <div class="news-feature__stats">
+        <span class="news-stat"><strong>5,500+</strong> followers</span>
+        <span class="news-stat"><strong>2.4M+</strong> total views</span>
+        <span class="news-stat"><strong>129k+</strong> likes and saves</span>
+      </div>
+      <p class="news-feature__foot">I aim to reach more learners through public-interest knowledge sharing.</p>
+    </article>
   </div>
 </div>
 
