@@ -46,54 +46,6 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I am f
       <h4 class="news-feature__headline">Training-Free Routing Interventions for Large MoE Models</h4>
       <p class="news-feature__body">Currently preparing a manuscript on training-free routing interventions for large MoE models. My work explores bypassing DeepSpeed's C++ fused operators via pseudo-inverse ($W^{\dagger}$) feature perturbations ($\Delta h$) to stabilize cross-modal alignment.</p>
     </article>
-
-    <section class="news-gallery" aria-label="Snapshots of Xiaohongshu educational content">
-      <div class="news-gallery__head">
-        <span class="news-gallery__label">Educational Outreach</span>
-        <p class="news-gallery__caption">Snapshots from my Xiaohongshu educational content</p>
-      </div>
-      <div class="news-gallery__grid">
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-1.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 1" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-2.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 2" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-3.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 3" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-4.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 4" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-5.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 5" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-6.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 6" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-7.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 7" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-8.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 8" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-      </div>
-    </section>
-
-    <article class="news-feature">
-      <div class="news-feature__top">
-        <span class="news-feature__date">Ongoing</span>
-        <span class="news-feature__tag">Educational Outreach</span>
-      </div>
-      <h4 class="news-feature__headline">Educational content creator on Rednote</h4>
-      <p class="news-feature__body">I freely share study resources and notes to help tens of thousands of students navigate learning challenges. I am now preparing computer science course content to support more learners through AI for education.</p>
-      <div class="news-feature__stats">
-        <span class="news-stat"><strong>5,500+</strong> followers</span>
-        <span class="news-stat"><strong>2.4M+</strong> total views</span>
-        <span class="news-stat"><strong>129k+</strong> likes and saves</span>
-      </div>
-      <p class="news-feature__foot">I aim to reach more learners through public-interest knowledge sharing.</p>
-    </article>
   </div>
 </div>
 
@@ -714,4 +666,61 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I am f
       <li><strong>Proposed dynamic rebalancing actions</strong> to improve return-risk balance while remaining aligned with long-term goals and client risk tolerance.</li>
     </ul>
   </article>
+</div>
+
+# 📱 Educational Outreach
+<div class="news-board">
+  <div class="news-board__header">
+    <p class="news-board__eyebrow">Community</p>
+  </div>
+
+  <div class="news-board__content">
+    <article class="news-feature">
+      <div class="news-feature__top">
+        <span class="news-feature__date">Ongoing</span>
+        <span class="news-feature__tag">Educational Outreach</span>
+      </div>
+      <h4 class="news-feature__headline">Educational content creator on Rednote</h4>
+      <p class="news-feature__body">I freely share study resources and notes to help tens of thousands of students navigate learning challenges. I am now preparing computer science course content to support more learners through AI for education.</p>
+      <div class="news-feature__stats">
+        <span class="news-stat"><strong>5,500+</strong> followers</span>
+        <span class="news-stat"><strong>2.4M+</strong> total views</span>
+        <span class="news-stat"><strong>129k+</strong> likes and saves</span>
+      </div>
+      <p class="news-feature__foot">I aim to reach more learners through public-interest knowledge sharing.</p>
+    </article>
+
+    <section class="news-gallery" aria-label="Snapshots of Xiaohongshu educational content">
+      <div class="news-gallery__head">
+        <span class="news-gallery__label">Visual Highlights</span>
+        <p class="news-gallery__caption">Snapshots from my Xiaohongshu educational content</p>
+      </div>
+      <div class="news-gallery__grid">
+        <figure class="news-gallery__shot">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-1.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 1" loading="lazy" decoding="async" fetchpriority="low">
+        </figure>
+        <figure class="news-gallery__shot">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-2.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 2" loading="lazy" decoding="async" fetchpriority="low">
+        </figure>
+        <figure class="news-gallery__shot">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-3.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 3" loading="lazy" decoding="async" fetchpriority="low">
+        </figure>
+        <figure class="news-gallery__shot">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-4.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 4" loading="lazy" decoding="async" fetchpriority="low">
+        </figure>
+        <figure class="news-gallery__shot">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-5.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 5" loading="lazy" decoding="async" fetchpriority="low">
+        </figure>
+        <figure class="news-gallery__shot">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-6.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 6" loading="lazy" decoding="async" fetchpriority="low">
+        </figure>
+        <figure class="news-gallery__shot">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-7.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 7" loading="lazy" decoding="async" fetchpriority="low">
+        </figure>
+        <figure class="news-gallery__shot">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-8.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 8" loading="lazy" decoding="async" fetchpriority="low">
+        </figure>
+      </div>
+    </section>
+  </div>
 </div>
