@@ -229,21 +229,6 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
     </div>
   </section>
 
-  <section class="award-year-section">
-    <div class="award-year-section__header">
-      <h4 class="award-year-section__title">2020</h4>
-      <p class="award-year-section__meta">1 award</p>
-    </div>
-    <div class="award-grid">
-      <article class="award-card">
-        <div class="award-card__top">
-          <span class="award-card__date">2020.06</span>
-          <span class="award-card__result">Provincial First Prize</span>
-        </div>
-        <h5 class="award-card__name"><a class="award-card__link" href="https://www.zhyww.cn" target="_blank" rel="noopener noreferrer">22nd Yuwen Bao Cup National Middle School Student Themed Essay Campaign</a></h5>
-      </article>
-    </div>
-  </section>
 </div>
 
 <div class="service-board">
