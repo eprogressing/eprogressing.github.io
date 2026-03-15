@@ -57,6 +57,26 @@
     color: #2563eb;
 }
 
+.news-list {
+    margin: 0.34rem 0 1.18rem;
+    padding-left: 1.3rem;
+}
+
+.news-list__item {
+    margin-bottom: 0.4rem;
+    color: #334155;
+    line-height: 1.68;
+}
+
+.news-list__item::marker {
+    color: #64748b;
+}
+
+.news-list__date {
+    color: #111827;
+    font-weight: 800;
+}
+
 .news-board::before {
     content: "";
     position: absolute;

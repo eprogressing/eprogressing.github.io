@@ -34,22 +34,9 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
 
 # 🔥 News
-<div class="news-board">
-  <div class="news-board__header">
-    <p class="news-board__eyebrow">Latest</p>
-  </div>
-
-  <div class="news-board__content">
-    <article class="news-feature">
-      <div class="news-feature__top">
-        <span class="news-feature__date">Mar 2026</span>
-        <span class="news-feature__tag">Research Update</span>
-      </div>
-      <h4 class="news-feature__headline">Training-Free Routing Interventions for Large MoE Models</h4>
-      <p class="news-feature__body">Currently preparing a manuscript on training-free routing interventions for large MoE models. My work explores bypassing DeepSpeed's C++ fused operators via pseudo-inverse ($W^{\dagger}$) feature perturbations ($\Delta h$) to stabilize cross-modal alignment.</p>
-    </article>
-  </div>
-</div>
+<ul class="news-list">
+  <li class="news-list__item"><strong class="news-list__date">[Mar 2026]</strong> Stop-the-Hijack: Training-Free Router Stabilization for Reliable Grounding in Multimodal MoE Models. I am currently working intensively to finalize my solo research in AI Infra and ML Systems. By engineering a framework that bypasses DeepSpeed's C++ operators via exact pseudo-inverse perturbations, I uncover and fix how system prompts hijack cross-modal MoE routing.</li>
+</ul>
 
 # 📝 Projects and Research
 
