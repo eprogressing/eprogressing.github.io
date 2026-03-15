@@ -50,7 +50,7 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">GPU Systems</div><img src="{{ '/images/projects/optimized/apsp-gpu-optimization.webp' | relative_url }}" alt="APSP GPU optimization project overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**GPU Optimization for All-Pairs Shortest Path** <em>(Solo Participant, National Champion in the CCF-TCARCH Computer Architecture Challenge)</em>
+**GPU Optimization for All-Pairs Shortest Path** <em>(Solo Undergraduate Participant; National Champion outperforming top-tier graduate teams in CCF-TCARCH)</em>
 
 - Designed a **3-stage blocked Floyd-Warshall** architecture that heavily leverages shared memory to reduce global memory bandwidth bottlenecks.
 - Applied kernel-level optimizations including **fusion, dual-stream concurrency, double buffering, grid compression, and sync-barrier elimination**, while cutting H2D transfer from **O(V²)** to **O(E)** through fast I/O and device-side reconstruction.
