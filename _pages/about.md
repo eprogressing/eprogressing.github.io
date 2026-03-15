@@ -61,12 +61,11 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src="{{ '/images/projects/optimized/k-lora-overview-v2.webp' | relative_url }}" alt="K-LoRA project overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Research on Personalized Image Diffusion Models with Adaptive Weight Selection** <em>(Challenge Cup National Third Prize)</em>
+**Research on Adaptive Weight Selection for Image Diffusion Models** <em>(National 3rd Prize in Challenge Cup, K-LoRA++)</em>
 
-- Extended the **CVPR 2025 K-LoRA** framework for training-free object-style fusion in diffusion models.
-- Designed and analyzed **K-LoRA++ scale-factor schedules**, covering both linear and nonlinear variants.
-- Ran cross-domain fusion and ablation experiments, showing that **linear schedules** provide the best balance of controllability, smooth transitions, and content fidelity.
-- Supported the project’s **practical implementation and downstream deployment**.
+- Extended the **training-free object-style fusion framework** (**CVPR 2025 K-LoRA**) by mathematically formulating and evaluating **8 distinct stage-aware scaling schedules** across diffusion timesteps.
+- Demonstrated through **first-order derivative analysis** and **cross-domain experiments** that a **constant-derivative linear schedule** optimally balances **content fidelity** and **style consistency**, effectively preventing **structural distortion** and **visual jitter** during the fusion process.
+- Facilitated the **end-to-end development** of the project's **interactive demo** and drove its **practical deployment** for downstream **generative applications**.
 </div>
 </div>
 
