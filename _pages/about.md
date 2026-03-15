@@ -47,6 +47,17 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
 # 📝 Projects and Research
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GPU Systems</div><img src="{{ '/images/projects/optimized/apsp-gpu-optimization.webp' | relative_url }}" alt="APSP GPU optimization project overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**GPU Optimization for All-Pairs Shortest Path** <em>(Solo Participant, National Champion in the CCF-TCARCH Computer Architecture Challenge)</em>
+
+- Designed a **3-stage blocked Floyd-Warshall** architecture that heavily leverages shared memory to reduce global memory bandwidth bottlenecks.
+- Applied kernel-level optimizations including **fusion, dual-stream concurrency, double buffering, grid compression, and sync-barrier elimination**, while cutting H2D transfer from **O(V²)** to **O(E)** through fast I/O and device-side reconstruction.
+- Achieved a **52%+ end-to-end speedup**, reducing total runtime from **11.50s** to **5.42s** through rocprof-driven profiling and hyperparameter tuning.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src="{{ '/images/projects/optimized/k-lora-overview-v2.webp' | relative_url }}" alt="K-LoRA project overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -67,17 +78,6 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 - Led the **PyTorch-to-MindSpore migration** of SparseTSF, rebuilding the training and evaluation pipeline, implementing missing operator equivalents, and open-sourcing the code.
 - Proposed **SparseTSF-FFT**, an FFT-based learnable filtering framework for long-term time series forecasting that replaces local convolutions while preserving the model’s **sub-1k parameter budget**.
 - Reproduced weight-pattern visualizations, compared runtime and MSE across frameworks, and achieved stronger long-horizon forecasting results on **ETTh1** and **ETTh2**.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GPU Systems</div><img src="{{ '/images/projects/optimized/apsp-gpu-optimization.webp' | relative_url }}" alt="APSP GPU optimization project overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**GPU Optimization for All-Pairs Shortest Path** <em>(Solo Participant, National Champion in the CCF-TCARCH Computer Architecture Challenge)</em>
-
-- Designed a **3-stage blocked Floyd-Warshall** architecture that heavily leverages shared memory to reduce global memory bandwidth bottlenecks.
-- Applied kernel-level optimizations including **fusion, dual-stream concurrency, double buffering, grid compression, and sync-barrier elimination**, while cutting H2D transfer from **O(V²)** to **O(E)** through fast I/O and device-side reconstruction.
-- Achieved a **52%+ end-to-end speedup**, reducing total runtime from **11.50s** to **5.42s** through rocprof-driven profiling and hyperparameter tuning.
 </div>
 </div>
 
