@@ -36,7 +36,10 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 # 🔥 News
 <ul class="news-list">
   <li class="news-list__item">
-    <strong class="news-list__date">[Mar 2026]</strong>
+    <div class="news-list__meta">
+      <strong class="news-list__date">[Mar 2026]</strong>
+      <span class="news-list__status">Preparing Submission</span>
+    </div>
     <span class="news-list__title">Stop-the-Hijack: Training-Free Router Stabilization for Reliable Grounding in Multimodal MoE Models</span>
     <span class="news-list__body">I am currently working intensively to finalize my solo research in AI Infra and ML Systems. By engineering a framework that bypasses DeepSpeed's C++ operators via exact pseudo-inverse perturbations, I uncover and fix how system prompts hijack cross-modal MoE routing.</span>
   </li>
