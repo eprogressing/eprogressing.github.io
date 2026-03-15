@@ -68,7 +68,7 @@ audio:not([controls]) {
 
 a,
 a:visited {
-  color: inherit;
+  color: $link-color;
   text-decoration: none;
 }
 
