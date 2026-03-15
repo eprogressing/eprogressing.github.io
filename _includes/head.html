@@ -7,14 +7,94 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  (function() {
+    var root = document.documentElement;
+    var ua = navigator.userAgent || "";
+    root.className = root.className.replace(/\bno-js\b/g, '') + ' js ';
+
+    if (/MicroMessenger/i.test(ua)) {
+      root.className += ' wechat-browser';
+
+      var lockWeChatFont = function() {
+        if (typeof WeixinJSBridge === "undefined") {
+          return;
+        }
+
+        WeixinJSBridge.invoke("setFontSizeCallback", { fontSize: 0 });
+        WeixinJSBridge.on("menu:setfont", function() {
+          WeixinJSBridge.invoke("setFontSizeCallback", { fontSize: 0 });
+        });
+      };
+
+      if (document.addEventListener) {
+        document.addEventListener("WeixinJSBridgeReady", lockWeChatFont, false);
+      } else if (document.attachEvent) {
+        document.attachEvent("WeixinJSBridgeReady", lockWeChatFont);
+        document.attachEvent("onWeixinJSBridgeReady", lockWeChatFont);
+      }
+    }
+  })();
 </script>
 
 <!-- For all browsers -->
 {% assign main_css_version = site.time | date: "%Y%m%d%H%M%S" %}
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ main_css_version }}">
+{% assign main_css_href = '/assets/css/main.css' | relative_url %}
+<script>
+  (function() {
+    var href = "{{ main_css_href }}?v={{ main_css_version }}";
+    if (/MicroMessenger/i.test(navigator.userAgent || "")) {
+      href += "&wx=" + Date.now();
+    }
+    var link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = href;
+    document.head.appendChild(link);
+  })();
+</script>
+<noscript>
+  <link rel="stylesheet" href="{{ main_css_href }}?v={{ main_css_version }}">
+</noscript>
+<style>
+  html.wechat-browser body,
+  html.wechat-browser button,
+  html.wechat-browser input,
+  html.wechat-browser select,
+  html.wechat-browser textarea,
+  html.wechat-browser .page__content,
+  html.wechat-browser .archive,
+  html.wechat-browser .sidebar,
+  html.wechat-browser .page__footer {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", Roboto, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif !important;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  html.wechat-browser h1,
+  html.wechat-browser h2,
+  html.wechat-browser h3,
+  html.wechat-browser h4,
+  html.wechat-browser h5,
+  html.wechat-browser h6,
+  html.wechat-browser b,
+  html.wechat-browser strong,
+  html.wechat-browser .author__name,
+  html.wechat-browser .page__title,
+  html.wechat-browser .archive__item-title,
+  html.wechat-browser .greedy-nav a,
+  html.wechat-browser .news-list__date,
+  html.wechat-browser .news-list__status,
+  html.wechat-browser .news-list__title {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", Roboto, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif !important;
+    font-weight: 800 !important;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-shadow: 0.015em 0 0 currentColor;
+  }
+
+  html.wechat-browser .news-list__date,
+  html.wechat-browser .news-list__status {
+    font-weight: 900 !important;
+  }
+</style>
 
 <meta http-equiv="cleartype" content="on">
-<head>
-  <base target="_blank">
-</head>
+<base target="_blank">
