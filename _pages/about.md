@@ -69,7 +69,7 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">LTSF</div><img src="{{ '/images/projects/optimized/sparsetsf-fft.webp' | relative_url }}" alt="SparseTSF-FFT framework overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">LTSF</div><img src="{{ '/images/projects/sparsetsf-fft-updated.png' | relative_url }}" alt="SparseTSF-FFT framework overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **SparseTSF-FFT: A Frequency-Domain Optimized Framework for Time Series Forecasting**
