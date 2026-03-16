@@ -80,6 +80,17 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">iOS Systems</div><img src="{{ '/images/projects/optimized/raceradar-overview.webp' | relative_url }}" alt="RaceRadar iOS app overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**RaceRadar: An iOS Platform for Aggregating and Ranking Competition Opportunities** <em>(Independent engineering project; App Store release in preparation)</em>
+
+- Engineered a **fault-tolerant, multi-source ingestion pipeline** that continuously **crawls, cleans, deduplicates, and ranks** competition announcements, publishing a unified **JSON feed** through scheduled **GitHub Actions** workflows.
+- Built a native **iOS app in Swift/Xcode** with **card-based discovery**, detailed opportunity pages, **deadline-aware prioritization**, **source/category tagging**, and **shareable competition posters**.
+- Designed the system around **real student workflows**, helping users identify **higher-quality** and **time-sensitive** opportunities more efficiently.
+</div>
+</div>
+
 # 🎖 Honors and Awards
 <div class="award-board">
   <div class="award-board__intro">
