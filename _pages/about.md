@@ -74,9 +74,9 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
 **SparseTSF-FFT: A Frequency-Domain Optimized Framework for Time Series Forecasting**
 
-- Led the **PyTorch-to-MindSpore migration** of SparseTSF, rebuilding the training and evaluation pipeline, implementing missing operator equivalents, and open-sourcing the code.
-- Proposed **SparseTSF-FFT**, an FFT-based learnable filtering framework for long-term time series forecasting that replaces local convolutions while preserving the model’s **sub-1k parameter budget**.
-- Reproduced weight-pattern visualizations, compared runtime and MSE across frameworks, and achieved stronger long-horizon forecasting results on **ETTh1** and **ETTh2**.
+- Spearheaded the **PyTorch-to-MindSpore migration** of SparseTSF. Engineered **custom API mappings** to resolve **missing operators** and fully reconstructed the **end-to-end training and evaluation pipelines** for seamless **cross-framework deployment**.
+- Architected an **FFT-based learnable filtering module** to replace **local sliding-window convolutions**. This **frequency-domain approach** directly captures **global periodicities** and **long-term trends** while strictly preserving the model's **ultra-lightweight sub-1k parameter budget**.
+- Executed rigorous **cross-framework profiling** (**MSE vs. runtime**) and **weight-distribution visualizations**. Demonstrated **superior long-horizon forecasting performance** (e.g., at **336** and **720** steps) on **ETTh1** and **ETTh2** datasets compared to the baseline.
 </div>
 </div>
 
