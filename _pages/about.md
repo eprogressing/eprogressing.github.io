@@ -50,7 +50,7 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">GPU Systems</div><img src="{{ '/images/projects/optimized/apsp-gpu-optimization.webp' | relative_url }}" alt="APSP GPU optimization project overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**GPU Optimization for All-Pairs Shortest Path** <em>(Solo Undergraduate Participant; National Champion outperforming top-tier graduate teams in CCF-TCARCH)</em>
+**GPU Optimization for All-Pairs Shortest Path** <em>(Individual Competitor; CCF-TCARCH 2025 National Champion, outperforming graduate teams including Tsinghua University)</em>
 
 - Architected a **memory-aware 3-stage blocked Floyd-Warshall pipeline**, heavily leveraging **shared memory** to bypass **global memory bandwidth limits**.
 - Engineered aggressive **kernel optimizations** (fusion, dual-stream, double buffering, barrier elimination) and resolved I/O bottlenecks by compressing **H2D transfers from O(V²) to O(E)** via **custom fast I/O** and **device-side graph reconstruction**.
