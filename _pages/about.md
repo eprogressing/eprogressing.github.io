@@ -499,7 +499,7 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
     <section class="news-gallery" aria-label="Snapshots of public-facing educational content">
       <div class="news-gallery__head">
         <span class="news-gallery__label">Visual Highlights</span>
-        <p class="news-gallery__caption">Selected examples of public-facing educational content</p>
+        <p class="news-gallery__caption">Selected examples of educational content</p>
       </div>
       <div class="news-gallery__grid">
         <figure class="news-gallery__shot">
@@ -519,7 +519,7 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
     <article class="news-feature">
       <h4 class="news-feature__headline">Beyond Research</h4>
-      <p class="news-feature__body">Outside academic work, I enjoy music, endurance sports, and independent travel. I have formal training in violin and guitar, regularly participate in distance running, and enjoy exploring new cities on my own. These experiences have shaped my discipline, resilience, and curiosity.</p>
+      <p class="news-feature__body">Outside academic work, I enjoy music, endurance sports, and independent travel. These experiences have shaped my discipline, resilience, and curiosity. I have formal training in violin and guitar and regularly participate in distance running.</p>
     </article>
   </div>
 </div>
