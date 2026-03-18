@@ -499,7 +499,7 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
     <section class="news-gallery" aria-label="Snapshots of public-facing educational content">
       <div class="news-gallery__head">
         <span class="news-gallery__label">Visual Highlights</span>
-        <p class="news-gallery__caption">Snapshots from my public-facing educational content</p>
+        <p class="news-gallery__caption">Selected examples of public-facing educational content</p>
       </div>
       <div class="news-gallery__grid">
         <figure class="news-gallery__shot">
@@ -514,104 +514,12 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
         <figure class="news-gallery__shot">
           <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-4.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 4" loading="lazy" decoding="async" fetchpriority="low">
         </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-5.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 5" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-6.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 6" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-7.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 7" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-8.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 8" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
       </div>
     </section>
 
-    <div class="arts-athletics-grid">
-      <article class="achievement-card achievement-card--arts">
-        <div class="achievement-card__header">
-          <h3 class="achievement-card__title">Music and Performance</h3>
-          <span class="achievement-card__tag">Long-term Training</span>
-        </div>
-        <ul class="achievement-card__list">
-          <li class="achievement-card__item">
-            <span class="achievement-card__year">2018</span>
-            <div class="achievement-card__text">
-              <strong>Classical Guitar Grade 10 Examination.</strong>
-              I earned Classical Guitar Grade 10 with an <span class="achievement-award achievement-award--excellent">Excellent rating</span>, becoming <span class="achievement-award">the first student in Zhuanghe, Dalian</span> to do so, and was recognized by experts for my potential in <span class="achievement-award">classical guitar performance</span>.
-            </div>
-          </li>
-          <li class="achievement-card__item">
-            <span class="achievement-card__year">2018</span>
-            <div class="achievement-card__text">
-              <strong>4th Hai Zhi Xing Guitar Competition.</strong>
-              I won <span class="achievement-award achievement-award--silver">Silver Prize</span> in Youth <span class="achievement-award">Folk Guitar</span> Group A and <span class="achievement-award achievement-award--silver">Silver Prize</span> in Children Classical Group, and was invited to perform on <span class="achievement-award">CCTV-15 Music Channel</span>.
-            </div>
-          </li>
-          <li class="achievement-card__item">
-            <span class="achievement-card__year">2015</span>
-            <div class="achievement-card__text">
-              <strong>National Arts Specialty Evaluation Certification.</strong>
-              I passed Folk Guitar Grade 6 and received the <span class="achievement-award achievement-award--accent">Best</span> level.
-            </div>
-          </li>
-          <li class="achievement-card__item">
-            <span class="achievement-card__year">2014</span>
-            <div class="achievement-card__text">
-              <strong>China Conservatory of Music Violin Examination.</strong>
-              I passed Violin <span class="achievement-award achievement-award--grade">Grade 10</span> and obtained the certificate.
-            </div>
-          </li>
-          <li class="achievement-card__item">
-            <span class="achievement-card__year">2011</span>
-            <div class="achievement-card__text">
-              <strong>"China Star" National Youth Outstanding Arts Talent Showcase.</strong>
-              I won <span class="achievement-award achievement-award--gold">Gold Prize</span> in violin ensemble and <span class="achievement-award achievement-award--silver">Silver Prize</span> in violin solo performance.
-            </div>
-          </li>
-        </ul>
-      </article>
-
-      <article class="achievement-card achievement-card--sports achievement-card--sports-profile">
-        <div class="achievement-card__header">
-          <h3 class="achievement-card__title">Athletics and Exploration</h3>
-          <span class="achievement-card__tag">Endurance, Team Sports, and Travel</span>
-        </div>
-        <div class="athlete-passion__intro">
-          <p class="athlete-passion__lead">Outside technical work, I enjoy ball sports, marathon running, and independent travel. Exploring new cities on my own has shaped my discipline, resilience, and curiosity.</p>
-          <div class="athlete-passion__chips">
-            <span class="athlete-passion__chip">Basketball</span>
-            <span class="athlete-passion__chip">Football</span>
-            <span class="athlete-passion__chip">Badminton</span>
-            <span class="athlete-passion__chip">Table Tennis</span>
-            <span class="athlete-passion__chip">Marathon</span>
-            <span class="athlete-passion__chip">Independent Travel</span>
-          </div>
-        </div>
-        <section class="athlete-passion__results-section">
-          <p class="athlete-passion__results-title">Selected Running Results</p>
-          <ul class="athlete-passion__results">
-            <li class="athlete-passion__result"><span class="athlete-passion__date">2024.04.27</span> Tianjin Jinnan Half Marathon <span class="athlete-passion__metric">1:45:13</span></li>
-            <li class="athlete-passion__result"><span class="athlete-passion__date">2024.05.25</span> Nankai University Campus Marathon <span class="athlete-passion__metric">41:48, 10 km, 8th Place</span> (interviewed by Nankai University's official media)</li>
-            <li class="athlete-passion__result"><span class="athlete-passion__date">2024.10.20</span> Tianjin Marathon (Full Marathon) <span class="athlete-passion__metric">3:58:40</span></li>
-            <li class="athlete-passion__result"><span class="athlete-passion__date">2025.04.20</span> Tianjin Jinnan Half Marathon <span class="athlete-passion__metric">1:43:47</span></li>
-            <li class="athlete-passion__result"><span class="athlete-passion__date">2025.05.17</span> Nankai University Campus Marathon <span class="athlete-passion__metric">44:44, 10 km</span></li>
-          </ul>
-          <div class="athlete-passion__gallery">
-            <a class="athlete-passion__photo-link" href="{{ '/images/20260303-143716.png' | relative_url }}" target="_blank" rel="noopener noreferrer">
-              <img src="{{ '/images/athletics/optimized/running-moment-1.webp' | relative_url }}" alt="Running moment 1" class="athlete-passion__photo" loading="lazy" decoding="async" fetchpriority="low" />
-            </a>
-            <a class="athlete-passion__photo-link" href="{{ '/images/20260303-143751.jpeg' | relative_url }}" target="_blank" rel="noopener noreferrer">
-              <img src="{{ '/images/athletics/optimized/running-moment-2.webp' | relative_url }}" alt="Running moment 2" class="athlete-passion__photo" loading="lazy" decoding="async" fetchpriority="low" />
-            </a>
-            <a class="athlete-passion__photo-link" href="{{ '/images/20260303144351.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer">
-              <img src="{{ '/images/athletics/optimized/running-moment-3.webp' | relative_url }}" alt="Running moment 3" class="athlete-passion__photo" loading="lazy" decoding="async" fetchpriority="low" />
-            </a>
-          </div>
-        </section>
-      </article>
-    </div>
+    <article class="news-feature">
+      <h4 class="news-feature__headline">Beyond Research</h4>
+      <p class="news-feature__body">Outside academic work, I enjoy music, endurance sports, and independent travel. I have formal training in violin and guitar, regularly participate in distance running, and enjoy exploring new cities on my own. These experiences have shaped my discipline, resilience, and curiosity.</p>
+    </article>
   </div>
 </div>
