@@ -47,6 +47,8 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
 # 📝 Projects and Research
 
+## Projects
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">GPU Systems</div><img src="{{ '/images/projects/optimized/apsp-gpu-optimization.webp' | relative_url }}" alt="APSP GPU optimization project overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -57,6 +59,19 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 - Achieved a **52%+ end-to-end speedup** (reducing total runtime from **11.50s to 5.42s on the official hidden datasets**) through systematic, **rocprof-guided micro-architectural profiling** and hyperparameter tuning.
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">iOS Systems</div><img src="{{ '/images/projects/optimized/raceradar-overview.webp' | relative_url }}" alt="RaceRadar iOS app overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**RaceRadar: An iOS Platform for Aggregating and Ranking Competition Opportunities** <em>(Independent engineering project; App Store release in preparation)</em>
+
+- Engineered a **fault-tolerant, multi-source ingestion pipeline** that continuously **crawls, cleans, deduplicates, and ranks** competition announcements, publishing a unified **JSON feed** through scheduled **GitHub Actions** workflows.
+- Built a native **iOS app in Swift/Xcode** with **card-based discovery**, detailed opportunity pages, **deadline-aware prioritization**, **source/category tagging**, and **shareable competition posters**.
+- Designed the system around **real student workflows**, helping users identify **higher-quality** and **time-sensitive** opportunities more efficiently.
+</div>
+</div>
+
+## Research
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src="{{ '/images/projects/optimized/k-lora-overview-v2.webp' | relative_url }}" alt="K-LoRA project overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -77,17 +92,6 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 - Spearheaded the **PyTorch-to-MindSpore migration** of SparseTSF. Engineered **custom API mappings** to resolve **missing operators** and fully reconstructed the **end-to-end training and evaluation pipelines** for seamless **cross-framework deployment**.
 - Architected an **FFT-based learnable filtering module** to replace **local sliding-window convolutions**. This **frequency-domain approach** directly captures **global periodicities** and **long-term trends** while strictly preserving the model's **ultra-lightweight sub-1k parameter budget**.
 - Executed rigorous **cross-framework profiling** (**MSE vs. runtime**) and **weight-distribution visualizations**. Demonstrated **superior long-horizon forecasting performance** (e.g., at **336** and **720** steps) on **ETTh1** and **ETTh2** datasets compared to the baseline.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">iOS Systems</div><img src="{{ '/images/projects/optimized/raceradar-overview.webp' | relative_url }}" alt="RaceRadar iOS app overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**RaceRadar: An iOS Platform for Aggregating and Ranking Competition Opportunities** <em>(Independent engineering project; App Store release in preparation)</em>
-
-- Engineered a **fault-tolerant, multi-source ingestion pipeline** that continuously **crawls, cleans, deduplicates, and ranks** competition announcements, publishing a unified **JSON feed** through scheduled **GitHub Actions** workflows.
-- Built a native **iOS app in Swift/Xcode** with **card-based discovery**, detailed opportunity pages, **deadline-aware prioritization**, **source/category tagging**, and **shareable competition posters**.
-- Designed the system around **real student workflows**, helping users identify **higher-quality** and **time-sensitive** opportunities more efficiently.
 </div>
 </div>
 
