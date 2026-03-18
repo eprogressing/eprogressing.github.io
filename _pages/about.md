@@ -248,14 +248,14 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
 <div class="service-board">
   <div class="service-board__intro">
-    <p class="service-board__eyebrow">Leadership, Teaching, and Service</p>
+    <p class="service-board__eyebrow">Teaching, Leadership, and Service</p>
   </div>
 
   <div class="service-board__group">
     <p class="service-board__label">Roles</p>
     <div class="service-list">
       <article class="service-item">
-        <span class="service-item__date">2025.09-2026.01</span>
+        <span class="service-item__date">Sep 2025 - Jan 2026</span>
         <div class="service-item__body">
           <p class="service-item__title">Teaching Assistant</p>
           <p class="service-item__meta">Computer Hardware Fundamentals</p>
@@ -263,7 +263,7 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
       </article>
 
       <article class="service-item">
-        <span class="service-item__date">2025.09-2026.01</span>
+        <span class="service-item__date">Sep 2025 - Jan 2026</span>
         <div class="service-item__body">
           <p class="service-item__title">Student Assistant</p>
           <p class="service-item__meta">Youth League Committee Office</p>
@@ -271,7 +271,7 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
       </article>
 
       <article class="service-item">
-        <span class="service-item__date">2023.09-Present</span>
+        <span class="service-item__date">Sep 2023 - Present</span>
         <div class="service-item__body">
           <p class="service-item__title">Class Monitor &amp; Deputy Secretary of the Youth League Branch</p>
           <p class="service-item__meta">School of Computer Science</p>
