@@ -73,6 +73,17 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
 ## Research
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">LTSF</div><img src="{{ '/images/projects/sparsetsf-fft-updated.png' | relative_url }}" alt="SparseTSF-FFT framework overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**SparseTSF-FFT: A Frequency-Domain Framework for Time Series Forecasting**
+
+- **Reimplemented and extended SparseTSF from PyTorch to MindSpore**, including custom API mappings and reconstruction of the training/evaluation pipeline for cross-framework deployment.
+- Designed an **FFT-based learnable filtering module** to replace local sliding-window convolutions, aiming to better capture long-range periodic structure under a lightweight parameter budget.
+- Conducted cross-framework profiling and forecasting evaluations, observing **improved long-horizon performance** (e.g., at 336 and 720 steps on ETTh1/ETTh2) relative to the baseline.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src="{{ '/images/projects/optimized/k-lora-overview-v2.webp' | relative_url }}" alt="K-LoRA project overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -81,17 +92,6 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 - Extended the **training-free object-style fusion framework** (**CVPR 2025 K-LoRA**) by mathematically formulating and evaluating **8 distinct stage-aware scaling schedules** across diffusion timesteps.
 - Demonstrated through **first-order derivative analysis** and **cross-domain experiments** that a **constant-derivative linear schedule** optimally balances **content fidelity** and **style consistency**, effectively preventing **structural distortion** and **visual jitter** during the fusion process.
 - Facilitated the **end-to-end development** of the project's **interactive demo** and drove its **practical deployment** for downstream **generative applications**.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">LTSF</div><img src="{{ '/images/projects/sparsetsf-fft-updated.png' | relative_url }}" alt="SparseTSF-FFT framework overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**SparseTSF-FFT: A Frequency-Domain Optimized Framework for Time Series Forecasting**
-
-- Spearheaded the **PyTorch-to-MindSpore migration** of SparseTSF. Engineered **custom API mappings** to resolve **missing operators** and fully reconstructed the **end-to-end training and evaluation pipelines** for seamless **cross-framework deployment**.
-- Architected an **FFT-based learnable filtering module** to replace **local sliding-window convolutions**. This **frequency-domain approach** directly captures **global periodicities** and **long-term trends** while strictly preserving the model's **ultra-lightweight sub-1k parameter budget**.
-- Executed rigorous **cross-framework profiling** (**MSE vs. runtime**) and **weight-distribution visualizations**. Demonstrated **superior long-horizon forecasting performance** (e.g., at **336** and **720** steps) on **ETTh1** and **ETTh2** datasets compared to the baseline.
 </div>
 </div>
 
