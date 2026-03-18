@@ -512,14 +512,17 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
           <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-4.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 4" loading="lazy" decoding="async" fetchpriority="low">
         </figure>
         <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-7.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 7" loading="lazy" decoding="async" fetchpriority="low">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-6.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 6" loading="lazy" decoding="async" fetchpriority="low">
         </figure>
       </div>
     </section>
 
     <article class="news-feature">
       <h4 class="news-feature__headline">Beyond Research</h4>
-      <p class="news-feature__body">Outside academic work, I enjoy music, endurance sports, and independent travel. I have formal training in violin and guitar and regularly participate in marathon running. These experiences have shaped my <strong>discipline, resilience, and curiosity</strong>.</p>
+      <p class="news-feature__body">Outside academic work, I enjoy music, marathon running, and independent travel. Formal training in violin and guitar, along with marathon training and solo travel, has strengthened my <strong>discipline, resilience, and curiosity</strong>.</p>
+      <a class="news-feature__media" href="{{ '/images/20260303-143751.jpeg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open running photo">
+        <img class="news-feature__photo" src="{{ '/images/athletics/optimized/running-moment-2.webp' | relative_url }}" alt="Running moment" loading="lazy" decoding="async" fetchpriority="low">
+      </a>
     </article>
   </div>
 </div>
