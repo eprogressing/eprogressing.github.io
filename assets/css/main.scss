@@ -1494,35 +1494,6 @@ h1:before, .anchor:before {
     color: #7a6067;
 }
 
-.certificate-board {
-    border-color: #d6dfea;
-    background:
-        linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0) 20%),
-        linear-gradient(180deg, #eef4fb 0%, #e8eff8 100%);
-}
-
-.certificate-board::before {
-    background: linear-gradient(90deg, #3b82f6 0%, rgba(59, 130, 246, 0.14) 68%, rgba(59, 130, 246, 0) 100%);
-}
-
-.certificate-board .award-card {
-    border-color: rgba(59, 130, 246, 0.14);
-}
-
-.certificate-board .award-card::before {
-    background: linear-gradient(90deg, rgba(37, 99, 235, 0.86) 0%, rgba(37, 99, 235, 0.18) 100%);
-}
-
-.certificate-board .award-card__result {
-    border-color: rgba(37, 99, 235, 0.14);
-    background: rgba(239, 246, 255, 0.96);
-    color: #1d4ed8;
-}
-
-.certificate-board .award-card__subtitle {
-    color: #607287;
-}
-
 .arts-athletics-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
