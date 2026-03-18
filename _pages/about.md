@@ -503,9 +503,6 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
       </div>
       <div class="news-gallery__grid">
         <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-1.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 1" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
           <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-2.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 2" loading="lazy" decoding="async" fetchpriority="low">
         </figure>
         <figure class="news-gallery__shot">
@@ -513,9 +510,6 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
         </figure>
         <figure class="news-gallery__shot">
           <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-4.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 4" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-6.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 6" loading="lazy" decoding="async" fetchpriority="low">
         </figure>
         <figure class="news-gallery__shot">
           <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-7.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 7" loading="lazy" decoding="async" fetchpriority="low">
