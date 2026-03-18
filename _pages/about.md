@@ -487,13 +487,13 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
   <div class="news-board__content">
     <article class="news-feature">
       <h4 class="news-feature__headline">CS and AI Educational Outreach</h4>
-      <p class="news-feature__body">I create structured study notes, learning resources, and course-oriented materials for student audiences, and I am continuing to expand this work toward broader computer science and AI topics.</p>
+      <p class="news-feature__body">I create <strong>structured study notes, learning resources, and course-oriented materials</strong> for student audiences, and I am continuing to expand this work toward broader computer science and AI topics.</p>
       <div class="news-feature__stats">
         <span class="news-stat"><strong>5,500+</strong> followers</span>
         <span class="news-stat"><strong>2.4M+</strong> total views</span>
         <span class="news-stat"><strong>129k+</strong> likes and saves</span>
       </div>
-      <p class="news-feature__foot">This work has helped me think more deliberately about clarity, structure, and accessibility when communicating technical ideas.</p>
+      <p class="news-feature__foot">This work has helped me think more deliberately about <strong>clarity, structure, and accessibility</strong> when communicating technical ideas.</p>
     </article>
 
     <section class="news-gallery" aria-label="Snapshots of public-facing educational content">
@@ -519,7 +519,7 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
     <article class="news-feature">
       <h4 class="news-feature__headline">Beyond Research</h4>
-      <p class="news-feature__body">Outside academic work, I enjoy music, endurance sports, and independent travel. I have formal training in violin and guitar and regularly participate in marathon running. These experiences have shaped my discipline, resilience, and curiosity.</p>
+      <p class="news-feature__body">Outside academic work, I enjoy music, endurance sports, and independent travel. I have formal training in violin and guitar and regularly participate in marathon running. These experiences have shaped my <strong>discipline, resilience, and curiosity</strong>.</p>
     </article>
   </div>
 </div>
