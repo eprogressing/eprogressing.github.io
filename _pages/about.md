@@ -486,7 +486,7 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
   <div class="news-board__content">
     <article class="news-feature">
-      <h4 class="news-feature__headline">Public-facing CS and AI Educational Outreach</h4>
+      <h4 class="news-feature__headline">CS and AI Educational Outreach</h4>
       <p class="news-feature__body">I create structured study notes, learning resources, and course-oriented materials for student audiences, and I am continuing to expand this work toward broader computer science and AI topics.</p>
       <div class="news-feature__stats">
         <span class="news-stat"><strong>5,500+</strong> followers</span>
@@ -519,7 +519,7 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
     <article class="news-feature">
       <h4 class="news-feature__headline">Beyond Research</h4>
-      <p class="news-feature__body">Outside academic work, I enjoy music, endurance sports, and independent travel. These experiences have shaped my discipline, resilience, and curiosity. I have formal training in violin and guitar and regularly participate in distance running.</p>
+      <p class="news-feature__body">Outside academic work, I enjoy music, endurance sports, and independent travel. I have formal training in violin and guitar and regularly participate in distance running. These experiences have shaped my discipline, resilience, and curiosity.</p>
     </article>
   </div>
 </div>
