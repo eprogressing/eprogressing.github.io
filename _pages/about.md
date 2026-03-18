@@ -248,11 +248,11 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
 <div class="service-board">
   <div class="service-board__intro">
-    <p class="service-board__eyebrow">🎖 Student Leadership and Service</p>
+    <p class="service-board__eyebrow">Leadership, Teaching, and Service</p>
   </div>
 
   <div class="service-board__group">
-    <p class="service-board__label">Positions</p>
+    <p class="service-board__label">Roles</p>
     <div class="service-list">
       <article class="service-item">
         <span class="service-item__date">2025.09-2026.01</span>
@@ -273,43 +273,34 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
       <article class="service-item">
         <span class="service-item__date">2023.09-Present</span>
         <div class="service-item__body">
-          <p class="service-item__title">Class Monitor and Deputy Secretary of the Youth League Branch</p>
+          <p class="service-item__title">Class Monitor &amp; Deputy Secretary of the Youth League Branch</p>
           <p class="service-item__meta">School of Computer Science</p>
         </div>
       </article>
     </div>
-    <p class="service-inline-note"><strong>Campus Ambassador:</strong> EY, PwC, ByteDance, and Meituan</p>
   </div>
 
   <div class="service-board__group">
-    <p class="service-board__label">Service Hours</p>
+    <p class="service-board__label">Service Impact</p>
     <div class="service-stat-strip">
       <span class="service-chip"><strong>213.4h</strong> Volunteer Service</span>
       <span class="service-chip"><strong>153h</strong> Social Practice</span>
-      <span class="service-chip"><strong>530h</strong> Ligong Zengneng Learning Support Platform</span>
+      <span class="service-chip"><strong>530h</strong> Peer Learning Support</span>
     </div>
   </div>
 
   <div class="service-board__group">
-    <p class="service-board__label">Honors</p>
+    <p class="service-board__label">Selected Recognition</p>
     <div class="service-honor-grid">
       <article class="service-item">
-        <span class="service-item__date">2025.11</span>
+        <span class="service-item__date">2024, 2025</span>
         <div class="service-item__body">
           <p class="service-item__title">Outstanding Student Cadre</p>
         </div>
       </article>
 
       <article class="service-item">
-        <span class="service-item__date">2025.11</span>
-        <div class="service-item__body">
-          <p class="service-item__title">Outstanding Individual</p>
-          <p class="service-item__meta">Nankai "Teachers and Students Together in Four Aspects" Social Practice</p>
-        </div>
-      </article>
-
-      <article class="service-item">
-        <span class="service-item__date">2025.11</span>
+        <span class="service-item__date">2025</span>
         <div class="service-item__body">
           <p class="service-item__title">Outstanding Team</p>
           <p class="service-item__meta">Nankai Xiong'an Summer Social Practice</p>
@@ -317,70 +308,32 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
       </article>
 
       <article class="service-item">
-        <span class="service-item__date">2025.06</span>
+        <span class="service-item__date">2025</span>
         <div class="service-item__body">
-          <p class="service-item__title">Outstanding Class Youth League Branch</p>
+          <p class="service-item__title">Outstanding Individual</p>
+          <p class="service-item__meta">Teachers and Students Together in Four Aspects Social Practice</p>
         </div>
       </article>
 
       <article class="service-item">
-        <span class="service-item__date">2025.05</span>
+        <span class="service-item__date">2025</span>
         <div class="service-item__body">
           <p class="service-item__title">Leader of the May Fourth Red Flag Youth League Group</p>
         </div>
       </article>
 
       <article class="service-item">
-        <span class="service-item__date">2025.05</span>
+        <span class="service-item__date">2025</span>
         <div class="service-item__body">
-          <p class="service-item__title">Official Advisor</p>
-          <p class="service-item__meta">Nankai Student Affairs Committee</p>
+          <p class="service-item__title">Outstanding Class Youth League Branch</p>
         </div>
       </article>
 
       <article class="service-item">
-        <span class="service-item__date">2024.11</span>
-        <div class="service-item__body">
-          <p class="service-item__title">Outstanding Student Cadre</p>
-        </div>
-      </article>
-
-      <article class="service-item">
-        <span class="service-item__date">2024.09</span>
-        <div class="service-item__body">
-          <p class="service-item__title">Outstanding Deputy Platoon Leader</p>
-          <p class="service-item__meta">Nankai University Military Training</p>
-        </div>
-      </article>
-
-      <article class="service-item">
-        <span class="service-item__date">2024.06</span>
-        <div class="service-item__body">
-          <p class="service-item__title">Outstanding Officer</p>
-          <p class="service-item__meta">Nankai University CYL Organization Dept.</p>
-        </div>
-      </article>
-
-      <article class="service-item">
-        <span class="service-item__date">2023.11</span>
-        <div class="service-item__body">
-          <p class="service-item__title">Participant</p>
-          <p class="service-item__meta">Phase III "Zhuoyu Program"; representative speech at Zhou Enlai birthday commemoration</p>
-        </div>
-      </article>
-
-      <article class="service-item">
-        <span class="service-item__date">2023.10</span>
+        <span class="service-item__date">2023</span>
         <div class="service-item__body">
           <p class="service-item__title">Official Representative</p>
           <p class="service-item__meta">Nankai University Student Congress</p>
-        </div>
-      </article>
-
-      <article class="service-item">
-        <span class="service-item__date">2018.05</span>
-        <div class="service-item__body">
-          <p class="service-item__title">Dalian Merit Student</p>
         </div>
       </article>
     </div>
