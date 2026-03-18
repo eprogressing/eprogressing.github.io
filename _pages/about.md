@@ -475,9 +475,9 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
   </article>
 </div>
 
-<span class='anchor' id='technical-communication-outreach'></span>
+<span class='anchor' id='technical-communication'></span>
 
-# 📡 Technical Communication & Outreach
+# 📡 Technical Communication
 <div class="news-board">
   <div class="news-board__header">
     <p class="news-board__eyebrow">Public Engagement</p>
