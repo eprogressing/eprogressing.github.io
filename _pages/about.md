@@ -89,9 +89,9 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
 **Research on Adaptive Weight Selection for Image Diffusion Models** <em>(National 3rd Prize in Challenge Cup, K-LoRA++)</em>
 
-- Extended the **training-free object-style fusion framework** (**CVPR 2025 K-LoRA**) by mathematically formulating and evaluating **8 distinct stage-aware scaling schedules** across diffusion timesteps.
-- Demonstrated through **first-order derivative analysis** and **cross-domain experiments** that a **constant-derivative linear schedule** optimally balances **content fidelity** and **style consistency**, effectively preventing **structural distortion** and **visual jitter** during the fusion process.
-- Facilitated the **end-to-end development** of the project's **interactive demo** and drove its **practical deployment** for downstream **generative applications**.
+- Extended the training-free object-style fusion framework (CVPR 2025 K-LoRA) by mathematically formulating and evaluating **8 distinct stage-aware scaling schedules** across diffusion timesteps.
+- Demonstrated through first-order derivative analysis and cross-domain experiments that a **constant-derivative linear schedule** optimally balances content fidelity and style consistency, effectively preventing structural distortion and visual jitter during the fusion process.
+- Facilitated the end-to-end development of the project's interactive demo and drove its practical deployment for downstream generative applications.
 </div>
 </div>
 
