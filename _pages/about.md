@@ -481,17 +481,13 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 <div class="news-board">
   <div class="news-board__header">
     <p class="news-board__eyebrow">Public Engagement</p>
-    <p class="news-board__intro">Beyond research, I enjoy sharing structured learning materials on computer science and AI through public-facing educational content. This experience has helped me practice technical communication and think more carefully about how complex ideas can be made accessible to broader audiences. Outside academic work, I also enjoy violin and distance running, which help me maintain discipline and balance.</p>
+    <p class="news-board__intro">Beyond research, I enjoy sharing structured learning materials on computer science and AI through public-facing educational content. This experience has helped me practice technical communication and think more carefully about how complex ideas can be made accessible to broader audiences.</p>
   </div>
 
   <div class="news-board__content">
     <article class="news-feature">
-      <div class="news-feature__top">
-        <span class="news-feature__date">Ongoing</span>
-        <span class="news-feature__tag">Technical Communication</span>
-      </div>
-      <h4 class="news-feature__headline">Public-facing CS and AI educational content on Rednote</h4>
-      <p class="news-feature__body">I share structured study notes, learning resources, and course-oriented materials for student audiences, and I am currently preparing more computer science and AI content for broader audiences.</p>
+      <h4 class="news-feature__headline">Public-facing CS and AI Educational Outreach</h4>
+      <p class="news-feature__body">I create structured study notes, learning resources, and course-oriented materials for student audiences, and I am continuing to expand this work toward broader computer science and AI topics.</p>
       <div class="news-feature__stats">
         <span class="news-stat"><strong>5,500+</strong> followers</span>
         <span class="news-stat"><strong>2.4M+</strong> total views</span>
@@ -500,37 +496,9 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
       <p class="news-feature__foot">This work has helped me think more deliberately about clarity, structure, and accessibility when communicating technical ideas.</p>
     </article>
 
-    <section class="news-gallery" aria-label="Snapshots of public-facing educational content">
-      <div class="news-gallery__head">
-        <span class="news-gallery__label">Visual Highlights</span>
-        <p class="news-gallery__caption">Snapshots from my public-facing educational content</p>
-      </div>
-      <div class="news-gallery__grid">
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-1.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 1" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-2.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 2" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-3.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 3" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-4.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 4" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-5.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 5" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-6.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 6" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-7.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 7" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-        <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-8.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 8" loading="lazy" decoding="async" fetchpriority="low">
-        </figure>
-      </div>
-    </section>
+    <article class="news-feature">
+      <h4 class="news-feature__headline">Beyond Research</h4>
+      <p class="news-feature__body">Outside academic work, I enjoy music, endurance sports, and independent travel. I have formal training in violin and guitar, regularly participate in distance running, and enjoy exploring new cities on my own. These experiences have shaped my discipline, resilience, and curiosity.</p>
+    </article>
   </div>
 </div>
