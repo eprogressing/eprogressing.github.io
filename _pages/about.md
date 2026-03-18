@@ -54,20 +54,20 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
 **GPU Optimization for All-Pairs Shortest Path** <em>(Individual Competitor; CCF-TCARCH 2025 National Champion)</em>
 
-- Designed a **memory-aware 3-stage blocked Floyd-Warshall pipeline** that used **shared memory** to reduce **bandwidth pressure** in dense APSP computation.
-- Optimized kernel execution through **fusion, dual-stream scheduling, double buffering, and reduced synchronization overhead**; further compressed **host-to-device transfer cost from O(V²) to O(E)** via **custom I/O** and **device-side graph reconstruction**.
-- Ranked **1st nationally as an individual competitor**, achieving a **52% end-to-end speedup** on the **official hidden datasets** (**11.50s -> 5.42s**) through **profiling-driven optimization** and systematic performance tuning.
+- Designed a **memory-aware 3-stage blocked Floyd–Warshall pipeline** to reduce bandwidth pressure in dense APSP computation, using shared memory to improve data locality.
+- Optimized kernel execution through fusion, dual-stream scheduling, double buffering, and reduced synchronization overhead; further compressed **host-to-device transfer cost from O(V²) to O(E)** via custom I/O and device-side graph reconstruction.
+- Ranked 1st nationally as an individual competitor, achieving a **52% end-to-end speedup** on the official hidden datasets (11.50s → 5.42s) through profiling-driven optimization and systematic performance tuning.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">iOS Systems</div><img src="{{ '/images/projects/optimized/raceradar-overview.webp' | relative_url }}" alt="RaceRadar iOS app overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Systems</div><img src="{{ '/images/projects/optimized/raceradar-overview.webp' | relative_url }}" alt="RaceRadar iOS app overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **RaceRadar: An End-to-End iOS System for Aggregating and Prioritizing Competition Opportunities** <em>(Independent engineering project; App Store release in preparation)</em>
 
-- Built a **fault-tolerant, multi-source ingestion pipeline** that continuously **crawls, cleans, deduplicates, and ranks** competition announcements, publishing a unified **JSON feed** through scheduled **GitHub Actions** workflows.
-- Developed a native **iOS app in Swift/Xcode** with **card-based discovery**, detailed opportunity pages, **deadline-aware prioritization**, **source/category tagging**, and **shareable competition posters**.
-- Designed the system for **real student workflows**, translating **automated data ingestion and ranking** into a **deployable user-facing product** for discovering **higher-quality** and **time-sensitive** opportunities.
+- Built a **fault-tolerant, multi-source ingestion pipeline** that continuously crawls, cleans, deduplicates, and ranks competition announcements, publishing a unified JSON feed through scheduled GitHub Actions workflows.
+- Developed a **native iOS app in Swift/Xcode** with card-based discovery, detailed opportunity pages, deadline-aware prioritization, source/category tagging, and shareable competition posters.
+- Designed the system around real student workflows, translating automated data ingestion and ranking into a **deployable user-facing information system** for discovering higher-quality and time-sensitive opportunities.
 </div>
 </div>
 
