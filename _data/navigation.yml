@@ -4,7 +4,7 @@ main:
     url: "/#about-me"
 
   - title: "CV"
-    url: "/cv/"
+    url: "/files/jingming-liang-cv.pdf"
 
   - title: "News"
     url: "/#-news"
