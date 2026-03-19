@@ -27,6 +27,8 @@ author:
   employer         :
   pubmed           : 
   email            : "2312632@mail.nankai.edu.cn"
+  cv               : "/cv/"
+  cv_pdf           : "/files/jingming-liang-cv.pdf"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

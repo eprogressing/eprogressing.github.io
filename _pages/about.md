@@ -24,6 +24,21 @@ Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I am f
 
 Beyond my interdisciplinary studies, my main focus is building **efficient ML systems** and **scalable AI infrastructure**. I am actively looking for research and engineering opportunities in **ML Systems**, **Distributed AI**, and **Hardware-Aware Optimization**. Feel free to reach out through the email and social links in the sidebar!
 
+<span class='anchor' id='cv-preview'></span>
+
+# 📄 CV / Resume
+
+<div class="cv-card">
+  <p class="cv-card__text">
+    My latest CV is available online for quick review. You can open the dedicated preview page, view the PDF directly, or download a local copy.
+  </p>
+  <div class="cv-actions">
+    <a class="btn" href="{{ '/cv/' | relative_url }}">View CV Page</a>
+    <a class="btn btn--inverse" href="{{ '/files/jingming-liang-cv.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Open PDF</a>
+    <a class="btn btn--inverse" href="{{ '/files/jingming-liang-cv.pdf' | relative_url }}" download>Download CV</a>
+  </div>
+</div>
+
 **Research Interests:**
 
 <ul class="research-interests-list">
