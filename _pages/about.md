@@ -20,7 +20,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I am from Dalian, China, and currently a **junior CS undergraduate** at the [**School of Computer Science**](https://cc.nankai.edu.cn/), [**Nankai University**](https://www.nankai.edu.cn/) <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" style="height: 1.1em; width: 1.1em; vertical-align: -0.15em; margin-left: 0.2em;">, pursuing dual minors in [**Finance**](https://finance.nankai.edu.cn/2024/0510/c34622a542022/page.htm) and **Criminal Law**. My [**CV is available here**]({{ '/英文CV2.pdf' | relative_url }}) for direct viewing.
+Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I am from Dalian, China, and currently a **junior CS undergraduate** at the [**School of Computer Science**](https://cc.nankai.edu.cn/), [**Nankai University**](https://www.nankai.edu.cn/) <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" style="height: 1.1em; width: 1.1em; vertical-align: -0.15em; margin-left: 0.2em;">, pursuing dual minors in [**Finance**](https://finance.nankai.edu.cn/2024/0510/c34622a542022/page.htm) and **Criminal Law**. My [**CV is available here**]({{ '/files/jingming-liang-cv.pdf' | relative_url }}) for direct viewing.
 
 Beyond my interdisciplinary studies, my main focus is building **efficient ML systems** and **scalable AI infrastructure**. I am actively looking for research and engineering opportunities in **ML Systems**, **Distributed AI**, and **Hardware-Aware Optimization**. Feel free to reach out through the email and social links in the sidebar!
 
