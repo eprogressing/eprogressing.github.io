@@ -37,11 +37,11 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 <ul class="news-list">
   <li class="news-list__item">
     <div class="news-list__meta">
-      <strong class="news-list__date">[Mar 2026]</strong>
-      <span class="news-list__status">Preparing Submission</span>
+      <strong class="news-list__date">[Apr 2026]</strong>
+      <span class="news-list__status">IEEE Under Review</span>
     </div>
-    <span class="news-list__title">Stop-the-Hijack: Training-Free Router Stabilization for Reliable Grounding in Multimodal MoE Models</span>
-    <span class="news-list__body">I am currently developing a solo research project in AI infrastructure and ML systems that studies how system prompts can hijack cross-modal MoE routing. By designing a framework that bypasses DeepSpeed's C++ operators through exact pseudo-inverse perturbations, I analyze this routing instability and explore practical interventions for mitigating it. A submission is in preparation.</span>
+    <span class="news-list__title">Diagnosing and Mitigating Noun-Driven Routing Bias in Multimodal Mixture-of-Experts</span>
+    <span class="news-list__body">My paper is currently under review at IEEE. The work introduces a training-free probe, CMRD, to diagnose how queried nouns can bias visual routing in multimodal MoE models, localizes the strongest effect to a shared deep-layer routing hotspot, and studies inference-time mitigation strategies that reduce false positives in object hallucination benchmarks.</span>
   </li>
 </ul>
 
@@ -72,6 +72,17 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 </div>
 
 ## Research
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Multimodal MoE</div><div style="min-height: 220px; padding: 1.5rem; background: linear-gradient(145deg, #0f172a 0%, #1d4ed8 52%, #38bdf8 100%); color: #ffffff; display: flex; align-items: flex-end;"><div><p style="margin: 0; font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.82;">IEEE Under Review</p><p style="margin: 0.55rem 0 0; font-size: 1.45rem; font-weight: 700; line-height: 1.15;">Noun-Driven Routing Bias in Multimodal MoE</p><p style="margin: 0.75rem 0 0; font-size: 0.95rem; line-height: 1.45; opacity: 0.92;">Diagnosis, controllable intervention, and inference-time mitigation.</p></div></div></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Diagnosing and Mitigating Noun-Driven Routing Bias in Multimodal Mixture-of-Experts** <em>(IEEE under review)</em>
+
+- Introduces **CMRD (Controlled MoE Routing Decomposition)**, a training-free diagnostic probe that constructs layerwise text anchors and applies minimum-norm pseudo-inverse perturbations to actuate targeted pre-router shifts in multimodal MoE models.
+- Shows that **queried nouns induce the strongest visual routing shifts**, with the effect concentrating around a shared deep-layer hotspot; under same-question controls, the routing change can be approximately decomposed into a larger broad-semantic component and a smaller queried-specific residual.
+- Proposes two **sample-adaptive inference-time mitigations**, Noun-Blind Routing and Two-Stage Verification, which reduce false positives on POPE-style hallucination benchmarks while making the associated accuracy and false-negative tradeoff explicit.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">LTSF</div><img src="{{ '/images/projects/sparsetsf-fft-updated.png' | relative_url }}" alt="SparseTSF-FFT framework overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -414,6 +425,27 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
         <span class="education-tag education-tag--soft">Double First-Class</span>
       </div>
       <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" class="education-card__emblem" loading="lazy" decoding="async" />
+    </div>
+  </div>
+</div>
+
+<div class="education-card">
+  <div class="education-card__header">
+    <div class="education-card__main">
+      <h3 class="education-card__school">University of Macau</h3>
+      <p class="education-card__meta">Upcoming Exchange Programme</p>
+      <div class="education-card__details">
+        <p class="education-card__degree">Exchange Student in Computer Science (Planned)</p>
+        <p class="education-card__minor">Preparing for an upcoming academic exchange in Macau to broaden international academic exposure in computer science, AI, and systems research.</p>
+      </div>
+    </div>
+    <div class="education-card__side">
+      <div class="education-card__tags">
+        <span class="education-tag education-tag--strong">Upcoming</span>
+        <span class="education-tag education-tag--soft">International Exchange</span>
+        <span class="education-tag education-tag--soft">Macau SAR</span>
+      </div>
+      <img src="{{ '/images/um-emblem.png' | relative_url }}" alt="University of Macau emblem" class="education-card__emblem" loading="lazy" decoding="async" />
     </div>
   </div>
 </div>
