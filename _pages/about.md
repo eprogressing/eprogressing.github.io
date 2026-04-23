@@ -29,7 +29,7 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 <ul class="research-interests-list">
   <li><strong>Efficient ML Systems and AI Infrastructure</strong>: Scalable training, efficient inference, model serving, and systems optimization for LLMs and multimodal LLMs.</li>
   <li><strong>Distributed Systems for Large-Scale AI</strong>: Runtime efficiency, resource scheduling, distributed execution, and parallel system design for large-scale LLM workloads.</li>
-  <li><strong>FinTech and Business Analysis</strong>: Applying programming, data analysis, and computational modeling to financial and business problems, including quantitative analysis, data-driven decision support, automated reporting, and insight extraction from financial data, user behavior, and operational metrics.</li>
+  <li><strong>FinTech and Analytics</strong>: Using programming, data analysis, and quantitative modeling to support financial decision-making, business intelligence, and insight extraction from real-world data.</li>
 </ul>
 
 
@@ -442,7 +442,7 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
       <p class="education-card__meta">Upcoming Exchange Programme</p>
       <div class="education-card__details">
         <p class="education-card__degree">Department of Computer and Information Science, Exchange Student (Planned)</p>
-        <p class="education-card__minor">Preparing for an upcoming academic exchange at the Faculty of Science and Technology (FST), Department of Computer and Information Science, to broaden international academic exposure in computer science, AI, and systems research.</p>
+        <p class="education-card__minor">Upcoming exchange at FST's Department of Computer and Information Science, University of Macau.</p>
       </div>
     </div>
     <div class="education-card__side">
