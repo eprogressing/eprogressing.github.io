@@ -73,17 +73,6 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
 ## Research
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Multimodal MoE</div><div style="min-height: 220px; padding: 1.5rem; background: linear-gradient(145deg, #0f172a 0%, #1d4ed8 52%, #38bdf8 100%); color: #ffffff; display: flex; align-items: flex-end;"><div><p style="margin: 0; font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.82;">IEEE Under Review</p><p style="margin: 0.55rem 0 0; font-size: 1.45rem; font-weight: 700; line-height: 1.15;">Noun-Driven Routing Bias in Multimodal MoE</p><p style="margin: 0.75rem 0 0; font-size: 0.95rem; line-height: 1.45; opacity: 0.92;">Diagnosis, controllable intervention, and inference-time mitigation.</p></div></div></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Diagnosing and Mitigating Noun-Driven Routing Bias in Multimodal Mixture-of-Experts** <em>(IEEE under review)</em>
-
-- Introduces **CMRD (Controlled MoE Routing Decomposition)**, a training-free diagnostic probe that constructs layerwise text anchors and applies minimum-norm pseudo-inverse perturbations to actuate targeted pre-router shifts in multimodal MoE models.
-- Shows that **queried nouns induce the strongest visual routing shifts**, with the effect concentrating around a shared deep-layer hotspot; under same-question controls, the routing change can be approximately decomposed into a larger broad-semantic component and a smaller queried-specific residual.
-- Proposes two **sample-adaptive inference-time mitigations**, Noun-Blind Routing and Two-Stage Verification, which reduce false positives on POPE-style hallucination benchmarks while making the associated accuracy and false-negative tradeoff explicit.
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">LTSF</div><img src="{{ '/images/projects/sparsetsf-fft-updated.png' | relative_url }}" alt="SparseTSF-FFT framework overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -429,7 +418,7 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
   </div>
 </div>
 
-<div class="education-card">
+<div class="education-card education-card--um">
   <div class="education-card__header">
     <div class="education-card__main">
       <h3 class="education-card__school">University of Macau</h3>

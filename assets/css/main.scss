@@ -489,9 +489,20 @@ h1:before, .anchor:before {
 }
 
 .education-card {
+    --education-card-border: #8a3e9c;
+    --education-card-accent: #8a3e9c;
+    --education-card-meta-text: #582d7d;
+    --education-card-meta-bg: #f7efff;
+    --education-card-meta-border: #dfd1f4;
+    --education-card-tag-strong-text: #ffffff;
+    --education-card-tag-strong-border: #6f2f88;
+    --education-card-tag-strong-bg: #7b3c93;
+    --education-card-tag-soft-text: #5a2f7f;
+    --education-card-tag-soft-border: #d3bee9;
+    --education-card-tag-soft-bg: #f8f1ff;
     position: relative;
     margin-top: 0.9rem;
-    border: 2px solid #8a3e9c;
+    border: 2px solid var(--education-card-border);
     border-radius: 16px;
     background: #ffffff;
     padding: 1rem 1.1rem 0.95rem 1.25rem;
@@ -505,7 +516,7 @@ h1:before, .anchor:before {
     bottom: 0;
     width: 4px;
     border-radius: 16px 0 0 16px;
-    background: #8a3e9c;
+    background: var(--education-card-accent);
 }
 
 .education-card__header {
@@ -535,13 +546,13 @@ h1:before, .anchor:before {
     align-items: center;
     align-self: flex-start;
     margin: 0.58rem 0 0;
-    color: #582d7d;
+    color: var(--education-card-meta-text);
     font-size: 0.88rem;
     line-height: 1.35;
     padding: 0.18rem 0.55rem;
     border-radius: 999px;
-    background: #f7efff;
-    border: 1px solid #dfd1f4;
+    background: var(--education-card-meta-bg);
+    border: 1px solid var(--education-card-meta-border);
 }
 
 .education-card__details {
@@ -593,15 +604,33 @@ h1:before, .anchor:before {
 }
 
 .education-tag--strong {
-    color: #ffffff;
-    border: 1px solid #6f2f88;
-    background: #7b3c93;
+    color: var(--education-card-tag-strong-text);
+    border: 1px solid var(--education-card-tag-strong-border);
+    background: var(--education-card-tag-strong-bg);
 }
 
 .education-tag--soft {
-    color: #5a2f7f;
-    border: 1px solid #d3bee9;
-    background: #f8f1ff;
+    color: var(--education-card-tag-soft-text);
+    border: 1px solid var(--education-card-tag-soft-border);
+    background: var(--education-card-tag-soft-bg);
+}
+
+.education-card--um {
+    --education-card-border: #0f6b4f;
+    --education-card-accent: #f3c94b;
+    --education-card-meta-text: #0d5a42;
+    --education-card-meta-bg: #edf8f2;
+    --education-card-meta-border: #b8dec8;
+    --education-card-tag-strong-text: #ffffff;
+    --education-card-tag-strong-border: #0b4f3a;
+    --education-card-tag-strong-bg: #0f6b4f;
+    --education-card-tag-soft-text: #8a6a00;
+    --education-card-tag-soft-border: #e7c85a;
+    --education-card-tag-soft-bg: #fff8dc;
+}
+
+.education-card--um .education-card__school {
+    color: #0b4f3a;
 }
 
 .education-card__emblem {
