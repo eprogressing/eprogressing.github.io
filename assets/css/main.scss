@@ -491,6 +491,7 @@ h1:before, .anchor:before {
 .education-card {
     --education-card-border: #8a3e9c;
     --education-card-accent: #8a3e9c;
+    --education-card-bg: #ffffff;
     --education-card-meta-text: #582d7d;
     --education-card-meta-bg: #f7efff;
     --education-card-meta-border: #dfd1f4;
@@ -504,7 +505,7 @@ h1:before, .anchor:before {
     margin-top: 0.9rem;
     border: 2px solid var(--education-card-border);
     border-radius: 16px;
-    background: #ffffff;
+    background: var(--education-card-bg);
     padding: 1rem 1.1rem 0.95rem 1.25rem;
 }
 
@@ -617,20 +618,34 @@ h1:before, .anchor:before {
 
 .education-card--um {
     --education-card-border: #0f6b4f;
-    --education-card-accent: #f3c94b;
+    --education-card-accent: #0f6b4f;
+    --education-card-bg: #f3fbf7;
     --education-card-meta-text: #0d5a42;
-    --education-card-meta-bg: #edf8f2;
-    --education-card-meta-border: #b8dec8;
+    --education-card-meta-bg: #e4f4ec;
+    --education-card-meta-border: #abd2bb;
     --education-card-tag-strong-text: #ffffff;
     --education-card-tag-strong-border: #0b4f3a;
     --education-card-tag-strong-bg: #0f6b4f;
-    --education-card-tag-soft-text: #8a6a00;
-    --education-card-tag-soft-border: #e7c85a;
-    --education-card-tag-soft-bg: #fff8dc;
+    --education-card-tag-soft-text: #0d5a42;
+    --education-card-tag-soft-border: #b7d9c5;
+    --education-card-tag-soft-bg: #e9f6ef;
 }
 
 .education-card--um .education-card__school {
     color: #0b4f3a;
+}
+
+.education-card--um .education-card__meta {
+    color: #0d5a42;
+    background: #e4f4ec;
+    border-color: #abd2bb;
+}
+
+.education-card--um .education-tag--strong,
+.education-card--um .education-tag--soft {
+    color: #ffffff;
+    border-color: #0f6b4f;
+    background: #157454;
 }
 
 .education-card__emblem {

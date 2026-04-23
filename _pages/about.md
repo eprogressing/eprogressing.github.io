@@ -27,9 +27,9 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 **Research Interests:**
 
 <ul class="research-interests-list">
-  <li><strong>Efficient ML Systems and AI Infrastructure</strong>: Scalable training, efficient inference, and systems optimization for foundation models.</li>
-  <li><strong>Distributed Systems for Large-Scale AI</strong>: Runtime efficiency, resource management, and parallel execution for modern AI workloads.</li>
-  <li><strong>Hardware-Aware Model Optimization</strong>: Profiling-driven optimization, memory/computation tradeoff analysis, and deployment-oriented system design.</li>
+  <li><strong>Efficient ML Systems and AI Infrastructure</strong>: Scalable training, efficient inference, model serving, and systems optimization for LLMs and multimodal LLMs.</li>
+  <li><strong>Distributed Systems for Large-Scale AI</strong>: Runtime efficiency, resource scheduling, distributed execution, and parallel system design for large-scale LLM workloads.</li>
+  <li><strong>FinTech and Business Analysis</strong>: Data analysis, market research, business intelligence, and decision-support modeling based on financial data, user behavior, and real-world operational metrics.</li>
 </ul>
 
 
@@ -286,12 +286,21 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
       <span class="service-chip"><strong>213.4h</strong> Volunteer Service</span>
       <span class="service-chip"><strong>153h</strong> Social Practice</span>
       <span class="service-chip"><strong>530h</strong> Peer Learning Support</span>
+      <span class="service-chip"><strong>TEDx</strong> Official Volunteer</span>
     </div>
   </div>
 
   <div class="service-board__group">
     <p class="service-board__label">Selected Honors</p>
     <div class="service-honor-grid">
+      <article class="service-item">
+        <span class="service-item__date">2026</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Outstanding Communist Youth League Member</p>
+          <p class="service-item__meta">Nankai University May Fourth Honors</p>
+        </div>
+      </article>
+
       <article class="service-item">
         <span class="service-item__date">2024, 2025</span>
         <div class="service-item__body">
@@ -334,6 +343,14 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
         <div class="service-item__body">
           <p class="service-item__title">Official Representative</p>
           <p class="service-item__meta">Nankai University Student Congress</p>
+        </div>
+      </article>
+
+      <article class="service-item">
+        <span class="service-item__date">2024</span>
+        <div class="service-item__body">
+          <p class="service-item__title">Outstanding Officer</p>
+          <p class="service-item__meta">Organization Department, Youth League Committee</p>
         </div>
       </article>
     </div>
@@ -510,9 +527,9 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
       <h4 class="news-feature__headline">CS and AI Educational Outreach</h4>
       <p class="news-feature__body">I create <strong>structured study notes, learning resources, and course-oriented materials</strong> for student audiences, and I am continuing to expand this work toward broader computer science and AI topics.</p>
       <div class="news-feature__stats">
-        <span class="news-stat"><strong>5,500+</strong> followers</span>
-        <span class="news-stat"><strong>2.4M+</strong> total views</span>
-        <span class="news-stat"><strong>129k+</strong> likes and saves</span>
+        <span class="news-stat"><strong>5,700+</strong> followers</span>
+        <span class="news-stat"><strong>2.6M+</strong> total views</span>
+        <span class="news-stat"><strong>138k+</strong> likes and saves</span>
       </div>
       <p class="news-feature__foot">This work has helped me think more deliberately about <strong>clarity, structure, and accessibility</strong> when communicating technical ideas.</p>
     </article>
