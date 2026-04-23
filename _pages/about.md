@@ -29,7 +29,7 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 <ul class="research-interests-list">
   <li><strong>Efficient ML Systems and AI Infrastructure</strong>: Scalable training, efficient inference, model serving, and systems optimization for LLMs and multimodal LLMs.</li>
   <li><strong>Distributed Systems for Large-Scale AI</strong>: Runtime efficiency, resource scheduling, distributed execution, and parallel system design for large-scale LLM workloads.</li>
-  <li><strong>FinTech and Business Analysis</strong>: Data analysis, market research, business intelligence, and decision-support modeling based on financial data, user behavior, and real-world operational metrics.</li>
+  <li><strong>FinTech and Business Analysis</strong>: Applying programming, data analysis, and computational modeling to financial and business problems, including quantitative analysis, data-driven decision support, automated reporting, and insight extraction from financial data, user behavior, and operational metrics.</li>
 </ul>
 
 
@@ -438,11 +438,11 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 <div class="education-card education-card--um">
   <div class="education-card__header">
     <div class="education-card__main">
-      <h3 class="education-card__school">University of Macau</h3>
+      <h3 class="education-card__school">University of Macau, Faculty of Science and Technology</h3>
       <p class="education-card__meta">Upcoming Exchange Programme</p>
       <div class="education-card__details">
-        <p class="education-card__degree">Exchange Student in Computer Science (Planned)</p>
-        <p class="education-card__minor">Preparing for an upcoming academic exchange in Macau to broaden international academic exposure in computer science, AI, and systems research.</p>
+        <p class="education-card__degree">Department of Computer and Information Science, Exchange Student (Planned)</p>
+        <p class="education-card__minor">Preparing for an upcoming academic exchange at the Faculty of Science and Technology (FST), Department of Computer and Information Science, to broaden international academic exposure in computer science, AI, and systems research.</p>
       </div>
     </div>
     <div class="education-card__side">
