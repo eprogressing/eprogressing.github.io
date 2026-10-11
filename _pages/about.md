@@ -47,6 +47,8 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
 # 📝 Projects and Research
 
+{% include github-project-cards.html %}
+
 ## Projects
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">GPU Systems</div><img src="{{ '/images/projects/optimized/apsp-gpu-optimization.webp' | relative_url }}" alt="APSP GPU optimization project overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>

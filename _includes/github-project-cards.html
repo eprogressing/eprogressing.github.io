@@ -1,0 +1,29 @@
+{% assign snapshot = site.data.github_projects %}
+{% if snapshot.projects.size > 0 %}
+<section class="github-projects" aria-labelledby="open-source-title">
+  <div class="github-projects__heading">
+    <h2 id="open-source-title">Open source</h2>
+    <a class="github-projects__profile" href="https://github.com/{{ site.author.github | escape }}" target="_blank" rel="noopener noreferrer">GitHub profile</a>
+  </div>
+  <div class="github-projects__grid">
+    {% for project in snapshot.projects %}
+    <article class="github-project-card">
+      <div class="github-project-card__label">
+        <i class="fab fa-github" aria-hidden="true"></i>
+        <span>{{ project.repository | escape }}</span>
+        {% if project.archived %}<span>Archived</span>{% endif %}
+      </div>
+      <h3><a href="{{ project.url | escape }}" target="_blank" rel="noopener noreferrer">{{ project.title | escape }}</a></h3>
+      {% if project.description != '' %}<p>{{ project.description | escape }}</p>{% endif %}
+      <ul class="github-project-card__details" aria-label="Project details">
+        <li><i class="fas fa-star" aria-hidden="true"></i> {{ project.stars }} stars</li>
+        <li><i class="fas fa-code-branch" aria-hidden="true"></i> {{ project.forks }} forks</li>
+        {% if project.language %}<li>{{ project.language | escape }}</li>{% endif %}
+        {% if project.license %}<li>{{ project.license | escape }}</li>{% endif %}
+      </ul>
+    </article>
+    {% endfor %}
+  </div>
+  <p class="github-projects__updated">GitHub statistics as of <time datetime="{{ snapshot.updated_at | escape }}">{{ snapshot.updated_at | date: "%b %-d, %Y" }}</time>.</p>
+</section>
+{% endif %}
