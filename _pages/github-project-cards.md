@@ -4,6 +4,8 @@ title: "GitHub Project Cards"
 author_profile: true
 ---
 
+# GitHub Project Cards
+
 GitHub Project Cards keeps the selected open-source projects on my personal website up to date. It reads public repository metadata from the GitHub REST API and generates accessible cards with descriptions, stars, forks, primary language and license.
 
 [View the cards]({{ '/' | relative_url }}#open-source-title){:target="_self"} or [browse the source](https://github.com/eprogressing/eprogressing.github.io/tree/main/scripts).
