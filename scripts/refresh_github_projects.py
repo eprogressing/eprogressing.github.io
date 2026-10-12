@@ -70,10 +70,11 @@ def fetch_repository(name, token):
 def cached_selection_matches(path, items):
     try:
         cached = json.loads(path.read_text(encoding="utf-8"))
-        # Never silently retain a removed project, or substitute a different list.
+        # The cached display text must match the current selection as well as its repos.
         return (cached.get("source") == "GitHub REST API" and
-                [p["repository"] for p in cached["projects"]] ==
-                [i["repository"] for i in items] and bool(cached.get("updated_at")))
+                [(p["repository"], p["title"]) for p in cached["projects"]] ==
+                [(i["repository"], i["title"].strip()) for i in items] and
+                bool(cached.get("updated_at")))
     except (OSError, ValueError, KeyError, TypeError):
         return False
 

@@ -14,7 +14,7 @@ GitHub Project Cards keeps the selected open-source projects on my personal webs
 
 Only repositories explicitly listed in `_data/github_repositories.json` are included. The generator runs during the GitHub Pages build and on a daily schedule. It produces a static snapshot, so visitors can see the cards without JavaScript, sign-in or an API request from their browser. The snapshot date is displayed alongside the cards.
 
-The integration reads repository metadata without modifying repositories. Responses marked private are rejected before publishing. Temporary API failures retain the last successful snapshot; changing the selected repository list requires a successful refresh before the new list is published.
+The integration reads repository metadata without modifying repositories. Responses marked private are rejected before publishing. Temporary API failures retain the last successful snapshot only when the selected repositories and display titles still match it. Changing either requires a successful refresh before publishing; otherwise the build fails and preserves the previous snapshot.
 
 ## Use it on a Jekyll website
 
