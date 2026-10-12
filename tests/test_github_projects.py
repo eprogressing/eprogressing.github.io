@@ -61,6 +61,23 @@ class ProjectDataTests(unittest.TestCase):
             with self.assertRaises(URLError):
                 cards.refresh(self.config, self.output)
 
+    def test_changed_title_cannot_silently_retain_old_display_text(self):
+        self.write_success()
+        original = self.output.read_bytes()
+        self.config.write_text(json.dumps([dict(self.item, title="New display title")]))
+        with patch.object(cards, "fetch_repository", side_effect=URLError("offline")):
+            with self.assertRaises(URLError):
+                cards.refresh(self.config, self.output)
+        self.assertEqual(self.output.read_bytes(), original)
+
+    def test_equivalent_title_whitespace_can_reuse_snapshot(self):
+        self.write_success()
+        original = self.output.read_bytes()
+        self.config.write_text(json.dumps([dict(self.item, title="  Maze  ")]))
+        with patch.object(cards, "fetch_repository", side_effect=URLError("offline")):
+            self.assertFalse(cards.refresh(self.config, self.output))
+        self.assertEqual(self.output.read_bytes(), original)
+
     def test_not_found_is_not_treated_as_transient(self):
         self.write_success()
         error = HTTPError("https://api.github.com", 404, "not found", {}, None)
