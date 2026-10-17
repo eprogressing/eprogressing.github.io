@@ -27,9 +27,9 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 **Research Interests:**
 
 <ul class="research-interests-list">
-  <li><strong>LLM inference systems</strong></li>
-  <li><strong>Heterogeneous computing and GPU optimization</strong></li>
-  <li><strong>Embodied intelligence system optimization</strong></li>
+  <li><strong>LLM inference systems</strong>: Efficient model serving and inference, with a focus on memory management, request scheduling, and the trade-offs between latency and throughput.</li>
+  <li><strong>Heterogeneous computing and GPU optimization</strong>: Hardware-aware algorithms and GPU kernels, including data locality, memory access, parallel execution, and coordination across CPUs and accelerators.</li>
+  <li><strong>Embodied intelligence system optimization</strong>: Efficient execution of perception and decision-making models, with an interest in deployment under real-time, memory, and compute constraints.</li>
 </ul>
 
 # 🔥 News
