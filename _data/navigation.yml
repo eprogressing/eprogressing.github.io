@@ -4,19 +4,22 @@ main:
     url: "/#about-me"
 
   - title: "News"
-    url: "/#news"
+    url: "/#-news"
 
-  - title: "Research & Projects"
-    url: "/#projects-and-research"
+  - title: "Projects and Research"
+    url: "/#-projects-and-research"
 
-  - title: "Awards"
-    url: "/#honors-and-awards"
+  - title: "Honors and Awards"
+    url: "/#-honors-and-awards"
 
-  - title: "Education"
-    url: "/#education"
+  - title: "Scholarships"
+    url: "/#-scholarships"
+
+  - title: "Educations"
+    url: "/#-educations"
 
   - title: "Internships"
-    url: "/#internships"
+    url: "/#-internships"
 
-  - title: "Outreach"
+  - title: "Technical Communication"
     url: "/#technical-communication"

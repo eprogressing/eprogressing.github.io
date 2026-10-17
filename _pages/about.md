@@ -22,21 +22,26 @@ redirect_from:
 
 I'm **Jingming Liang** (Brighton), a senior undergraduate in Computer Science at [**Nankai University**](https://www.nankai.edu.cn/). I expect to begin my PhD in **2027** with the [**Nankai–Baidu Joint Laboratory (NBJL)**](https://nbjl.nankai.edu.cn/). Originally from Dalian, I also pursue minors in Finance and Criminal Law.
 
-My research interests are **LLM inference systems**, **heterogeneous computing and GPU optimization**, and **embodied intelligence system optimization**.
-
 I build open-source tools and share learning resources through [**Lamplighter Commons**](https://github.com/lamplighter-commons), and contribute to [**StarryOS / tgoskits**](https://github.com/rcore-os/tgoskits) ([merged contributions](https://github.com/rcore-os/tgoskits/pulls?q=is%3Apr+author%3Aeprogressing+is%3Amerged)). For research and collaboration, reach me at [liangjm@nbjl.nankai.edu.cn](mailto:liangjm@nbjl.nankai.edu.cn).
 
-<span class="anchor" id="-news"></span>
+**Research Interests:**
 
-# News
-
-<ul class="profile-updates">
-  <li><time datetime="2026-10">Oct 2026</time><span>Founded <a href="https://github.com/lamplighter-commons">Lamplighter Commons</a> for open-source tools and learning resources.</span></li>
+<ul class="research-interests-list">
+  <li><strong>LLM inference systems</strong></li>
+  <li><strong>Heterogeneous computing and GPU optimization</strong></li>
+  <li><strong>Embodied intelligence system optimization</strong></li>
 </ul>
 
-<span class="anchor" id="-projects-and-research"></span>
+# 🔥 News
+<ul class="news-list">
+  <li class="news-list__item">
+    <div class="news-list__meta"><strong class="news-list__date">[Oct 2026]</strong><span class="news-list__status">Open Source</span></div>
+    <span class="news-list__title">Lamplighter Commons</span>
+    <span class="news-list__body">I founded <a href="https://github.com/lamplighter-commons">Lamplighter Commons</a> to share open-source tools and learning resources.</span>
+  </li>
+</ul>
 
-# Projects and Research
+# 📝 Projects and Research
 
 {% include github-project-cards.html %}
 
@@ -66,10 +71,10 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 ## Research
 
-<div class="research-note">
-  <h3>Diagnosing and Mitigating Noun-Driven Routing Bias in Multimodal Mixture-of-Experts</h3>
-  <p>This research investigates how queried nouns influence visual routing in multimodal MoE models. It introduces the training-free CMRD probe and studies inference-time mitigation of false positives in object hallucination benchmarks.</p>
-</div>
+**Diagnosing and Mitigating Noun-Driven Routing Bias in Multimodal Mixture-of-Experts**
+
+This research investigates how queried nouns influence visual routing in multimodal MoE models. It introduces the training-free CMRD probe and studies inference-time mitigation of false positives in object hallucination benchmarks.
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">LTSF</div><img src="{{ '/images/projects/sparsetsf-fft-updated.png' | relative_url }}" alt="SparseTSF-FFT framework overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -93,28 +98,111 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 </div>
 </div>
 
-<span class="anchor" id="-honors-and-awards"></span>
+# 🎖 Honors and Awards
+<div class="award-board">
+  <div class="award-board__intro">
+    <p class="award-board__eyebrow">🏆 Competition Awards</p>
+  </div>
 
-# Honors and Awards
+  <section class="award-year-section">
+    <div class="award-year-section__header"><h4 class="award-year-section__title">2026</h4><p class="award-year-section__meta">3 awards</p></div>
+    <div class="award-grid">
+      <article class="award-card">
+        <div class="award-card__top"><span class="award-card__date">2026</span><span class="award-card__result">National Third Prize</span></div>
+        <h5 class="award-card__name">Computer System Development Capability Competition — Operating System Design Contest (OS Function Challenge Track)</h5>
+        <div class="award-card__tags"><span class="award-card__tag">Team captain</span></div>
+      </article>
+      <article class="award-card">
+        <div class="award-card__top"><span class="award-card__date">2026</span><span class="award-card__result">National Third Prize</span></div>
+        <h5 class="award-card__name">Computer System Development Capability Competition — Intelligent Computing Innovation Design Contest (Xiandao Cup)</h5>
+        <div class="award-card__tags"><span class="award-card__tag">Solo entry</span></div>
+      </article>
+      <article class="award-card">
+        <div class="award-card__top"><span class="award-card__date">2026</span><span class="award-card__result">Third Prize &amp; Special Contribution Award</span></div>
+        <h5 class="award-card__name">CANN-HCCL Communication Library Innovation Competition</h5>
+        <div class="award-card__tags"><span class="award-card__tag">Solo entry</span></div>
+      </article>
+    </div>
+  </section>
 
-<p class="honors-key"><span class="honor-mark honor-mark--solo">Solo entry</span><span class="honor-mark honor-mark--captain">Team captain</span></p>
+  <section class="award-year-section">
+    <div class="award-year-section__header">
+      <h4 class="award-year-section__title">2025</h4>
+      <p class="award-year-section__meta">12 awards</p>
+    </div>
+    <div class="award-grid">
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.12</span>
+          <span class="award-card__result">Second Place</span>
+        </div>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://forum.trae.cn/t/topic/213" target="_blank" rel="noopener noreferrer">TRAE on Campus Vibe Coding Workshop</a></h5>
+        <div class="award-card__tags">
+          <span class="award-card__tag">Solo entry</span>
+          <span class="award-card__tag award-card__tag--money">Prize ¥1,500</span>
+        </div>
+      </article>
 
-<section class="honors-year"><h3>2026</h3><ul><li><mark class="honor-mark honor-mark--captain"><strong>National Third Prize</strong> — Computer System Development Capability Competition — Operating System Design Contest (OS Function Challenge Track). (Team captain)</mark></li><li><mark class="honor-mark honor-mark--solo"><strong>National Third Prize</strong> — Computer System Development Capability Competition — Intelligent Computing Innovation Design Contest (Xiandao Cup). (Solo entry)</mark></li><li><mark class="honor-mark honor-mark--solo"><strong>Third Prize &amp; Special Contribution Award</strong> — CANN-HCCL Communication Library Innovation Competition. (Solo entry)</mark></li></ul></section>
-<section class="honors-year"><h3>2025</h3><ul><li><mark class="honor-mark honor-mark--solo"><strong>Second Place</strong> — TRAE Vibe Coding Workshop. (Solo entry)</mark></li><li><strong>National Third Prize</strong> — Computer System Development Capability Competition — Intelligent Computing Innovation Design Contest (Xiandao Cup).</li><li><mark class="honor-mark honor-mark--captain"><strong>Provincial First Prize</strong> — China Undergraduate Mathematical Contest in Modeling (CUMCM), Tianjin Division. (Team captain)</mark></li><li><strong>National Third Prize</strong> — 19th Challenge Cup National Undergraduate Extracurricular Academic Science and Technology Works Competition.</li><li><mark class="honor-mark honor-mark--solo"><strong>National Champion</strong> — 8th CCF-TCARCH Computer Architecture Challenge. (Solo entry)</mark></li><li><strong>Grand Prize</strong> — Challenge Cup Tianjin Undergraduate Extracurricular Academic Science and Technology Works Competition.</li><li><mark class="honor-mark honor-mark--captain"><strong>Honorable Mention</strong> — Mathematical Contest in Modeling (MCM). (Team captain)</mark></li></ul></section>
-<section class="honors-year"><h3>2024</h3><ul><li><mark class="honor-mark honor-mark--captain"><strong>Provincial Second Prize</strong> — China Undergraduate Mathematical Contest in Modeling (CUMCM), Tianjin Division. (Team captain)</mark></li><li><mark class="honor-mark honor-mark--solo"><strong>National First Prize</strong> — 3rd National College Student Data Analysis Popular Science Competition. (Solo entry)</mark></li></ul></section>
-<details class="profile-details"><summary>Additional university-level competitions</summary><div class="award-grid"><article class="award-card">
+      <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.12</span>
           <span class="award-card__result">Bronze Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://news.nankai.edu.cn/zhxw/system/2025/12/08/030070061.shtml" target="_blank" rel="noopener noreferrer">3rd National College Student Career Planning Competition - Growth Track, University-level Competition</a></h5>
-      </article><article class="award-card">
+      </article>
+
+      <article class="award-card award-card--featured">
+        <span class="award-card__spotlight">Featured Award</span>
+        <div class="award-card__top">
+          <span class="award-card__date">2025.11</span>
+          <span class="award-card__result">National Third Prize</span>
+        </div>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://www.jiemian.com/article/13643188.html" target="_blank" rel="noopener noreferrer">Computer System Development Capability Competition — Intelligent Computing Innovation Design Contest (Xiandao Cup)</a></h5>
+        <div class="award-card__tags">
+          <span class="award-card__tag award-card__tag--money">Prize ¥10,000</span>
+        </div>
+      </article>
+
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.11</span>
+          <span class="award-card__result">Provincial First Prize</span>
+        </div>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://www.cmathc.org.cn/mcm/news/362.html" target="_blank" rel="noopener noreferrer">China Undergraduate Mathematical Contest in Modeling (CUMCM)</a></h5>
+      <div class="award-card__tags"><span class="award-card__tag">Team captain</span></div>
+      </article>
+
+      <article class="award-card award-card--featured">
+        <span class="award-card__spotlight">Featured Award</span>
+        <div class="award-card__top">
+          <span class="award-card__date">2025.10</span>
+          <span class="award-card__result">National Third Prize</span>
+        </div>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://news.nankai.edu.cn/ywsd/system/2025/11/10/030069539.shtml" target="_blank" rel="noopener noreferrer">19th Challenge Cup National Undergraduate Extracurricular Academic Science and Technology Works Competition</a></h5>
+      </article>
+
+      <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.10</span>
           <span class="award-card__result">Silver Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://mp.weixin.qq.com/s/bO7zPc8JcLDxAw58Q5PqqQ" target="_blank" rel="noopener noreferrer">Nankai University Mathematical Modeling Competition</a></h5>
-      </article><article class="award-card">
+      </article>
+
+      <article class="award-card award-card--flagship">
+        <span class="award-card__spotlight">Flagship Award</span>
+        <div class="award-card__top">
+          <span class="award-card__date">2025.09</span>
+          <span class="award-card__result">National Champion</span>
+        </div>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://cc-backend.nankai.edu.cn/news/news-detail/20808" target="_blank" rel="noopener noreferrer">8th CCF-TCARCH Computer Architecture Challenge</a></h5>
+        <div class="award-card__tags">
+          <span class="award-card__tag">Solo entry</span>
+          <span class="award-card__tag award-card__tag--money">Prize ¥10,000</span>
+        </div>
+      </article>
+
+      <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.09</span>
           <span class="award-card__result">Special Prize</span>
@@ -123,21 +211,71 @@ I build open-source tools and share learning resources through [**Lamplighter Co
         <div class="award-card__tags">
           <span class="award-card__tag award-card__tag--money">Prize ¥1,000</span>
         </div>
-      </article><article class="award-card">
+      </article>
+
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.07</span>
+          <span class="award-card__result">Grand Prize</span>
+        </div>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://2025.tiaozhanbei.net/d49/article/666/" target="_blank" rel="noopener noreferrer">Challenge Cup Tianjin Undergraduate Extracurricular Academic Science and Technology Works Competition</a></h5>
+      </article>
+
+      <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.06</span>
           <span class="award-card__result">Outstanding Award</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://nktw.nankai.edu.cn/info/1013/1910.htm" target="_blank" rel="noopener noreferrer">President's Cup Innovation and Entrepreneurship Competition - Entrepreneurship Track</a></h5>
-      </article><article class="award-card">
+      </article>
+
+      <article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.04</span>
           <span class="award-card__result">First Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://nktw.nankai.edu.cn/info/1013/1879.htm" target="_blank" rel="noopener noreferrer">President's Cup Innovation and Entrepreneurship Competition - Innovation Track</a></h5>
-      </article></div></details>
+      </article>
 
-<details class="profile-details"><summary>Teaching, leadership, and service</summary>
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.01</span>
+          <span class="award-card__result">Honorable Mention, H Prize</span>
+        </div>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://www.comap.com/contests/mcm-icm" target="_blank" rel="noopener noreferrer">Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM)</a></h5>
+      <div class="award-card__tags"><span class="award-card__tag">Team captain</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="award-year-section">
+    <div class="award-year-section__header">
+      <h4 class="award-year-section__title">2024</h4>
+      <p class="award-year-section__meta">2 awards</p>
+    </div>
+    <div class="award-grid">
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2024.11</span>
+          <span class="award-card__result">Provincial Second Prize</span>
+        </div>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://jw.tjut.edu.cn/info/1888/6440.htm" target="_blank" rel="noopener noreferrer">China Undergraduate Mathematical Contest in Modeling (CUMCM)</a></h5>
+      <div class="award-card__tags"><span class="award-card__tag">Team captain</span></div>
+      </article>
+
+      <article class="award-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2024.10</span>
+          <span class="award-card__result">National First Prize</span>
+        </div>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://zhuanlan.zhihu.com/p/10010914554" target="_blank" rel="noopener noreferrer">3rd National College Student Data Analysis Popular Science Competition</a></h5>
+      <div class="award-card__tags"><span class="award-card__tag">Solo entry</span></div>
+      </article>
+    </div>
+  </section>
+
+</div>
+
 <div class="service-board">
   <div class="service-board__intro">
     <p class="service-board__eyebrow">Teaching, Leadership, and Service</p>
@@ -250,9 +388,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 </div>
 
-</details>
-
-<details class="profile-details" id="-scholarships"><summary>Scholarships</summary>
+# 🏅 Scholarships
 <div class="award-board scholarship-board">
   <section class="award-year-section">
     <div class="award-year-section__header">
@@ -307,11 +443,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
   </section>
 </div>
 
-</details>
-
-<span class="anchor" id="-educations"></span>
-
-# Education
+# 📖 Educations
 <div class="education-card">
   <div class="education-card__header">
     <div class="education-card__main">
@@ -354,9 +486,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
   </div>
 </div>
 
-<span class="anchor" id="-internships"></span>
-
-# Internships
+# 💼 Internships
 <div class="internship-list">
   <article class="internship-card internship-card--featured internship-card--theme-hejun">
     <div class="internship-card__header">
@@ -415,9 +545,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 <span class='anchor' id='technical-communication'></span>
 
-<span class="anchor" id="-technical-communication"></span>
-
-# Technical Communication
+# 📡 Technical Communication
 <div class="news-board">
   <div class="news-board__header">
     <p class="news-board__eyebrow">Public Engagement</p>
