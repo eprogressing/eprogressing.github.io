@@ -126,7 +126,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
       </article>
       <article class="award-card">
         <div class="award-card__top"><span class="award-card__date">2026</span><span class="award-card__result">Third Prize &amp; Special Contribution Award</span></div>
-        <h5 class="award-card__name">CANN-HCCL Communication Library Innovation Competition</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://competition.gitcode.com/competition/2071411775170351105/winner-list" target="_blank" rel="noopener noreferrer">CANN-HCCL Communication Library Innovation Competition</a></h5>
         <div class="award-card__tags"><span class="award-card__tag">Solo entry</span></div>
       </article>
     </div>
