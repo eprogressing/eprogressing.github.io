@@ -501,6 +501,23 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 # 💼 Internships
 <div class="internship-list">
+  <article class="internship-card internship-card--featured">
+    <div class="internship-card__header">
+      <div class="internship-card__header-main">
+        <h3 class="internship-card__company">UniGrow, Technical Development</h3>
+        <p class="internship-card__meta">Jun 2026 - Oct 2026 · AI Agent Full-Stack Engineer Intern</p>
+      </div>
+      <div class="internship-card__tags">
+        <span class="internship-tag internship-tag--highlight">AI Agents &amp; RAG</span>
+      </div>
+    </div>
+    <ul class="internship-card__highlights">
+      <li><strong>Contributed to UniGrow from initial development to production delivery</strong>, working across AI agents, retrieval-augmented generation (RAG), mobile applications, and backend services.</li>
+      <li><strong>Developed features and integrated systems</strong>, and handled CI/CD, server deployment, and Android/iOS release and maintenance.</li>
+      <li><strong>Helped launch a product that reached 1,000+ registered users within two weeks</strong> of going live.</li>
+    </ul>
+  </article>
+
   <article class="internship-card internship-card--featured internship-card--theme-hejun">
     <div class="internship-card__header">
       <img src="{{ '/images/internships/optimized/hejun-logo.webp' | relative_url }}" alt="Hejun Consulting logo" class="internship-card__logo" loading="lazy" decoding="async" fetchpriority="low" />
@@ -570,9 +587,9 @@ I build open-source tools and share learning resources through [**Lamplighter Co
       <h4 class="news-feature__headline">CS and AI Educational Outreach</h4>
       <p class="news-feature__body">I create <strong>structured study notes, learning resources, and course-oriented materials</strong> for student audiences, and I am continuing to expand this work toward broader computer science and AI topics.</p>
       <div class="news-feature__stats">
-        <span class="news-stat"><strong>5,700+</strong> followers</span>
-        <span class="news-stat"><strong>2.6M+</strong> total views</span>
-        <span class="news-stat"><strong>138k+</strong> likes and saves</span>
+        <span class="news-stat"><strong>6,211</strong> followers</span>
+        <span class="news-stat"><strong>3M+</strong> total views</span>
+        <span class="news-stat"><strong>156k</strong> likes and saves</span>
       </div>
       <p class="news-feature__foot">This work has helped me think more deliberately about <strong>clarity, structure, and accessibility</strong> when communicating technical ideas.</p>
     </article>
