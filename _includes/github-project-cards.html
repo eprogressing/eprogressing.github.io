@@ -14,7 +14,7 @@
         {% if project.archived %}<span>Archived</span>{% endif %}
       </div>
       <h3><a href="{{ project.url | escape }}" target="_blank" rel="noopener noreferrer">{{ project.title | escape }}</a></h3>
-      {% if project.description != '' %}<p>{{ project.description | escape }}</p>{% endif %}
+      {% if project.repository == 'lamplighter-commons/triangle-light-maze-solver' %}<p>A solver for triangular-maze questions in online coding assessments at well-known companies. Dynamic programming finds the path that collects the most lights, with interactive results.</p>{% elsif project.description != '' %}<p>{{ project.description | escape }}</p>{% endif %}
       <ul class="github-project-card__details" aria-label="Project details">
         <li><i class="fas fa-star" aria-hidden="true"></i> {{ project.stars }} stars</li>
         <li><i class="fas fa-code-branch" aria-hidden="true"></i> {{ project.forks }} forks</li>

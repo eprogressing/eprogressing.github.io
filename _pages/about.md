@@ -20,32 +20,21 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi 👋! I’m **Jingming Liang**, and you can also call me **Brighton**. I am from Dalian, China, and currently a **junior CS undergraduate** at the [**School of Computer Science**](https://cc.nankai.edu.cn/), [**Nankai University**](https://www.nankai.edu.cn/) <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" style="height: 1.1em; width: 1.1em; vertical-align: -0.15em; margin-left: 0.2em;">, pursuing dual minors in [**Finance**](https://finance.nankai.edu.cn/2024/0510/c34622a542022/page.htm) and **Criminal Law**. My [**CV is available here**]({{ '/files/jingming-liang-cv.pdf' | relative_url }}) for direct viewing.
+I'm **Jingming Liang** (Brighton), a senior undergraduate in Computer Science at [**Nankai University**](https://www.nankai.edu.cn/). I expect to begin my PhD in **2027** with the [**Nankai–Baidu Joint Laboratory (NBJL)**](https://nbjl.nankai.edu.cn/). Originally from Dalian, I also pursue minors in Finance and Criminal Law.
 
-Beyond my interdisciplinary studies, my main focus is building **efficient ML systems** and **scalable AI infrastructure**. I am actively looking for research and engineering opportunities in **ML Systems**, **Distributed AI**, and **Hardware-Aware Optimization**. Feel free to reach out through the email and social links in the sidebar!
+My research interests are **LLM inference systems**, **heterogeneous computing and GPU optimization**, and **embodied intelligence system optimization**.
 
-**Research Interests:**
+I build open-source tools and share learning resources through [**Lamplighter Commons**](https://github.com/lamplighter-commons), and contribute to [**StarryOS / tgoskits**](https://github.com/rcore-os/tgoskits) ([merged contributions](https://github.com/rcore-os/tgoskits/pulls?q=is%3Apr+author%3Aeprogressing+is%3Amerged)). For research and collaboration, reach me at [liangjm@nbjl.nankai.edu.cn](mailto:liangjm@nbjl.nankai.edu.cn).
 
-<ul class="research-interests-list">
-  <li><strong>Efficient ML Systems and AI Infrastructure</strong>: Scalable training, efficient inference, model serving, and systems optimization for LLMs and multimodal LLMs.</li>
-  <li><strong>Distributed Systems for Large-Scale AI</strong>: Runtime efficiency, resource scheduling, distributed execution, and parallel system design for large-scale LLM workloads.</li>
-  <li><strong>FinTech and Analytics</strong>: Using programming, data analysis, and quantitative modeling to support financial decision-making, business intelligence, and insight extraction from real-world data.</li>
+# News
+{: #-news}
+
+<ul class="profile-updates">
+  <li><time datetime="2026-10">Oct 2026</time><span>Founded <a href="https://github.com/lamplighter-commons">Lamplighter Commons</a> for open-source tools and learning resources.</span></li>
 </ul>
 
-
-# 🔥 News
-<ul class="news-list">
-  <li class="news-list__item">
-    <div class="news-list__meta">
-      <strong class="news-list__date">[Apr 2026]</strong>
-      <span class="news-list__status">IEEE Under Review</span>
-    </div>
-    <span class="news-list__title">Diagnosing and Mitigating Noun-Driven Routing Bias in Multimodal Mixture-of-Experts</span>
-    <span class="news-list__body">My paper is currently under review at IEEE. The work introduces a training-free probe, CMRD, to diagnose how queried nouns can bias visual routing in multimodal MoE models, localizes the strongest effect to a shared deep-layer routing hotspot, and studies inference-time mitigation strategies that reduce false positives in object hallucination benchmarks.</span>
-  </li>
-</ul>
-
-# 📝 Projects and Research
+# Projects and Research
+{: #-projects-and-research}
 
 {% include github-project-cards.html %}
 
@@ -75,6 +64,11 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
 ## Research
 
+<div class="research-note">
+  <h3>Diagnosing and Mitigating Noun-Driven Routing Bias in Multimodal Mixture-of-Experts</h3>
+  <p>This research investigates how queried nouns influence visual routing in multimodal MoE models. It introduces the training-free CMRD probe and studies inference-time mitigation of false positives in object hallucination benchmarks.</p>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">LTSF</div><img src="{{ '/images/projects/sparsetsf-fft-updated.png' | relative_url }}" alt="SparseTSF-FFT framework overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -97,87 +91,27 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 </div>
 </div>
 
-# 🎖 Honors and Awards
-<div class="award-board">
-  <div class="award-board__intro">
-    <p class="award-board__eyebrow">🏆 Competition Awards</p>
-  </div>
+# Honors and Awards
+{: #-honors-and-awards}
 
-  <section class="award-year-section">
-    <div class="award-year-section__header">
-      <h4 class="award-year-section__title">2025</h4>
-      <p class="award-year-section__meta">12 awards</p>
-    </div>
-    <div class="award-grid">
-      <article class="award-card">
-        <div class="award-card__top">
-          <span class="award-card__date">2025.12</span>
-          <span class="award-card__result">Second Place</span>
-        </div>
-        <h5 class="award-card__name"><a class="award-card__link" href="https://forum.trae.cn/t/topic/213" target="_blank" rel="noopener noreferrer">TRAE on Campus Vibe Coding Workshop</a></h5>
-        <div class="award-card__tags">
-          <span class="award-card__tag award-card__tag--money">Prize ¥1,500</span>
-        </div>
-      </article>
+<p class="honors-key"><span class="honor-mark honor-mark--solo">Solo entry</span><span class="honor-mark honor-mark--captain">Team captain</span></p>
 
-      <article class="award-card">
+<section class="honors-year"><h3>2026</h3><ul><li><mark class="honor-mark honor-mark--captain"><strong>National Third Prize</strong> — Computer System Development Capability Competition — Operating System Design Contest (OS Function Challenge Track). (Team captain)</mark></li><li><mark class="honor-mark honor-mark--solo"><strong>National Third Prize</strong> — Computer System Development Capability Competition — Intelligent Computing Innovation Design Contest (Xiandao Cup). (Solo entry)</mark></li><li><mark class="honor-mark honor-mark--solo"><strong>Third Prize &amp; Special Contribution Award</strong> — CANN-HCCL Communication Library Innovation Competition. (Solo entry)</mark></li></ul></section>
+<section class="honors-year"><h3>2025</h3><ul><li><mark class="honor-mark honor-mark--solo"><strong>Second Place</strong> — TRAE Vibe Coding Workshop. (Solo entry)</mark></li><li><strong>National Third Prize</strong> — Computer System Development Capability Competition — Intelligent Computing Innovation Design Contest (Xiandao Cup).</li><li><mark class="honor-mark honor-mark--captain"><strong>Provincial First Prize</strong> — China Undergraduate Mathematical Contest in Modeling (CUMCM), Tianjin Division. (Team captain)</mark></li><li><strong>National Third Prize</strong> — 19th Challenge Cup National Undergraduate Extracurricular Academic Science and Technology Works Competition.</li><li><mark class="honor-mark honor-mark--solo"><strong>National Champion</strong> — 8th CCF-TCARCH Computer Architecture Challenge. (Solo entry)</mark></li><li><strong>Grand Prize</strong> — Challenge Cup Tianjin Undergraduate Extracurricular Academic Science and Technology Works Competition.</li><li><mark class="honor-mark honor-mark--captain"><strong>Honorable Mention</strong> — Mathematical Contest in Modeling (MCM). (Team captain)</mark></li></ul></section>
+<section class="honors-year"><h3>2024</h3><ul><li><mark class="honor-mark honor-mark--captain"><strong>Provincial Second Prize</strong> — China Undergraduate Mathematical Contest in Modeling (CUMCM), Tianjin Division. (Team captain)</mark></li><li><mark class="honor-mark honor-mark--solo"><strong>National First Prize</strong> — 3rd National College Student Data Analysis Popular Science Competition. (Solo entry)</mark></li></ul></section>
+<details class="profile-details"><summary>Additional university-level competitions</summary><div class="award-grid"><article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.12</span>
           <span class="award-card__result">Bronze Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://news.nankai.edu.cn/zhxw/system/2025/12/08/030070061.shtml" target="_blank" rel="noopener noreferrer">3rd National College Student Career Planning Competition - Growth Track, University-level Competition</a></h5>
-      </article>
-
-      <article class="award-card award-card--featured">
-        <span class="award-card__spotlight">Featured Award</span>
-        <div class="award-card__top">
-          <span class="award-card__date">2025.11</span>
-          <span class="award-card__result">National Third Prize</span>
-        </div>
-        <h5 class="award-card__name"><a class="award-card__link" href="https://www.jiemian.com/article/13643188.html" target="_blank" rel="noopener noreferrer">National College Student Computer System Ability Competition</a></h5>
-        <div class="award-card__tags">
-          <span class="award-card__tag award-card__tag--money">Prize ¥10,000</span>
-        </div>
-      </article>
-
-      <article class="award-card">
-        <div class="award-card__top">
-          <span class="award-card__date">2025.11</span>
-          <span class="award-card__result">Provincial First Prize</span>
-        </div>
-        <h5 class="award-card__name"><a class="award-card__link" href="https://www.cmathc.org.cn/mcm/news/362.html" target="_blank" rel="noopener noreferrer">China Undergraduate Mathematical Contest in Modeling (CUMCM)</a></h5>
-      </article>
-
-      <article class="award-card award-card--featured">
-        <span class="award-card__spotlight">Featured Award</span>
-        <div class="award-card__top">
-          <span class="award-card__date">2025.10</span>
-          <span class="award-card__result">National Third Prize</span>
-        </div>
-        <h5 class="award-card__name"><a class="award-card__link" href="https://news.nankai.edu.cn/ywsd/system/2025/11/10/030069539.shtml" target="_blank" rel="noopener noreferrer">19th Challenge Cup National College Student Extracurricular Academic and Technological Works Competition</a></h5>
-      </article>
-
-      <article class="award-card">
+      </article><article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.10</span>
           <span class="award-card__result">Silver Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://mp.weixin.qq.com/s/bO7zPc8JcLDxAw58Q5PqqQ" target="_blank" rel="noopener noreferrer">Nankai University Mathematical Modeling Competition</a></h5>
-      </article>
-
-      <article class="award-card award-card--flagship">
-        <span class="award-card__spotlight">Flagship Award</span>
-        <div class="award-card__top">
-          <span class="award-card__date">2025.09</span>
-          <span class="award-card__result">National Champion</span>
-        </div>
-        <h5 class="award-card__name"><a class="award-card__link" href="https://cc-backend.nankai.edu.cn/news/news-detail/20808" target="_blank" rel="noopener noreferrer">8th CCF-TCARCH Computer Architecture Challenge</a></h5>
-        <div class="award-card__tags">
-          <span class="award-card__tag award-card__tag--money">Prize ¥10,000</span>
-        </div>
-      </article>
-
-      <article class="award-card">
+      </article><article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.09</span>
           <span class="award-card__result">Special Prize</span>
@@ -186,68 +120,21 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
         <div class="award-card__tags">
           <span class="award-card__tag award-card__tag--money">Prize ¥1,000</span>
         </div>
-      </article>
-
-      <article class="award-card">
-        <div class="award-card__top">
-          <span class="award-card__date">2025.07</span>
-          <span class="award-card__result">Special Prize</span>
-        </div>
-        <h5 class="award-card__name"><a class="award-card__link" href="https://2025.tiaozhanbei.net/d49/article/666/" target="_blank" rel="noopener noreferrer">18th Challenge Cup China Bank Tianjin Undergraduate Extracurricular Academic and Technological Works Competition</a></h5>
-      </article>
-
-      <article class="award-card">
+      </article><article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.06</span>
           <span class="award-card__result">Outstanding Award</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://nktw.nankai.edu.cn/info/1013/1910.htm" target="_blank" rel="noopener noreferrer">President's Cup Innovation and Entrepreneurship Competition - Entrepreneurship Track</a></h5>
-      </article>
-
-      <article class="award-card">
+      </article><article class="award-card">
         <div class="award-card__top">
           <span class="award-card__date">2025.04</span>
           <span class="award-card__result">First Prize</span>
         </div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://nktw.nankai.edu.cn/info/1013/1879.htm" target="_blank" rel="noopener noreferrer">President's Cup Innovation and Entrepreneurship Competition - Innovation Track</a></h5>
-      </article>
+      </article></div></details>
 
-      <article class="award-card">
-        <div class="award-card__top">
-          <span class="award-card__date">2025.01</span>
-          <span class="award-card__result">Honorable Mention, H Prize</span>
-        </div>
-        <h5 class="award-card__name"><a class="award-card__link" href="https://www.comap.com/contests/mcm-icm" target="_blank" rel="noopener noreferrer">Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM)</a></h5>
-      </article>
-    </div>
-  </section>
-
-  <section class="award-year-section">
-    <div class="award-year-section__header">
-      <h4 class="award-year-section__title">2024</h4>
-      <p class="award-year-section__meta">2 awards</p>
-    </div>
-    <div class="award-grid">
-      <article class="award-card">
-        <div class="award-card__top">
-          <span class="award-card__date">2024.11</span>
-          <span class="award-card__result">Provincial Second Prize</span>
-        </div>
-        <h5 class="award-card__name"><a class="award-card__link" href="https://jw.tjut.edu.cn/info/1888/6440.htm" target="_blank" rel="noopener noreferrer">China Undergraduate Mathematical Contest in Modeling (CUMCM)</a></h5>
-      </article>
-
-      <article class="award-card">
-        <div class="award-card__top">
-          <span class="award-card__date">2024.10</span>
-          <span class="award-card__result">First Prize</span>
-        </div>
-        <h5 class="award-card__name"><a class="award-card__link" href="https://zhuanlan.zhihu.com/p/10010914554" target="_blank" rel="noopener noreferrer">3rd National College Student Data Analysis Popular Science Competition</a></h5>
-      </article>
-    </div>
-  </section>
-
-</div>
-
+<details class="profile-details"><summary>Teaching, leadership, and service</summary>
 <div class="service-board">
   <div class="service-board__intro">
     <p class="service-board__eyebrow">Teaching, Leadership, and Service</p>
@@ -360,7 +247,9 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
 </div>
 
-# 🏅 Scholarships
+</details>
+
+<details class="profile-details" id="-scholarships"><summary>Scholarships</summary>
 <div class="award-board scholarship-board">
   <section class="award-year-section">
     <div class="award-year-section__header">
@@ -415,7 +304,10 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
   </section>
 </div>
 
-# 📖 Educations
+</details>
+
+# Education
+{: #-educations}
 <div class="education-card">
   <div class="education-card__header">
     <div class="education-card__main">
@@ -441,15 +333,15 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
   <div class="education-card__header">
     <div class="education-card__main">
       <h3 class="education-card__school">University of Macau, Faculty of Science and Technology</h3>
-      <p class="education-card__meta">Upcoming Exchange Programme</p>
+      <p class="education-card__meta">Exchange Programme Admission</p>
       <div class="education-card__details">
-        <p class="education-card__degree">Department of Computer and Information Science, Exchange Student (Planned)</p>
-        <p class="education-card__minor">Upcoming exchange at FST's Department of Computer and Information Science, University of Macau.</p>
+        <p class="education-card__degree">Admitted to the exchange programme in Computer and Information Science</p>
+        <p class="education-card__minor">Received an offer of admission; did not participate in the programme.</p>
       </div>
     </div>
     <div class="education-card__side">
       <div class="education-card__tags">
-        <span class="education-tag education-tag--strong">Upcoming</span>
+        <span class="education-tag education-tag--strong">Admission offer</span>
         <span class="education-tag education-tag--soft">International Exchange</span>
         <span class="education-tag education-tag--soft">Macau SAR</span>
       </div>
@@ -458,7 +350,8 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
   </div>
 </div>
 
-# 💼 Internships
+# Internships
+{: #-internships}
 <div class="internship-list">
   <article class="internship-card internship-card--featured internship-card--theme-hejun">
     <div class="internship-card__header">
@@ -517,7 +410,8 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
 <span class='anchor' id='technical-communication'></span>
 
-# 📡 Technical Communication
+# Technical Communication
+{: #-technical-communication}
 <div class="news-board">
   <div class="news-board__header">
     <p class="news-board__eyebrow">Public Engagement</p>
@@ -559,7 +453,7 @@ Beyond my interdisciplinary studies, my main focus is building **efficient ML sy
 
     <article class="news-feature">
       <h4 class="news-feature__headline">Beyond Research</h4>
-      <p class="news-feature__body">Outside academic work, I enjoy music, marathon running, and independent travel. Formal training in violin and guitar, along with marathon training and solo travel, has strengthened my <strong>discipline, resilience, and curiosity</strong>.</p>
+      <p class="news-feature__body">Outside computing, I enjoy music (violin and guitar), volleyball, marathon running, and independent travel.</p>
       <a class="news-feature__media" href="{{ '/images/20260303-143751.jpeg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open running photo">
         <img class="news-feature__photo" src="{{ '/images/athletics/optimized/running-moment-2.webp' | relative_url }}" alt="Running moment" loading="lazy" decoding="async" fetchpriority="low">
       </a>

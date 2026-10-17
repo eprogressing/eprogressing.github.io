@@ -6,20 +6,17 @@ main:
   - title: "News"
     url: "/#-news"
 
-  - title: "Projects and Research"
+  - title: "Research & Projects"
     url: "/#-projects-and-research"
 
-  - title: "Honors and Awards"
+  - title: "Awards"
     url: "/#-honors-and-awards"
 
-  - title: "Scholarships"
-    url: "/#-scholarships"
-
-  - title: "Educations"
+  - title: "Education"
     url: "/#-educations"
 
   - title: "Internships"
     url: "/#-internships"
 
-  - title: "Technical Communication"
+  - title: "Outreach"
     url: "/#technical-communication"

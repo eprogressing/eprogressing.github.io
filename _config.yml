@@ -22,11 +22,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jingming Liang"
   avatar           : "images/photo-optimized.webp"
-  bio              : "College of Computer Science, Nankai University"
-  location         : "TianJin, China"
+  bio              : "Computer Science · Nankai University · NBJL"
+  location         : "Tianjin, China"
   employer         :
   pubmed           : 
-  email            : "2312632@mail.nankai.edu.cn"
+  email            : "liangjm@nbjl.nankai.edu.cn"
   cv               : "/files/jingming-liang-cv.pdf"
   cv_pdf           : "/files/jingming-liang-cv.pdf"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/jingming-liang-843a503a2/"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/0009-0000-9695-7373"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
