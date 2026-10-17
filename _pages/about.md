@@ -117,17 +117,17 @@ I build open-source tools and share learning resources through [**Lamplighter Co
       <article class="award-card">
         <div class="award-card__top"><span class="award-card__date">2026</span><span class="award-card__result">National Third Prize</span></div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://cc.nankai.edu.cn/2026/0909/c13295a602199/page.htm" target="_blank" rel="noopener noreferrer">Computer System Development Capability Competition — Operating System Design Contest (OS Function Challenge Track)</a></h5>
-        <div class="award-card__tags"><span class="award-card__tag">Team captain</span></div>
+        <div class="award-card__tags"><span class="award-card__tag">Team captain</span><span class="award-card__tag award-card__tag--money">Prize ¥2,000</span></div>
       </article>
       <article class="award-card">
         <div class="award-card__top"><span class="award-card__date">2026</span><span class="award-card__result">National Third Prize</span></div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://cc.nankai.edu.cn/2026/0909/c13295a602200/page.htm" target="_blank" rel="noopener noreferrer">Computer System Development Capability Competition — Intelligent Computing Innovation Design Contest (Xiandao Cup)</a></h5>
-        <div class="award-card__tags"><span class="award-card__tag">Solo entry</span></div>
+        <div class="award-card__tags"><span class="award-card__tag">Solo entry</span><span class="award-card__tag award-card__tag--money">Prize ¥8,000</span></div>
       </article>
       <article class="award-card">
         <div class="award-card__top"><span class="award-card__date">2026</span><span class="award-card__result">Third Prize &amp; Special Contribution Award</span></div>
         <h5 class="award-card__name"><a class="award-card__link" href="https://competition.gitcode.com/competition/2071411775170351105/winner-list" target="_blank" rel="noopener noreferrer">CANN-HCCL Communication Library Innovation Competition</a></h5>
-        <div class="award-card__tags"><span class="award-card__tag">Solo entry</span></div>
+        <div class="award-card__tags"><span class="award-card__tag">Solo entry</span><span class="award-card__tag award-card__tag--money">Prize ¥5,000 + ¥1,000</span></div>
       </article>
     </div>
   </section>
@@ -400,7 +400,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
   <section class="award-year-section">
     <div class="award-year-section__header">
       <h4 class="award-year-section__title">2025</h4>
-      <p class="award-year-section__meta">2 scholarships</p>
+      <p class="award-year-section__meta">3 scholarships</p>
     </div>
     <div class="award-grid">
       <article class="award-card scholarship-card">
@@ -418,6 +418,13 @@ I build open-source tools and share learning resources through [**Lamplighter Co
           <span class="award-card__result scholarship-card__amount">CNY 2,000</span>
         </div>
         <h5 class="award-card__name">Student Service Scholarship</h5>
+        <p class="award-card__subtitle">Nankai University</p>
+      </article>
+      <article class="award-card scholarship-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2025.10</span>
+        </div>
+        <h5 class="award-card__name">Gongneng Scholarship</h5>
         <p class="award-card__subtitle">Nankai University</p>
       </article>
     </div>
@@ -479,7 +486,6 @@ I build open-source tools and share learning resources through [**Lamplighter Co
       <p class="education-card__meta">Exchange Programme Admission</p>
       <div class="education-card__details">
         <p class="education-card__degree">Admitted to the exchange programme in Computer and Information Science</p>
-        <p class="education-card__minor">Received an offer of admission; did not participate in the programme.</p>
       </div>
     </div>
     <div class="education-card__side">
