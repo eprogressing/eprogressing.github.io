@@ -116,12 +116,12 @@ I build open-source tools and share learning resources through [**Lamplighter Co
     <div class="award-grid">
       <article class="award-card">
         <div class="award-card__top"><span class="award-card__date">2026</span><span class="award-card__result">National Third Prize</span></div>
-        <h5 class="award-card__name">Computer System Development Capability Competition — Operating System Design Contest (OS Function Challenge Track)</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://cc.nankai.edu.cn/2026/0909/c13295a602199/page.htm" target="_blank" rel="noopener noreferrer">Computer System Development Capability Competition — Operating System Design Contest (OS Function Challenge Track)</a></h5>
         <div class="award-card__tags"><span class="award-card__tag">Team captain</span></div>
       </article>
       <article class="award-card">
         <div class="award-card__top"><span class="award-card__date">2026</span><span class="award-card__result">National Third Prize</span></div>
-        <h5 class="award-card__name">Computer System Development Capability Competition — Intelligent Computing Innovation Design Contest (Xiandao Cup)</h5>
+        <h5 class="award-card__name"><a class="award-card__link" href="https://cc.nankai.edu.cn/2026/0909/c13295a602200/page.htm" target="_blank" rel="noopener noreferrer">Computer System Development Capability Competition — Intelligent Computing Innovation Design Contest (Xiandao Cup)</a></h5>
         <div class="award-card__tags"><span class="award-card__tag">Solo entry</span></div>
       </article>
       <article class="award-card">
