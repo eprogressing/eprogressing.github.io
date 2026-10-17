@@ -26,15 +26,17 @@ My research interests are **LLM inference systems**, **heterogeneous computing a
 
 I build open-source tools and share learning resources through [**Lamplighter Commons**](https://github.com/lamplighter-commons), and contribute to [**StarryOS / tgoskits**](https://github.com/rcore-os/tgoskits) ([merged contributions](https://github.com/rcore-os/tgoskits/pulls?q=is%3Apr+author%3Aeprogressing+is%3Amerged)). For research and collaboration, reach me at [liangjm@nbjl.nankai.edu.cn](mailto:liangjm@nbjl.nankai.edu.cn).
 
+<span class="anchor" id="-news"></span>
+
 # News
-{: #-news}
 
 <ul class="profile-updates">
   <li><time datetime="2026-10">Oct 2026</time><span>Founded <a href="https://github.com/lamplighter-commons">Lamplighter Commons</a> for open-source tools and learning resources.</span></li>
 </ul>
 
+<span class="anchor" id="-projects-and-research"></span>
+
 # Projects and Research
-{: #-projects-and-research}
 
 {% include github-project-cards.html %}
 
@@ -91,8 +93,9 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 </div>
 </div>
 
+<span class="anchor" id="-honors-and-awards"></span>
+
 # Honors and Awards
-{: #-honors-and-awards}
 
 <p class="honors-key"><span class="honor-mark honor-mark--solo">Solo entry</span><span class="honor-mark honor-mark--captain">Team captain</span></p>
 
@@ -306,8 +309,9 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 </details>
 
+<span class="anchor" id="-educations"></span>
+
 # Education
-{: #-educations}
 <div class="education-card">
   <div class="education-card__header">
     <div class="education-card__main">
@@ -350,8 +354,9 @@ I build open-source tools and share learning resources through [**Lamplighter Co
   </div>
 </div>
 
+<span class="anchor" id="-internships"></span>
+
 # Internships
-{: #-internships}
 <div class="internship-list">
   <article class="internship-card internship-card--featured internship-card--theme-hejun">
     <div class="internship-card__header">
@@ -410,8 +415,9 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 <span class='anchor' id='technical-communication'></span>
 
+<span class="anchor" id="-technical-communication"></span>
+
 # Technical Communication
-{: #-technical-communication}
 <div class="news-board">
   <div class="news-board__header">
     <p class="news-board__eyebrow">Public Engagement</p>
