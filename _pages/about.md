@@ -71,9 +71,16 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 ## Research
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Multimodal MoE</div><a href="{{ '/files/cmrd-method-pipeline.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open the full-size CMRD method pipeline PDF"><img src="{{ '/images/projects/optimized/cmrd-method-pipeline.png' | relative_url }}" alt="CMRD pipeline: controlled routing probes, same-question controls, and diagnosis-guided mitigation." width="100%" loading="lazy" decoding="async" fetchpriority="low"></a></div></div>
+<div class='paper-box-text' markdown="1">
+
 **Diagnosing and Mitigating Noun-Driven Routing Bias in Multimodal Mixture-of-Experts**
 
-This research investigates how queried nouns influence visual routing in multimodal MoE models. It introduces the training-free CMRD probe and studies inference-time mitigation of false positives in object hallucination benchmarks.
+- Developed **CMRD (Controlled MoE Routing Decomposition)**, a training-free probe using text anchors and controlled pre-router interventions to examine noun-driven visual routing shifts.
+- Used **same-question controls** to approximately separate broad-semantic effects from a queried-specific residual, identifying a shared **layer-10 routing hotspot** in MoE-LLaVA-Qwen.
+- Evaluated **Noun-Blind Routing** and **Two-Stage Verification** for object-existence hallucination. On **POPE-9000**, Two-Stage Verification reduced false positives by **about 60%** and improved accuracy from **81.7% to 88.2%**, while increasing false negatives.
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">LTSF</div><img src="{{ '/images/projects/sparsetsf-fft-updated.png' | relative_url }}" alt="SparseTSF-FFT framework overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
