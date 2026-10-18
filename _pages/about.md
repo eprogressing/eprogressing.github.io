@@ -2,6 +2,7 @@
 permalink: /
 title: ""
 excerpt: ""
+description: "Jingming Liang is a Computer Science undergraduate at Nankai University working on AI infrastructure, heterogeneous computing, and on-device AI."
 author_profile: true
 mathjax: false
 redirect_from: 
@@ -45,29 +46,48 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 # 📝 Projects and Research
 
-{% include github-project-cards.html %}
+## Selected Systems Projects
 
-## Projects
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AI Infrastructure</div><img src="{{ '/images/projects/optimized/dcu-inference-serving.svg' | relative_url }}" alt="Qwen inference serving overview: prefill/decode profiling, kernel optimization, and two-device tensor-parallel serving." width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**LLM Inference Serving on Domestic DCUs**
+
+<em>Individual competition project · Jul–Aug 2026 · Kernel and serving optimization.</em>
+
+- Profiled **Qwen3.5-27B with vLLM** for long-context inference on domestic DCUs, separating prefill/decode bottlenecks and analyzing attention and paged KV-cache paths.
+- Optimized compute and memory access with **FlashAttention, Triton GEMV, and CUDA Graph**, and adapted **TP=2 tensor parallelism and Custom AllReduce** for two-device serving.
+- Completed optimization from individual kernels to the serving pipeline, placing **12th nationally** and receiving a **National Third Prize** in the 2026 Xiandao Cup.
+
+[Award report](https://cc.nankai.edu.cn/2026/0909/c13295a602200/page.htm)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">On-Device AI</div><img src="{{ '/images/projects/optimized/starryos-edge-ai.svg' | relative_url }}" alt="RK3588 and StarryOS system overview: UVC camera, RKNN/NPU object detection, robot arm, and operating-system optimization." width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**On-Device AIOS on RK3588 and StarryOS**
+
+<em>Team competition project · May–Aug 2026 · Team captain; perception-to-control integration and OS performance optimization.</em>
+
+- Integrated **UVC image acquisition, RKNN/NPU inference, object detection, and robotic-arm control** into a tennis-ball retrieval robot running on RK3588 and StarryOS.
+- Diagnosed RKNPU execution and SMP scheduling, fixing hot-path logging stalls and tasks remaining on a single core. In the project measurements, **rknn_run latency fell from 817 to 211 ms**.
+- Improved the **four-thread speedup from 0.96× to 3.45×** in the project tests; the team received a **National Third Prize** in the 2026 Operating System Design Contest.
+
+[Award report](https://cc.nankai.edu.cn/2026/0909/c13295a602199/page.htm) · [Merged upstream contributions](https://github.com/rcore-os/tgoskits/pulls?q=is%3Apr+author%3Aeprogressing+is%3Amerged)
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">GPU Systems</div><img src="{{ '/images/projects/optimized/apsp-gpu-optimization.webp' | relative_url }}" alt="APSP GPU optimization project overview" width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**GPU Optimization for All-Pairs Shortest Path** <em>(Individual Competitor; CCF-TCARCH 2025 National Champion)</em>
+**GPU Optimization for All-Pairs Shortest Path** <em>(Individual competition project · Aug–Sep 2025 · CCF-TCARCH National Champion)</em>
 
 - Designed a **memory-aware 3-stage blocked Floyd–Warshall pipeline** to reduce bandwidth pressure in dense APSP computation, using shared memory to improve data locality.
 - Optimized kernel execution through fusion, dual-stream scheduling, double buffering, and reduced synchronization overhead. Further compressed **host-to-device transfer cost from O(V²) to O(E)** via custom I/O and device-side graph reconstruction.
-- Ranked 1st nationally as an individual competitor, achieving a **52% end-to-end speedup** on the official hidden datasets (11.50s → 5.42s) through profiling-driven optimization and systematic performance tuning.
-</div>
-</div>
+- Ranked 1st nationally as an individual competitor, reducing end-to-end runtime by **52.9%** on the official hidden datasets (11.50s → 5.42s), equivalent to a **2.12× speedup** through profiling-driven optimization and systematic performance tuning.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Systems</div><img src="{{ '/images/projects/optimized/raceradar-overview.webp' | relative_url }}" alt="RaceRadar iOS app overview" width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**RaceRadar: An End-to-End iOS System for Aggregating and Prioritizing Competition Opportunities** <em>(Independent systems engineering project; App Store release in preparation)</em>
-
-- Built a **fault-tolerant, multi-source ingestion pipeline** that continuously crawls, cleans, deduplicates, and ranks competition announcements, publishing a unified JSON feed through scheduled GitHub Actions workflows.
-- Developed a **native iOS app in Swift/Xcode** with card-based discovery, detailed opportunity pages, deadline-aware prioritization, source/category tagging, and shareable competition posters.
-- Designed the system around real student workflows, translating automated data ingestion and ranking into a **deployable user-facing information system** for discovering higher-quality and time-sensitive opportunities.
+[Award report](https://cc-backend.nankai.edu.cn/news/news-detail/20808)
 </div>
 </div>
 
@@ -78,34 +98,60 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 **Diagnosing and Mitigating Noun-Driven Routing Bias in Multimodal Mixture-of-Experts**
 
+<em>Independent research project · Routing probe design and experimental evaluation.</em>
+
 - Developed **CMRD (Controlled MoE Routing Decomposition)**, a training-free probe using text anchors and controlled pre-router interventions to examine noun-driven visual routing shifts.
 - Used **same-question controls** to approximately separate broad-semantic effects from a queried-specific residual, identifying a shared **layer-10 routing hotspot** in MoE-LLaVA-Qwen.
 - Evaluated **Noun-Blind Routing** and **Two-Stage Verification** for object-existence hallucination. On **POPE-9000**, Two-Stage Verification reduced false positives by **about 60%** and improved accuracy from **81.7% to 88.2%**, while increasing false negatives.
+
+[Method figure (PDF)]({{ '/files/cmrd-method-pipeline.pdf' | relative_url }})
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src="{{ '/images/projects/optimized/klora-schedule-study.svg' | relative_url }}" alt="K-LoRA extension project: original baseline, eight scheduling candidates, comparative evaluation, and an interactive demo." width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Adaptive Weight Scheduling for Image Diffusion Models (K-LoRA++)**
+
+<em>Competition research project · Apr–Oct 2025 · Schedule formulation, evaluation, and demo development; National Third Prize in Challenge Cup.</em>
+
+- Extended the original K-LoRA framework for training-free subject/style LoRA fusion by mathematically formulating and evaluating **8 distinct stage-aware scaling schedules** across diffusion timesteps.
+- Compared the schedules through first-order derivative analysis and cross-domain experiments; a **constant-derivative linear schedule** gave the best content/style balance among the evaluated schedules in the tested settings, with less structural distortion and visual jitter.
+- Facilitated the end-to-end development of the project's interactive demo and drove its practical deployment for downstream generative applications.
+
+[Original K-LoRA paper (Ouyang et al., CVPR 2025)](https://openaccess.thecvf.com/content/CVPR2025/html/Ouyang_K-LoRA_Unlocking_Training-Free_Fusion_of_Any_Subject_and_Style_LoRAs_CVPR_2025_paper.html)
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">LTSF</div><img src="{{ '/images/projects/optimized/sparsetsf-fft.webp' | relative_url }}" alt="SparseTSF-FFT framework overview" width="1600" height="900" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **SparseTSF-FFT: A Frequency-Domain Framework for Time Series Forecasting**
 
+<em>Course project · Sep–Dec 2024 · Framework migration and model extension.</em>
+
 - **Reimplemented and extended SparseTSF from PyTorch to MindSpore**, including custom API mappings and reconstruction of the training/evaluation pipeline for cross-framework deployment.
 - Designed an **FFT-based learnable filtering module** to replace local sliding-window convolutions, aiming to better capture long-range periodic structure under a lightweight parameter budget.
-- Conducted cross-framework profiling and forecasting evaluations, observing **improved long-horizon performance** (e.g., at 336 and 720 steps on ETTh1/ETTh2) relative to the baseline.
+- Conducted cross-framework profiling and forecasting evaluations, observing **improved long-horizon performance** (e.g., at 336 and 720 steps on ETTh1/ETTh2) relative to the baseline in the evaluated settings.
+
+[Original SparseTSF implementation](https://github.com/lss-1138/SparseTSF)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src="{{ '/images/projects/optimized/k-lora-overview-v2.webp' | relative_url }}" alt="K-LoRA project overview" width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+## Other Engineering Projects
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Systems</div><img src="{{ '/images/projects/optimized/raceradar-overview.webp' | relative_url }}" alt="RaceRadar iOS app overview" width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Research on Adaptive Weight Selection for Image Diffusion Models** <em>(National 3rd Prize in Challenge Cup, K-LoRA++)</em>
+**RaceRadar: An End-to-End iOS System for Aggregating and Prioritizing Competition Opportunities** <em>(Independent engineering project · Nov 2025–present · App Store release in preparation)</em>
 
-- Extended the training-free object-style fusion framework (CVPR 2025 K-LoRA) by mathematically formulating and evaluating **8 distinct stage-aware scaling schedules** across diffusion timesteps.
-- Demonstrated through first-order derivative analysis and cross-domain experiments that a **constant-derivative linear schedule** optimally balances content fidelity and style consistency, effectively preventing structural distortion and visual jitter during the fusion process.
-- Facilitated the end-to-end development of the project's interactive demo and drove its practical deployment for downstream generative applications.
+- Built a **fault-tolerant, multi-source ingestion pipeline** that continuously crawls, cleans, deduplicates, and ranks competition announcements, publishing a unified JSON feed through scheduled GitHub Actions workflows.
+- Developed a **native iOS app in Swift/Xcode** with card-based discovery, detailed opportunity pages, deadline-aware prioritization, source/category tagging, and shareable competition posters.
+- Designed the system around real student workflows, translating automated data ingestion and ranking into a **deployable user-facing information system** for discovering higher-quality and time-sensitive opportunities.
 </div>
 </div>
+
+{% include github-project-cards.html %}
 
 # 🎖 Honors and Awards
 <div class="award-board">
@@ -469,7 +515,9 @@ I build open-source tools and share learning resources through [**Lamplighter Co
   </section>
 </div>
 
-# 📖 Educations
+<span class='anchor' id='-educations'></span>
+
+# 📖 Education
 <div class="education-card">
   <div class="education-card__header">
     <div class="education-card__main">
@@ -539,13 +587,13 @@ I build open-source tools and share learning resources through [**Lamplighter Co
         <p class="internship-card__meta">Jul 2025 - Sep 2025</p>
       </div>
       <div class="internship-card__tags">
-        <span class="internship-tag internship-tag--highlight">Top Domestic Consulting Firm</span>
+        <span class="internship-tag internship-tag--highlight">Business Analysis Intern</span>
       </div>
     </div>
     <ul class="internship-card__highlights">
-      <li><strong>Served a leading Tianjin listed water utility</strong>, supporting strategic modules including the Fifteenth Five-Year Plan, technical pathways, and Jing-Jin-Ji collaboration initiatives.</li>
-      <li><strong>Built evidence-ready research inputs</strong> by programmatically collecting and cleaning public disclosures (CNINFO, prospectuses, and official filings) for consulting workstreams.</li>
-      <li><strong>Independently delivered a 30,000+ word insight report</strong> covering PEST, SWOT, value-chain mapping, peer benchmarking, and actionable improvement recommendations.</li>
+      <li><strong>Analyzed financial data from 2016–2024</strong> and recent water-utility market data from Beijing, Tianjin, and Hebei to support industry research.</li>
+      <li><strong>Built market-size estimates, competitor comparisons, and regional-attractiveness indicators</strong> for equipment and chemical-supply market analysis.</li>
+      <li><strong>Prepared a 30,000+ word industry report</strong> on the water-treatment equipment and chemicals sector.</li>
     </ul>
   </article>
 
@@ -557,13 +605,13 @@ I build open-source tools and share learning resources through [**Lamplighter Co
         <p class="internship-card__meta">Jun 2025 - Jul 2025</p>
       </div>
       <div class="internship-card__tags">
-        <span class="internship-tag internship-tag--highlight">Enterprise AI</span>
+        <span class="internship-tag internship-tag--highlight">LLM Development Intern</span>
       </div>
     </div>
     <ul class="internship-card__highlights">
-      <li><strong>Built enterprise-ready LLM workflows</strong> using DeepSeek-based applications and LangChain integration for practical business scenarios.</li>
-      <li><strong>Engineered production-oriented AI services</strong> with PyTorch and FastAPI, including model tuning practices for vertical-domain performance.</li>
-      <li><strong>Delivered a deployable intelligent assistant system</strong> built on chatbot frameworks (Maibot and Astrbot), with knowledge-base QA, persona settings, automated deployment, and dialogue analytics.</li>
+      <li><strong>Built an e-commerce knowledge base and RAG workflow</strong>, including data collection, structured extraction, knowledge-graph and vector-store integration, and retrieval tuning.</li>
+      <li><strong>Fine-tuned a Qwen-based digital persona</strong> with supervised fine-tuning and 4-bit QLoRA on an RTX 4060 with 8 GB of memory.</li>
+      <li><strong>Deployed the assistant through QQ</strong>, connecting model adaptation and retrieval to a working conversational application.</li>
     </ul>
   </article>
 
@@ -575,13 +623,13 @@ I build open-source tools and share learning resources through [**Lamplighter Co
         <p class="internship-card__meta">Jun 2024 - Jul 2024</p>
       </div>
       <div class="internship-card__tags">
-        <span class="internship-tag internship-tag--highlight">Top-Tier Securities Firm</span>
+        <span class="internship-tag internship-tag--highlight">Quantitative Research Assistant</span>
       </div>
     </div>
     <ul class="internship-card__highlights">
-      <li><strong>Constructed IPS-based client planning workflows</strong> and applied the RRTTLLU constraint analysis framework for practical asset-allocation decisions.</li>
-      <li><strong>Completed an end-to-end personal finance case</strong> covering quantitative profiling, cross-asset allocation modeling, and benchmark comparison against market indices.</li>
-      <li><strong>Proposed dynamic rebalancing actions</strong> to improve return-risk balance while remaining aligned with long-term goals and client risk tolerance.</li>
+      <li><strong>Cleaned nearly ten years of data across ten asset classes</strong> and calculated returns, volatility, and covariance matrices for portfolio analysis.</li>
+      <li><strong>Implemented Markowitz mean–variance portfolio optimization</strong> to estimate the efficient frontier and a maximum-Sharpe portfolio.</li>
+      <li><strong>Examined overfitting in corner solutions</strong> and explored adjustments using more recent time-series data.</li>
     </ul>
   </article>
 </div>
@@ -599,6 +647,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
     <article class="news-feature">
       <h4 class="news-feature__headline">CS and AI Educational Outreach</h4>
       <p class="news-feature__body">I create <strong>structured study notes, learning resources, and course-oriented materials</strong> for student audiences, and I am continuing to expand this work toward broader computer science and AI topics.</p>
+      <p class="news-feature__foot">Account statistics as of October 2026.</p>
       <div class="news-feature__stats">
         <span class="news-stat"><strong>6,211</strong> followers</span>
         <span class="news-stat"><strong>3M+</strong> total views</span>

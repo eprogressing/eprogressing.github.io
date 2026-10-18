@@ -9,6 +9,8 @@
 title                    : "Jingming Liang"
 description              : "Explore to discover what you truly seek. ——Jiayi Weng"
 repository               : "eprogressing/eprogressing.github.io"
+url                      : "https://www.jingmingliang2004.com"
+baseurl                  : ""
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/

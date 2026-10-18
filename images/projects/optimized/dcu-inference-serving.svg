@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="563" viewBox="0 0 1000 563" role="img">
+<title>LLM Inference Serving</title>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8" fill="#667b91"/></marker></defs>
+<rect x="1" y="1" width="998" height="561" rx="22" fill="#fff" stroke="#d9e1e8" stroke-width="2"/>
+<text x="50" y="76" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#1e354d">LLM Inference Serving</text>
+<text x="50" y="116" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#5d6e7e">Qwen3.5-27B · vLLM · Domestic DCUs</text>
+<rect x="45" y="194" width="280" height="195" rx="14" fill="#f2f6fa" stroke="#c9d7e4" stroke-width="2"/>
+<text x="67" y="239" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#254c74">Profile</text>
+<text x="67" y="283" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#415469">Prefill / decode</text>
+<text x="67" y="314" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#415469">Attention paths</text>
+<text x="67" y="345" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#415469">Paged KV cache</text>
+<path d="M329 290 H353" stroke="#667b91" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="360" y="194" width="280" height="195" rx="14" fill="#f2f6fa" stroke="#c9d7e4" stroke-width="2"/>
+<text x="382" y="239" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#254c74">Optimize</text>
+<text x="382" y="283" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#415469">FlashAttention</text>
+<text x="382" y="314" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#415469">Triton GEMV</text>
+<text x="382" y="345" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#415469">CUDA Graph</text>
+<path d="M644 290 H668" stroke="#667b91" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="675" y="194" width="280" height="195" rx="14" fill="#f2f6fa" stroke="#c9d7e4" stroke-width="2"/>
+<text x="697" y="239" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#254c74">Serve</text>
+<text x="697" y="283" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#415469">TP = 2</text>
+<text x="697" y="314" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#415469">Custom AllReduce</text>
+<text x="697" y="345" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#415469">End-to-end pipeline</text>
+<path d="M50 445 H950" stroke="#d9e1e8" stroke-width="2"/>
+<text x="50" y="490" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#5d6e7e">Individual competition project · Jul–Aug 2026</text>
+</svg>

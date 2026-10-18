@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="563" viewBox="0 0 1000 563" role="img">
+<title>On-Device AIOS</title>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8" fill="#667b91"/></marker></defs>
+<rect x="1" y="1" width="998" height="561" rx="22" fill="#fff" stroke="#d9e1e8" stroke-width="2"/>
+<text x="50" y="76" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" fill="#1e354d">On-Device AIOS</text>
+<text x="50" y="116" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#5d6e7e">RK3588 + StarryOS · Perception-to-control integration</text>
+<rect x="45" y="194" width="280" height="195" rx="14" fill="#f2f6fa" stroke="#c9d7e4" stroke-width="2"/>
+<text x="67" y="239" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#254c74">Acquire</text>
+<text x="67" y="283" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#415469">UVC camera</text>
+<text x="67" y="314" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#415469">Image capture</text>
+<path d="M329 290 H353" stroke="#667b91" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="360" y="194" width="280" height="195" rx="14" fill="#f2f6fa" stroke="#c9d7e4" stroke-width="2"/>
+<text x="382" y="239" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#254c74">Infer</text>
+<text x="382" y="283" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#415469">RKNN runtime</text>
+<text x="382" y="314" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#415469">NPU execution</text>
+<text x="382" y="345" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#415469">Object detection</text>
+<path d="M644 290 H668" stroke="#667b91" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="675" y="194" width="280" height="195" rx="14" fill="#f2f6fa" stroke="#c9d7e4" stroke-width="2"/>
+<text x="697" y="239" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#254c74">Act</text>
+<text x="697" y="283" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#415469">Robotic arm</text>
+<text x="697" y="314" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#415469">Grasp and lift</text>
+<path d="M50 445 H950" stroke="#d9e1e8" stroke-width="2"/>
+<text x="50" y="490" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#5d6e7e">System optimization: RKNPU profiling, hot-path logging, and SMP scheduling</text>
+</svg>
