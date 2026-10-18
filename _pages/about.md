@@ -23,7 +23,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm **Jingming Liang** (Brighton), a senior undergraduate in Computer Science at [**Nankai University**](https://www.nankai.edu.cn/). I expect to begin my PhD in **2027** with the [**Nankai–Baidu Joint Laboratory (NBJL)**](https://nbjl.nankai.edu.cn/). Originally from Dalian, I also pursue minors in Finance and Criminal Law.
+I'm **Jingming Liang** (Brighton), a senior undergraduate in Computer Science at [**Nankai University**](https://www.nankai.edu.cn/). Since **October 2025**, I have been an **undergraduate research intern** at the [**Nankai–Baidu Joint Laboratory (NBJL)**](https://nbjl.nankai.edu.cn/), and I expect to begin my PhD there in **2027**. Originally from Dalian, I also pursue minors in Finance and Criminal Law.
 
 I build open-source tools and share learning resources through [**Lamplighter Commons**](https://github.com/lamplighter-commons), and contribute to [**StarryOS / tgoskits**](https://github.com/rcore-os/tgoskits) ([merged contributions](https://github.com/rcore-os/tgoskits/pulls?q=is%3Apr+author%3Aeprogressing+is%3Amerged)). For research and collaboration, reach me at [liangjm@nbjl.nankai.edu.cn](mailto:liangjm@nbjl.nankai.edu.cn).
 
@@ -32,7 +32,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 <ul class="research-interests-list">
   <li><strong>AI Infrastructure (AI Infra)</strong>: Scalable systems for AI training and inference, with a focus on distributed execution, communication, resource scheduling, and efficient model serving.</li>
   <li><strong>Heterogeneous Computing and GPU Optimization</strong>: Hardware-aware optimization across CPUs, GPUs, and NPUs, including efficient kernels and runtimes, with applications to on-device AI under memory and power constraints.</li>
-  <li><strong>Embodied intelligence system optimization</strong>: Efficient execution of perception and decision-making models, with an interest in deployment under real-time, memory, and compute constraints.</li>
+  <li><strong>Embodied Intelligence and Systems Optimization</strong>: Efficient execution of perception and decision-making models, with an interest in deployment under real-time, memory, and compute constraints.</li>
 </ul>
 
 # 🔥 News
@@ -42,16 +42,28 @@ I build open-source tools and share learning resources through [**Lamplighter Co
     <span class="news-list__title">Lamplighter Commons</span>
     <span class="news-list__body">I founded <a href="https://github.com/lamplighter-commons">Lamplighter Commons</a> to share open-source tools and learning resources.</span>
   </li>
+  <li class="news-list__item">
+    <div class="news-list__meta"><strong class="news-list__date">[Aug 2026]</strong><span class="news-list__status">Competitions</span></div>
+    <span class="news-list__title">National awards in AI systems</span>
+    <span class="news-list__body">Received national third prizes in the Xiandao Cup and Operating System Design Contest, plus Third Prize and the Special Contribution Award in the CANN-HCCL competition.</span>
+  </li>
+  <li class="news-list__item">
+    <div class="news-list__meta"><strong class="news-list__date">[Sep 2025]</strong><span class="news-list__status">GPU Systems</span></div>
+    <span class="news-list__title">CCF-TCARCH National Champion</span>
+    <span class="news-list__body">Won the national championship as an individual competitor, working on GPU optimization for APSP, prefix sum, and softmax.</span>
+  </li>
 </ul>
 
 # 📝 Projects and Research
 
 ## Selected Systems Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GPU Systems</div><img src="{{ '/images/projects/optimized/apsp-gpu-optimization.webp' | relative_url }}" alt="APSP GPU optimization project overview" width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="project-visual"><div class="badge">GPU Systems</div><div class="project-figure"><img src="{{ '/images/projects/optimized/apsp-gpu-optimization.webp' | relative_url }}" alt="APSP GPU optimization project overview" width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div></div>
 <div class='paper-box-text' markdown="1">
 
-**GPU Optimization for All-Pairs Shortest Path** <em>(Individual competition project · Aug–Sep 2025 · CCF-TCARCH National Champion)</em>
+**GPU Optimization for All-Pairs Shortest Path**
+
+<p class="project-meta">Individual competition project · Aug–Sep 2025 · CCF-TCARCH National Champion</p>
 
 - Designed a **memory-aware 3-stage blocked Floyd–Warshall pipeline** to reduce bandwidth pressure in dense APSP computation, using shared memory to improve data locality.
 - Optimized kernel execution through fusion, dual-stream scheduling, double buffering, and reduced synchronization overhead. Further compressed **host-to-device transfer cost from O(V²) to O(E)** via custom I/O and device-side graph reconstruction.
@@ -59,12 +71,12 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 </div>
 </div>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">On-Device AI</div><img src="{{ '/images/projects/optimized/starryos-competition-ball-pickup.webp' | relative_url }}" alt="Our tennis-ball retrieval robot holding a ball on the actual operating-system competition floor, beside the collection bucket." width="1333" height="1000" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="project-visual"><div class="badge">On-Device AI</div><div class="project-figure"><a href="{{ '/images/projects/optimized/starryos-competition-ball-pickup.webp' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open the full competition photograph"><img class="project-photo" src="{{ '/images/projects/optimized/starryos-competition-ball-pickup.webp' | relative_url }}" alt="Our tennis-ball retrieval robot holding a ball on the actual operating-system competition floor, beside the collection bucket." width="1333" height="1000" style="width: 100%; height: auto;" loading="eager" decoding="async"></a></div></div></div>
 <div class='paper-box-text' markdown="1">
 
 **On-Device AIOS on RK3588 and StarryOS**
 
-<em>Team competition project · May–Aug 2026 · Team captain; perception-to-control integration and OS performance optimization.</em>
+<p class="project-meta">Team competition project · May–Aug 2026 · Team captain; perception-to-control integration and OS performance optimization.</p>
 
 - Integrated **UVC image acquisition, RKNN/NPU inference, object detection, and robotic-arm control** into a tennis-ball retrieval robot running on RK3588 and StarryOS.
 - Diagnosed RKNPU execution and SMP scheduling, fixing hot-path logging stalls and tasks remaining on a single core. In the project measurements, **rknn_run latency fell from 817 to 211 ms**.
@@ -73,12 +85,12 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AI Infrastructure</div><img src="{{ '/images/projects/optimized/xiandao-serving-concept-v3.webp' | relative_url }}" alt="Conceptual illustration of Qwen3.5-27B serving with vLLM, KV cache, and TP=2 across two DCU accelerators." width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="project-visual"><div class="badge">AI Infrastructure</div><div class="project-figure"><img src="{{ '/images/projects/optimized/xiandao-serving-concept-v3.webp' | relative_url }}" alt="Conceptual illustration of Qwen3.5-27B serving with vLLM, KV cache, and TP=2 across two DCU accelerators." width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div></div>
 <div class='paper-box-text' markdown="1">
 
 **LLM Inference Serving on Domestic DCUs**
 
-<em>Individual competition project · Jul–Aug 2026 · Kernel and serving optimization.</em>
+<p class="project-meta">Individual competition project · Jul–Aug 2026 · Kernel and serving optimization.</p>
 
 - Profiled **Qwen3.5-27B with vLLM** for long-context inference on domestic DCUs, separating prefill/decode bottlenecks and analyzing attention and paged KV-cache paths.
 - Optimized compute and memory access with **FlashAttention, Triton GEMV, and CUDA Graph**, and adapted **TP=2 tensor parallelism and Custom AllReduce** for two-device serving.
@@ -90,12 +102,12 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 ## Research
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Multimodal MoE</div><a href="{{ '/files/cmrd-method-pipeline.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open the full-size CMRD method pipeline PDF"><img src="{{ '/images/projects/optimized/cmrd-method-pipeline.webp' | relative_url }}" alt="CMRD pipeline: controlled routing probes, same-question controls, and diagnosis-guided mitigation." width="1600" height="497" style="width: 100%; height: auto;" loading="eager" decoding="async"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="project-visual"><div class="badge">Multimodal MoE</div><div class="project-figure"><a href="{{ '/files/cmrd-method-pipeline.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open the full-size CMRD method pipeline PDF"><img src="{{ '/images/projects/optimized/cmrd-method-pipeline.webp' | relative_url }}" alt="CMRD pipeline: controlled routing probes, same-question controls, and diagnosis-guided mitigation." width="1600" height="497" style="width: 100%; height: auto;" loading="eager" decoding="async"></a></div></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Diagnosing and Mitigating Noun-Driven Routing Bias in Multimodal Mixture-of-Experts**
 
-<em>Research project · Routing probe design and experimental evaluation.</em>
+<p class="project-meta">Research project · Routing probe design and experimental evaluation.</p>
 
 - Developed **CMRD (Controlled MoE Routing Decomposition)**, a training-free probe using text anchors and controlled pre-router interventions to examine noun-driven visual routing shifts.
 - Used **same-question controls** to approximately separate broad-semantic effects from a queried-specific residual, identifying a shared **layer-10 routing hotspot** in MoE-LLaVA-Qwen.
@@ -104,12 +116,12 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src="{{ '/images/projects/optimized/k-lora-overview-v2.webp' | relative_url }}" alt="K-LoRA project overview" width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="project-visual"><div class="badge">Diffusion Models</div><div class="project-figure"><img src="{{ '/images/projects/optimized/k-lora-overview-v2.webp' | relative_url }}" alt="K-LoRA project overview" width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div><p class="project-figure-note">Original K-LoRA: Ouyang et al., CVPR 2025. This overview provides background for the K-LoRA++ competition extension.</p></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Adaptive Weight Scheduling for Image Diffusion Models (K-LoRA++)**
 
-<em>Competition research project · Apr–Oct 2025 · Schedule formulation, evaluation, and demo development; National Third Prize in Challenge Cup.</em>
+<p class="project-meta">Competition research project · Apr–Oct 2025 · Schedule formulation, evaluation, and demo development; National Third Prize in Challenge Cup.</p>
 
 - Extended the original K-LoRA framework for training-free subject/style LoRA fusion by mathematically formulating and evaluating **8 distinct stage-aware scaling schedules** across diffusion timesteps.
 - Compared the schedules through first-order derivative analysis and cross-domain experiments; a **constant-derivative linear schedule** gave the best content/style balance among the evaluated schedules in the tested settings, with less structural distortion and visual jitter.
@@ -118,12 +130,12 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">LTSF</div><img src="{{ '/images/projects/optimized/sparsetsf-fft.webp' | relative_url }}" alt="SparseTSF-FFT framework overview" width="1600" height="900" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="project-visual"><div class="badge">LTSF</div><div class="project-figure"><img src="{{ '/images/projects/optimized/sparsetsf-fft.webp' | relative_url }}" alt="SparseTSF-FFT framework overview" width="1600" height="900" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div></div>
 <div class='paper-box-text' markdown="1">
 
 **SparseTSF-FFT: A Frequency-Domain Framework for Time Series Forecasting**
 
-<em>Course project · Sep–Dec 2024 · Framework migration and model extension.</em>
+<p class="project-meta">Course project · Sep–Dec 2024 · Framework migration and model extension.</p>
 
 - **Reimplemented and extended SparseTSF from PyTorch to MindSpore**, including custom API mappings and reconstruction of the training/evaluation pipeline for cross-framework deployment.
 - Designed an **FFT-based learnable filtering module** to replace local sliding-window convolutions, aiming to better capture long-range periodic structure under a lightweight parameter budget.
@@ -134,10 +146,12 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 ## Other Engineering Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Systems</div><img src="{{ '/images/projects/optimized/raceradar-overview.webp' | relative_url }}" alt="RaceRadar iOS app overview" width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="project-visual"><div class="badge">Information Systems</div><div class="project-figure"><img src="{{ '/images/projects/optimized/raceradar-overview.webp' | relative_url }}" alt="RaceRadar iOS app overview" width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div></div>
 <div class='paper-box-text' markdown="1">
 
-**RaceRadar: An End-to-End iOS System for Aggregating and Prioritizing Competition Opportunities** <em>(Independent engineering project · Nov 2025–present · App Store release in preparation)</em>
+**RaceRadar: An End-to-End iOS System for Aggregating and Prioritizing Competition Opportunities**
+
+<p class="project-meta">Independent engineering project · Nov 2025–present · App Store release in preparation</p>
 
 - Built a **fault-tolerant, multi-source ingestion pipeline** that continuously crawls, cleans, deduplicates, and ranks competition announcements, publishing a unified JSON feed through scheduled GitHub Actions workflows.
 - Developed a **native iOS app in Swift/Xcode** with card-based discovery, detailed opportunity pages, deadline-aware prioritization, source/category tagging, and shareable competition posters.
@@ -634,20 +648,18 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 <div class="news-board">
   <div class="news-board__header">
     <p class="news-board__eyebrow">Public Engagement</p>
-    <p class="news-board__intro">Beyond research, I enjoy sharing structured learning materials on computer science and AI through public-facing educational content. This experience has helped me practice technical communication and think more carefully about how complex ideas can be made accessible to broader audiences.</p>
+    <p class="news-board__intro">I share computer science study notes and learning resources on Rednote, making course material accessible to a wider student audience.</p>
   </div>
 
   <div class="news-board__content">
     <article class="news-feature">
       <h4 class="news-feature__headline">CS and AI Educational Outreach</h4>
-      <p class="news-feature__body">I create <strong>structured study notes, learning resources, and course-oriented materials</strong> for student audiences, and I am continuing to expand this work toward broader computer science and AI topics.</p>
       <p class="news-feature__foot">Account statistics as of October 2026.</p>
       <div class="news-feature__stats">
         <span class="news-stat"><strong>6,211</strong> followers</span>
         <span class="news-stat"><strong>3M+</strong> total views</span>
         <span class="news-stat"><strong>156k</strong> likes and saves</span>
       </div>
-      <p class="news-feature__foot">This work has helped me think more deliberately about <strong>clarity, structure, and accessibility</strong> when communicating technical ideas.</p>
     </article>
 
     <section class="news-gallery" aria-label="Snapshots of public-facing educational content">
