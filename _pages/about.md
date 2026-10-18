@@ -48,7 +48,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 ## Selected Systems Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AI Infrastructure</div><img src="{{ '/images/projects/optimized/dcu-inference-serving.svg' | relative_url }}" alt="Qwen inference serving overview: prefill/decode profiling, kernel optimization, and two-device tensor-parallel serving." width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AI Infrastructure</div><img src="{{ '/images/projects/optimized/qwen-serving-defense.webp' | relative_url }}" alt="Original Xiandao Cup defense slide showing the Full Attention, GDN, and decode optimization paths for Qwen3.5 serving." width="1600" height="900" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **LLM Inference Serving on Domestic DCUs**
@@ -59,11 +59,10 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 - Optimized compute and memory access with **FlashAttention, Triton GEMV, and CUDA Graph**, and adapted **TP=2 tensor parallelism and Custom AllReduce** for two-device serving.
 - Completed optimization from individual kernels to the serving pipeline, placing **12th nationally** and receiving a **National Third Prize** in the 2026 Xiandao Cup.
 
-[Award report](https://cc.nankai.edu.cn/2026/0909/c13295a602200/page.htm)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">On-Device AI</div><img src="{{ '/images/projects/optimized/starryos-edge-ai.svg' | relative_url }}" alt="RK3588 and StarryOS system overview: UVC camera, RKNN/NPU object detection, robot arm, and operating-system optimization." width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">On-Device AI</div><img src="{{ '/images/projects/optimized/starryos-rk3588-prototype.webp' | relative_url }}" alt="RK3588 development board running StarryOS, photographed during the operating-system competition project." width="1199" height="900" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **On-Device AIOS on RK3588 and StarryOS**
@@ -74,7 +73,6 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 - Diagnosed RKNPU execution and SMP scheduling, fixing hot-path logging stalls and tasks remaining on a single core. In the project measurements, **rknn_run latency fell from 817 to 211 ms**.
 - Improved the **four-thread speedup from 0.96× to 3.45×** in the project tests; the team received a **National Third Prize** in the 2026 Operating System Design Contest.
 
-[Award report](https://cc.nankai.edu.cn/2026/0909/c13295a602199/page.htm) · [Merged upstream contributions](https://github.com/rcore-os/tgoskits/pulls?q=is%3Apr+author%3Aeprogressing+is%3Amerged)
 </div>
 </div>
 
@@ -87,7 +85,6 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 - Optimized kernel execution through fusion, dual-stream scheduling, double buffering, and reduced synchronization overhead. Further compressed **host-to-device transfer cost from O(V²) to O(E)** via custom I/O and device-side graph reconstruction.
 - Ranked 1st nationally as an individual competitor, reducing end-to-end runtime by **52.9%** on the official hidden datasets (11.50s → 5.42s), equivalent to a **2.12× speedup** through profiling-driven optimization and systematic performance tuning.
 
-[Award report](https://cc-backend.nankai.edu.cn/news/news-detail/20808)
 </div>
 </div>
 
@@ -104,11 +101,10 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 - Used **same-question controls** to approximately separate broad-semantic effects from a queried-specific residual, identifying a shared **layer-10 routing hotspot** in MoE-LLaVA-Qwen.
 - Evaluated **Noun-Blind Routing** and **Two-Stage Verification** for object-existence hallucination. On **POPE-9000**, Two-Stage Verification reduced false positives by **about 60%** and improved accuracy from **81.7% to 88.2%**, while increasing false negatives.
 
-[Method figure (PDF)]({{ '/files/cmrd-method-pipeline.pdf' | relative_url }})
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src="{{ '/images/projects/optimized/klora-schedule-study.svg' | relative_url }}" alt="K-LoRA extension project: original baseline, eight scheduling candidates, comparative evaluation, and an interactive demo." width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src="{{ '/images/projects/optimized/k-lora-overview-v2.webp' | relative_url }}" alt="K-LoRA project overview" width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Adaptive Weight Scheduling for Image Diffusion Models (K-LoRA++)**
@@ -119,7 +115,6 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 - Compared the schedules through first-order derivative analysis and cross-domain experiments; a **constant-derivative linear schedule** gave the best content/style balance among the evaluated schedules in the tested settings, with less structural distortion and visual jitter.
 - Facilitated the end-to-end development of the project's interactive demo and drove its practical deployment for downstream generative applications.
 
-[Original K-LoRA paper (Ouyang et al., CVPR 2025)](https://openaccess.thecvf.com/content/CVPR2025/html/Ouyang_K-LoRA_Unlocking_Training-Free_Fusion_of_Any_Subject_and_Style_LoRAs_CVPR_2025_paper.html)
 </div>
 </div>
 
@@ -134,7 +129,6 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 - Designed an **FFT-based learnable filtering module** to replace local sliding-window convolutions, aiming to better capture long-range periodic structure under a lightweight parameter budget.
 - Conducted cross-framework profiling and forecasting evaluations, observing **improved long-horizon performance** (e.g., at 336 and 720 steps on ETTh1/ETTh2) relative to the baseline in the evaluated settings.
 
-[Original SparseTSF implementation](https://github.com/lss-1138/SparseTSF)
 </div>
 </div>
 
