@@ -399,8 +399,25 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 <div class="award-board scholarship-board">
   <section class="award-year-section">
     <div class="award-year-section__header">
+      <h4 class="award-year-section__title">2026</h4>
+      <p class="award-year-section__meta">1 scholarship</p>
+    </div>
+    <div class="award-grid">
+      <article class="award-card scholarship-card">
+        <div class="award-card__top">
+          <span class="award-card__date">2026.10</span>
+          <span class="award-card__result scholarship-card__amount">CNY 5,000</span>
+        </div>
+        <h5 class="award-card__name">Gongneng Scholarship</h5>
+        <p class="award-card__subtitle">Nankai University</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="award-year-section">
+    <div class="award-year-section__header">
       <h4 class="award-year-section__title">2025</h4>
-      <p class="award-year-section__meta">3 scholarships</p>
+      <p class="award-year-section__meta">2 scholarships</p>
     </div>
     <div class="award-grid">
       <article class="award-card scholarship-card">
@@ -418,13 +435,6 @@ I build open-source tools and share learning resources through [**Lamplighter Co
           <span class="award-card__result scholarship-card__amount">CNY 2,000</span>
         </div>
         <h5 class="award-card__name">Student Service Scholarship</h5>
-        <p class="award-card__subtitle">Nankai University</p>
-      </article>
-      <article class="award-card scholarship-card">
-        <div class="award-card__top">
-          <span class="award-card__date">2025.10</span>
-        </div>
-        <h5 class="award-card__name">Gongneng Scholarship</h5>
         <p class="award-card__subtitle">Nankai University</p>
       </article>
     </div>
@@ -618,7 +628,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
     <article class="news-feature">
       <h4 class="news-feature__headline">Beyond Research</h4>
-      <p class="news-feature__body">Outside computing, I enjoy music (violin and guitar), volleyball, marathon running, and independent travel.</p>
+      <p class="news-feature__body">Outside computing, I play the violin and classical guitar (Grade 10 in both), and enjoy volleyball, marathon running, and independent travel.</p>
       <a class="news-feature__media" href="{{ '/images/20260303-143751.jpeg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open running photo">
         <img class="news-feature__photo" src="{{ '/images/athletics/optimized/running-moment-2.webp' | relative_url }}" alt="Running moment" loading="lazy" decoding="async" fetchpriority="low">
       </a>
