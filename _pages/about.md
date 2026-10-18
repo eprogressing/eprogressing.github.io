@@ -48,7 +48,8 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 ## Selected Systems Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AI Infrastructure</div><img src="{{ '/images/projects/optimized/qwen-serving-defense.webp' | relative_url }}" alt="Original Xiandao Cup defense slide showing the Full Attention, GDN, and decode optimization paths for Qwen3.5 serving." width="1600" height="900" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+<!-- Figure: FlashAttention tiling, Dao et al. (2022), https://github.com/Dao-AILab/flash-attention/blob/main/assets/flashattn_banner.jpg . Illustration only; benchmark results are not shown. -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AI Infrastructure</div><img src="{{ '/images/projects/optimized/qwen-flashattention-tiling.webp' | relative_url }}" alt="FlashAttention block tiling between HBM and SRAM, illustrating an attention-kernel optimization used in this project. Original illustration: Dao et al., FlashAttention." title="FlashAttention tiling illustration — Dao et al., 2022; component illustration, not project benchmark results" width="380" height="387" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **LLM Inference Serving on Domestic DCUs**
@@ -62,7 +63,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">On-Device AI</div><img src="{{ '/images/projects/optimized/starryos-rk3588-prototype.webp' | relative_url }}" alt="RK3588 development board running StarryOS, photographed during the operating-system competition project." width="1199" height="900" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">On-Device AI</div><img src="{{ '/images/projects/optimized/starryos-tennis-detection.webp' | relative_url }}" alt="Tennis-ball detection examples from the operating-system competition materials, showing predicted bounding boxes across indoor and outdoor scenes." width="930" height="500" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **On-Device AIOS on RK3588 and StarryOS**
