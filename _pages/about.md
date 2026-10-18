@@ -23,7 +23,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm **Jingming Liang** (Brighton), a senior undergraduate in Computer Science at [**Nankai University**](https://www.nankai.edu.cn/). Since **October 2025**, I have been an **undergraduate research intern** at the [**Nankai–Baidu Joint Laboratory (NBJL)**](https://nbjl.nankai.edu.cn/), and I expect to begin my PhD there in **2027**. Originally from Dalian, I also pursue minors in Finance and Criminal Law.
+I'm **Jingming Liang** (Brighton), a senior undergraduate in Computer Science at [**Nankai University**](https://www.nankai.edu.cn/). I expect to begin my PhD at the [**Nankai–Baidu Joint Laboratory (NBJL)**](https://nbjl.nankai.edu.cn/) in **2027**. Originally from Dalian, I also pursue minors in Finance and Criminal Law.
 
 I build open-source tools and share learning resources through [**Lamplighter Commons**](https://github.com/lamplighter-commons), and contribute to [**StarryOS / tgoskits**](https://github.com/rcore-os/tgoskits) ([merged contributions](https://github.com/rcore-os/tgoskits/pulls?q=is%3Apr+author%3Aeprogressing+is%3Amerged)). For research and collaboration, reach me at [liangjm@nbjl.nankai.edu.cn](mailto:liangjm@nbjl.nankai.edu.cn).
 
