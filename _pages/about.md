@@ -47,11 +47,6 @@ I build open-source tools and share learning resources through [**Lamplighter Co
     <span class="news-list__title">National awards in AI systems</span>
     <span class="news-list__body">Received national third prizes in the Xiandao Cup and Operating System Design Contest, plus Third Prize and the Special Contribution Award in the CANN-HCCL competition.</span>
   </li>
-  <li class="news-list__item">
-    <div class="news-list__meta"><strong class="news-list__date">[Sep 2025]</strong><span class="news-list__status">GPU Systems</span></div>
-    <span class="news-list__title">CCF-TCARCH National Champion</span>
-    <span class="news-list__body">Won the national championship as an individual competitor, working on GPU optimization for APSP, prefix sum, and softmax.</span>
-  </li>
 </ul>
 
 # 📝 Projects and Research
