@@ -501,14 +501,15 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 # 💼 Internships
 <div class="internship-list">
-  <article class="internship-card internship-card--featured">
+  <article class="internship-card internship-card--featured internship-card--theme-unigrow">
     <div class="internship-card__header">
+      <img src="{{ '/images/internships/unigrow-logo.png' | relative_url }}" alt="UniGrow logo" class="internship-card__logo" loading="lazy" decoding="async" fetchpriority="low" />
       <div class="internship-card__header-main">
         <h3 class="internship-card__company">UniGrow, Technical Development</h3>
-        <p class="internship-card__meta">Jun 2026 - Oct 2026 · AI Agent Full-Stack Engineer Intern</p>
+        <p class="internship-card__meta">Jun 2026 - Oct 2026</p>
       </div>
       <div class="internship-card__tags">
-        <span class="internship-tag internship-tag--highlight">AI Agents &amp; RAG</span>
+        <span class="internship-tag internship-tag--highlight">AI Agent Full-Stack Engineer Intern</span>
       </div>
     </div>
     <ul class="internship-card__highlights">
