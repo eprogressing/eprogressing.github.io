@@ -48,20 +48,17 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 ## Selected Systems Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AI Infrastructure</div><img src="{{ '/images/projects/optimized/xiandao-official-task-introduction.webp' | relative_url }}" alt="Xiandao Cup Qwen inference-serving task introduction from the competition briefing materials, including the domestic accelerator card and task objectives." width="1400" height="832" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GPU Systems</div><img src="{{ '/images/projects/optimized/apsp-gpu-optimization.webp' | relative_url }}" alt="APSP GPU optimization project overview" width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**LLM Inference Serving on Domestic DCUs**
+**GPU Optimization for All-Pairs Shortest Path** <em>(Individual competition project · Aug–Sep 2025 · CCF-TCARCH National Champion)</em>
 
-<em>Individual competition project · Jul–Aug 2026 · Kernel and serving optimization.</em>
-
-- Profiled **Qwen3.5-27B with vLLM** for long-context inference on domestic DCUs, separating prefill/decode bottlenecks and analyzing attention and paged KV-cache paths.
-- Optimized compute and memory access with **FlashAttention, Triton GEMV, and CUDA Graph**, and adapted **TP=2 tensor parallelism and Custom AllReduce** for two-device serving.
-- Completed optimization from individual kernels to the serving pipeline, placing **12th nationally** and receiving a **National Third Prize** in the 2026 Xiandao Cup.
+- Designed a **memory-aware 3-stage blocked Floyd–Warshall pipeline** to reduce bandwidth pressure in dense APSP computation, using shared memory to improve data locality.
+- Optimized kernel execution through fusion, dual-stream scheduling, double buffering, and reduced synchronization overhead. Further compressed **host-to-device transfer cost from O(V²) to O(E)** via custom I/O and device-side graph reconstruction.
+- Ranked 1st nationally as an individual competitor, reducing end-to-end runtime by **52.9%** on the official hidden datasets (11.50s → 5.42s), equivalent to a **2.12× speedup** through profiling-driven optimization and systematic performance tuning.
 
 </div>
 </div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">On-Device AI</div><img src="{{ '/images/projects/optimized/starryos-competition-ball-pickup.webp' | relative_url }}" alt="Our tennis-ball retrieval robot holding a ball on the actual operating-system competition floor, beside the collection bucket." width="1333" height="1000" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -76,17 +73,20 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GPU Systems</div><img src="{{ '/images/projects/optimized/apsp-gpu-optimization.webp' | relative_url }}" alt="APSP GPU optimization project overview" width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AI Infrastructure</div><img src="{{ '/images/projects/optimized/xiandao-serving-concept-v3.webp' | relative_url }}" alt="Conceptual illustration of Qwen3.5-27B serving with vLLM, KV cache, and TP=2 across two DCU accelerators." width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**GPU Optimization for All-Pairs Shortest Path** <em>(Individual competition project · Aug–Sep 2025 · CCF-TCARCH National Champion)</em>
+**LLM Inference Serving on Domestic DCUs**
 
-- Designed a **memory-aware 3-stage blocked Floyd–Warshall pipeline** to reduce bandwidth pressure in dense APSP computation, using shared memory to improve data locality.
-- Optimized kernel execution through fusion, dual-stream scheduling, double buffering, and reduced synchronization overhead. Further compressed **host-to-device transfer cost from O(V²) to O(E)** via custom I/O and device-side graph reconstruction.
-- Ranked 1st nationally as an individual competitor, reducing end-to-end runtime by **52.9%** on the official hidden datasets (11.50s → 5.42s), equivalent to a **2.12× speedup** through profiling-driven optimization and systematic performance tuning.
+<em>Individual competition project · Jul–Aug 2026 · Kernel and serving optimization.</em>
+
+- Profiled **Qwen3.5-27B with vLLM** for long-context inference on domestic DCUs, separating prefill/decode bottlenecks and analyzing attention and paged KV-cache paths.
+- Optimized compute and memory access with **FlashAttention, Triton GEMV, and CUDA Graph**, and adapted **TP=2 tensor parallelism and Custom AllReduce** for two-device serving.
+- Completed optimization from individual kernels to the serving pipeline, placing **12th nationally** and receiving a **National Third Prize** in the 2026 Xiandao Cup.
 
 </div>
 </div>
+
 
 ## Research
 
