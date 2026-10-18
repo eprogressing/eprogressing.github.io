@@ -680,7 +680,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
     <article class="news-feature">
       <h4 class="news-feature__headline">Beyond Research</h4>
-      <p class="news-feature__body">Outside computing, I play the violin and classical guitar (Grade 10 in both, China Conservatory of Music), and enjoy volleyball, marathon running, and independent travel.</p>
+      <p class="news-feature__body">Outside computing, I play the violin and classical guitar, with Grade 10 certifications in both from the China Conservatory of Music. I also enjoy volleyball, marathon running, and independent travel.</p>
       <a class="news-feature__media" href="{{ '/images/20260303-143751.jpeg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open running photo">
         <img class="news-feature__photo" src="{{ '/images/athletics/optimized/running-moment-2.webp' | relative_url }}" alt="Running moment" loading="eager" decoding="async">
       </a>
