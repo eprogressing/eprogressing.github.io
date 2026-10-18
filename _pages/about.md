@@ -98,7 +98,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 **Diagnosing and Mitigating Noun-Driven Routing Bias in Multimodal Mixture-of-Experts**
 
-<em>Independent research project · Routing probe design and experimental evaluation.</em>
+<em>Research project · Routing probe design and experimental evaluation.</em>
 
 - Developed **CMRD (Controlled MoE Routing Decomposition)**, a training-free probe using text anchors and controlled pre-router interventions to examine noun-driven visual routing shifts.
 - Used **same-question controls** to approximately separate broad-semantic effects from a queried-specific residual, identifying a shared **layer-10 routing hotspot** in MoE-LLaVA-Qwen.
