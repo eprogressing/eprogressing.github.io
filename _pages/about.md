@@ -102,7 +102,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 **Diagnosing and Mitigating Noun-Driven Routing Bias in Multimodal Mixture-of-Experts**
 
-<p class="project-meta">Research project · Routing probe design and experimental evaluation.</p>
+<p class="project-meta">Research project · Apr–Jun 2026 · Routing probe design and experimental evaluation.</p>
 
 - Developed **CMRD (Controlled MoE Routing Decomposition)**, a training-free probe using text anchors and controlled pre-router interventions to examine noun-driven visual routing shifts.
 - Used **same-question controls** to approximately separate broad-semantic effects from a queried-specific residual, identifying a shared **layer-10 routing hotspot** in MoE-LLaVA-Qwen.
@@ -680,7 +680,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
     <article class="news-feature">
       <h4 class="news-feature__headline">Beyond Research</h4>
-      <p class="news-feature__body">Outside computing, I play the violin and classical guitar (Grade 10 in both), and enjoy volleyball, marathon running, and independent travel.</p>
+      <p class="news-feature__body">Outside computing, I play the violin and classical guitar (Grade 10 in both, China Conservatory of Music), and enjoy volleyball, marathon running, and independent travel.</p>
       <a class="news-feature__media" href="{{ '/images/20260303-143751.jpeg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open running photo">
         <img class="news-feature__photo" src="{{ '/images/athletics/optimized/running-moment-2.webp' | relative_url }}" alt="Running moment" loading="eager" decoding="async">
       </a>
