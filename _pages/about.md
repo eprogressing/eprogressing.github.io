@@ -3,6 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
+mathjax: false
 redirect_from: 
   - /about/
   - /about.html
@@ -14,6 +15,7 @@ redirect_from:
     alt="Personal belief hero image"
     style="display: inline-block; width: 100%; max-width: 960px; height: auto;"
     loading="eager"
+    fetchpriority="high"
     decoding="async"
   />
 </div>
@@ -47,7 +49,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 ## Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GPU Systems</div><img src="{{ '/images/projects/optimized/apsp-gpu-optimization.webp' | relative_url }}" alt="APSP GPU optimization project overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GPU Systems</div><img src="{{ '/images/projects/optimized/apsp-gpu-optimization.webp' | relative_url }}" alt="APSP GPU optimization project overview" width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **GPU Optimization for All-Pairs Shortest Path** <em>(Individual Competitor; CCF-TCARCH 2025 National Champion)</em>
@@ -58,7 +60,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Systems</div><img src="{{ '/images/projects/optimized/raceradar-overview.webp' | relative_url }}" alt="RaceRadar iOS app overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Systems</div><img src="{{ '/images/projects/optimized/raceradar-overview.webp' | relative_url }}" alt="RaceRadar iOS app overview" width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **RaceRadar: An End-to-End iOS System for Aggregating and Prioritizing Competition Opportunities** <em>(Independent systems engineering project; App Store release in preparation)</em>
@@ -71,7 +73,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
 ## Research
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Multimodal MoE</div><a href="{{ '/files/cmrd-method-pipeline.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open the full-size CMRD method pipeline PDF"><img src="{{ '/images/projects/optimized/cmrd-method-pipeline.png' | relative_url }}" alt="CMRD pipeline: controlled routing probes, same-question controls, and diagnosis-guided mitigation." width="100%" loading="lazy" decoding="async" fetchpriority="low"></a></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Multimodal MoE</div><a href="{{ '/files/cmrd-method-pipeline.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open the full-size CMRD method pipeline PDF"><img src="{{ '/images/projects/optimized/cmrd-method-pipeline.webp' | relative_url }}" alt="CMRD pipeline: controlled routing probes, same-question controls, and diagnosis-guided mitigation." width="1600" height="497" style="width: 100%; height: auto;" loading="eager" decoding="async"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Diagnosing and Mitigating Noun-Driven Routing Bias in Multimodal Mixture-of-Experts**
@@ -83,7 +85,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">LTSF</div><img src="{{ '/images/projects/sparsetsf-fft-updated.png' | relative_url }}" alt="SparseTSF-FFT framework overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">LTSF</div><img src="{{ '/images/projects/optimized/sparsetsf-fft.webp' | relative_url }}" alt="SparseTSF-FFT framework overview" width="1600" height="900" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **SparseTSF-FFT: A Frequency-Domain Framework for Time Series Forecasting**
@@ -94,7 +96,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src="{{ '/images/projects/optimized/k-lora-overview-v2.webp' | relative_url }}" alt="K-LoRA project overview" width="100%" loading="lazy" decoding="async" fetchpriority="low"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Diffusion Models</div><img src="{{ '/images/projects/optimized/k-lora-overview-v2.webp' | relative_url }}" alt="K-LoRA project overview" width="1000" height="563" style="width: 100%; height: auto;" loading="eager" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Research on Adaptive Weight Selection for Image Diffusion Models** <em>(National 3rd Prize in Challenge Cup, K-LoRA++)</em>
@@ -484,7 +486,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
         <span class="education-tag education-tag--strong">211 Project</span>
         <span class="education-tag education-tag--soft">Double First-Class</span>
       </div>
-      <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" class="education-card__emblem" loading="lazy" decoding="async" />
+      <img src="{{ '/images/nankai-emblem.png' | relative_url }}" alt="Nankai University emblem" class="education-card__emblem" loading="eager" decoding="async" />
     </div>
   </div>
 </div>
@@ -504,7 +506,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
         <span class="education-tag education-tag--soft">International Exchange</span>
         <span class="education-tag education-tag--soft">Macau SAR</span>
       </div>
-      <img src="{{ '/images/um-emblem.png' | relative_url }}" alt="University of Macau emblem" class="education-card__emblem" loading="lazy" decoding="async" />
+      <img src="{{ '/images/optimized/um-emblem.webp' | relative_url }}" alt="University of Macau emblem" class="education-card__emblem" loading="eager" decoding="async" />
     </div>
   </div>
 </div>
@@ -513,7 +515,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 <div class="internship-list">
   <article class="internship-card internship-card--featured internship-card--theme-unigrow">
     <div class="internship-card__header">
-      <img src="{{ '/images/internships/unigrow-logo-horizontal.svg' | relative_url }}" alt="UniGrow logo" class="internship-card__logo" loading="lazy" decoding="async" fetchpriority="low" />
+      <img src="{{ '/images/internships/optimized/unigrow-logo-horizontal-v2.svg' | relative_url }}" alt="UniGrow logo" class="internship-card__logo" loading="eager" decoding="async" />
       <div class="internship-card__header-main">
         <h3 class="internship-card__company">UniGrow, Technical Development</h3>
         <p class="internship-card__meta">Jun 2026 - Oct 2026</p>
@@ -531,7 +533,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
   <article class="internship-card internship-card--featured internship-card--theme-hejun">
     <div class="internship-card__header">
-      <img src="{{ '/images/internships/optimized/hejun-logo.webp' | relative_url }}" alt="Hejun Consulting logo" class="internship-card__logo" loading="lazy" decoding="async" fetchpriority="low" />
+      <img src="{{ '/images/internships/optimized/hejun-logo.webp' | relative_url }}" alt="Hejun Consulting logo" class="internship-card__logo" loading="eager" decoding="async" />
       <div class="internship-card__header-main">
         <h3 class="internship-card__company">Hejun Consulting</h3>
         <p class="internship-card__meta">Jul 2025 - Sep 2025</p>
@@ -549,7 +551,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
   <article class="internship-card internship-card--featured internship-card--theme-chinasoft">
     <div class="internship-card__header">
-      <img src="{{ '/images/internships/optimized/chinasoft-logo.webp' | relative_url }}" alt="ChinaSoft International logo" class="internship-card__logo" loading="lazy" decoding="async" fetchpriority="low" />
+      <img src="{{ '/images/internships/optimized/chinasoft-logo.webp' | relative_url }}" alt="ChinaSoft International logo" class="internship-card__logo" loading="eager" decoding="async" />
       <div class="internship-card__header-main">
         <h3 class="internship-card__company">ChinaSoft International, LLM Team</h3>
         <p class="internship-card__meta">Jun 2025 - Jul 2025</p>
@@ -567,7 +569,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
 
   <article class="internship-card internship-card--featured internship-card--theme-gtja">
     <div class="internship-card__header">
-      <img src="{{ '/images/internships/optimized/gtja-logo.webp' | relative_url }}" alt="Guotai Junan Securities logo" class="internship-card__logo" loading="lazy" decoding="async" fetchpriority="low" />
+      <img src="{{ '/images/internships/optimized/gtja-logo.webp' | relative_url }}" alt="Guotai Junan Securities logo" class="internship-card__logo" loading="eager" decoding="async" />
       <div class="internship-card__header-main">
         <h3 class="internship-card__company">Guotai Junan Securities, Wealth Management</h3>
         <p class="internship-card__meta">Jun 2024 - Jul 2024</p>
@@ -612,16 +614,16 @@ I build open-source tools and share learning resources through [**Lamplighter Co
       </div>
       <div class="news-gallery__grid">
         <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-2.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 2" loading="lazy" decoding="async" fetchpriority="low">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-2.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 2" loading="eager" decoding="async">
         </figure>
         <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-3.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 3" loading="lazy" decoding="async" fetchpriority="low">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-3.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 3" loading="eager" decoding="async">
         </figure>
         <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-4.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 4" loading="lazy" decoding="async" fetchpriority="low">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-4.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 4" loading="eager" decoding="async">
         </figure>
         <figure class="news-gallery__shot">
-          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-6.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 6" loading="lazy" decoding="async" fetchpriority="low">
+          <img class="news-gallery__image" src="{{ '/images/news/optimized/xiaohongshu-post-6.webp' | relative_url }}" alt="Xiaohongshu educational post screenshot 6" loading="eager" decoding="async">
         </figure>
       </div>
     </section>
@@ -630,7 +632,7 @@ I build open-source tools and share learning resources through [**Lamplighter Co
       <h4 class="news-feature__headline">Beyond Research</h4>
       <p class="news-feature__body">Outside computing, I play the violin and classical guitar (Grade 10 in both), and enjoy volleyball, marathon running, and independent travel.</p>
       <a class="news-feature__media" href="{{ '/images/20260303-143751.jpeg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open running photo">
-        <img class="news-feature__photo" src="{{ '/images/athletics/optimized/running-moment-2.webp' | relative_url }}" alt="Running moment" loading="lazy" decoding="async" fetchpriority="low">
+        <img class="news-feature__photo" src="{{ '/images/athletics/optimized/running-moment-2.webp' | relative_url }}" alt="Running moment" loading="eager" decoding="async">
       </a>
     </article>
   </div>

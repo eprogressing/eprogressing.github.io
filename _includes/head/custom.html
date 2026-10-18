@@ -11,6 +11,7 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}"/>
 
+{% if page.mathjax != false %}
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -22,4 +23,11 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
+{% endif %}
+
 <!-- end custom head snippets -->
+
+{% if page.permalink == '/' %}
+<link rel="preload" as="image" href="{{ '/images/hero.svg' | relative_url }}" fetchpriority="high">
+<link rel="preload" as="image" href="{{ site.author.avatar | relative_url }}" fetchpriority="high">
+{% endif %}
