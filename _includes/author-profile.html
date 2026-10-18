@@ -248,7 +248,7 @@
   <h4 class="wechat-panel__title">Add Me on Wechat</h4>
   <p class="wechat-panel__subtitle">Scan or search this Wechat ID:</p>
   <input id="wechat-panel-id" class="wechat-panel__id" type="text" value="{{ author.wechat }}" readonly>
-  <button class="wechat-panel__copy" type="button" onclick="var input=document.getElementById('wechat-panel-id'); input.focus(); input.select(); input.setSelectionRange(0, input.value.length); try { document.execCommand('copy'); document.getElementById('wechat-panel-status').textContent='Wechat ID copied.'; } catch (e) { document.getElementById('wechat-panel-status').textContent='Copy failed. Please copy manually.'; }">Copy Wechat ID</button>
+  <button class="wechat-panel__copy" type="button" onclick="var input=document.getElementById('wechat-panel-id'); input.focus(); input.select(); input.setSelectionRange(0, input.value.length); try { var copied=document.execCommand('copy'); document.getElementById('wechat-panel-status').textContent=copied ? 'Wechat ID copied.' : 'Copy failed. Please copy manually.'; } catch (e) { document.getElementById('wechat-panel-status').textContent='Copy failed. Please copy manually.'; }">Copy Wechat ID</button>
   <p id="wechat-panel-status" class="wechat-panel__status"></p>
 </div>
 {% endif %}
