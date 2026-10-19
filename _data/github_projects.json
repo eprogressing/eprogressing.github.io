@@ -1,11 +1,11 @@
 {
   "source": "GitHub REST API",
-  "updated_at": "2026-10-17T14:09:35+00:00",
+  "updated_at": "2026-10-19T13:36:18+00:00",
   "projects": [
     {
-      "repository": "lamplighter-commons/triangle-light-maze-solver",
+      "repository": "eprogressing/triangle-light-maze-solver",
       "title": "Triangle Light Maze Solver",
-      "url": "https://github.com/lamplighter-commons/triangle-light-maze-solver",
+      "url": "https://github.com/eprogressing/triangle-light-maze-solver",
       "description": "A static visualization tool for solving the optimal path in a triangle maze with dynamic programming.",
       "stars": 53,
       "forks": 7,
